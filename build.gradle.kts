@@ -1,16 +1,13 @@
-buildscript {
-    dependencies {
-        classpath("com.google.dagger:hilt-android-gradle-plugin:2.40.5")
-        classpath("com.google.android.gms:oss-licenses-plugin:0.10.4")
-    }
-}
-
 plugins {
-    id("com.android.application") version "7.4.0" apply false
-    id("com.android.library") version "7.4.0" apply false
-    id("org.jetbrains.kotlin.android") version Versions.KOTLIN apply false
+    id("com.android.application") version "8.1.0" apply false
+    id("com.android.library") version "8.1.0" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.0" apply false
+    id("com.sergei-lapin.napt") version "1.19" apply false
+    id("com.google.dagger.hilt.android") version "2.47" apply false
+    id("app.cash.licensee") version "1.7.0" apply false
+    id("org.jmailen.kotlinter") version "3.15.0" apply false
 }
 
-tasks.register("clean") {
-    delete(rootProject.buildDir)
-}
+allprojects { apply(plugin = "org.jmailen.kotlinter") }
+
+tasks.register("clean") { delete(rootProject.buildDir) }

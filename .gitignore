@@ -1,10 +1,19 @@
 *.iml
 .gradle
-/local.properties
-.idea
+local.properties
 .DS_Store
-/build
-/captures
+build
+captures
 .externalNativeBuild
 .cxx
-local.properties
+keystore.properties
+app/src/dark
+app/src/light
+app/src/runtime
+
+# IDEs cache directory
+.vs/
+.idea/*
+!.idea/icon.png
+.vscode/
+.vsc/

@@ -1,86 +1,133 @@
+import com.android.build.gradle.internal.api.ApkVariantOutputImpl
+import java.io.FileInputStream
+import java.util.Locale
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
+    id("com.sergei-lapin.napt")
     id("dagger.hilt.android.plugin")
-    id("com.google.android.gms.oss-licenses-plugin")
+    id("app.cash.licensee")
 }
 
+val buildCommit = providers.exec {
+    commandLine("git", "rev-parse", "--short=7", "HEAD")
+}.standardOutput.asText.get().trim()
+
+val ciBuild = System.getenv("CI") == "true"
+val ciRef = System.getenv("GITHUB_REF").orEmpty()
+val ciRunNumber = System.getenv("GITHUB_RUN_NUMBER").orEmpty()
+val isReleaseBuild = ciBuild && ciRef.contains("main")
+val devReleaseName = if (ciBuild) "(Dev #$ciRunNumber)" else "($buildCommit)"
+
+val version = "2.2.1"
+val versionDisplayName = "$version ${if (isReleaseBuild) "" else devReleaseName}"
+
 android {
-    compileSdk = 31
+    compileSdk = 34
+    namespace = "app.lawnchair.lawnicons"
 
     defaultConfig {
         applicationId = "app.lawnchair.lawnicons"
         minSdk = 26
-        targetSdk = 31
-        versionCode = 2
-        versionName = "1.9.0"
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
+        targetSdk = 34
+        versionCode = 5
+        versionName = versionDisplayName
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    val keystorePropertiesFile = rootProject.file("keystore.properties")
+    val releaseSigning = if (keystorePropertiesFile.exists()) {
+        val keystoreProperties = Properties()
+        keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+        signingConfigs.create("release") {
+            keyAlias = keystoreProperties["keyAlias"].toString()
+            keyPassword = keystoreProperties["keyPassword"].toString()
+            storeFile = rootProject.file(keystoreProperties["storeFile"].toString())
+            storePassword = keystoreProperties["storePassword"].toString()
         }
+    } else {
+        signingConfigs["debug"]
     }
 
     buildTypes {
         release {
             isMinifyEnabled = true
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = releaseSigning
+            proguardFiles("proguard-rules.pro")
+        }
+        debug {
+            signingConfig = releaseSigning
         }
     }
 
+    flavorDimensions += "product"
+    productFlavors {
+        create("app") {
+            dimension = "product"
+            resValue("string", "apps_name", "Lawnicons")
+        }
+    }
+    sourceSets.getByName("app") {
+        assets.srcDir(layout.buildDirectory.dir("generated/dependencyAssets/"))
+        res.setSrcDirs(listOf("src/runtime/res"))
+    }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
 
     buildFeatures {
+        buildConfig = true
         compose = true
+        resValues = true
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = Versions.COMPOSE
+        kotlinCompilerExtensionVersion = "1.5.1"
     }
 
-    packagingOptions {
+    packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    namespace = "app.lawnchair.lawnicons"
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.7.0")
-    implementation("androidx.compose.ui:ui:${Versions.COMPOSE}")
-    implementation("androidx.compose.material:material:${Versions.COMPOSE}")
-    implementation("androidx.compose.ui:ui-tooling-preview:${Versions.COMPOSE}")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.0")
-    implementation("androidx.activity:activity-compose:1.4.0")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.3")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4:${Versions.COMPOSE}")
-    debugImplementation("androidx.compose.ui:ui-tooling:${Versions.COMPOSE}")
-    implementation("androidx.compose.material3:material3:1.0.0-alpha04")
-    implementation("com.google.accompanist:accompanist-insets:${Versions.ACCOMPANIST}")
-    implementation("com.google.accompanist:accompanist-systemuicontroller:${Versions.ACCOMPANIST}")
-    implementation("com.google.accompanist:accompanist-placeholder-material:${Versions.ACCOMPANIST}")
-    implementation("com.google.accompanist:accompanist-navigation-animation:${Versions.ACCOMPANIST}")
-    implementation("com.github.fornewid:material-motion-compose:0.8.0-beta01")
-    implementation("com.google.dagger:hilt-android:2.40.5")
-    kapt("com.google.dagger:hilt-compiler:2.40.5")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0")
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
-    implementation("com.github.LawnchairLauncher:oss-notices:1.0.2")
-    implementation("io.coil-kt:coil-compose:1.4.0")
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-}
+    val lifecycleVersion = "2.6.1"
+    val accompanistVersion = "0.30.1"
+    val hiltVersion = "2.47"
+    val retrofitVersion = "2.9.0"
 
-kotlin.sourceSets.all {
-    languageSettings.optIn("kotlin.RequiresOptIn")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.core:core-ktx:1.10.1")
+    implementation("androidx.activity:activity-compose:1.7.2")
+    implementation(platform("androidx.compose:compose-bom:2023.06.01"))
+    implementation("androidx.compose.ui:ui")
+    implementation("androidx.compose.ui:ui-tooling-preview")
+    debugImplementation("androidx.compose.ui:ui-tooling")
+    implementation("androidx.compose.animation:animation")
+    implementation("androidx.compose.material:material")
+    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material3:material3-window-size-class")
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycleVersion")
+    implementation("com.google.accompanist:accompanist-insets:$accompanistVersion")
+    implementation("com.google.accompanist:accompanist-systemuicontroller:$accompanistVersion")
+    implementation("com.google.accompanist:accompanist-placeholder-material:$accompanistVersion")
+    implementation("com.google.accompanist:accompanist-navigation-animation:$accompanistVersion")
+    implementation("io.github.fornewid:material-motion-compose-core:0.12.3")
+    implementation("com.google.dagger:hilt-android:$hiltVersion")
+    annotationProcessor("com.google.dagger:hilt-android-compiler:$hiltVersion")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
+    implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
 }

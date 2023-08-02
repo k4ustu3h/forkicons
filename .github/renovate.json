@@ -1,0 +1,35 @@
+{
+    "labels": [
+        "dependencies"
+    ],
+    "extends": [
+        "config:base"
+    ],
+    "packageRules": [
+        {
+            "groupName": "Kotlin",
+            "groupSlug": "kotlin",
+            "matchPackagePrefixes": [
+                "com.google.devtools.ksp",
+                "androidx.compose.compiler"
+            ],
+            "matchPackagePatterns": [
+                "org.jetbrains.kotlin.*"
+            ]
+        },
+        {
+            "groupName": "AGP",
+            "groupSlug": "agp",
+            "matchPackagePatterns": [
+                "com.android.*"
+            ]
+        },
+        {
+            "groupName": "Hilt",
+            "groupSlug": "hilt",
+            "matchPackagePatterns": [
+                "com.google.dagger*"
+            ]
+        }
+    ]
+}

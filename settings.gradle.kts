@@ -1,13 +1,25 @@
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
-        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+// https://docs.gradle.com/enterprise/gradle-plugin/
+plugins {
+    id("com.gradle.enterprise") version "3.14.1"
+}
+
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+        publishAlways()
     }
 }
 
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode = RepositoriesMode.FAIL_ON_PROJECT_REPOS
     repositories {
         google()
         mavenCentral()
@@ -16,4 +28,10 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Lawnicons"
-include(":app")
+
+enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
+
+include(
+    ":app",
+    ":svg-processor",
+)
