@@ -18,12 +18,11 @@ fun ExternalLinkRow(
     last: Boolean = false,
 ) {
     val context = LocalContext.current
-    val onClick =
-        {
-            val website = Uri.parse(url)
-            val intent = Intent(Intent.ACTION_VIEW, website)
-            context.startActivity(intent)
-        }
+    val onClick = {
+        val website = Uri.parse(url)
+        val intent = Intent(Intent.ACTION_VIEW, website)
+        context.startActivity(intent)
+    }
 
     SimpleListRow(
         background = background,

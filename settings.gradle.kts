@@ -6,9 +6,7 @@ pluginManagement {
 }
 
 // https://docs.gradle.com/enterprise/gradle-plugin/
-plugins {
-    id("com.gradle.enterprise") version "3.14.1"
-}
+plugins { id("com.gradle.enterprise") version "3.14.1" }
 
 gradleEnterprise {
     buildScan {

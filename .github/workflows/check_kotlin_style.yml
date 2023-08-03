@@ -5,12 +5,12 @@ on:
     branches:
       - develop
     paths:
-      - '**.kt'
-      - '**.kts'
+      - "**.kt"
+      - "**.kts"
   pull_request:
     paths:
-      - '**.kt'
-      - '**.kts'
+      - "**.kt"
+      - "**.kts"
 
 jobs:
   ktlint:
@@ -21,6 +21,6 @@ jobs:
           submodules: true
       - uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
+          distribution: "zulu"
           java-version: 19
       - run: ./gradlew lintKotlin

@@ -54,7 +54,8 @@ fun LawniconsScaffold(
         },
     ) {
         Box(
-            modifier = Modifier.then(
+            modifier =
+            Modifier.then(
                 if (isExpandedScreen) {
                     Modifier.padding(
                         WindowInsets.navigationBars.toPaddingValues(

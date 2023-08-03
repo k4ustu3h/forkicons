@@ -18,20 +18,23 @@ import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.stateIn
 
 @HiltViewModel
-class AcknowledgementViewModel @Inject constructor(
+class AcknowledgementViewModel
+@Inject
+constructor(
     private val ossLibraryRepository: OssLibraryRepository,
-) :
-    ViewModel() {
+) : ViewModel() {
 
     fun getNoticeForOssLibrary(
         ossLibraryName: String,
         linkStyle: SpanStyle,
-    ): StateFlow<AnnotatedString?> = ossLibraryRepository.getNoticeForOssLibrary(
-        ossLibraryName = ossLibraryName,
-        annotate = { annotate(it, linkStyle) },
-    )
-        .flowOn(Dispatchers.Default)
-        .stateIn(viewModelScope, SharingStarted.Lazily, null)
+    ): StateFlow<AnnotatedString?> =
+        ossLibraryRepository
+            .getNoticeForOssLibrary(
+                ossLibraryName = ossLibraryName,
+                annotate = { annotate(it, linkStyle) },
+            )
+            .flowOn(Dispatchers.Default)
+            .stateIn(viewModelScope, SharingStarted.Lazily, null)
 
     private fun annotate(
         notice: String,

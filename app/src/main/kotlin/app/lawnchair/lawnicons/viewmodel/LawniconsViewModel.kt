@@ -15,8 +15,6 @@ class LawniconsViewModel @Inject constructor(private val iconRepository: IconRep
     val searchedIconInfoModel = iconRepository.searchedIconInfoModel
 
     fun searchIcons(query: String) {
-        viewModelScope.launch {
-            iconRepository.search(query)
-        }
+        viewModelScope.launch { iconRepository.search(query) }
     }
 }

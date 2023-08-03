@@ -29,41 +29,44 @@ private data class ContributorsViewModelState(
     val contributors: List<GitHubContributor>? = null,
     val hasError: Boolean = false,
 ) {
-    fun toUiState(): ContributorsUiState = when {
-        hasError -> ContributorsUiState.Error
-        contributors != null -> ContributorsUiState.Success(contributors)
-        else -> ContributorsUiState.Loading
-    }
+    fun toUiState(): ContributorsUiState =
+        when {
+            hasError -> ContributorsUiState.Error
+            contributors != null -> ContributorsUiState.Success(contributors)
+            else -> ContributorsUiState.Loading
+        }
 }
 
 @HiltViewModel
-class ContributorsViewModel @Inject constructor(
+class ContributorsViewModel
+@Inject
+constructor(
     private val repository: GitHubContributorsRepository,
 ) : ViewModel() {
 
     private val viewModelState = MutableStateFlow(ContributorsViewModelState(isRefreshing = true))
-    val uiState = viewModelState
-        .map { it.toUiState() }
-        .stateIn(
-            viewModelScope,
-            SharingStarted.Eagerly,
-            viewModelState.value.toUiState(),
-        )
+    val uiState =
+        viewModelState
+            .map { it.toUiState() }
+            .stateIn(
+                viewModelScope,
+                SharingStarted.Eagerly,
+                viewModelState.value.toUiState(),
+            )
 
     init {
         viewModelState.update { it.copy(isRefreshing = true) }
 
         viewModelScope.launch {
-            val result = runCatching {
-                repository.getTopContributors()
-            }
+            val result = runCatching { repository.getTopContributors() }
             viewModelState.update {
                 when {
-                    result.isSuccess -> it.copy(
-                        isRefreshing = false,
-                        contributors = result.getOrThrow(),
-                        hasError = false,
-                    )
+                    result.isSuccess ->
+                        it.copy(
+                            isRefreshing = false,
+                            contributors = result.getOrThrow(),
+                            hasError = false,
+                        )
 
                     else -> {
                         Log.e(

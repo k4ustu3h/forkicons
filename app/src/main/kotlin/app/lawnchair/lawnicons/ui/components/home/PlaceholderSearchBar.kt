@@ -23,7 +23,8 @@ fun PlaceholderSearchBar() {
     Row(
         content = {},
         verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier
+        modifier =
+        Modifier
             .zIndex(1f)
             .statusBarsPadding()
             .padding(top = 8.dp)
@@ -31,7 +32,10 @@ fun PlaceholderSearchBar() {
             .fillMaxWidth()
             .height(56.dp)
             .background(
-                color = MaterialTheme.colorScheme.surfaceColorAtElevation(Elevation.Level3),
+                color =
+                MaterialTheme.colorScheme.surfaceColorAtElevation(
+                    Elevation.Level3,
+                ),
                 shape = RoundedCornerShape(100),
             ),
     )
@@ -40,7 +44,5 @@ fun PlaceholderSearchBar() {
 @Preview(showBackground = true)
 @Composable
 fun PlaceholderSearchBarPreview() {
-    LawniconsTheme {
-        PlaceholderSearchBar()
-    }
+    LawniconsTheme { PlaceholderSearchBar() }
 }

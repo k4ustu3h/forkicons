@@ -48,7 +48,8 @@ fun ListRow(
     val basePaddingPx = with(LocalDensity.current) { basePadding.toPx() }
 
     Box(
-        modifier = modifier
+        modifier =
+        modifier
             .fillMaxWidth()
             .height(height)
             .then(
@@ -64,7 +65,10 @@ fun ListRow(
                             ),
                         )
                         .background(
-                            MaterialTheme.colorScheme.surfaceColorAtElevation(Elevation.Level1),
+                            MaterialTheme.colorScheme
+                                .surfaceColorAtElevation(
+                                    Elevation.Level1,
+                                ),
                         )
                 } else {
                     Modifier
@@ -76,13 +80,21 @@ fun ListRow(
                         drawLine(
                             strokeWidth = dividerHeightPx,
                             color = dividerColor,
-                            start = Offset(
+                            start =
+                            Offset(
                                 x = basePaddingPx,
-                                y = size.height - dividerHeightPx / 2,
+                                y =
+                                size.height -
+                                    dividerHeightPx /
+                                    2,
                             ),
-                            end = Offset(
+                            end =
+                            Offset(
                                 x = size.width - basePaddingPx,
-                                y = size.height - dividerHeightPx / 2,
+                                y =
+                                size.height -
+                                    dividerHeightPx /
+                                    2,
                             ),
                         )
                     }
@@ -109,7 +121,8 @@ private fun Content(
 ) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier
+        modifier =
+        Modifier
             .fillMaxSize()
             .then(
                 if (onClick != null) {

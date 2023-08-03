@@ -37,43 +37,44 @@ fun TopBarWithInsets(
     val scrolledContainerColor: Color =
         MaterialTheme.colorScheme.surfaceColorAtElevation(Elevation.Level2)
 
-    val backgroundColor: Color = lerp(
-        containerColor,
-        scrolledContainerColor,
-        FastOutLinearInEasing.transform(scrollBehavior.state.overlappedFraction),
-    )
+    val backgroundColor: Color =
+        lerp(
+            containerColor,
+            scrolledContainerColor,
+            FastOutLinearInEasing.transform(scrollBehavior.state.overlappedFraction),
+        )
 
     Surface(
         color = backgroundColor,
     ) {
         if (isExpandedScreen) {
             TopAppBar(
-                modifier = Modifier
+                modifier =
+                Modifier
                     .statusBarsPadding()
                     .fillMaxWidth()
                     .padding(horizontal = 4.dp),
                 scrollBehavior = scrollBehavior,
                 navigationIcon = navigationIcon,
-                title = {
-                    Text(title)
-                },
-                colors = TopAppBarDefaults.topAppBarColors(
+                title = { Text(title) },
+                colors =
+                TopAppBarDefaults.topAppBarColors(
                     containerColor = Color.Transparent,
                     scrolledContainerColor = Color.Transparent,
                 ),
             )
         } else {
             LargeTopAppBar(
-                modifier = Modifier
+                modifier =
+                Modifier
                     .statusBarsPadding()
                     .fillMaxWidth()
                     .padding(horizontal = 4.dp),
                 scrollBehavior = scrollBehavior,
                 navigationIcon = navigationIcon,
-                title = {
-                    Text(title)
-                },
-                colors = TopAppBarDefaults.largeTopAppBarColors(
+                title = { Text(title) },
+                colors =
+                TopAppBarDefaults.largeTopAppBarColors(
                     containerColor = Color.Transparent,
                     scrolledContainerColor = Color.Transparent,
                 ),

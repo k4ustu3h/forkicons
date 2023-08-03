@@ -32,7 +32,9 @@ object ConfigProcessor {
         }
     }
 
-    private fun loadConfigFromXml(appFilterFile: String): Triple<Document, Map<String, String>, Map<String, String>> {
+    private fun loadConfigFromXml(
+        appFilterFile: String,
+    ): Triple<Document, Map<String, String>, Map<String, String>> {
         val drawableMap = mutableMapOf<String, String>()
         val iconMap = mutableMapOf<String, String>()
         val componentStart = "ComponentInfo{"
@@ -47,10 +49,11 @@ object ConfigProcessor {
             if (shouldIgnore != null) continue
 
             if (componentInfo.startsWith(componentStart) && componentInfo.endsWith(componentEnd)) {
-                val component = componentInfo.substring(
-                    componentStart.length,
-                    componentInfo.length - componentEnd.length,
-                )
+                val component =
+                    componentInfo.substring(
+                        componentStart.length,
+                        componentInfo.length - componentEnd.length,
+                    )
                 drawableMap[component] = drawable
                 iconMap[component] = name
             }
@@ -66,11 +69,14 @@ object ConfigProcessor {
         val iconsDocument = DefaultDocument().apply { addElement(ICONS) }
         drawableMap.forEach { (componentInfo, drawable) ->
             val component = componentInfo.split("/").toTypedArray()
-            val name = iconMap.getOrDefault(
-                componentInfo,
-                drawable.replace("_".toRegex(), " ").capitalize(),
-            )
-            iconsDocument.rootElement.addElement(ICON)
+            val name =
+                iconMap.getOrDefault(
+                    componentInfo,
+                    drawable.replace("_".toRegex(), " ").capitalize(),
+                )
+            iconsDocument
+                .rootElement
+                .addElement(ICON)
                 .addAttribute(DRAWABLE, "@drawable/${drawable}_foreground")
                 .addAttribute(PACKAGE, component[0])
                 .addAttribute(NAME, name)
@@ -79,15 +85,18 @@ object ConfigProcessor {
     }
 
     private fun writeDrawableToFile(drawableMap: Map<String, String>, filename: String) {
-        val resourceDocument = DefaultDocument().apply {
-            addElement(RESOURCES)
-            rootElement.addElement(VERSION).addText("1")
-        }
+        val resourceDocument =
+            DefaultDocument().apply {
+                addElement(RESOURCES)
+                rootElement.addElement(VERSION).addText("1")
+            }
         val groupNames = mutableListOf<Char>()
         drawableMap.values.distinct().forEach { drawable: String ->
             val groupName = drawable[0].uppercaseChar()
             if (groupName !in groupNames) {
-                resourceDocument.rootElement.addElement(CATEGORY)
+                resourceDocument
+                    .rootElement
+                    .addElement(CATEGORY)
                     .addAttribute(TITLE, groupName.toString())
                 groupNames.add(groupName)
             }

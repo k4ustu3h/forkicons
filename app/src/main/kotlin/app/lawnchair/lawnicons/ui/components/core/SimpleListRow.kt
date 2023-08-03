@@ -43,7 +43,10 @@ fun SimpleListRow(
                 Text(
                     text = description,
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = ContentAlpha.medium),
+                    color =
+                    MaterialTheme.colorScheme.onSurface.copy(
+                        alpha = ContentAlpha.medium,
+                    ),
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
                 )

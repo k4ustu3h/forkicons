@@ -12,6 +12,7 @@ Lawnicons is best used on Lawnchair 12.1. You can enable themed icons on Lawncha
 This project is mostly supported by our community. If you wish to contribute, see the [Contributing section](README.md#Contributing) below.
 
 ## Download
+
 See the [Releases section](https://github.com/LawnchairLauncher/lawnicons/releases) to download the latest stable build of Lawnicons.
 
 For the development versions with new icons, go to [nightly.link](https://nightly.link/LawnchairLauncher/lawnicons/workflows/build_debug_apk/develop/Debug%20APK).
@@ -26,7 +27,7 @@ For users familiar with the guidelines, check out [how to use icontool.py](/.git
 
 To request new icons, please use the [icon request form](https://forms.gle/Fx8vZAiWdW1Tyjo57).
 
-If you want to see the requested icons (for contributing purposes), you can view the form responses in our 
+If you want to see the requested icons (for contributing purposes), you can view the form responses in our
 [publicly available Google Sheets](https://docs.google.com/spreadsheets/d/1h3eiJnG2nEdR1DbvemaF1lYthHkzYbXvVFPP0TEEt5k/edit?usp=sharing) file.
 
 **Note that we currently don't show whether an icon request has been completed or not.**
@@ -37,5 +38,5 @@ Lawnicons is licensed under the [Apache License 2.0](https://www.apache.org/lice
 
 ## Quick links
 
-- [Lawnchair GitHub page](https://github.com/LawnchairLauncher/lawnchair)
-- [Lawnicons Guidelines | Figma document](https://www.figma.com/community/file/1227718471680779613)
+-   [Lawnchair GitHub page](https://github.com/LawnchairLauncher/lawnchair)
+-   [Lawnicons Guidelines | Figma document](https://www.figma.com/community/file/1227718471680779613)

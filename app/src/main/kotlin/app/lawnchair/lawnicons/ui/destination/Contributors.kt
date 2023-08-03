@@ -66,7 +66,8 @@ fun Contributors(
             when (it) {
                 is ContributorsUiState.Success -> ContributorList(contributors = it.contributors)
                 is ContributorsUiState.Loading -> ContributorListPlaceholder()
-                is ContributorsUiState.Error -> ContributorListError(onBack = navController::popBackStack)
+                is ContributorsUiState.Error ->
+                    ContributorListError(onBack = navController::popBackStack)
             }
         }
     }
@@ -75,7 +76,8 @@ fun Contributors(
 @Composable
 fun ContributorList(contributors: List<GitHubContributor>) {
     LazyColumn(
-        contentPadding = WindowInsets.navigationBars.toPaddingValues(
+        contentPadding =
+        WindowInsets.navigationBars.toPaddingValues(
             additionalTop = 8.dp,
             additionalBottom = 8.dp,
         ),
@@ -90,9 +92,7 @@ fun ContributorList(contributors: List<GitHubContributor>) {
                 url = contributorsUrl,
             )
         }
-        item {
-            Spacer(modifier = Modifier.height(16.dp))
-        }
+        item { Spacer(modifier = Modifier.height(16.dp)) }
         itemsIndexed(contributors) { index, it ->
             ContributorRow(
                 name = it.login,
@@ -111,7 +111,8 @@ fun ContributorList(contributors: List<GitHubContributor>) {
 fun ContributorListPlaceholder() {
     val itemCount = 20
     LazyColumn(
-        contentPadding = WindowInsets.navigationBars.toPaddingValues(
+        contentPadding =
+        WindowInsets.navigationBars.toPaddingValues(
             additionalTop = 8.dp,
             additionalBottom = 8.dp,
         ),
@@ -134,8 +135,7 @@ fun ContributorListError(
     SideEffect {
         onBack()
         // we might be rate-limited, open the web ui instead
-        val website =
-            Uri.parse(contributorsUrl)
+        val website = Uri.parse(contributorsUrl)
         val intent = Intent(Intent.ACTION_VIEW, website)
         context.startActivity(intent)
     }

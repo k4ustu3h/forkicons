@@ -15,5 +15,4 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for info on adding icons.
 
 ## Quick links
 
-- [Lawnchair GitHub page](https://github.com/LawnchairLauncher/lawnchair)
-
+-   [Lawnchair GitHub page](https://github.com/LawnchairLauncher/lawnchair)

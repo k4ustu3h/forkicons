@@ -6,22 +6,22 @@ on:
     branches:
       - develop
     paths-ignore:
-      - '.idea/**'
-      - '.gitattributes'
-      - '.github/**.json'
-      - '.gitignore'
-      - '**.md'
-      - 'LICENSE'
-      - 'NOTICE'
+      - ".idea/**"
+      - ".gitattributes"
+      - ".github/**.json"
+      - ".gitignore"
+      - "**.md"
+      - "LICENSE"
+      - "NOTICE"
   pull_request:
     paths-ignore:
-      - '.idea/**'
-      - '.gitattributes'
-      - '.github/**.json'
-      - '.gitignore'
-      - '**.md'
-      - 'LICENSE'
-      - 'NOTICE'
+      - ".idea/**"
+      - ".gitattributes"
+      - ".github/**.json"
+      - ".gitignore"
+      - "**.md"
+      - "LICENSE"
+      - "NOTICE"
 
 jobs:
   build-debug-apk:
@@ -34,7 +34,7 @@ jobs:
           submodules: true
       - uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
+          distribution: "zulu"
           java-version: 19
       - uses: gradle/gradle-build-action@v2
         with:
@@ -71,7 +71,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
       - name: Install Python packages
         run: |
           python -m pip install --upgrade pip

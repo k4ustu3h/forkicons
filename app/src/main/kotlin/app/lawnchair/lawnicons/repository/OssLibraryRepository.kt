@@ -20,26 +20,38 @@ class OssLibraryRepository @Inject constructor(private val application: Applicat
 
     private val coroutineScope = MainScope()
 
-    val ossLibraries: StateFlow<List<OssLibrary>> = flow {
-        val jsonString = application.resources.assets.open("artifacts.json")
-            .bufferedReader().use { it.readText() }
-        val listType = object : TypeToken<List<OssLibrary>>() {}.type
-        val ossLibraries = Gson().fromJson<List<OssLibrary>>(jsonString, listType)
-            .asSequence()
-            .distinctBy { "${it.groupId}:${it.artifactId}" }
-            .sortedBy { it.name }
-            .toList()
-        emit(ossLibraries)
-    }
-        .flowOn(Dispatchers.IO)
-        .stateIn(coroutineScope, SharingStarted.Lazily, emptyList())
+    val ossLibraries: StateFlow<List<OssLibrary>> =
+        flow {
+            val jsonString =
+                application
+                    .resources
+                    .assets
+                    .open("artifacts.json")
+                    .bufferedReader()
+                    .use { it.readText() }
+            val listType = object : TypeToken<List<OssLibrary>>() {}.type
+            val ossLibraries =
+                Gson().fromJson<List<OssLibrary>>(jsonString, listType)
+                    .asSequence()
+                    .distinctBy { "${it.groupId}:${it.artifactId}" }
+                    .sortedBy { it.name }
+                    .toList()
+            emit(ossLibraries)
+        }
+            .flowOn(Dispatchers.IO)
+            .stateIn(coroutineScope, SharingStarted.Lazily, emptyList())
 
     fun getNoticeForOssLibrary(
         ossLibraryName: String,
         annotate: (String) -> AnnotatedString,
-    ): Flow<AnnotatedString?> = ossLibraries.map { it ->
-        val ossLib = it.first { it.name == ossLibraryName }
-        val string = (ossLib.spdxLicenses ?: ossLib.unknownLicenses)?.firstOrNull()?.url.orEmpty()
-        annotate(string)
-    }
+    ): Flow<AnnotatedString?> =
+        ossLibraries.map { it ->
+            val ossLib = it.first { it.name == ossLibraryName }
+            val string =
+                (ossLib.spdxLicenses ?: ossLib.unknownLicenses)
+                    ?.firstOrNull()
+                    ?.url
+                    .orEmpty()
+            annotate(string)
+        }
 }

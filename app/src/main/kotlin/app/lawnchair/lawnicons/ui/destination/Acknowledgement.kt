@@ -47,13 +47,17 @@ fun Acknowledgement(
 ) {
     requireNotNull(name)
 
-    val notice by acknowledgementViewModel.getNoticeForOssLibrary(
-        ossLibraryName = name,
-        linkStyle = SpanStyle(
-            color = MaterialTheme.colorScheme.primary,
-            textDecoration = TextDecoration.Underline,
-        ),
-    ).collectAsState()
+    val notice by
+    acknowledgementViewModel
+        .getNoticeForOssLibrary(
+            ossLibraryName = name,
+            linkStyle =
+            SpanStyle(
+                color = MaterialTheme.colorScheme.primary,
+                textDecoration = TextDecoration.Underline,
+            ),
+        )
+        .collectAsState()
 
     LawniconsScaffold(
         title = name,
@@ -70,46 +74,52 @@ fun Acknowledgement(
                     val uriHandler = LocalUriHandler.current
                     var textLayoutResult by remember { mutableStateOf<TextLayoutResult?>(null) }
 
-                    val clickHandler = Modifier.pointerInput(Unit) {
-                        detectTapGestures { offset ->
-                            textLayoutResult?.let { layoutResult ->
-                                val position = layoutResult.getOffsetForPosition(offset)
-                                val annotation = it.getStringAnnotations(
-                                    start = position,
-                                    end = position,
-                                ).firstOrNull()
+                    val clickHandler =
+                        Modifier.pointerInput(Unit) {
+                            detectTapGestures { offset ->
+                                textLayoutResult?.let { layoutResult ->
+                                    val position = layoutResult.getOffsetForPosition(offset)
+                                    val annotation =
+                                        it.getStringAnnotations(
+                                            start = position,
+                                            end = position,
+                                        )
+                                            .firstOrNull()
 
-                                if (annotation?.tag == "URL") {
-                                    uriHandler.openUri(annotation.item)
+                                    if (annotation?.tag == "URL") {
+                                        uriHandler.openUri(annotation.item)
+                                    }
                                 }
                             }
                         }
-                    }
 
                     Text(
                         text = it,
                         fontFamily = FontFamily.Monospace,
-                        modifier = clickHandler
+                        modifier =
+                        clickHandler
                             .padding(horizontal = 16.dp)
                             .navigationBarsPadding(),
-                        onTextLayout = { result ->
-                            textLayoutResult = result
-                        },
+                        onTextLayout = { result -> textLayoutResult = result },
                     )
                 } else {
                     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                         repeat(2) {
                             Box(
-                                modifier = Modifier
+                                modifier =
+                                Modifier
                                     .padding(horizontal = 16.dp)
                                     .fillMaxWidth()
                                     .height(20.dp)
                                     .placeholder(
                                         visible = true,
                                         highlight = PlaceholderHighlight.fade(),
-                                        color = MaterialTheme.colorScheme.surfaceColorAtElevation(
-                                            Elevation.Level2,
-                                        ),
+                                        color =
+                                        MaterialTheme.colorScheme
+                                            .surfaceColorAtElevation(
+                                                Elevation
+                                                    .Level2,
+                                            ),
                                     ),
                             )
                         }

@@ -3,9 +3,7 @@ plugins {
     application
 }
 
-application {
-    mainClass = "app.lawnchair.lawnicons.helper.ApplicationKt"
-}
+application { mainClass = "app.lawnchair.lawnicons.helper.ApplicationKt" }
 
 dependencies {
     implementation("com.android.tools:sdk-common:31.1.0")

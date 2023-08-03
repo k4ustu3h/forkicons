@@ -25,7 +25,8 @@ fun IconPreviewGrid(
             .statusBarsPadding()
             .padding(top = 26.dp),
         columns = GridCells.Adaptive(minSize = 80.dp),
-        contentPadding = if (!isExpandedScreen) {
+        contentPadding =
+        if (!isExpandedScreen) {
             WindowInsets.navigationBars.toPaddingValues(
                 additionalStart = 8.dp,
                 additionalTop = 42.dp,
@@ -38,7 +39,6 @@ fun IconPreviewGrid(
                 additionalEnd = 32.dp,
             )
         },
-
     ) {
         items(items = iconInfo) { iconInfo ->
             IconPreview(

@@ -33,28 +33,34 @@ fun ContributorRowPlaceholder(
             last = last,
             icon = {
                 Box(
-                    modifier = Modifier
+                    modifier =
+                    Modifier
                         .size(32.dp)
                         .placeholder(
                             visible = true,
                             shape = CircleShape,
-                            color = MaterialTheme.colorScheme.surfaceColorAtElevation(
-                                Elevation.Level4,
-                            ),
+                            color =
+                            MaterialTheme.colorScheme
+                                .surfaceColorAtElevation(
+                                    Elevation.Level4,
+                                ),
                             highlight = PlaceholderHighlight.fade(),
                         ),
                 )
             },
             label = {
                 Box(
-                    modifier = Modifier
+                    modifier =
+                    Modifier
                         .width(96.dp)
                         .height(18.dp)
                         .placeholder(
                             visible = true,
-                            color = MaterialTheme.colorScheme.surfaceColorAtElevation(
-                                Elevation.Level4,
-                            ),
+                            color =
+                            MaterialTheme.colorScheme
+                                .surfaceColorAtElevation(
+                                    Elevation.Level4,
+                                ),
                             highlight = PlaceholderHighlight.fade(),
                         ),
                 )
@@ -66,7 +72,5 @@ fun ContributorRowPlaceholder(
 @Preview(showBackground = true)
 @Composable
 fun ContributorRowPlaceholderPreview() {
-    LawniconsTheme {
-        ContributorRowPlaceholder()
-    }
+    LawniconsTheme { ContributorRowPlaceholder() }
 }

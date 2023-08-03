@@ -53,11 +53,15 @@ fun Lawnicons(windowSizeClass: WindowSizeClass) {
                     Home(navController = navController, windowSizeClass = windowSizeClass)
                 }
                 composable(route = Destinations.ACKNOWLEDGEMENTS) {
-                    Acknowledgements(navController = navController, windowSizeClass = windowSizeClass)
+                    Acknowledgements(
+                        navController = navController,
+                        windowSizeClass = windowSizeClass,
+                    )
                 }
                 composable(
                     route = "${Destinations.ACKNOWLEDGEMENT}/{id}",
-                    arguments = listOf(
+                    arguments =
+                    listOf(
                         navArgument(
                             name = "id",
                             builder = { type = NavType.StringType },

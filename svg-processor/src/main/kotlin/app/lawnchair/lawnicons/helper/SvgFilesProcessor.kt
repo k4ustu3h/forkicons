@@ -36,35 +36,42 @@ object SvgFilesProcessor {
         }
     }
 
-    private val fileVisitor = object : FileVisitor<Path> {
-        override fun postVisitDirectory(dir: Path, exc: IOException?): FileVisitResult =
-            FileVisitResult.CONTINUE
+    private val fileVisitor =
+        object : FileVisitor<Path> {
+            override fun postVisitDirectory(dir: Path, exc: IOException?): FileVisitResult =
+                FileVisitResult.CONTINUE
 
-        override fun preVisitDirectory(dir: Path, attrs: BasicFileAttributes?): FileVisitResult {
-            // Skip folder which is processing svgs to xml
-            if (dir == destinationVectorPath) {
-                return FileVisitResult.SKIP_SUBTREE
+            override fun preVisitDirectory(
+                dir: Path,
+                attrs: BasicFileAttributes?,
+            ): FileVisitResult {
+                // Skip folder which is processing svgs to xml
+                if (dir == destinationVectorPath) {
+                    return FileVisitResult.SKIP_SUBTREE
+                }
+                val newDirectory = destinationVectorPath.resolve(sourceSvgPath.relativize(dir))
+                try {
+                    Files.createDirectories(newDirectory)
+                } catch (e: FileAlreadyExistsException) {
+                    e.printStackTrace()
+                } catch (e: IOException) {
+                    e.printStackTrace()
+                    return FileVisitResult.SKIP_SUBTREE
+                }
+                return FileVisitResult.CONTINUE
             }
-            val newDirectory = destinationVectorPath.resolve(sourceSvgPath.relativize(dir))
-            try {
-                Files.createDirectories(newDirectory)
-            } catch (e: FileAlreadyExistsException) {
-                e.printStackTrace()
-            } catch (e: IOException) {
-                e.printStackTrace()
-                return FileVisitResult.SKIP_SUBTREE
+
+            override fun visitFile(file: Path, attrs: BasicFileAttributes?): FileVisitResult {
+                convertToVector(
+                    file,
+                    destinationVectorPath.resolve(sourceSvgPath.relativize(file)),
+                )
+                return FileVisitResult.CONTINUE
             }
-            return FileVisitResult.CONTINUE
-        }
 
-        override fun visitFile(file: Path, attrs: BasicFileAttributes?): FileVisitResult {
-            convertToVector(file, destinationVectorPath.resolve(sourceSvgPath.relativize(file)))
-            return FileVisitResult.CONTINUE
+            override fun visitFileFailed(file: Path, exc: IOException?): FileVisitResult =
+                FileVisitResult.CONTINUE
         }
-
-        override fun visitFileFailed(file: Path, exc: IOException?): FileVisitResult =
-            FileVisitResult.CONTINUE
-    }
 
     private fun convertToVector(svgSource: Path, vectorTargetPath: Path) {
         // convert only if it is .svg
@@ -99,17 +106,19 @@ object SvgFilesProcessor {
         val drawableName: String = FilenameUtils.getBaseName(xmlPath)
         val resPath: String = FilenameUtils.getFullPath(xmlPath)
         val document = DocumentHelper.createDocument()
-        val root = document.addElement("adaptive-icon")
-            .addAttribute("xmlns:android", "http://schemas.android.com/apk/res/android")
-        root.addElement("background")
-            .addAttribute("android:drawable", bgColor)
-        root.addElement("foreground").addElement("inset")
+        val root =
+            document.addElement("adaptive-icon")
+                .addAttribute("xmlns:android", "http://schemas.android.com/apk/res/android")
+        root.addElement("background").addAttribute("android:drawable", bgColor)
+        root.addElement("foreground")
+            .addElement("inset")
             .addAttribute("android:inset", "32%")
             .addAttribute(
                 "android:drawable",
                 "@drawable/" + FilenameUtils.getBaseName(foregroundXml),
             )
-        root.addElement("monochrome").addElement("inset")
+        root.addElement("monochrome")
+            .addElement("inset")
             .addAttribute("android:inset", "28%")
             .addAttribute(
                 "android:drawable",

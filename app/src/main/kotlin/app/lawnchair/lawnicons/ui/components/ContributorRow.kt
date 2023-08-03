@@ -29,15 +29,16 @@ fun ContributorRow(
 ) {
     val context = LocalContext.current
     val url = profileUrl ?: socialUrl
-    val onClick = if (url != null) {
-        {
-            val website = Uri.parse(url)
-            val intent = Intent(Intent.ACTION_VIEW, website)
-            context.startActivity(intent)
+    val onClick =
+        if (url != null) {
+            {
+                val website = Uri.parse(url)
+                val intent = Intent(Intent.ACTION_VIEW, website)
+                context.startActivity(intent)
+            }
+        } else {
+            null
         }
-    } else {
-        null
-    }
 
     SimpleListRow(
         background = background,
@@ -50,7 +51,8 @@ fun ContributorRow(
         icon = {
             AsyncImage(
                 contentDescription = name,
-                model = ImageRequest.Builder(context = LocalContext.current)
+                model =
+                ImageRequest.Builder(context = LocalContext.current)
                     .data(data = photoUrl)
                     .crossfade(enable = true)
                     .build(),

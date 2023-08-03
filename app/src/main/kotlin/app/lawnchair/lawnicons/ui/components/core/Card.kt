@@ -36,11 +36,7 @@ fun Card(
             modifier = Modifier
                 .padding(horizontal = 16.dp)
                 .fillMaxWidth(),
-        ) {
-            Column {
-                content()
-            }
-        }
+        ) { Column { content() } }
     }
 }
 

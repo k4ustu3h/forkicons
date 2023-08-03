@@ -30,40 +30,43 @@ import app.lawnchair.lawnicons.ui.util.Destinations
 import app.lawnchair.lawnicons.ui.util.ExternalLink
 import app.lawnchair.lawnicons.util.appIcon
 
-private val externalLinks = listOf(
-    ExternalLink(
-        name = "GitHub",
-        url = "https://github.com/k4ustu3h/forkicons",
-    ),
-    ExternalLink(
-        name = "Icon Request Form",
-        url = "https://forms.gle/Fx8vZAiWdW1Tyjo57",
-    ),
-)
+private val externalLinks =
+    listOf(
+        ExternalLink(
+            name = "GitHub",
+            url = "https://github.com/k4ustu3h/forkicons",
+        ),
+        ExternalLink(
+            name = "Icon Request Form",
+            url = "https://forms.gle/Fx8vZAiWdW1Tyjo57",
+        ),
+    )
 
-private val coreContributors = listOf(
-    Contributor(
-        name = "paphonb",
-        username = "paphonb",
-        photoUrl = "https://avatars.githubusercontent.com/u/8080853",
-        socialUrl = "https://twitter.com/paphonb",
-    ),
-    Contributor(
-        name = "Patrick Michalik",
-        username = "patrickmichalik",
-        photoUrl = "https://avatars.githubusercontent.com/u/120058021?v=4",
-        socialUrl = "https://patrickmichalik.com/",
-    ),
-)
+private val coreContributors =
+    listOf(
+        Contributor(
+            name = "paphonb",
+            username = "paphonb",
+            photoUrl = "https://avatars.githubusercontent.com/u/8080853",
+            socialUrl = "https://twitter.com/paphonb",
+        ),
+        Contributor(
+            name = "Patrick Michalik",
+            username = "patrickmichalik",
+            photoUrl = "https://avatars.githubusercontent.com/u/120058021?v=4",
+            socialUrl = "https://patrickmichalik.com/",
+        ),
+    )
 
-private val specialThanks = listOf(
-    Contributor(
-        name = "Radek Bledowski",
-        photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
-        socialUrl = "https://twitter.com/rkbdi",
-        descriptionRes = R.string.special_thanks_restoration,
-    ),
-)
+private val specialThanks =
+    listOf(
+        Contributor(
+            name = "Radek Bledowski",
+            photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
+            socialUrl = "https://twitter.com/rkbdi",
+            descriptionRes = R.string.special_thanks_restoration,
+        ),
+    )
 
 @Composable
 fun About(navController: NavController, windowSizeClass: WindowSizeClass) {
@@ -78,7 +81,8 @@ fun About(navController: NavController, windowSizeClass: WindowSizeClass) {
             item {
                 Column(
                     horizontalAlignment = Alignment.CenterHorizontally,
-                    modifier = Modifier
+                    modifier =
+                    Modifier
                         .fillMaxWidth()
                         .padding(
                             top = 8.dp,
@@ -97,9 +101,14 @@ fun About(navController: NavController, windowSizeClass: WindowSizeClass) {
                         modifier = Modifier.padding(top = 12.dp),
                     )
                     Text(
-                        text = stringResource(id = R.string.version_x, BuildConfig.VERSION_NAME),
+                        text =
+                        stringResource(
+                            id = R.string.version_x,
+                            BuildConfig.VERSION_NAME,
+                        ),
                         style = MaterialTheme.typography.bodyLarge,
-                        color = MaterialTheme.colorScheme.onBackground.copy(
+                        color =
+                        MaterialTheme.colorScheme.onBackground.copy(
                             alpha = ContentAlpha.medium,
                         ),
                     )
@@ -117,7 +126,10 @@ fun About(navController: NavController, windowSizeClass: WindowSizeClass) {
                 }
             }
             item {
-                Card(label = stringResource(id = R.string.core_contributors), modifier = Modifier.padding(top = 16.dp)) {
+                Card(
+                    label = stringResource(id = R.string.core_contributors),
+                    modifier = Modifier.padding(top = 16.dp),
+                ) {
                     coreContributors.mapIndexed { index, it ->
                         ContributorRow(
                             name = it.name,

@@ -41,7 +41,8 @@ fun Acknowledgements(
             label = "",
         ) { libraries ->
             LazyColumn(
-                contentPadding = WindowInsets.navigationBars.toPaddingValues(
+                contentPadding =
+                WindowInsets.navigationBars.toPaddingValues(
                     additionalTop = 8.dp,
                     additionalBottom = 8.dp,
                 ),

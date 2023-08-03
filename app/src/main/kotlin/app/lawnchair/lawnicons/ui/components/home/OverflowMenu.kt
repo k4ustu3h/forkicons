@@ -31,11 +31,8 @@ fun OverflowMenu(block: @Composable OverflowMenuScope.() -> Unit) {
             offset = DpOffset(x = 16.dp, y = (-36).dp),
         ) {
             CompositionLocalProvider(
-                LocalContentColor
-                    provides MaterialTheme.colorScheme.onSurface,
-            ) {
-                block(overflowMenuScope)
-            }
+                LocalContentColor provides MaterialTheme.colorScheme.onSurface,
+            ) { block(overflowMenuScope) }
         }
     }
 }

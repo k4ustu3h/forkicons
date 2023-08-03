@@ -69,7 +69,8 @@ fun LawniconsSearchBar(
     var active by rememberSaveable { mutableStateOf(false) }
 
     Box(
-        modifier = Modifier
+        modifier =
+        Modifier
             .then(
                 if (!active || isExpandedScreen) {
                     Modifier
@@ -84,9 +85,7 @@ fun LawniconsSearchBar(
                     Modifier
                 },
             )
-            .semantics {
-                isContainer = true
-            }
+            .semantics { isContainer = true }
             .zIndex(1f)
             .fillMaxSize(),
     ) {
@@ -128,12 +127,8 @@ fun LawniconsSearchBar(
                             onClearAndBackClick = onClearAndBackClick,
                         )
                     },
-                    modifier = Modifier
-                        .width(screenWidth / 0.5f),
-
-                ) {
-                    SearchContents(iconInfo = iconInfo)
-                }
+                    modifier = Modifier.width(screenWidth / 0.5f),
+                ) { SearchContents(iconInfo = iconInfo) }
                 Spacer(modifier = Modifier.weight(0.5f))
             }
         } else {
@@ -168,10 +163,7 @@ fun LawniconsSearchBar(
                     )
                 },
                 modifier = Modifier.fillMaxWidth(),
-
-            ) {
-                SearchContents(iconInfo = iconInfo)
-            }
+            ) { SearchContents(iconInfo = iconInfo) }
         }
     }
 }
@@ -205,17 +197,13 @@ private fun SearchMenu(
                         hideMenu()
                         navController.navigate(Destinations.ACKNOWLEDGEMENTS)
                     },
-                ) {
-                    Text(text = stringResource(id = R.string.acknowledgements))
-                }
+                ) { Text(text = stringResource(id = R.string.acknowledgements)) }
                 DropdownMenuItem(
                     onClick = {
                         hideMenu()
                         navController.navigate(Destinations.ABOUT)
                     },
-                ) {
-                    Text(text = stringResource(id = R.string.about))
-                }
+                ) { Text(text = stringResource(id = R.string.about)) }
             }
         } else {
             ClickableIcon(
@@ -233,7 +221,9 @@ private fun SearchContents(
     when (iconInfo.iconInfo.size) {
         1 -> {
             Column(
-                modifier = Modifier.fillMaxWidth().padding(PaddingValues(16.dp)),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(PaddingValues(16.dp)),
                 verticalArrangement = Arrangement.spacedBy(4.dp),
             ) {
                 val it = iconInfo.iconInfo[0]
@@ -245,7 +235,8 @@ private fun SearchContents(
                     leadingContent = {
                         Box(
                             contentAlignment = Alignment.Center,
-                            modifier = Modifier
+                            modifier =
+                            Modifier
                                 .padding(all = 8.dp)
                                 .clip(shape = CircleShape)
                                 .size(48.dp),
@@ -257,8 +248,7 @@ private fun SearchContents(
                             )
                         }
                     },
-                    modifier = Modifier
-                        .clickable(onClick = { isIconInfoShown.value = true }),
+                    modifier = Modifier.clickable(onClick = { isIconInfoShown.value = true }),
                 )
                 if (isIconInfoShown.value) {
                     IconInfoPopup(
@@ -268,6 +258,7 @@ private fun SearchContents(
                 }
             }
         }
+
         0 -> {
             Box(
                 modifier = Modifier
@@ -281,6 +272,7 @@ private fun SearchContents(
                 )
             }
         }
+
         else -> {
             LazyVerticalGrid(
                 columns = GridCells.Adaptive(minSize = 80.dp),

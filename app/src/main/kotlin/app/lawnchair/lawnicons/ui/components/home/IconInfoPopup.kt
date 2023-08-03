@@ -49,7 +49,8 @@ fun IconInfoPopup(
             Column {
                 Text(
                     fontWeight = FontWeight.Bold,
-                    text = stringResource(
+                    text =
+                    stringResource(
                         id = R.string.drawable_prefix,
                     ),
                 )
@@ -60,7 +61,8 @@ fun IconInfoPopup(
                 Spacer(Modifier.height(16.dp))
                 Text(
                     fontWeight = FontWeight.Bold,
-                    text = stringResource(
+                    text =
+                    stringResource(
                         id = R.string.package_prefix,
                     ),
                 )
@@ -79,7 +81,8 @@ fun IconInfoPopupPreview() {
     val showPopup = remember { mutableStateOf(true) }
     LawniconsTheme {
         IconInfoPopup(
-            iconInfo = IconInfo(
+            iconInfo =
+            IconInfo(
                 name = "Example",
                 drawableName = "example",
                 packageName = "pkg.name",

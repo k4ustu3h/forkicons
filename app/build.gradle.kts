@@ -1,6 +1,4 @@
-import com.android.build.gradle.internal.api.ApkVariantOutputImpl
 import java.io.FileInputStream
-import java.util.Locale
 import java.util.Properties
 
 plugins {
@@ -11,9 +9,13 @@ plugins {
     id("app.cash.licensee")
 }
 
-val buildCommit = providers.exec {
-    commandLine("git", "rev-parse", "--short=7", "HEAD")
-}.standardOutput.asText.get().trim()
+val buildCommit =
+    providers
+        .exec { commandLine("git", "rev-parse", "--short=7", "HEAD") }
+        .standardOutput
+        .asText
+        .get()
+        .trim()
 
 val ciBuild = System.getenv("CI") == "true"
 val ciRef = System.getenv("GITHUB_REF").orEmpty()
@@ -38,18 +40,19 @@ android {
     }
 
     val keystorePropertiesFile = rootProject.file("keystore.properties")
-    val releaseSigning = if (keystorePropertiesFile.exists()) {
-        val keystoreProperties = Properties()
-        keystoreProperties.load(FileInputStream(keystorePropertiesFile))
-        signingConfigs.create("release") {
-            keyAlias = keystoreProperties["keyAlias"].toString()
-            keyPassword = keystoreProperties["keyPassword"].toString()
-            storeFile = rootProject.file(keystoreProperties["storeFile"].toString())
-            storePassword = keystoreProperties["storePassword"].toString()
+    val releaseSigning =
+        if (keystorePropertiesFile.exists()) {
+            val keystoreProperties = Properties()
+            keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+            signingConfigs.create("release") {
+                keyAlias = keystoreProperties["keyAlias"].toString()
+                keyPassword = keystoreProperties["keyPassword"].toString()
+                storeFile = rootProject.file(keystoreProperties["storeFile"].toString())
+                storePassword = keystoreProperties["storePassword"].toString()
+            }
+        } else {
+            signingConfigs["debug"]
         }
-    } else {
-        signingConfigs["debug"]
-    }
 
     buildTypes {
         release {
@@ -57,9 +60,7 @@ android {
             signingConfig = releaseSigning
             proguardFiles("proguard-rules.pro")
         }
-        debug {
-            signingConfig = releaseSigning
-        }
+        debug { signingConfig = releaseSigning }
     }
 
     flavorDimensions += "product"
@@ -78,9 +79,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
-    }
+    kotlinOptions { jvmTarget = JavaVersion.VERSION_11.toString() }
 
     buildFeatures {
         buildConfig = true
@@ -88,15 +87,9 @@ android {
         resValues = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
+    composeOptions { kotlinCompilerExtensionVersion = "1.5.1" }
 
-    packaging {
-        resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
-        }
-    }
+    packaging { resources { excludes += "/META-INF/{AL2.0,LGPL2.1}" } }
 }
 
 dependencies {
