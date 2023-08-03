@@ -33,7 +33,7 @@ import app.lawnchair.lawnicons.util.appIcon
 private val externalLinks = listOf(
     ExternalLink(
         name = "GitHub",
-        url = "https://github.com/LawnchairLauncher/lawnicons",
+        url = "https://github.com/k4ustu3h/forkicons",
     ),
     ExternalLink(
         name = "Icon Request Form",
@@ -48,20 +48,20 @@ private val coreContributors = listOf(
         photoUrl = "https://avatars.githubusercontent.com/u/8080853",
         socialUrl = "https://twitter.com/paphonb",
     ),
+    Contributor(
+        name = "Patrick Michalik",
+        username = "patrickmichalik",
+        photoUrl = "https://avatars.githubusercontent.com/u/120058021?v=4",
+        socialUrl = "https://patrickmichalik.com/",
+    ),
 )
 
 private val specialThanks = listOf(
     Contributor(
-        name = "RKBDI",
+        name = "Radek Bledowski",
         photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
         socialUrl = "https://twitter.com/rkbdi",
-        descriptionRes = R.string.special_thanks_icon,
-    ),
-    Contributor(
-        name = "Radek",
-        photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
-        username = "RadekBledowski",
-        descriptionRes = R.string.special_thanks_name,
+        descriptionRes = R.string.special_thanks_restoration,
     ),
 )
 

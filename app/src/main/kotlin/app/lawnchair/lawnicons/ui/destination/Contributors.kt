@@ -31,7 +31,7 @@ import app.lawnchair.lawnicons.ui.util.toPaddingValues
 import app.lawnchair.lawnicons.viewmodel.ContributorsUiState
 import app.lawnchair.lawnicons.viewmodel.ContributorsViewModel
 
-const val contributorsUrl = "https://github.com/RadekBledowski/rkicons/graphs/contributors"
+const val contributorsUrl = "https://github.com/k4ustu3h/forkicons/graphs/contributors"
 
 @Composable
 fun Contributors(

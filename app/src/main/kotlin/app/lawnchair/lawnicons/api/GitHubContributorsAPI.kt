@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface GitHubContributorsAPI {
 
-    @GET("repos/RadekBledowski/rkicons/contributors")
+    @GET("repos/k4ustu3h/forkicons/contributors")
     suspend fun getContributors(): List<GitHubContributor>
 }

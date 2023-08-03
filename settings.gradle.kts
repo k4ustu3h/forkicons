@@ -27,7 +27,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lawnicons"
+rootProject.name = "Forkicons"
 
 enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
 
