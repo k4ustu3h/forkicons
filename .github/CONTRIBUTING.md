@@ -1,8 +1,8 @@
-# Lawnicons contributing guide
+# Forkicons contributing guide
 
-Welcome to the Lawnicons contributing guide! This file will tell you what you need to know to contribute to Lawnicons.
+Welcome to the Forkicons contributing guide! This file will tell you what you need to know to contribute to Forkicons.
 
-Before you start, please [fork](https://github.com/LawnchairLauncher/lawnicons/fork) the project and clone it to your machine.
+Before you start, please [fork](https://github.com/k4ustu3h/forkicons/fork) the project and clone it to your machine.
 
 Afterwards, you can either contribute icons or code.
 
@@ -16,21 +16,13 @@ See the below image for a summary of the icon guidelines. If you don't follow th
 
 ![](images/contributing-image-1.png)
 
-Each icon must fit the 160x160px or 144x144px (depending on the shape) content area size. It must not be smaller nor bigger than the specified sizes.
-
-The default stroke should be kept at 12px. For finer detail, a stroke of 6px can be used. The standard widths are 6px, 8px, 10px, 12px and 14px.
-
-If an icon is too minimal or does not have enough surrounding details, 14px should be used. You can check whether to use it if the stroke width looks too thin alongside other icons (more information in the [Figma document](https://www.figma.com/community/file/1227718471680779613)).
-
-In addition to the above, the icons must have an outlined (not filled) style and the colour must be black `#000000`. If the original icon has a filled style, change the icon to adhere to the guidelines as seen below.
+The icon should be an identical but a monotone variant of the original icon.
 
 ![](images/contributing-image-2.png)
 
-See also [this Figma repository](https://www.figma.com/community/file/1227718471680779613) made by Grabstertv.
+### Adding an icon to Forkicons
 
-### Adding an icon to Lawnicons
-
-Here's how to add an icon to Lawnicons:
+Here's how to add an icon to Forkicons:
 
 #### Prerequesties
 
@@ -57,7 +49,7 @@ Please check the [icon tool guide](/.github/icontool_guide.md) for more informat
     <item component="ComponentInfo{[PACKAGE_NAME]/[APP_ACIVITY_NAME]}" drawable="[DRAWABLE NAME]" name="[APP NAME]"/>
     ```
 
-1. Done! You're ready to open a pull request. Please set `develop` as the base branch.
+1. Done! You're ready to open a pull request. Please set `main` as the base branch.
 
 ### Finding the package and activity name of an app
 
@@ -114,12 +106,10 @@ Afterwards, you can build the app by selecting the `appDebug` build variant.
 
 Here are a few contribution tips:
 
--   [The `app` module](https://github.com/LawnchairLauncher/lawnicons/tree/develop/app) contains most of Lawnicons' core code, while [the `svg-processor` module](https://github.com/LawnchairLauncher/lawnicons/tree/develop/svg-processor) contains the code that converts the SVGs inside the `svgs` folder into Android Drawables. Generally, the `app` module is where you should make most of your contributions.
+-   [The `app` module](https://github.com/k4ustu3h/forkicons/tree/main/app) contains most of Forkicons' core code, while [the `svg-processor` module](https://github.com/k4ustu3h/forkicons/tree/main/svg-processor) contains the code that converts the SVGs inside the `svgs` folder into Android Drawables. Generally, the `app` module is where you should make most of your contributions.
 
 -   You can use either Java or, preferably, Kotlin.
 
 -   Make sure your code is logical and well formatted. If using Kotlin, see ["Coding conventions"](https://kotlinlang.org/docs/coding-conventions.html) in the Kotlin documentation.
 
--   Set `develop` as the base branch for pull requests.
-
--   Significant changes to the UI should be discussed on our [Lawnchair's Telegram group chat](https://t.me/lawnchairci). Generally, we want to keep things clean and simple.
+-   Set `main` as the base branch for pull requests.
