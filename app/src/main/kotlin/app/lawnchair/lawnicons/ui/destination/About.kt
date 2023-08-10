@@ -36,10 +36,6 @@ private val externalLinks =
             name = "GitHub",
             url = "https://github.com/k4ustu3h/forkicons",
         ),
-        ExternalLink(
-            name = "Icon Request Form",
-            url = "https://forms.gle/Fx8vZAiWdW1Tyjo57",
-        ),
     )
 
 private val coreContributors =
