@@ -8,7 +8,7 @@ Afterwards, you can either contribute icons or code.
 
 ## Contributing icons
 
-To contribute icons, you only need an icon editor, a file explorer, and a terminal window.
+To contribute icons, you only need an icon editor, a file explorer, a text editor, and a terminal window.
 
 ### Icon guidelines
 
