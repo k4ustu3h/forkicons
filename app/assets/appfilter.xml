@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <resources>
   <!-- Dynamic Calendars -->
   <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
@@ -36,7 +35,6 @@
   <item drawableIgnore="true" component="ComponentInfo{org.withouthat.acalendar/org.withouthat.acalendar.ACalendar}" drawable="themed_icon_calendar_31" name="Calendar" />
   <item drawableIgnore="true" component="ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}" drawable="themed_icon_calendar_31" name="Calendar" />
   <!-- Lawnicons -->
-
   <item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.MainActivity}" drawable="onedotonedotonedotone" name="1.1.1.1" />
   <item component="ComponentInfo{com.cloudflare.onedotonedotonedotone/com.cloudflare.app.presentation.main.SplashActivity}" drawable="onedotonedotonedotone" name="1.1.1.1" />
   <item component="ComponentInfo{idm.internet.download.manager/acr.browser.lightning.activity.MainActivityLauncher}" drawable="idm" name="1dm" />
@@ -85,6 +83,56 @@
   <item component="ComponentInfo{ru.aliexpress.buyer/com.alibaba.aliexpresshd.home.ui.MainActivity}" drawable="aliexpress" name="AliExpress" />
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivity$Main}" drawable="discord" name="Aliucord" />
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivityMain}" drawable="discord" name="Aliucord" />
+  <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="amaze" name="Amaze" />
+  <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.ui.activities.MainActivity}" drawable="amaze" name="Amaze" />
+  <item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.app.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
+  <item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.webapp.activity.AlexaWebAppActivity}" drawable="amazon_alexa" name="Amazon Alexa" />
+  <item component="ComponentInfo{com.amazon.dee.app/.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
+  <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.AmazonApplication}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.android.client.HomeActivity}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.client.activity.HomeActivity}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.client.activity.LauncherActivity}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.library.activity.LaunchActivity}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{com.amazon.mp3/leakcanary.internal.activity.LeakLauncherActivity}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="amazon_prime_video" name="Amazon Prime Video" />
+  <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.twa.CustomTWALauncherActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{com.google.android.projection.gearhead/com.google.android.gearhead.vanagon.VnLaunchPadActivity}" drawable="android_auto" name="Android Auto" />
+  <item component="ComponentInfo{com.google.android.projection.gearhead/com.google.android.projection.gearhead.companion.SplashScreenActivity}" drawable="android_auto" name="Android Auto" />
+  <item component="ComponentInfo{xyz.jmir.tachiyomi.mi.debug/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="aniyomi" name="Aniyomi" />
+  <item component="ComponentInfo{xyz.jmir.tachiyomi.mi/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="aniyomi" name="Aniyomi" />
+  <item component="ComponentInfo{com.maltaisn.notes.sync/com.maltaisn.notes.ui.main.MainActivity}" drawable="another_notes" name="Another Notes" />
+  <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="antennapod" name="AntennaPod" />
+  <item component="ComponentInfo{com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.gui.activity.MainActivity}" drawable="anydesk" name="AnyDesk" />
+  <item component="ComponentInfo{com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.MainActivity}" drawable="anydesk" name="AnyDesk" />
+  <item component="ComponentInfo{com.apkmirror.helper.prod/com.apkmirror.presentation.start.StartActivity}" drawable="apkmirror_installer" name="APKMirror Installer" />
+  <item component="ComponentInfo{foundation.e.apps/foundation.e.apps.MainActivity}" drawable="app_lounge" name="App Lounge" />
+  <item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity}" drawable="app_manager" name="App Manager" />
+  <item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.SplashActivity}" drawable="app_manager" name="App Manager" />
+  <item component="ComponentInfo{com.huawei.appmarket/com.huawei.appmarket.MainActivity}" drawable="app_gallery" name="AppGallery" />
+  <item component="ComponentInfo{com.apple.android.music/com.apple.android.music.onboarding.activities.SplashActivity}" drawable="apple_music" name="Apple Music" />
+  <item component="ComponentInfo{com.apple.android.music/.onboarding.activities.SplashActivity}" drawable="apple_music" name="Apple Music" />
+  <item component="ComponentInfo{com.bytestorm.artflow/com.bytestorm.artflow.Editor}" drawable="artflow" name="ArtFlow" />
+  <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="asus_calculator" name="Asus Calculator" />
+  <item component="ComponentInfo{com.asus.camera/.CameraApp}" drawable="asus_camera" name="Asus Camera" />
+  <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="asus_camera" name="Asus Camera" />
+  <item component="ComponentInfo{com.asus.camera/com.asus.camera.MirrorApp}" drawable="asus_camera" name="Asus Camera" />
+  <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="asus_clock" name="Asus Clock" />
+  <item component="ComponentInfo{com.asus.contacts/com.android.contacts.activities.PeopleActivity}" drawable="asus_contacts" name="Asus Contacts" />
+  <item component="ComponentInfo{com.asus.filemanager/com.asus.filemanager.FileManagerActivity}" drawable="asus_file_manager" name="Asus File Manager" />
+  <item component="ComponentInfo{com.asus.soundrecorder/com.asus.soundrecorder.AsusRecorder}" drawable="asus_sound_recorder" name="ASUS Sound Recorder" />
+  <item component="ComponentInfo{com.aurora.store/com.aurora.store.activity.AuroraActivity}" drawable="aurora_store" name="Aurora Store" />
+  <item component="ComponentInfo{com.aurora.store/com.aurora.store.ui.single.activity.SplashActivity}" drawable="aurora_store" name="Aurora Store" />
+  <item component="ComponentInfo{com.aurora.store/com.aurora.store.view.ui.onboarding.OnboardingActivity}" drawable="aurora_store" name="Aurora Store" />
+  <item component="ComponentInfo{com.authy.authy/.activities.InitializationActivity}" drawable="authy" name="Authy" />
+  <item component="ComponentInfo{com.authy.authy/com.authy.authy.activities.InitializationActivity}" drawable="authy" name="Authy" />
+  <item component="ComponentInfo{org.oxycblt.auxio/org.oxycblt.auxio.MainActivity}" drawable="auxio" name="Auxio" />
+  <item component="ComponentInfo{deckers.thibault.aves/deckers.thibault.aves.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
+  <item component="ComponentInfo{deckers.thibault.aves.libre/deckers.thibault.aves.libre.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
+  <item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="avito" name="Avito" />
+  <item component="ComponentInfo{com.avito.android/com.avito.android.ui.activity.SplashScreenActivity}" drawable="avito" name="Avito" />
+  <item component="ComponentInfo{com.avito.android/com.avito.android.view.splash.SplashScreenActivity}" drawable="avito" name="Avito" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivity}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivityMain}" drawable="discord" name="Discord" />
@@ -95,6 +143,8 @@
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenLoading}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenMain}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.jio.media.ondemand/com.v18.voot.features.home.ui.JVHomeActivity}" drawable="jiocinema" name="JioCinema" />
+  <item component="ComponentInfo{com.goodwy.audiobook/voice.app.features.MainActivity}" drawable="playbook" name="PlayBook" />
+  <item component="ComponentInfo{com.goodwy.audiobooklite/voice.app.features.MainActivity}" drawable="playbook" name="PlayBook Lite" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity$Main}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivityMain}" drawable="discord" name="Vendetta" />
