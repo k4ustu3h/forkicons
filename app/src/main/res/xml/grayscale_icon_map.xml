@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <icons>
-    <icon name="1.1.1.1" drawable="@drawable/onedotonedotonedotone" package="com.cloudflare.onedotonedotonedotone" />
-    <icon name="1dm" drawable="@drawable/idm" package="idm.internet.download.manager" />
-    <icon name="1dm+" drawable="@drawable/idm_plus" package="idm.internet.download.manager.plus" />
-    <icon name="4PDA" drawable="@drawable/pda" package="ru.fourpda.client" />
-    <icon name="8 Ball Pool" drawable="@drawable/eight_ball_pool" package="com.miniclip.eightballpool" />
-    <icon name="9292" drawable="@drawable/negentwee" package="nl.negentwee" />
-    <icon name="9gag" drawable="@drawable/ninegag" package="com.ninegag.android.app" />
-    <icon name="Abstruct" drawable="@drawable/abstruct" package="com.hampusolsson.abstruct" />
-    <icon name="Activity Launcher" drawable="@drawable/activitylauncher" package="de.szalkowski.activitylauncher" />
-    <icon name="Adaway" drawable="@drawable/adaway" package="org.adaway" />
-    <icon name="ADM" drawable="@drawable/adm" package="com.dv.adm" />
-    <icon name="Admin hands" drawable="@drawable/admin_hands" package="com.arpaplus.adminhands" />
-    <icon name="Adobe PDF" drawable="@drawable/adobepdf" package="com.adobe.reader" />
-    <icon name="Adobe scan" drawable="@drawable/adobescan" package="com.adobe.scan.android" />
-    <icon name="Aegis Authenticator" drawable="@drawable/aegis_authenticator" package="com.beemdevelopment.aegis" />
-    <icon name="AIMP" drawable="@drawable/aimp" package="com.aimp.player" />
-    <icon name="AIMP" drawable="@drawable/aimp" package="com.aimp.player" />
-    <icon name="Airasia" drawable="@drawable/airasia" package="com.airasia.mobile" />
-    <icon name="Airasia" drawable="@drawable/airasia" package="com.airasia.mobile" />
-    <icon name="Airtel" drawable="@drawable/myairtel" package="com.myairtelapp" />
-    <icon name="Aldiko" drawable="@drawable/aldiko" package="com.aldiko.android" />
-    <icon name="aliexpress" drawable="@drawable/aliexpress" package="com.alibaba.aliexpresshd" />
-    <icon name="aliexpress" drawable="@drawable/aliexpress" package="ru.aliexpress.buyer" />
-    <icon name="Aliucord" drawable="@drawable/discord" package="com.aliucord" />
     <icon name="Amaze" drawable="@drawable/amaze" package="com.amaze.filemanager" />
     <icon name="Amazon Alexa" drawable="@drawable/amazon_alexa" package="com.amazon.dee.app" />
     <icon name="Amazon Music" drawable="@drawable/amazon_music" package="com.amazon.mp3" />
@@ -41,7 +17,6 @@
     <icon name="Another Notes" drawable="@drawable/another_notes" package="com.maltaisn.notes.sync" />
     <icon name="AntennaPod" drawable="@drawable/antennapod" package="de.danoeh.antennapod" />
     <icon name="AnyDesk" drawable="@drawable/anydesk" package="com.anydesk.anydeskandroid" />
-    <icon name="Apex Legends Mobile" drawable="@drawable/apex_legends" package="com.ea.gp.apexlegendsmobilefps" />
     <icon name="Apk Extractor" drawable="@drawable/apkextractor" package="com.ext.ui" />
     <icon name="APKMirror Installer" drawable="@drawable/apkmirror_installer" package="com.apkmirror.helper.prod" />
     <icon name="App Gallery" drawable="@drawable/appgallery" package="com.huawei.appmarket" />
@@ -180,7 +155,6 @@
     <icon name="Dialer" drawable="@drawable/dialer" package="com.truecaller" />
     <icon name="Dialer" drawable="@drawable/dialer" package="com.truecaller" />
     <icon name="Digital Wellbeing" drawable="@drawable/digital_wellbeing" package="com.google.android.apps.wellbeing" />
-    <icon name="Discord" drawable="@drawable/discord" package="com.discord" />
     <icon name="Disney+ Hotstar" drawable="@drawable/hotstar" package="in.startv.hotstar.dplus" />
     <icon name="Disney+ Hotstar" drawable="@drawable/hotstar" package="in.startv.hotstar" />
     <icon name="Disney+" drawable="@drawable/disneyplus" package="com.disney.disneyplus" />
