@@ -55,20 +55,20 @@
   <item component="ComponentInfo{org.adaway/org.adaway.ui.MainActivity}" drawable="adaway" name="AdAway" />
   <item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="adobe_acrobat_reader" name="Adobe Acrobat Reader" />
   <item component="ComponentInfo{com.adobe.scan.android/com.adobe.scan.android.SplashActivity}" drawable="adobe_scan" name="Adobe Scan" />
+  <item component="ComponentInfo{com.dv.adm.pay/com.dv.adm.pay.Main}" drawable="adm" name="Advanced Download Manager" />
+  <item component="ComponentInfo{com.dv.adm.pay/com.dv.get.Main}" drawable="adm" name="Advanced Download Manager" />
   <item component="ComponentInfo{com.dv.adm/com.dv.adm.AMain}" drawable="adm" name="Advanced Download Manager" />
   <item component="ComponentInfo{com.dv.adm/com.dv.adm.Main}" drawable="adm" name="Advanced Download Manager" />
   <item component="ComponentInfo{com.dv.adm/com.dv.get.Main}" drawable="adm" name="Advanced Download Manager" />
   <item component="ComponentInfo{com.dv.adm/com.dv.get.WebIcon}" drawable="adm" name="Advanced Download Manager" />
-  <item component="ComponentInfo{com.dv.adm.pay/com.dv.adm.pay.Main}" drawable="adm" name="Advanced Download Manager" />
-  <item component="ComponentInfo{com.dv.adm.pay/com.dv.get.Main}" drawable="adm" name="Advanced Download Manager" />
   <item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.AuthActivity}" drawable="aegis_authenticator" name="Aegis Authenticator" />
   <item component="ComponentInfo{com.beemdevelopment.aegis/com.beemdevelopment.aegis.ui.MainActivity}" drawable="aegis_authenticator" name="Aegis Authenticator" />
   <item component="ComponentInfo{com.aimp.player/com.aimp.player.ui.activities.main.MainActivity}" drawable="aimp" name="AIMP" />
   <item component="ComponentInfo{com.airasia.mobile/com.airasia.mobile.MainActivity2}" drawable="airasia" name="airasia" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activities.LauncherActivity}" drawable="myairtel" name="Airtel" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activity.HomeActivity}" drawable="myairtel" name="Airtel" />
-  <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activity.OnboardingActivity}" drawable="myairtel" name="Airtel" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activity.OnboardingActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="myairtel" name="Airtel" />
+  <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activity.OnboardingActivity}" drawable="myairtel" name="Airtel" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activity.SplashScreenActivity}" drawable="myairtel" name="Airtel" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.AirtelActivity}" drawable="myairtel" name="Airtel" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.home.views.activities.NewHomeActivity}" drawable="myairtel" name="Airtel" />
@@ -85,9 +85,9 @@
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivityMain}" drawable="discord" name="Aliucord" />
   <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="amaze" name="Amaze" />
   <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.ui.activities.MainActivity}" drawable="amaze" name="Amaze" />
+  <item component="ComponentInfo{com.amazon.dee.app/.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
   <item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.app.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
   <item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.webapp.activity.AlexaWebAppActivity}" drawable="amazon_alexa" name="Amazon Alexa" />
-  <item component="ComponentInfo{com.amazon.dee.app/.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
   <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.AmazonApplication}" drawable="amazon_music" name="Amazon Music" />
   <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.android.client.HomeActivity}" drawable="amazon_music" name="Amazon Music" />
   <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.client.activity.HomeActivity}" drawable="amazon_music" name="Amazon Music" />
@@ -111,8 +111,8 @@
   <item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity}" drawable="app_manager" name="App Manager" />
   <item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.SplashActivity}" drawable="app_manager" name="App Manager" />
   <item component="ComponentInfo{com.huawei.appmarket/com.huawei.appmarket.MainActivity}" drawable="app_gallery" name="AppGallery" />
-  <item component="ComponentInfo{com.apple.android.music/com.apple.android.music.onboarding.activities.SplashActivity}" drawable="apple_music" name="Apple Music" />
   <item component="ComponentInfo{com.apple.android.music/.onboarding.activities.SplashActivity}" drawable="apple_music" name="Apple Music" />
+  <item component="ComponentInfo{com.apple.android.music/com.apple.android.music.onboarding.activities.SplashActivity}" drawable="apple_music" name="Apple Music" />
   <item component="ComponentInfo{com.bytestorm.artflow/com.bytestorm.artflow.Editor}" drawable="artflow" name="ArtFlow" />
   <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="asus_calculator" name="Asus Calculator" />
   <item component="ComponentInfo{com.asus.camera/.CameraApp}" drawable="asus_camera" name="Asus Camera" />
@@ -128,16 +128,238 @@
   <item component="ComponentInfo{com.authy.authy/.activities.InitializationActivity}" drawable="authy" name="Authy" />
   <item component="ComponentInfo{com.authy.authy/com.authy.authy.activities.InitializationActivity}" drawable="authy" name="Authy" />
   <item component="ComponentInfo{org.oxycblt.auxio/org.oxycblt.auxio.MainActivity}" drawable="auxio" name="Auxio" />
-  <item component="ComponentInfo{deckers.thibault.aves/deckers.thibault.aves.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
   <item component="ComponentInfo{deckers.thibault.aves.libre/deckers.thibault.aves.libre.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
+  <item component="ComponentInfo{deckers.thibault.aves/deckers.thibault.aves.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
   <item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="avito" name="Avito" />
   <item component="ComponentInfo{com.avito.android/com.avito.android.ui.activity.SplashScreenActivity}" drawable="avito" name="Avito" />
   <item component="ComponentInfo{com.avito.android/com.avito.android.view.splash.SplashScreenActivity}" drawable="avito" name="Avito" />
-  <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" name="Discord" />
+  <item component="ComponentInfo{com.pubg.imobile/com.epicgames.ue4.SplashActivity}" drawable="bgmi" name="Battlegrounds Mobile India" />
+  <item component="ComponentInfo{com.bereal.ft/bereal.app.MainActivity}" drawable="bereal" name="BeReal." />
+  <item component="ComponentInfo{com.bewakoof.bewakoof/com.bewakoof.bewakoof.MainActivity}" drawable="bewakoof" name="Bewakoof" />
+  <item component="ComponentInfo{org.telegram.BifToGram/org.telegram.ui.LaunchActivity}" drawable="bgram" name="BGram" />
+  <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.main.MainActivity}" drawable="binance" name="Binance" />
+  <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.splash.SplashActivity}" drawable="binance" name="Binance" />
+  <item component="ComponentInfo{com.binance.dev/com.binance.dev.SplashActivity}" drawable="binance" name="Binance" />
+  <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.BnbMainActivity}" drawable="binance" name="Binance" />
+  <item component="ComponentInfo{com.binance.dev/com.binance.launcher.activities.main.MainActivity}" drawable="binance" name="Binance" />
+  <item component="ComponentInfo{com.binance.dev/com.eaas.launcher.activities.main.MainActivity}" drawable="binance" name="Binance" />
+  <item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="bitwarden" name="Bitwarden" />
+  <item component="ComponentInfo{com.x8bit.bitwarden/md5b95ad25b85f158431f24aa9fc17a1c1e.SplashActivity}" drawable="bitwarden" name="Bitwarden" />
+  <item component="ComponentInfo{com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity}" drawable="bitwarden" name="Bitwarden" />
+  <item component="ComponentInfo{org.blokada.alarm.dnschanger/core.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.alarm.dnschanger/core.PanelActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.alarm.dnschanger/ui.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.fem.fdroid/ui.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.fyra/core.PanelActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.origin.alarm/core.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.origin.alarm/core.PanelActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.origin.alarm/org.blokada.ui.app.android.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.origin.alarm/ui.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{org.blokada.sex/ui.MainActivity}" drawable="blokada" name="Blokada" />
+  <item component="ComponentInfo{com.bankofbaroda.mconnect/com.bankofbaroda.mconnect.activities.SplashActivity}" drawable="bob_world" name="bob World" />
+  <item component="ComponentInfo{com.logitech.ueboom/com.logitech.ue.activities.MainActivity}" drawable="boom_and_megaboom" name="BOOM &amp; MEGABOOM" />
+  <item component="ComponentInfo{com.logitech.ueboom/com.logitech.ue.howhigh.activities.SplashActivity}" drawable="boom_and_megaboom" name="BOOM &amp; MEGABOOM" />
+  <item component="ComponentInfo{my.com.myboost/com.boostorium.views.splash.view.SplashActivity}" drawable="boost" name="Boost" />
+  <item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="brave_browser" name="Brave" />
+  <item component="ComponentInfo{com.brave.browser_beta/com.google.android.apps.chrome.Main}" drawable="brave_browser" name="Brave Beta" />
+  <item component="ComponentInfo{com.brave.browser_nightly/com.google.android.apps.chrome.Main}" drawable="brave_browser" name="Brave Nightly" />
+  <item component="ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}" drawable="brawl_stars" name="Brawl Stars" />
+  <item component="ComponentInfo{org.briarproject.briar.android/org.briarproject.briar.android.splash.SplashScreenActivity}" drawable="briar" name="Briar" />
+  <item component="ComponentInfo{org.bromite.bromite/com.google.android.apps.chrome.Main}" drawable="bromite" name="Bromite" />
+  <item component="ComponentInfo{com.heytap.browser/com.android.browser.BrowserActivity}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{de.baumann.browser/de.baumann.browser.activity.BrowserActivity}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{de.baumann.browser/de.baumann.browser.Activity.BrowserActivity}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{de.baumann.browser/de.baumann.browser.Browser_left}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{foundation.e.browser/com.google.android.apps.chrome.Main}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{org.droidtr.jelly/org.droidtr.jelly.MainActivity}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{org.lineageos.jelly/org.lineageos.jelly.MainActivity}" drawable="browser" name="Browser" />
+  <item component="ComponentInfo{com.dwarfplanet.bundle/com.dwarfplanet.bundle.SplashActivity}" drawable="bundle" name="Bundle" />
+  <item component="ComponentInfo{com.dwarfplanet.bundle/com.dwarfplanet.bundle.ui.landing.SplashActivity}" drawable="bundle" name="Bundle" />
+  <item component="ComponentInfo{com.dwarfplanet.bundle/com.dwarfplanet.bundle.v2.ui.landing.views.SplashActivity}" drawable="bundle" name="Bundle" />
+  <item component="ComponentInfo{air.com.unit9.bkFrApp/air.com.unit9.bkFrApp.AppEntry}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{air.com.unit9.bkFrApp/air.com.unit9.bkFrApp.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{burgerking.id.android/burgerking.id.android.activities.SplashscreenActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.bk.ch/rbi.android.app.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerking.kingfinder/com.burgerking.kingfinder.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerking.kingfinder/de.xroot.burgerking.activity.SplashScreenActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerking.turk/com.mercdev.eventicious.ui.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerkingcz/pl.looksoft.burgerking.ui.splash.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerkingpl/pl.looksoft.burgerking.ui.splash.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerkingqatar.android/com.burgerkingqatar.android.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.burgerkingqatar.android/limetray.com.tap.splash.activity.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.dom.burgerking/com.dom.burgerking.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.emn8.mobilem8.nativeapp.bk/com.emn8.mobilem8.nativeapp.bk.activities.MenuNavigationActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.emn8.mobilem8.nativeapp.bk/com.emn8.mobilem8.nativeapp.bk.BKNativeMobileApp}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.emn8.mobilem8.nativeapp.bk/com.emn8.mobilem8.nativeapp.bk.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.emn8.mobilem8.nativeapp.bk/rbi.android.app.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.expremio.burgerking/com.expremio.burgerking.BurgerKingMagyarorszGActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.frakton.burgerking/com.frakton.burgerking.activities.SplashScreenActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.nosmk.burgerking/com.nosmk.burgerking.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.nosmk.burgerking/com.nosmk.burgerking.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.nosmk.burgerking/com.usemenu.MenuAndroidApplication.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.proacit.burgerkingcolombia/com.proacit.burgerkingcolombia.activities.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.proacit.burgerkingcolombia/com.usemenu.MenuAndroidApplication.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.skylinedynamics.bk/com.skylinedynamics.bk.Splash}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.smt.BurgerKing/com.smt.BurgerKing.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.spoonstream.bklebanon/com.spoonstream.bklebanon.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.tapston.burgerking/com.tapston.burgerking.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.tillster.bk_kw_mobile/com.tillster.bk_kw_mobile.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{ie.whopper.android/com.usemenu.MenuAndroidApplication.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{in.burgerking.android/in.burgerking.android.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{it.burgerking.android/com.develon.burgerking.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{it.burgerking.android/it.burgerking.android.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{it.burgerking.android/it.burgerking.android.Splash}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{it.burgerking.android/it.burgerking.android.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{jp.co.burgerkingjapan/com.mcnc.bizmob.base.SlideFragmentActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{kr.co.burgerkinghybrid/com.mcnc.bizmob.base.SlideFragmentActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{kr.co.burgerkinghybrid/kr.co.burgerkinghybrid.SplashActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{led.android.burgerkingisrael/led.android.burgerkingisrael.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{ni.burgerking/ni.burgerking.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{ru.burgerking/ru.burgerking.feature.splash.SplashScreenActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{ru.burgerking/ru.burgerking.ui.activity.SplashScreenActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{se.burgerking.ordersapp/se.burgerking.ordersapp.MainActivity}" drawable="burger_king" name="Burger King" />
+  <item component="ComponentInfo{com.android.bbkcalculator/com.android.bbkcalculator.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.AsxCalculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Dark}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator-Light}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.CalculatorActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.CalculatorSprd}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.view.BaseActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.android.calculator2/com.dot.calculator.material.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.coloros.calculator/com.android.calculator2.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.darkempire78.opencalculator/com.darkempire78.opencalculator.MainActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.inator.calculator/com.inator.calculator.activities.MainActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.miui.calculator/.cal.CalculatorActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.NormalCalculatorActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.MainActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.oneplus.calculator/.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.oneplus.calculator/com.android.calculator2.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Deep_orange}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Grey_black}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Orange}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.motorola.cn.calculator/com.motorola.cn.calculator.Calculator}" drawable="calculator" name="calculator" />
+  <item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty" name="Call of Duty Mobile" />
+  <item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity}" drawable="call_of_duty" name="Call of Duty Mobile" />
+  <item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.agc.cam/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.arn/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/.CameraEntry}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.app.CameraApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.ArcCamera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CamcorderEntry}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CamcorderSplash}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraActivityWraper}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraActivityWrapera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraEntry}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraLoading}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CameraPre}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.CharmCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.GalleryPicker}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.IfHdmi}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.MirrorEntry}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.module.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.SecureCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.VideoCamera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera/com.android.camera.view.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera2/com.android.camera.app.CameraApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraPreView}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera2/com.android.camera.SecureCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.camera2/com.android.camera.VideoCamera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.lmc82/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.MGC_8_4_400/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.MGC_8_5_300/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.MGC_8_7_250/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.MGC.not.stable/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.mgc/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.android.MGC/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.asus.camera/.CameraApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.asus.camera/com.asus.camera.MirrorApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.apps.cameralite/com.google.android.apps.cameralite.capture.CaptureActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera.Cameight/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera.cameralite/com.google.android.apps.cameralite.capture.CaptureActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera.Urnyx/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraAcvtivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.SecureCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.VideoCamera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCameraEng/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCameraGood/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.google.android.GoogleCameraLMC/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.GoogleCamera.Burial/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.GoogleCamera.Burial31/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.GoogleCamera.mwp83/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.GoogleCamera.mwp84/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.googleCamera.Wichaya8/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.GuideActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.hmdglobal.camera2/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.honor.camera/com.honor.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.huawei.camera/com.huawei.camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/.CameraAppLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.Camcorder}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.CamcorderLoading}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraAppLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraLoading}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.CameraMain}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.CamLoading}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.lge.camera/com.lge.camera.SecureCameraApp}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.motorola.camera2/com.motorola.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.motorola.cameraone/com.motorola.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.ngcam.camera/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oneplus.camera/.OPCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.MainActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.OPCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera#0}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.OPCameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oppo.camera/.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.OppoCamera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.shamim.cam/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.MainActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Grey_black}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Orange}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sonyericsson.android.camera/.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.tcl.camera/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.transsion.camera/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{foundation.e.camera/net.sourceforge.opencamera.MainActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{net.sourceforge.opencamera/net.sourceforge.opencamera.MainActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{org.codeaurora.qcamera3/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraActivity}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{org.lineageos.selfie/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivity}" drawable="discord" name="Discord" />
+  <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivityMain}" drawable="discord" name="Discord" />
-  <item component="ComponentInfo{com.discord/com.discord.MainActivity}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="discord" name="Discord" />
+  <item component="ComponentInfo{com.discord/com.discord.MainActivity}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.screens.loading.ScreenLoading}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenAux$Main}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenLoading}" drawable="discord" name="Discord" />
@@ -145,11 +367,58 @@
   <item component="ComponentInfo{com.jio.media.ondemand/com.v18.voot.features.home.ui.JVHomeActivity}" drawable="jiocinema" name="JioCinema" />
   <item component="ComponentInfo{com.goodwy.audiobook/voice.app.features.MainActivity}" drawable="playbook" name="PlayBook" />
   <item component="ComponentInfo{com.goodwy.audiobooklite/voice.app.features.MainActivity}" drawable="playbook" name="PlayBook Lite" />
-  <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity$Main}" drawable="discord" name="Vendetta" />
+  <item component="ComponentInfo{ru.sberbankmobile/ru.sberbankmobile.section.authorization.AuthorizationActivity}" drawable="sber" name="Sberbank" />
+  <item component="ComponentInfo{ru.sberbankmobile/ru.sberbankmobile.SplashActivity}" drawable="sber" name="Sberbank" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue_grey}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Cyan}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Grey_black}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Indigo}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Light_blue}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Orange}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Pink}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Purple}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Red}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Yellow}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity}" drawable="simple_calendar" name="Simple Calendar" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue_grey}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Cyan}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_orange}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_purple}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Grey_black}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_blue}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_green}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Orange}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Pink}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Purple}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Red}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Teal}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Amber}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Blue_grey}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Blue}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Brown}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Cyan}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Deep_orange}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Deep_purple}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Green}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Grey_black}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Indigo}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Light_blue}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Light_green}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Lime}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Orange}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Pink}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Purple}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Red}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Teal}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Yellow}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity}" drawable="discord" name="Vendetta" />
+  <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity$Main}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivityMain}" drawable="discord" name="Vendetta" />
-  <item component="ComponentInfo{dev.beefers.vendetta/com.discord.MainActivity}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.main.MainActivity}" drawable="discord" name="Vendetta" />
+  <item component="ComponentInfo{dev.beefers.vendetta/com.discord.MainActivity}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.screens.loading.ScreenLoading}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.screens.ScreenAux$Main}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.screens.ScreenLoading}" drawable="discord" name="Vendetta" />
