@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <resources>
   <!-- Dynamic Calendars -->
   <calendar component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" prefix="themed_icon_calendar_" name="Calendar" />
@@ -236,6 +237,7 @@
   <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="calculator" name="Calculator" />
   <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.NormalCalculatorActivity}" drawable="calculator" name="Calculator" />
   <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.MainActivity}" drawable="calculator" name="Calculator" />
+  <item component="ComponentInfo{com.motorola.cn.calculator/com.motorola.cn.calculator.Calculator}" drawable="calculator" name="calculator" />
   <item component="ComponentInfo{com.oneplus.calculator/.Calculator}" drawable="calculator" name="Calculator" />
   <item component="ComponentInfo{com.oneplus.calculator/com.android.calculator2.Calculator}" drawable="calculator" name="Calculator" />
   <item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="calculator" name="Calculator" />
@@ -243,7 +245,6 @@
   <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Grey_black}" drawable="calculator" name="Calculator" />
   <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity.Orange}" drawable="calculator" name="Calculator" />
   <item component="ComponentInfo{com.simplemobiletools.calculator/com.simplemobiletools.calculator.activities.SplashActivity}" drawable="calculator" name="Calculator" />
-  <item component="ComponentInfo{com.motorola.cn.calculator/com.motorola.cn.calculator.Calculator}" drawable="calculator" name="calculator" />
   <item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty" name="Call of Duty Mobile" />
   <item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity}" drawable="call_of_duty" name="Call of Duty Mobile" />
   <item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="camera" name="Camera" />
@@ -355,6 +356,230 @@
   <item component="ComponentInfo{org.lineageos.aperture/org.lineageos.aperture.CameraLauncher}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{org.lineageos.selfie/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{dev.zwander.cameraxinfo/dev.zwander.cameraxinfo.MainActivity}" drawable="camerax_info" name="CameraX Info" />
+  <item component="ComponentInfo{com.canva.editor/com.canva.app.editor.splash.SplashActivity}" drawable="canva" name="Canva" />
+  <item component="ComponentInfo{com.google.chromeremotedesktop/org.chromium.chromoting.Chromoting}" drawable="chrome_remote_desktop" name="Chrome Remote Desktop" />
+  <item component="ComponentInfo{org.chromium.chrome/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Chromium" />
+  <item component="ComponentInfo{org.chromium.chrome/org.google.android.apps.chrome.Main}" drawable="google_chrome" name="Chromium" />
+  <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity_Rainbow}" drawable="citymapper" name="Citymapper" />
+  <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity}" drawable="citymapper" name="Citymapper" />
+  <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="clock" name="Clock" />
+  <item component="ComponentInfo{com.best.deskclock/com.best.deskclock.DeskClock}" drawable="desk_clock" name="Clock" />
+  <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" name="Clock" />
+  <item component="ComponentInfo{com.motorola.cn.deskclock/com.motorola.cn.deskclock.DeskClock}" drawable="clock" name="clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.alarm.Alarm}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.AlarmActivity}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.ClockPackage}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.common.activity.ClockPackage VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.common.activity.ClockPackage}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.TabletClockPackage}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.app.clockpackage.TabletClockPackageWC}" drawable="samsung_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Amber}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Blue_grey}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Blue}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Brown}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Cyan}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Deep_orange}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Deep_purple}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Green}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Grey_black}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Indigo}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Light_blue}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Light_green}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Lime}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Orange}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Pink}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Purple}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Red}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Teal}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity.Yellow}" drawable="simple_clock" name="Clock" />
+  <item component="ComponentInfo{com.simplemobiletools.clock/com.simplemobiletools.clock.activities.SplashActivity}" drawable="simple_clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/.AlarmsMainActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/.DeskClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.clock.Clock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.clock.Clockk}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmsMainActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.ClockActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.ClockPackage}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.ClockTabStyle}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockGroupActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockMainActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClockTabActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.InitTab}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.MainActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.MultiClockTab}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.StopwatchActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.deskclock.TabDetails}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.main.TabsActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.android.worldclock.TYClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.apalon.myclockfree.MainActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.hisense.timetools.TimeToolsMainActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.jrdcom.timetool.TimeToolActivity}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.android.deskclock/com.pantech.app.clock.ClockLauncher}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.coloros.alarmclock/com.coloros.alarmclock.AlarmClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.coloros.alarmclock/com.oplus.alarmclock.AlarmClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" drawable="clock" name="Clock" />
+  <item drawableIgnore="true" component="ComponentInfo{com.oneplus.deskclock/com.oplus.alarmclock.AlarmClock}" drawable="clock" name="Clock" />
+  <item component="ComponentInfo{com.lagradost.cloudstream3/com.lagradost.cloudstream3.MainActivity}" drawable="cloudstream" name="Cloudstream" />
+  <item component="ComponentInfo{com.lagradost.cloudstream3.prerelease/com.lagradost.cloudstream3.MainActivity}" drawable="cloudstream" name="Cloudstream Beta" />
+  <item component="ComponentInfo{com.lagradost.cloudstream3.prerelease.debug/com.lagradost.cloudstream3.MainActivity}" drawable="cloudstream" name="CloudStream Debug" />
+  <item component="ComponentInfo{com.ryzac.codecademygo/host.exp.exponent.MainActivity}" drawable="codecademy_go" name="Codecademy Go" />
+  <item component="ComponentInfo{com.github.muellerma.coffee/com.github.muellerma.coffee.activities.MainActivity}" drawable="coffee" name="Coffee" />
+  <item component="ComponentInfo{com.github.muellerma.coffee/com.github.muellerma.coffee.MainActivity}" drawable="coffee" name="Coffee" />
+  <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.LaunchActivity}" drawable="coinbase" name="Coinbase" />
+  <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.MainActivity}" drawable="coinbase" name="Coinbase" />
+  <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.signin.IntroActivity}" drawable="coinbase" name="Coinbase" />
+  <item component="ComponentInfo{org.toshi/org.toshi.MainActivity}" drawable="coinbase_wallet" name="Coinbase Wallet" />
+  <item component="ComponentInfo{asia.coins.mobile/com.coins.coinsapp.views.MainActivity}" drawable="coins_ph" name="Coins.ph" />
+  <item component="ComponentInfo{asia.coins.mobile/com.coins.coinsapp.views.SplashActivity}" drawable="coins_ph" name="Coins.ph" />
+  <item component="ComponentInfo{com.collabora.libreoffice/com.collabora.libreoffice.LibreOfficeMainActivity}" drawable="collabora_office" name="Collabora Office" />
+  <item component="ComponentInfo{com.collabora.libreoffice/com.collabora.libreoffice.ui.LibreOfficeUIActivity}" drawable="collabora_office" name="Collabora Office" />
+  <item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.androidapp.ui.LibreOfficeUIActivity}" drawable="collabora_office" name="Collabora Office" />
+  <item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.LibreOfficeMainActivity}" drawable="collabora_office" name="Collabora Office" />
+  <item component="ComponentInfo{com.collabora.libreoffice/org.libreoffice.ui.LibreOfficeUIActivity}" drawable="collabora_office" name="Collabora Office" />
+  <item component="ComponentInfo{com.bobek.compass/com.bobek.compass.MainActivity}" drawable="compass" name="Compass" />
+  <item component="ComponentInfo{com.coloros.compass2/com.coloros.compass.flat.FlatCompass}" drawable="compass" name="Compass" />
+  <item component="ComponentInfo{com.miui.compass/com.miui.compass.CompassActivity}" drawable="compass" name="Compass" />
+  <item component="ComponentInfo{com.miui.compass/com.miui.compass.MainActivity}" drawable="compass" name="Compass" />
+  <item component="ComponentInfo{com.motorola.cn.compass/com.motorola.cn.compass.CompassActivity}" drawable="compass" name="Compass" />
+  <item component="ComponentInfo{dev.synapsetech.compass/dev.synapsetech.compass.MainActivity}" drawable="compass" name="Compass" />
+  <item component="ComponentInfo{com.bnyro.contacts/com.bnyro.contacts.ui.MainActivity}" drawable="contacts" name="Connect You" />
+  <item component="ComponentInfo{com.android.contacts/.activities.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/.activities.PeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/.activities.TwelveKeyDialer}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.ContactFrontDoor}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.ContactSelectionActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.NonPhoneActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.PeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.CallLogActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsFrontDoor}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactsToDialerActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.ContactTabBrowserActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.DialerActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.FineOSPeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.LenovoStyleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PCUDialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivityEx}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PhoneFrontDoor}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDiale}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.WtDialerActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.att.ATTContactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.BaiJiaXingActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.BbDialtactsMainFrameActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallDialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLog}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLogActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLogLauncherActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.CallLogShortcut}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactHostActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityEx}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsListActivityLauncher}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ContactsMainFromHomeActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.dialer.DialerPhoneActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialerActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallListEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallLogEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsCallsEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.Dialtactscontacts_blueEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForDialpad}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsContactsEntryActivityForRecentCalls}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsDialerEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsPhoneEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentCallsListActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsRecentEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.ice.IcePeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.LaunchCallLogActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.mainlist.PeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.MmsConversationActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.PeopleActivityAlias}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.PhoneContactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.PhoneDialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallLogLaunchActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsLauncherActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsListActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDailerActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.SmartDialerListActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.tmo.LaunchCommunityActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.TransparentActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.TwelveKeyDialer}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.dcm.DCMActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.dialer.activities.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.dialer.app.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.dialer.DialtactsActivity VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.dialer.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.internal.app.ResolverActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.mms.ui.ConversationList}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.android.mms.ui.SearchActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.app.contacts.PhoneBookTopMenuActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.com.android.contacts.activities.TwelveKeyDialersec.android.app.contacts.PhoneBookTopMenuActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.jeffprod.cubesolver.MainActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPDialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.oppo.contacts.OppoDialtactsActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.ContactListActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.contacts_blueEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.ContactsEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.DialerEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.GroupMemberListActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookSplitTopMenuActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.PhoneBookTopMenuActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.android.contacts/com.sec.android.app.contacts.RecntcallEntryActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="google_contacts" name="Contacts" />
+  <item component="ComponentInfo{de.rki.coronawarnapp/de.rki.coronawarnapp.ui.launcher.LauncherActivity}" drawable="corona_warn" name="Corona-Warn" />
+  <item component="ComponentInfo{de.rki.coronawarnapp/de.rki.coronawarnapp.ui.LauncherActivity}" drawable="corona_warn" name="Corona-Warn" />
+  <item component="ComponentInfo{nl.rijksoverheid.ctr.holder/nl.rijksoverheid.ctr.holder.HolderMainActivity}" drawable="coronacheck" name="CoronaCheck" />
+  <item component="ComponentInfo{de.rki.covpass.app/de.rki.covpass.app.main.MainActivity}" drawable="covpass" name="CovPass" />
+  <item component="ComponentInfo{com.cpuid.cpu_z/com.cpuid.cpu_z.MainActivity}" drawable="cpu_z" name="CPU Z" />
+  <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activities.SplashActivity}" drawable="crunchyroll" name="Crunchyroll" />
+  <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.activity.SplashActivity}" drawable="crunchyroll" name="Crunchyroll" />
+  <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.ui.views.activities.SplashActivity}" drawable="crunchyroll" name="Crunchyroll" />
+  <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.neo.android.activity.DelegatingActivity}" drawable="crunchyroll" name="Crunchyroll" />
+  <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity}" drawable="crunchyroll" name="Crunchyroll" />
+  <item component="ComponentInfo{com.imaginecurve.curve.prd/com.imaginecurve.curve.main.MainActivity}" drawable="curve" name="Curve" />
+  <item component="ComponentInfo{com.dark.papers/com.dark.papers.MainActivity}" drawable="darkpapers" name="DarkPapers" />
+  <item component="ComponentInfo{com.kieronquinn.app.darq/com.kieronquinn.app.darq.activities.MainActivity}" drawable="darq" name="DarQ" />
+  <item component="ComponentInfo{com.kieronquinn.app.darq/com.kieronquinn.app.darq.ui.activities.DarqActivity}" drawable="darq" name="DarQ" />
+  <item component="ComponentInfo{com.dashlane/com.dashlane.ui.activities.BrowserLaucherDispatcher}" drawable="dashlane" name="Dashlane" />
+  <item component="ComponentInfo{com.dashlane/com.dashlane.ui.activities.BrowserLauncherDispatcher}" drawable="dashlane" name="Dashlane" />
+  <item component="ComponentInfo{com.dashlane/com.dashlane.ui.activities.SplashScreen}" drawable="dashlane" name="Dashlane" />
+  <item component="ComponentInfo{com.dashlane/com.dashlane.ui.activities.SplashScreenActivity}" drawable="dashlane" name="Dashlane" />
+  <item component="ComponentInfo{com.drnoob.datamonitor/com.drnoob.datamonitor.ui.activities.SetupActivity}" drawable="data_monitor" name="Data Monitor" />
+  <item component="ComponentInfo{com.deepl.mobiletranslator/com.deepl.mobiletranslator.MainActivity}" drawable="deepl" name="DeepL" />
+  <item component="ComponentInfo{com.example.deeplviewer/com.example.deeplviewer.MainActivity}" drawable="deepl" name="DeepL" />
+  <item component="ComponentInfo{com.jamal2367.deepl/com.jamal2367.deepl.MainActivity}" drawable="deepl" name="DeepL" />
+  <item component="ComponentInfo{deezer.android.app/com.deezer.android.ui.activity.LauncherActivity}" drawable="deezer" name="Deezer" />
+  <item component="ComponentInfo{deezer.android.app/com.deezer.android.ui.activity.RIzkE}" drawable="deezer" name="Deezer" />
+  <item component="ComponentInfo{deezer.android.app/deezer.android.app.DZMidlet}" drawable="deezer" name="Deezer" />
+  <item component="ComponentInfo{deezer.android.app/dz.ApplicationScreens}" drawable="deezer" name="Deezer" />
+  <item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.MainActivity}" drawable="delta_icons" name="Delta" />
+  <item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.MuzeiActivity}" drawable="delta_icons" name="Delta" />
+  <item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.SplashActivity}" drawable="delta_icons" name="Delta" />
+  <item component="ComponentInfo{website.leifs.delta/website.leifs.delta.activities.StartActivity}" drawable="delta_icons" name="Delta" />
+  <item component="ComponentInfo{com.deviantart.android.damobile/com.deviantart.android.damobile.activity.HomeActivity}" drawable="deviantart" name="DeviantArt" />
+  <item component="ComponentInfo{ru.andr7e.deviceinfohw/ru.andr7e.deviceinfohw.MainActivity}" drawable="device_info_hw" name="Device Info HW" />
+  <item component="ComponentInfo{com.digilocker.android/in.gov.digilocker.views.mainactivity.SplashScreenActivity}" drawable="digilocker" name="DigiLocker" />
+  <item component="ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.settings.LauncherActivity}" drawable="digital_wellbeing" name="Digital Wellbeing" />
+  <item component="ComponentInfo{com.samsung.android.forest/com.samsung.android.forest.launcher.LauncherActivity}" drawable="digital_wellbeing" name="Digital Wellbeing" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivity}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivityMain}" drawable="discord" name="Discord" />
@@ -364,9 +589,367 @@
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenAux$Main}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenLoading}" drawable="discord" name="Discord" />
   <item component="ComponentInfo{com.discord/com.discord.screens.ScreenMain}" drawable="discord" name="Discord" />
+  <item component="ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}" drawable="disneyplus" name="Disney+" />
+  <item component="ComponentInfo{com.disneyplus.mea/com.hotstar.MainActivity}" drawable="disneyplus" name="Disney+" />
+  <item component="ComponentInfo{in.startv.hotstar.dplus/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar.dplus/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar/com.hotstar.MainActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar/com.hotstar.MainActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.activities.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.activities.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
+  <item component="ComponentInfo{com.dolby.dolby234/com.dolby.sessions.Launcher}" drawable="dolby_on" name="Dolby On" />
+  <item component="ComponentInfo{by.mc.dominos.com/by.mc.dominos.com.Dominos}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.boloid.dominos/com.boloid.dominos.activities.SplashActivity_}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.boloid.dominos/com.boloid.dominos.activities.StartupActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.boloid.dominos/com.boloid.dominos.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.boloid.dominos/tr.com.dominos.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominos.bd/com.Dominos.activity.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominos.sa/com.dominos.activities.InitialLaunchActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominos.sa/com.dominos.sa.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.Dominos/com.Dominos.activity.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.Dominos/com.Dominos.Dominos}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.Dominos/com.Dominos.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.Dominos/com.Dominos.tyroo.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominospizza.az/com.dominospizza.az.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominospizza/com.dominos.activities.InitialLaunchActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominospizza/com.dominos.activities.SplashScreenActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominospizza/com.dominos.loadingscreen.HomeActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominospizza/com.dominos.loadingscreen.InitialLaunchActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.dominospizza/com.dominospizza.activities.InitialLaunchActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.phonegap.dominos/com.phonegap.dominos.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.phonegap.dominos/com.phonegap.dominos.SplashScreenActivity_}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{com.phonegap.dominos/com.phonegap.dominos.ui.splash.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{dominos.main/com.iproject.dominos.SplashScreen}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{dominos.main/com.iproject.dominos.ui.splash.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{dominos.main/dominos.main.LoginActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{il.co.dominos.android/il.co.dominos.android.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{is.stokkur.dominos/app.stokkur.dominos.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{is.stokkur.dominos/dominos.activity.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{is.stokkur.dominos/is.stokkur.dominos.activity.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{nl.speakap.dominosdeutschland/com.speakap.ui.activities.LauncherActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{pk.com.dominos/pk.com.dominos.Activities.Splash}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{pk.com.dominos/pk.com.dominos.MainActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{ua.com.coxo.dominos/io.fitel.dominos.activity.LaunchActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{ua.com.coxo.dominos/io.fitel.dominos.general.activity.LaunchActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{uk.co.dominos.android/com.futureplatforms.dominos.android.activities.KickOffActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{uk.co.dominos.android/com.futureplatforms.dominos.android.KickOffActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{uk.co.dominos.android/uk.co.dominos.android.BLUE}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{uk.co.dominos.android/uk.co.dominos.android.NORMAL}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{uk.co.dominos.android/uk.co.dominos.android.ui.screens.splash.SplashActivity}" drawable="dominos" name="Domino's Pizza" />
+  <item component="ComponentInfo{xyz.zedler.patrick.doodle/xyz.zedler.patrick.doodle.activity.LauncherActivity}" drawable="doodle" name="Doodle" />
+  <item component="ComponentInfo{xyz.zedler.patrick.doodle/xyz.zedler.patrick.doodle.activity.SplashActivity}" drawable="doodle" name="Doodle" />
+  <item component="ComponentInfo{com.softwarebakery.drivedroid/com.softwarebakery.drivedroid.MainActivity}" drawable="drivedroid" name="DriveDroid" />
+  <item component="ComponentInfo{com.androidfung.drminfo/com.androidfung.drminfo.MobileActivity}" drawable="drm_info" name="DRM Info" />
+  <item component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}" drawable="droidify" name="Droid-ify" />
+  <item component="ComponentInfo{com.looker.droidify/com.looker.droidify.ui.activities.MainActivityX}" drawable="droidify" name="Droid-ify" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.Launcher}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherBlack}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherBlue}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherGold}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherGreen}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherPurple}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherSilhoutte}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.onboarding.ui.OnboardingActivity}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.LaunchActivity}" drawable="duolingo" name="Duolingo" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.LoginActivity}" drawable="duolingo" name="Duolingo" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSocietyLauncher}" drawable="duolingo" name="Duolingo" />
+  <item component="ComponentInfo{com.done.faasos/com.done.faasos.activity.SplashActivity}" drawable="eatsure" name="EatSure" />
+  <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay}" drawable="ebay" name="eBay" />
+  <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay$}" drawable="ebay" name="eBay" />
+  <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}" drawable="ebay" name="eBay" />
+  <item component="ComponentInfo{im.vector.app/im.vector.app.features.Alias}" drawable="element" name="Element" />
+  <item component="ComponentInfo{im.vector.app/im.vector.app.features.MainActivity}" drawable="element" name="Element" />
+  <item component="ComponentInfo{im.vector.app/im.vector.application.features.Alias}" drawable="element" name="Element" />
+  <item component="ComponentInfo{im.vector.app/im.vector.riotx.features.Alias}" drawable="element" name="Element" />
+  <item component="ComponentInfo{com.exteragram.messenger/com.exteragram.messenger.DefaultIcon}" drawable="exteragram" name="exteraGram" />
+  <item component="ComponentInfo{com.exteragram.messenger/org.telegram.ui.LaunchActivity}" drawable="exteragram" name="exteraGram" />
+  <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.FDroid}" drawable="fdroid" name="F-Droid" />
+  <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="fdroid" name="F-Droid" />
+  <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.activity.media.CameraLauncherActivity}" drawable="facebook" name="Facebook" />
+  <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="facebook" name="Facebook" />
+  <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.orca.ThreadListLauncherActivity}" drawable="facebook" name="Facebook" />
+  <item component="ComponentInfo{com.facebook.lite/com.dzebb.handler.a}" drawable="facebook" name="Facebook" />
+  <item component="ComponentInfo{com.facebook.lite/com.facebook.lite.MainActivity}" drawable="facebook" name="Facebook" />
+  <item component="ComponentInfo{eu.faircode.email/eu.faircode.email.ActivityMain}" drawable="fairemail" name="FairEmail" />
+  <item component="ComponentInfo{com.netflix.Speedtest/com.netflix.Speedtest.MainActivity}" drawable="fast" name="Fast" />
+  <item component="ComponentInfo{com.nononsenseapps.feeder.play/com.nononsenseapps.feeder.ui.FeedActivity}" drawable="feeder" name="Feeder" />
+  <item component="ComponentInfo{com.nononsenseapps.feeder.play/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder" name="Feeder" />
+  <item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.FeedActivity}" drawable="feeder" name="Feeder" />
+  <item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder" name="Feeder" />
+  <item component="ComponentInfo{org.mozilla.fennec_fdroid/org.mozilla.fennec_fdroid.App}" drawable="fennec" name="Fennec" />
+  <item component="ComponentInfo{de.marmaro.krt.ffupdater/de.marmaro.krt.ffupdater.MainActivity}" drawable="ffupdater" name="FFUpdater" />
+  <item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.ui.deeplink.DeeplinkActivity.Pay}" drawable="fi_money" name="Fi Money" />
+  <item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.ui.deeplink.DeeplinkActivity}" drawable="fi_money" name="Fi Money" />
+  <item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.ui.splash.SplashActivity}" drawable="fi_money" name="Fi Money" />
+  <item component="ComponentInfo{com.alphainventor.filemanager/com.alphainventor.filemanager.activity.MainActivity}" drawable="file_manager_plus" name="File Manager Plus" />
+  <item component="ComponentInfo{com.android.documentsui/.LauncherActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.BqLauncherActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.files.FilesActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.files.LauncherActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.Launcher}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.Launcher2Activity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.StandaloneLauncherActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.activities.NavigationActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManager}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FileManagerActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.FirstPermissionActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.MainActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.android.filemanager/com.android.filemanager.MyFile}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.coloros.filemanager/com.oplus.filemanager.main.ui.MainActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.huawei.hidisk/.filemanager.FileManager}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.huawei.hidisk/com.huawei.android.hicloud.ui.activity.NewHiSyncSettingAliasActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.filemanager.FileManager}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.huawei.hidisk/com.huawei.hidisk.Main}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.marc.files/nl.marc_apps.files.MainActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.oneplus.filemanager/.HomePageActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.oneplus.filemanager/com.oplus.filemanager.main.ui.MainActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.oneplus.filemanager/com.oplus.filemanager.main.ui.MainActivity#0}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.sec.android.app.myfiles/.external.ui.MainActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}" drawable="files" name="Files" />
+  <item component="ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{org.aospstudio.files/com.aospstudio.shortcuts.MainActivity}" drawable="files" name="Files" />
+  <item component="ComponentInfo{org.aospstudio.files/org.aospstudio.files.FileManager}" drawable="files" name="Files" />
+  <item component="ComponentInfo{com.google.android.apps.nbu.files/.home.HomeActivity}" drawable="files_by_google" name="Files by Google" />
+  <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="files_by_google" name="Files by Google" />
+  <item component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.activities.MainActivity}" drawable="find_my_device" name="Find My Device" />
+  <item component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.MainActivity}" drawable="find_my_device" name="Find My Device" />
+  <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="firefox" name="Firefox" />
+  <item component="ComponentInfo{org.mozilla.firefox_beta/org.mozilla.firefox_beta.App}" drawable="firefox_beta" name="Firefox Beta" />
+  <item component="ComponentInfo{com.imageline.FLM/com.imageline.FLM.FLMActivity}" drawable="fl_studio_mobile" name="FL Studio Mobile" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher1}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher11}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher2}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher3}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher4}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher5}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher6}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher7}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.Launcher9}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.MainActivity}" drawable="flamingo" name="Flamingo" />
+  <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.Flipkart}" drawable="flipkart" name="FlipKart" />
+  <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.SplashActivity}" drawable="flipkart" name="FlipKart" />
+  <item component="ComponentInfo{dev.patrickgold.florisboard/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard" />
+  <item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Beta" />
+  <item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Debug" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmMainActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FmRadioActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.FMRadioActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.InfinixFmMainActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.MeituFmMainActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.android.fmradio/com.android.fmradio.ui.FmMainActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.caf.fmradio/com.caf.fmradio.FMRadio}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.caf.fmradio/com.caf.fmradio.FMTransmitterActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.caf.fmradio/com.caf.fmradio.LewaFMRadio}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.caf.fmradio/com.caf.fmradio.SplashActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmRadioActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.motorola.fmplayer/com.motorola.fmplayer.ChangeThemeActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.motorola.fmplayer/com.motorola.fmplayer.FMMainActivity}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.motorola.fmplayer/com.motorola.fmplayer.FMPlayer}" drawable="fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.superelement.pomodoro/com.superelement.project.LauncherActivity}" drawable="focus_todo" name="Focus To-Do" />
+  <item component="ComponentInfo{com.superelement.pomodoro/com.superelement.project.ProjectActivity}" drawable="focus_todo" name="Focus To-Do" />
+  <item component="ComponentInfo{app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons" />
+  <item component="ComponentInfo{app.lawnchair.lawnicons.light/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons (light)" />
+  <item component="ComponentInfo{com.franco.kernel/a.spl}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/a.spl/com.franco.kernel.activities.SplashActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.activities.MainActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.activities.SplashActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.MainActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.Old}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.Original}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.WelcomeScreens.WelcomeScreenPager}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.license.check.LicenseCheckz}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.LicenseCheck}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.Main}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{com.franco.kernel/franco.KernelActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{f.f.freezer/f.f.freezer.MainActivity}" drawable="deezer" name="Freezer" />
   <item component="ComponentInfo{com.jio.media.ondemand/com.v18.voot.features.home.ui.JVHomeActivity}" drawable="jiocinema" name="JioCinema" />
+  <item component="ComponentInfo{com.ebay.kleinanzeigen/com.ebay.kleinanzeigen.SplashScreenActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
+  <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.home.HomeActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
+  <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.SplashActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
+  <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
+  <item component="ComponentInfo{com.oplus.dialer/com.android.contacts.DialtactsActivityAlias}" drawable="google_phone" name="ODialer" />
+  <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivityAlias}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/.app.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/.main.impl.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com_android_dialer_dialtactsactivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.contacts.activities.PeopleActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dcm.Dialer}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.activities.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.activities.PCUDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.alias.ContactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.allContactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.app.calllog.CallLogActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.app.ContactsTabByAlias}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.calllog.CallLogActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.Contacts}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.ContactsAcitivy}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialerCallLogActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.dialpad}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivityKc}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsCallLogEntryActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.filterednumber.FirewallActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.FtDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.HQDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.LaunchContactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.PCUDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.PeopleActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.PhoneContactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.SamsungContactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.dialer.TwelveKeyDialer}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.diales.main.impl.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.android.mms.ui.ConversationList}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.mediatek.dialer.calllogex.CallLogActivityEx}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.meitu.mobile.contacts.dialer.activities.MeiosDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.oneplus.contacts.activities.OPDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.dialer/com.ontim.dialer.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.incallui}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.incallui/.DialerLauncher}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.incallui/com.android.incallui.DialerLauncher}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.incallui/com.android.incallui.help.VoiceAndVideoCallTutorial}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.android.phone}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.AutoForward}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.AutoForwarding}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CallFeaturesSetting}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.AccessorySettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.AnsweringCall}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.AutoRejectList}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.AutoRejectVideoCallList}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.CallAlert}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.CallBarring}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.CallSettingsTabFragment}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.CallTypeSelectForBarring}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.CallTypeSelectForForwarding}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.CaptureImageViewer}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.EditAutoRejectScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.EditAutoRejectVideoCallScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.EditRejectCallWithMsgScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.GsmUmtsVideoCallForwardOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.IpCall}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.IpCallCmda}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.OverturnTutorialIncallScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.PresetImage}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.RejectCallWithMsg}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.callsettings.SoundEQDialog}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CallSoundPrefernce}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CellBroadcastSms}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CmdaAdditionalCallOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CmdaCallOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CmdaOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CurrentNetwork}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.CurrentNetworkGsm}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.DialerSClass}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsCallLogActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.DialtactsContactsEntryActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.dualsim.SmartCallActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.EmergencyCallbackModeExitDialog}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.EmergencyCallList}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.EmergencyDialer}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.EmergencyOutgoingCallBroadcaster}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.Enhanced4GLTE}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.external.HelpScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.FdnList}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.firewall.PhoneFireWall}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.GsmUmtsAdditionalCallOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.GsmUmtsCallForwardOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.GsmUmtsCallOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.GsmUmtsOptions}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.help.callsettings.CallSettingsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.IMSConferenceCallActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.InCallScreenShowActivation}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.IncomingCallTutorialIncallScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.InternationalRoamingSetting}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.KTAddedServiceActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.KTCallForwardingAll}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.KTCallForwardingConditional}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.KTCallWaiting}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.KTInboxActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.LaunchCallInterface}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.LaunchRecentCallsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.lct.HtcCallForwardSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.LGTCountryList}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.LGTSetAutoDialing}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.LGTUwaVideoCall}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.ManualSystemAviodance}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.MobileNetworkSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.MobileNetworkSettingsTab}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.NetworkSelection}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.NetworkSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.OutgoingCallBroadcaster}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.PhoneApp}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.PhoneNumberLocator}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.PhotoRingScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.PrivilegedOutgoingCallBroadcaster}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RecentCallsListActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RejectCallWithMsg}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RejectwithMessageTutorialIncallScreen}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.ResponsViaSmsManager$Settings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.Roaming}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RoamingAutoDialMainActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RoamingAutoDialOption}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RoamingAutoDialSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RoamingAutoDialSubActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RoamingGuard}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.RoamingSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.settings.autoforward.AutoForwardSetting}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.Settings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.SimContacts}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.sip.SipSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.SmartCallActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.TwDialer}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.android.phone.VoicemailNumberFragment}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.mediatek.settings.AutoForward}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.mediatek.settings.CallRejectSetting}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.android.phone/com.mediatek.settings.PhoneRecoderSettings}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.asus.asusincallui/com.android.asusincallui.DialerLauncher}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.asus.dialer/com.android.contacts.activities.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.chooloo.www.koler/com.chooloo.www.koler.ui.main.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.contacts.common.dialog.CallSubjectDialog}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.activities.CallLogActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.app.CallDetailActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.CallDetailActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.DialtactsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.android.dialer.RecentCallsListActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.apps.dialer.calllog.GoogleCallDetailActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.apps.dialer.extensions.GoogleDialtactsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.activities.CallLogActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.calllog.GoogleCallDetailActiviy}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.DialtactsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.RecentCallsListActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.google.android.dialer/com.google.android.libraries.social.licenses.LicenseMenuActivity}" drawable="google_phone" name="Phone" />
+  <item component="ComponentInfo{com.oneplus.dialer/com.android.dialer.oneplus.activity.OPDialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.sh.smart.caller/com.android.dialer.main.impl.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.DialtactsActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.truecaller/com.truecaller.messaging.MessagesActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.truecaller/com.truecaller.ui.TruecallerInit}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.truecaller/com.truecaller.ui.TruecallerUI}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.truecaller/com.truecaller.ui.TrueCallerUI}" drawable="dialer" name="Phone" />
   <item component="ComponentInfo{com.goodwy.audiobook/voice.app.features.MainActivity}" drawable="playbook" name="PlayBook" />
   <item component="ComponentInfo{com.goodwy.audiobooklite/voice.app.features.MainActivity}" drawable="playbook" name="PlayBook Lite" />
+  <item component="ComponentInfo{com.radio.fmradio/com.radio.fmradio.activities.SplashActivity}" drawable="fm_radio" name="Radio FM - Podcast App" />
+  <item component="ComponentInfo{com.radio.fmradio/com.radio.fmradio.InitFM}" drawable="fm_radio" name="Radio FM - Podcast App" />
+  <item component="ComponentInfo{com.radio.fmradio/com.radio.fmradio.RadioFM}" drawable="fm_radio" name="Radio FM - Podcast App" />
+  <item component="ComponentInfo{com.goodwy.dialer/com.goodwy.dialer.activities.SplashActivity.Orange}" drawable="dialer" name="Right Dialer" />
   <item component="ComponentInfo{ru.sberbankmobile/ru.sberbankmobile.section.authorization.AuthorizationActivity}" drawable="sber" name="Sberbank" />
   <item component="ComponentInfo{ru.sberbankmobile/ru.sberbankmobile.SplashActivity}" drawable="sber" name="Sberbank" />
   <item component="ComponentInfo{com.simplemobiletools.calendar/com.simplemobiletools.calendar.activities.SplashActivity.Blue_grey}" drawable="simple_calendar" name="Simple Calendar" />
@@ -394,6 +977,45 @@
   <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Purple}" drawable="simple_calendar" name="Simple Calendar Pro" />
   <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Red}" drawable="simple_calendar" name="Simple Calendar Pro" />
   <item component="ComponentInfo{com.simplemobiletools.calendar.pro/com.simplemobiletools.calendar.pro.activities.SplashActivity.Teal}" drawable="simple_calendar" name="Simple Calendar Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Amber}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Blue_grey}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Blue}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Brown}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Cyan}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Deep_orange}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Deep_purple}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Green}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Grey_black}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Indigo}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Light_blue}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Light_green}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Lime}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Orange}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Pink}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Purple}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Red}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Teal}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity.Yellow}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts/com.simplemobiletools.contacts.activities.SplashActivity}" drawable="contacts" name="Simple Contacts" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Amber}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Blue_grey}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Blue}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Brown}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Cyan}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Deep_orange}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Deep_purple}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Green}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Grey_black}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Indigo}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Light_blue}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Light_green}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Lime}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Orange}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Pink}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Purple}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Red}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Teal}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Yellow}" drawable="contacts" name="Simple Contacts Pro" />
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Amber}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Blue_grey}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Blue}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
@@ -414,6 +1036,7 @@
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Teal}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Yellow}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
+  <item component="ComponentInfo{org.ungoogled.chromium.stable/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Ungoogled Chromium" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity$Main}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivityMain}" drawable="discord" name="Vendetta" />

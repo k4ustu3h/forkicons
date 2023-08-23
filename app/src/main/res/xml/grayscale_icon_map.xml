@@ -1,114 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <icons>
-    <icon name="CameraX Info" drawable="@drawable/cameraxinfo" package="dev.zwander.cameraxinfo" />
-    <icon name="Canva" drawable="@drawable/canva" package="com.canva.editor" />
-    <icon name="Catogram" drawable="@drawable/catogram_x" package="org.nift4.catox" />
-    <icon name="Catogram" drawable="@drawable/catogram" package="ua.itaysonlab.messenger" />
-    <icon name="Chrome Remote" drawable="@drawable/chrome_remote" package="com.google.chromeremotedesktop" />
-    <icon name="Chromium" drawable="@drawable/chromium" package="org.chromium.chrome" />
-    <icon name="Chromium" drawable="@drawable/chromium" package="org.ungoogled.chromium.stable" />
-    <icon name="Citymapper" drawable="@drawable/citymapper" package="com.citymapper.app.release" />
-    <icon name="Clock" drawable="@drawable/clock" package="com.android.deskclock" />
-    <icon name="Cloudstream Beta" drawable="@drawable/cloudstream" package="com.lagradost.cloudstream3.prerelease" />
-    <icon name="Cloudstream" drawable="@drawable/cloudstream" package="com.lagradost.cloudstream3" />
-    <icon name="Codecademy Go" drawable="@drawable/codecademy_go" package="com.ryzac.codecademygo" />
-    <icon name="Coffee" drawable="@drawable/coffee" package="com.github.muellerma.coffee" />
-    <icon name="Coinbase Wallet" drawable="@drawable/coinbase_wallet" package="org.toshi" />
-    <icon name="Coinbase" drawable="@drawable/coinbase" package="com.coinbase.android" />
-    <icon name="Coins.ph" drawable="@drawable/coins_ph" package="asia.coins.mobile" />
-    <icon name="Coinvero" drawable="@drawable/coinvero" package="com.candlestick_app" />
-    <icon name="Collabora Office" drawable="@drawable/collabora_office" package="com.collabora.libreoffice" />
-    <icon name="Compass" drawable="@drawable/compass" package="com.miui.compass" />
-    <icon name="Compass" drawable="@drawable/compass" package="dev.synapsetech.compass" />
-    <icon name="Contacts" drawable="@drawable/contacts" package="com.android.contacts" />
-    <icon name="Contacts" drawable="@drawable/google_contacts" package="com.google.android.contacts" />
-    <icon name="Corona-Warn" drawable="@drawable/corona_warn" package="de.rki.coronawarnapp" />
-    <icon name="CoronaCheck" drawable="@drawable/coronacheck" package="nl.rijksoverheid.ctr.holder" />
-    <icon name="CovPass" drawable="@drawable/covpass" package="de.rki.covpass.app" />
-    <icon name="CPU Z" drawable="@drawable/cpu_z" package="com.cpuid.cpu_z" />
-    <icon name="Crunchyroll" drawable="@drawable/crunchyroll" package="com.crunchyroll.crunchyroid" />
-    <icon name="Curve" drawable="@drawable/curve" package="com.imaginecurve.curve.prd" />
-    <icon name="DarkPapers" drawable="@drawable/darkpapers" package="com.dark.papers" />
-    <icon name="DarQ" drawable="@drawable/darq" package="com.kieronquinn.app.darq" />
-    <icon name="Dashlane" drawable="@drawable/dashlane" package="com.dashlane" />
-    <icon name="Data Monitor" drawable="@drawable/data_monitor" package="com.drnoob.datamonitor" />
-    <icon name="Deepl" drawable="@drawable/deepl" package="com.deepl.mobiletranslator" />
-    <icon name="Deezer" drawable="@drawable/deezer" package="deezer.android.app" />
-    <icon name="Delta" drawable="@drawable/delta_icons" package="website.leifs.delta" />
-    <icon name="DeviantArt" drawable="@drawable/deviantart" package="com.deviantart.android.damobile" />
-    <icon name="Device Info HW" drawable="@drawable/deviceinfohw" package="ru.andr7e.deviceinfohw" />
-    <icon name="Dialer" drawable="@drawable/dialer" package="com.truecaller" />
-    <icon name="Digital Wellbeing" drawable="@drawable/digital_wellbeing" package="com.google.android.apps.wellbeing" />
-    <icon name="Disney+ Hotstar" drawable="@drawable/hotstar" package="in.startv.hotstar.dplus" />
-    <icon name="Disney+ Hotstar" drawable="@drawable/hotstar" package="in.startv.hotstar" />
-    <icon name="Disney+" drawable="@drawable/disneyplus" package="com.disney.disneyplus" />
-    <icon name="DodoCodes" drawable="@drawable/dodocodes" package="com.dodocodes.mobile" />
-    <icon name="Dolby On" drawable="@drawable/dolby_on" package="com.dolby.dolby234" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="by.mc.dominos.com" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.boloid.dominos" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.dominos.bd" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.dominos.sa" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.Dominos" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.dominospizza.az" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.dominospizza" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="com.phonegap.dominos" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="dominos.main" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="il.co.dominos.android" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="is.stokkur.dominos" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="nl.speakap.dominosdeutschland" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="pk.com.dominos" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="ua.com.coxo.dominos" />
-    <icon name="Domino's Pizza" drawable="@drawable/dominos" package="uk.co.dominos.android" />
-    <icon name="Doodle" drawable="@drawable/doodle" package="xyz.zedler.patrick.doodle" />
-    <icon name="DriveDroid" drawable="@drawable/drivedroid" package="com.softwarebakery.drivedroid" />
-    <icon name="DRM Info" drawable="@drawable/drm_info" package="com.androidfung.drminfo" />
-    <icon name="Droid-ify" drawable="@drawable/droid_ify" package="com.looker.droidify" />
-    <icon name="DuckDuckGo" drawable="@drawable/duckduckgo" package="com.duckduckgo.mobile.android" />
-    <icon name="Duolingo" drawable="@drawable/duolingo" package="com.duolingo" />
-    <icon name="eBay Kleinanzeigen" drawable="@drawable/ebay_kleinanzeigen" package="com.ebay.kleinanzeigen" />
-    <icon name="eBay" drawable="@drawable/ebay" package="com.ebay.mobile" />
-    <icon name="Element" drawable="@drawable/element" package="im.vector.app" />
-    <icon name="exteraGram" drawable="@drawable/exteragram" package="com.exteragram.messenger" />
-    <icon name="F-Droid" drawable="@drawable/fdroid" package="org.fdroid.fdroid" />
-    <icon name="Facebook" drawable="@drawable/facebook" package="com.facebook.katana" />
-    <icon name="Facebook" drawable="@drawable/facebook" package="com.facebook.lite" />
-    <icon name="FairEmail" drawable="@drawable/fairemail" package="eu.faircode.email" />
-    <icon name="Feeder" drawable="@drawable/feeder" package="com.nononsenseapps.feeder.play" />
-    <icon name="Feeder" drawable="@drawable/feeder" package="com.nononsenseapps.feeder" />
-    <icon name="Fenix" drawable="@drawable/fenix" package="it.mvilla.android.fenix2" />
-    <icon name="fennec" drawable="@drawable/fennec" package="org.mozilla.fennec_fdroid" />
-    <icon name="FFUpdater" drawable="@drawable/ffupdater" package="de.marmaro.krt.ffupdater" />
-    <icon name="Fi Money" drawable="@drawable/fi_money" package="com.epifi.paisa" />
-    <icon name="File manager+" drawable="@drawable/filesplus" package="com.alphainventor.filemanager" />
-    <icon name="Files by Google" drawable="@drawable/files_by_google" package="com.google.android.apps.nbu.files" />
-    <icon name="Files" drawable="@drawable/files" package="com.android.documentsui" />
-    <icon name="Files" drawable="@drawable/files" package="com.coloros.filemanager" />
-    <icon name="Files" drawable="@drawable/files" package="com.coloros.files" />
-    <icon name="Files" drawable="@drawable/files" package="com.google.android.documentsui" />
-    <icon name="Files" drawable="@drawable/files" package="com.huawei.hidisk" />
-    <icon name="Files" drawable="@drawable/files" package="com.oneplus.filemanager" />
-    <icon name="Files" drawable="@drawable/files" package="me.zhanghai.android.files" />
-    <icon name="Find My Device" drawable="@drawable/find_my_device" package="com.google.android.apps.adm" />
-    <icon name="Firefox Beta" drawable="@drawable/firefox_beta" package="org.mozilla.firefox_beta" />
-    <icon name="Firefox Nightly" drawable="@drawable/firefox" package="org.mozilla.fenix" />
-    <icon name="Firefox" drawable="@drawable/firefox" package="org.mozilla.firefox" />
-    <icon name="Firefox" drawable="@drawable/firefox" package="org.mozilla.focus" />
-    <icon name="Fl Studio Mobile" drawable="@drawable/fl_studio_mobile" package="com.imageline.FLM" />
-    <icon name="Flamingo" drawable="@drawable/flamingo" package="com.samruston.twitter" />
-    <icon name="Flipkart" drawable="@drawable/flipkart" package="com.flipkart.android" />
-    <icon name="Float Tube" drawable="@drawable/float_tube" package="com.xpp.tubeAssistant" />
     <icon name="floccus" drawable="@drawable/floccus" package="org.handmadeideas.floccus" />
-    <icon name="FlorisBoard" drawable="@drawable/florisboard" package="dev.patrickgold.florisboard.beta" />
-    <icon name="FlorisBoard" drawable="@drawable/florisboard" package="dev.patrickgold.florisboard.debug" />
-    <icon name="FlorisBoard" drawable="@drawable/florisboard" package="dev.patrickgold.florisboard" />
-    <icon name="FM Radio" drawable="@drawable/fm_radio" package="com.android.fmradio" />
-    <icon name="FM Radio" drawable="@drawable/fm_radio" package="com.caf.fmradio" />
-    <icon name="FM Radio" drawable="@drawable/radio" package=" com.caf.fmradio" />
-    <icon name="Focus To-Do" drawable="@drawable/focus_todo" package="com.superelement.pomodoro" />
-    <icon name="Forkicons" drawable="@drawable/forkicons" package="app.lawnchair.lawnicons" />
     <icon name="Fox MMM" drawable="@drawable/foxmmm" package="com.fox2code.mmm.fdroid" />
     <icon name="Fox MMM" drawable="@drawable/foxmmm" package="com.fox2code.mmm" />
-    <icon name="Franco Kernel Manager" drawable="@drawable/francokernel" package="com.franco.kernel" />
     <icon name="Galaxy Store" drawable="@drawable/galaxy_store" package="com.sec.android.app.samsungapps" />
     <icon name="Gallery Go" drawable="@drawable/gallery_go" package="com.google.android.apps.photosgo" />
     <icon name="Gallery" drawable="@drawable/gallery" package="com.android.gallery3d" />
@@ -362,16 +256,6 @@
     <icon name="Pepper" drawable="@drawable/pepper" package="ru.pepper" />
     <icon name="Personal Safety" drawable="@drawable/personal_safety" package="com.google.android.apps.safetyhub" />
     <icon name="PharmEasy" drawable="@drawable/pharmeasy" package="com.phonegap.rxpal" />
-    <icon name="Phone" drawable="@drawable/dialer" package="com.android.contacts.activities.DialtactsActivity" />
-    <icon name="Phone" drawable="@drawable/dialer" package="com.android.incallui" />
-    <icon name="Phone" drawable="@drawable/dialer" package="com.google.android.dialer" />
-    <icon name="Phone" drawable="@drawable/dialer" package="com.sh.smart.caller" />
-    <icon name="Phone" drawable="@drawable/phone_aosp" package="com.android.dialer" />
-    <icon name="Phone" drawable="@drawable/phone_aosp" package="com.android.phone" />
-    <icon name="Phone" drawable="@drawable/phone_aosp" package="com.asus.asusincallui" />
-    <icon name="Phone" drawable="@drawable/phone_aosp" package="com.asus.dialer" />
-    <icon name="Phone" drawable="@drawable/phone_aosp" package="com.oneplus.dialer" />
-    <icon name="Phone" drawable="@drawable/phone_aosp" package="com.truecaller" />
     <icon name="Phone" drawable="@drawable/samsungphone" package="com.samsung.android.dialer" />
     <icon name="PhonePe" drawable="@drawable/phonepe" package="com.phonepe.app" />
     <icon name="Photolayers" drawable="@drawable/photolayers" package="com.handycloset.android.photolayers" />
@@ -479,7 +363,6 @@
     <icon name="Saikou" drawable="@drawable/saikou" package="ani.saikou.beta" />
     <icon name="Samsung Calculator" drawable="@drawable/samsungcalculator" package="com.sec.android.app.popupcalculator" />
     <icon name="Samsung Calendar" drawable="@drawable/samsungcalendar" package="com.samsung.android.calendar" />
-    <icon name="Samsung Clock" drawable="@drawable/samsungclock" package="com.sec.android.app.clockpackage" />
     <icon name="Samsung Contacts" drawable="@drawable/samsungcontacts" package="com.samsung.android.app.contacts" />
     <icon name="Samsung Contacts" drawable="@drawable/samsungcontacts" package="com.samsung.android.contacts" />
     <icon name="Samsung Email" drawable="@drawable/samsungemail" package="com.samsung.android.email.provider" />
@@ -513,9 +396,6 @@
     <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.tw" />
     <icon name="Signal" drawable="@drawable/signal" package="org.thoughtcrime.securesms" />
     <icon name="SIM Toolkit" drawable="@drawable/sim_toolkit" package="com.android.stk" />
-    <icon name="Simple Clock" drawable="@drawable/clock" package="com.simplemobiletools.clock" />
-    <icon name="Simple Contacts Pro" drawable="@drawable/contacts" package="com.simplemobiletools.contacts.pro" />
-    <icon name="Simple Contacts" drawable="@drawable/contacts" package="com.simplemobiletools.contacts" />
     <icon name="Simple Dialer" drawable="@drawable/dialer" package="com.simplemobiletools.dialer" />
     <icon name="Simple File Manager Pro" drawable="@drawable/files" package="com.simplemobiletools.filemanager.pro" />
     <icon name="Simple File Manager" drawable="@drawable/files" package="com.simplemobiletools.filemanager" />
