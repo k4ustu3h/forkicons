@@ -335,10 +335,10 @@
   <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.Camera}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.CameraLauncher}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.OppoCamera}" drawable="camera" name="Camera" />
-  <item component="ComponentInfo{com.sec.android.app.camera/.Camera}" drawable="camera" name="Camera" />
-  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="camera" name="Camera" />
-  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="camera" name="Camera" />
-  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/.Camera}" drawable="samsung_camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="samsung_camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_camera" name="Camera" />
+  <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="samsung_camera" name="Camera" />
   <item component="ComponentInfo{com.shamim.cam/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.MainActivity}" drawable="camera" name="Camera" />
   <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.SplashActivity.Grey_black}" drawable="camera" name="Camera" />
@@ -772,6 +772,209 @@
   <item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.Main}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
   <item component="ComponentInfo{com.franco.kernel/franco.KernelActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
   <item component="ComponentInfo{f.f.freezer/f.f.freezer.MainActivity}" drawable="deezer" name="Freezer" />
+  <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.Main}" drawable="galaxy_store" name="Galaxy Store" />
+  <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 }}" drawable="galaxy_store" name="Galaxy Store" />
+  <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="galaxy_store" name="Galaxy Store" />
+  <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="galaxy_store" name="Galaxy Store" />
+  <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}" drawable="galaxy_store" name="Galaxy Store" />
+  <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SKSamsungMainActivity}" drawable="galaxy_store" name="Galaxy Store" />
+  <item component="ComponentInfo{com.alensw.PicFolder/com.alensw.PicFolder.GalleryActivity}" drawable="gallery_wstxda" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/.app.Gallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/.app.GalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.acer.muse.app.GalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.camera.Camera}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.camera.CameraLauncher}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.camera.LauncherActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryTabActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryVideoActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.HmctGalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MainActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.MovieGallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.PermissionActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.StarosGalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.TNGalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoBrowserActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.VideoListWrapper}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.v2.app.GalleryActivity2}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.VideoPlayerLauncher}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.vivo.GalleryTabActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.hwcamera}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.newgallery.NewGallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.android.photos.GalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.huawei.gallery.app.GalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.huawei.gallery.app.GalleryMain}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.sprd.gallery3d.app.NewVideoActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.sprd.gallery3d.app.VideoActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.android.gallery3d/com.zte.gallery3d.activity.launcher.MainGallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.coloros.gallery3d/com.oppo.gallery3d.app.Gallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.dot.gallery/com.dot.gallery.MainActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.huawei.photos/com.huawei.gallery.app.GalleryMain}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.miui.gallery/.activity.HomePageActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.miui.gallery/com.miui.gallery.activity.HomePageActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.miui.gallery/com.miui.gallery.app.Gallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.motorola.cn.gallery/com.motorola.cn.gallery.app.GalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oneplus.gallery/.OPGalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oneplus.gallery/com.coloros.gallery3d.app.MainActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.app.MainActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.app.MainActivity#0}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oppo.gallery3d/.app.Gallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.oppo.gallery3d/com.oppo.gallery3d.app.Gallery}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.vivo.gallery/com.android.gallery3d.vivo.GalleryTabActivity}" drawable="gallery" name="Gallery" />
+  <item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="gallery_go" name="Gallery Go" />
+  <item component="ComponentInfo{io.chaldeaprjkt.gamespace/.settings.SettingsActivity}" drawable="gamespace" name="Game Space" />
+  <item component="ComponentInfo{com.oneplus.gamespace/com.oneplus.gamespace.ui.main.MainActivity}" drawable="gamespace" name="Games" />
+  <item component="ComponentInfo{com.oneplus.gamespace/com.oplus.games.ui.main.MainGameActivity}" drawable="gamespace" name="Games" />
+  <item component="ComponentInfo{com.oplus.games/com.oplus.games.ui.main.MainGameActivity}" drawable="gamespace" name="Games" />
+  <item component="ComponentInfo{com.oplus.games/com.oplus.games.ui.main.MainGameActivity#0}" drawable="gamespace" name="Games" />
+  <item component="ComponentInfo{io.chaldeaprjkt.gamespace/io.chaldeaprjkt.gamespace.settings.SettingsActivity}" drawable="gamespace" name="gamespace" />
+  <item component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}" drawable="gboard" name="Gboard" />
+  <item component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="gboard" name="Gboard" />
+  <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.Default}" drawable="gcash" name="GCash" />
+  <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.GCashBirthday}" drawable="gcash" name="GCash" />
+  <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.GCashBirthday2022}" drawable="gcash" name="GCash" />
+  <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.GCashChristmas}" drawable="gcash" name="GCash" />
+  <item component="ComponentInfo{com.globe.gcash.android/gcash.module.splashscreen.mvp.view.SplashScreenActivity}" drawable="gcash" name="GCash" />
+  <item component="ComponentInfo{com.genius.android/com.genius.android.flow.main.MainActivity}" drawable="genius" name="Genius" />
+  <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.GraphingCalculatorSplashScreenActivity_}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
+  <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.SplashScreenActivity_}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
+  <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity_}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
+  <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
+  <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.main.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
+  <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.main.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
+  <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
+  <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.view.activity.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
+  <item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="github" name="GitHub" />
+  <item component="ComponentInfo{ph.com.globe.globeonesuperapp/ph.com.globe.globeonesuperapp.BaseActivity}" drawable="globeone" name="GlobeOne" />
+  <item component="ComponentInfo{com.google.android.gm.lite/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ComposeActivityGmail}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 }}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.GmailActivity}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivity}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivitygoogle_mail}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.MailboxSelectionActivityGoogleMail}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.Preference.GmailPreferenceActivity}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmailSafeMode}" drawable="gmail" name="Gmail" />
+  <item component="ComponentInfo{us.spotco.maps/us.spotco.maps.MainActivity}" drawable="maps" name="GMaps WV" />
+  <item component="ComponentInfo{com.google.android.apps.searchlite/com.google.android.apps.searchlite.ui.SearchActivity}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromLauncher}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.gsa.velour.DynamicActivityTrampoline}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.GoogleSearch}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.MainInfoGatewayInternal}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 }}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchPreferences}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.handsfree.HandsFreeLauncherActivity}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.apps.googleassistant/com.google.android.apps.googleassistant.AssistantActivity}" drawable="google_assistant" name="Google Assistant" />
+  <item component="ComponentInfo{com.google.android.apps.authenticator2/com.google.android.apps.authenticator.AuthenticatorActivity}" drawable="google_authenticator" name="Google Authenticator" />
+  <item component="ComponentInfo{com.google.android.apps.dynamite/com.google.android.apps.dynamite.startup.StartUpActivity}" drawable="google_chat" name="Google Chat" />
+  <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="google_chrome" name="Google Chrome" />
+  <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Google Chrome" />
+  <item component="ComponentInfo{com.chrome.beta/com.android.chrome.Main}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.com.android.chrome.Main}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.com.google.android.apps.chrome.Main}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.com.google.android.apps.chrome.ManageBookmarkActivity}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.com.google.android.apps.chrome.tests.TestLauncher}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/com.chrome.beta.Main}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.beta/org.chromium.android_webview.devui.MonochromeLauncherActivity}" drawable="google_chrome_beta" name="Google Chrome Beta" />
+  <item component="ComponentInfo{com.chrome.canary/com.google.android.apps.chrome.Main}" drawable="google_chrome_canary" name="Google Chrome Canary" />
+  <item component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}" drawable="google_chrome_dev" name="Google Chrome Dev" />
+  <item component="ComponentInfo{com.chrome.dev/org.chromium.android_webview.devui.MonochromeLauncherActivity}" drawable="google_chrome_dev" name="Google Chrome Dev" />
+  <item component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.application.launcher.LauncherActivity}" drawable="google_classroom" name="Google Classroom" />
+  <item component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.application.LauncherActivity}" drawable="google_classroom" name="Google Classroom" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.DocumentOpenerActivityProxy}" drawable="google_docs" name="Google Docs" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 }}" drawable="google_docs" name="Google Docs" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_docs" name="Google Docs" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.KixDocumentCreatorActivity}" drawable="google_docs" name="Google Docs" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.editors.kix.KixEditorActivity}" drawable="google_docs" name="Google Docs" />
+  <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.HomeScreenActivity}" drawable="google_drive" name="Google Drive" />
+  <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.MainProxyActivity}" drawable="google_drive" name="Google Drive" />
+  <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_drive" name="Google Drive" />
+  <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="google_meet" name="Google Duo" />
+  <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivitySecondLauncher}" drawable="google_meet" name="Google Duo" />
+  <item component="ComponentInfo{com.google.android.apps.tycho/com.google.android.apps.tycho.AccountDetailsActivity}" drawable="google_fi" name="Google Fi" />
+  <item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="google_fit" name="Google Fit" />
+  <item component="ComponentInfo{com.google.android.apps.chromecast.app/com.google.android.apps.chromecast.app.DiscoveryActivity}" drawable="google_home" name="Google Home" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.AnimatingListDetailsEditActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.Br}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.IntentResolverWithMimeTypeActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.ListDetailsActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.NoteToSelfActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.homescreenwidget.WidgetIntentResolverActivity}" drawable="google_keep" name="Google Keep" />
+  <item component="ComponentInfo{com.google.ar.lens/com.google.vr.apps.ornament.app.lens.LensLauncherActivity}" drawable="google_lens" name="Google Lens" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.android.internal.app.ResolverActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.NavigationActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.SearchActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.SettingsActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.LatitudeActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.TrafficHubActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.mapslite/com.google.androidbrowserhelper.trusted.LauncherActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.mapslite/com.google.maps.lite.twa.MapsLiteTwaLauncherActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.mapslite/org.chromium.webapk.shell_apk.MainActivity}" drawable="maps" name="Google Maps" />
+  <item component="ComponentInfo{com.google.android.apps.meetings/com.google.android.apps.meetings.splash.SplashActivity}" drawable="google_meet" name="Google Meet" />
+  <item component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}" drawable="google_news" name="Google News" />
+  <item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LauncherActivity}" drawable="google_one" name="Google One" />
+  <item component="ComponentInfo{com.google.android.apps.paidtasks/com.google.android.apps.paidtasks.activity.LaunchActivity}" drawable="google_opinion_rewards" name="Google Opinion Rewards" />
+  <item component="ComponentInfo{com.google.android.apps.paidtasks/com.google.android.apps.paidtasks.LaunchActivity}" drawable="google_opinion_rewards" name="Google Opinion Rewards" />
+  <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.android.apps.nbu.paisa.user.launcher.LauncherActivity}" drawable="google_pay" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity}" drawable="google_pay" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.MainActivity}" drawable="google_pay" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.entrypoint.WalletRootActivity}" drawable="google_wallet" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.android.apps.wallet.WalletRootActivity}" drawable="google_wallet" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.cardlist.CardListActivity}" drawable="google_wallet" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.growth.migration.OldLauncherActivity}" drawable="google_wallet" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.walletnfcrel/com.google.commerce.tapandpay.android.wallet.WalletActivity}" drawable="google_wallet" name="Google Pay" />
+  <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="google_photos" name="Google Photos" />
+  <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="google_play_books" name="Google Play Books" />
+  <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.HomeActivity}" drawable="google_play_books" name="Google Play Books" />
+  <item component="ComponentInfo{com.google.android.play.games/com.google.android.apps.play.games.features.gamefolder.appdrawer.GameFolderAppDrawerActivity}" drawable="google_play_games" name="Google Play Games" />
+  <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="google_play_games" name="Google Play Games" />
+  <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="google_play_store" name="Google Play Store" />
+  <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.PlayLauncherActivity}" drawable="google_play_store" name="Google Play Store" />
+  <item component="ComponentInfo{com.google.android.apps.podcasts/com.google.android.apps.podcasts.PodcastsActivity}" drawable="google_podcasts" name="Google Podcasts" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.DocumentOpenerActivityProxy}" drawable="google_sheets" name="Google Sheets" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_sheets" name="Google Sheets" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.editors.kix.KixDocumentCreatorActivity}" drawable="google_sheets" name="Google Sheets" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.editors.kix.KixEditorActivity}" drawable="google_sheets" name="Google Sheets" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_slides" name="Google Slides" />
+  <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.editors.punch.PunchActivity}" drawable="google_slides" name="Google Slides" />
+  <item component="ComponentInfo{com.google.android.apps.tasks/com.google.android.apps.tasks.ui.TaskListsActivity}" drawable="google_tasks" name="Google Tasks" />
+  <item component="ComponentInfo{com.google.android.apps.translate/.TranslateActivity}" drawable="google_translate" name="Google Translate" />
+  <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivity}" drawable="google_translate" name="Google Translate" />
+  <item component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}" drawable="google_translate" name="Google Translate" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.videos.activity.HomeActivity}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.videos.activity.LauncherActivity}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.videos.GoogleTvEntryPoint}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPointGtv}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPointGtv/com.google.android.videos.GoogleTvEntryPoint}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.froyo.VideosActivity}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.honeycomb.VideosActivity}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.phone.VideosActivity}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.tablet.VideosActivity}" drawable="google_tv" name="Google TV" />
+  <item component="ComponentInfo{com.google.android.apps.googlevoice/com.google.android.apps.googlevoice.SplashActivity}" drawable="google_voice" name="Google Voice" />
+  <item component="ComponentInfo{com.govee.home/com.govee.home.HomeActivity}" drawable="govee_home" name="Govee Home" />
+  <item component="ComponentInfo{com.grabtaxi.driver2/com.grab.driver.app.ui.v5.activities.landing.splash.SplashScreen}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.Home}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.presentation.newface.NewFace}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.splash.SplashActivity}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.v3.splash.SplashActivity}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity}" drawable="greenify" name="Greenify" />
+  <item component="ComponentInfo{com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity}" drawable="greenify" name="Greenify (Donation Package)" />
   <item component="ComponentInfo{com.jio.media.ondemand/com.v18.voot.features.home.ui.JVHomeActivity}" drawable="jiocinema" name="JioCinema" />
   <item component="ComponentInfo{com.ebay.kleinanzeigen/com.ebay.kleinanzeigen.SplashScreenActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
   <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.home.HomeActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
