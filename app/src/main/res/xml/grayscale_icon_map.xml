@@ -5,52 +5,12 @@
     <icon name="Fox MMM" drawable="@drawable/foxmmm" package="com.fox2code.mmm" />
     <icon name="Glider" drawable="@drawable/glider" package="nl.viter.glider" />
     <icon name="Grasshopper" drawable="@drawable/grasshopper" package="com.area120.grasshopper" />
-    <icon name="hail" drawable="@drawable/hail" package="com.aistra.hail" />
-    <icon name="Home Assistant" drawable="@drawable/home_assistant" package="io.homeassistant.companion.android" />
-    <icon name="Hotstar" drawable="@drawable/hotstar" package="in.startv.hotstaronly" />
-    <icon name="ibisPaint X" drawable="@drawable/ibispaint_x" package="jp.ne.ibis.ibispaintx.app" />
-    <icon name="IMDb" drawable="@drawable/imdb" package="com.imdb.mobile" />
-    <icon name="iMe" drawable="@drawable/ime" package="com.iMe.android" />
     <icon name="In pocasi" drawable="@drawable/inpocasi" package="com.johnniek.inpocasi.widget" />
     <icon name="Infinity Loop" drawable="@drawable/infinity_loop" package="com.balysv.loop" />
-    <icon name="Infinity" drawable="@drawable/infinity_for_reddit" package="ml.docilealligator.infinityforreddit" />
-    <icon name="InPost Mobile" drawable="@drawable/inpost" package="pl.inpost.inmobile" />
-    <icon name="Instagram" drawable="@drawable/instagram" package="com.instagram.android" />
-    <icon name="Instagram" drawable="@drawable/instagram" package="com.instagram.lite" />
-    <icon name="Instagram" drawable="@drawable/instagram" package="com.instander.android" />
-    <icon name="Instapaper" drawable="@drawable/instapaper" package="com.instapaper.android" />
-    <icon name="Insular" drawable="@drawable/insular" package="com.oasisfeng.island.fdroid" />
-    <icon name="Inware" drawable="@drawable/inware" package="com.evo.inware" />
-    <icon name="IRCTC Rail Connect" drawable="@drawable/irctc" package="cris.org.in.prs.ima" />
     <icon name="iVoox" drawable="@drawable/ivoox" package="com.ivoox.app" />
-    <icon name="Jellyfin" drawable="@drawable/jellyfin" package="org.jellyfin.mobile" />
-    <icon name="Job App" drawable="@drawable/renr" package="deVries.WMS.Publication.Mobile.UI.Android" />
-    <icon name="Joplin" drawable="@drawable/joplin" package="net.cozic.joplin" />
-    <icon name="JuiceSSH" drawable="@drawable/juicessh" package="com.sonelli.juicessh" />
-    <icon name="K9" drawable="@drawable/k9" package="com.fsck.k9" />
-    <icon name="KakaoTalk" drawable="@drawable/kakaotalk" package="com.kakao.talk" />
     <icon name="KAPK" drawable="@drawable/kustom" package="org.kustom.apkmaker" />
-    <icon name="KARWEI" drawable="@drawable/karwei" package="nl.karwei.app.android" />
-    <icon name="KDE Connect" drawable="@drawable/kde" package="org.kde.kdeconnect_tp" />
-    <icon name="KDE Connect" drawable="@drawable/kdeconnect" package="org.kde.kdeconnect_tp" />
-    <icon name="Keepass2Android " drawable="@drawable/keepass2android" package="keepass2android.keepass2android_nonet" />
-    <icon name="Keepass2Android " drawable="@drawable/keepass2android" package="keepass2android.keepass2android" />
-    <icon name="KeePassDX" drawable="@drawable/keepass" package="com.kunzisoft.keepass.free" />
-    <icon name="KeePassDX" drawable="@drawable/keepass" package="com.kunzisoft.keepass.libre" />
-    <icon name="KFC" drawable="@drawable/kfc" package="com.kfc_polska" />
-    <icon name="KFC" drawable="@drawable/kfc" package="com.kfc.us.mobile" />
-    <icon name="Khan Academy" drawable="@drawable/khan_academy" package="org.khanacademy.android" />
-    <icon name="Kiwi Browser" drawable="@drawable/kiwi" package="com.kiwibrowser.browser" />
-    <icon name="KLCK Pro" drawable="@drawable/kustompro" package="org.kustom.lockscreen.pro" />
-    <icon name="KLCK" drawable="@drawable/kustom" package="org.kustom.lockscreen" />
-    <icon name="KLWP Pro" drawable="@drawable/kustompro" package="org.kustom.wallpaper.pro" />
-    <icon name="KLWP" drawable="@drawable/kustom" package="org.kustom.wallpaper" />
-    <icon name="Komoot" drawable="@drawable/komoot" package="de.komoot.android" />
-    <icon name="Kucoin" drawable="@drawable/kucoin" package="com.kubi.kucoin" />
     <icon name="Kustom Unread Plugin" drawable="@drawable/kustom" package="org.kustom.unread" />
     <icon name="Kustom Weather Plugin" drawable="@drawable/kustom" package="org.kustom.weather" />
-    <icon name="KWGT Pro" drawable="@drawable/kustompro" package="org.kustom.widget.pro" />
-    <icon name="KWGT" drawable="@drawable/kustom" package="org.kustom.widget" />
     <icon name="Leaflet" drawable="@drawable/leaflet" package="com.potatoproject.notes" />
     <icon name="LibreTorrent" drawable="@drawable/libretorrent" package="org.proninyaroslav.libretorrent" />
     <icon name="LibreTube" drawable="@drawable/libretube" package="com.github.libretube" />

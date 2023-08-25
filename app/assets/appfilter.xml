@@ -592,12 +592,8 @@
   <item component="ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}" drawable="disneyplus" name="Disney+" />
   <item component="ComponentInfo{com.disneyplus.mea/com.hotstar.MainActivity}" drawable="disneyplus" name="Disney+" />
   <item component="ComponentInfo{in.startv.hotstar.dplus/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
-  <item component="ComponentInfo{in.startv.hotstar.dplus/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
-  <item component="ComponentInfo{in.startv.hotstar/com.hotstar.MainActivity}" drawable="hotstar" name="Disney+ Hotstar" />
   <item component="ComponentInfo{in.startv.hotstar/com.hotstar.MainActivity}" drawable="hotstar" name="Disney+ Hotstar" />
   <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.activities.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
-  <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.activities.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
-  <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
   <item component="ComponentInfo{in.startv.hotstar/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Disney+ Hotstar" />
   <item component="ComponentInfo{com.dolby.dolby234/com.dolby.sessions.Launcher}" drawable="dolby_on" name="Dolby On" />
   <item component="ComponentInfo{by.mc.dominos.com/by.mc.dominos.com.Dominos}" drawable="dominos" name="Domino's Pizza" />
@@ -975,11 +971,123 @@
   <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.v3.splash.SplashActivity}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity}" drawable="greenify" name="Greenify" />
   <item component="ComponentInfo{com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity}" drawable="greenify" name="Greenify (Donation Package)" />
+  <item component="ComponentInfo{com.aistra.hail/com.aistra.hail.ui.main.MainActivity}" drawable="hail" name="Hail" />
+  <item component="ComponentInfo{io.homeassistant.companion.android.minimal/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant" name="Home Assistant" />
+  <item component="ComponentInfo{io.homeassistant.companion.android/io.homeassistant.companion.android.launch.LaunchActivity}" drawable="home_assistant" name="Home Assistant" />
+  <item component="ComponentInfo{in.startv.hotstaronly/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Hotstar" />
+  <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.market.MarketAuthenticationActivity}" drawable="ibispaint_x" name="ibisPaint X" />
+  <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.title.TitleActivity}" drawable="ibispaint_x" name="ibisPaint X" />
+  <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.Home}" drawable="imdb" name="IMDb" />
+  <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.HomeActivity}" drawable="imdb" name="IMDb" />
+  <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.IMDb}" drawable="imdb" name="IMDb" />
+  <item component="ComponentInfo{com.iMe.android/org.telegram.ui.LaunchActivityBlueIcon}" drawable="ime" name="iMe" />
+  <item component="ComponentInfo{pl.inpost.mobile/md5b11543c22ddb1a4d81d612765617cfa5.SplashActivity}" drawable="inpost" name="InPost Mobile" />
+  <item component="ComponentInfo{com.instagram.android/.activity.MainTabActivity}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instagram.android/com.instagram.android.iconone}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.LauncherActivity}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instagram.android/com.OM7753.gold.icon1}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instagram.lite/com.facebook.lite.MainActivity}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instagram.lite/com.instagram.lite.IgLiteActivity}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{com.instander.android/com.instagram.android.activity.MainTabActivity}" drawable="instagram" name="Instander" />
+  <item component="ComponentInfo{com.instander.android/com.instander.android.activity.MainTabActivity}" drawable="instagram" name="Instander" />
+  <item component="ComponentInfo{com.instapaper.android/com.instapaper.android.activity.HomeActivity}" drawable="instapaper" name="Instapaper" />
+  <item component="ComponentInfo{com.instapaper.android/com.instapaper.android.MainActivity}" drawable="instapaper" name="Instapaper" />
+  <item component="ComponentInfo{com.evo.inware/com.evo.inware.ui.activities.SplashActivity}" drawable="inware" name="Inware" />
+  <item component="ComponentInfo{com.evo.inware/com.evo.inware.ui.activities.SweetHomeActivity}" drawable="inware" name="Inware" />
+  <item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.ima.activities.IRCTCConnectActivity}" drawable="irctc" name="IRCTC Rail Connect" />
+  <item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.MainActivity}" drawable="island" name="Island" />
+  <item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.settings.IslandSettingsActivity}" drawable="island" name="Island" />
+  <item component="ComponentInfo{org.jellyfin.mobile/org.jellyfin.mobile.MainActivity}" drawable="jellyfin" name="Jellyfin" />
+  <item component="ComponentInfo{org.jellyfin.mobile/org.jellyfin.mobile.WebappActivity}" drawable="jellyfin" name="Jellyfin" />
+  <item component="ComponentInfo{org.jellyfin.androidtv/org.jellyfin.androidtv.ui.startup.StartupActivity}" drawable="jellyfin" name="Jellyfin for Android TV" />
   <item component="ComponentInfo{com.jio.media.ondemand/com.v18.voot.features.home.ui.JVHomeActivity}" drawable="jiocinema" name="JioCinema" />
+  <item component="ComponentInfo{net.cozic.joplin/net.cozic.joplin.MainActivity}" drawable="joplin" name="Joplin" />
+  <item component="ComponentInfo{com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity}" drawable="juicessh" name="JuiceSSH" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="k9" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageCompose}" drawable="k9" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="k9" name="K-9 Mail" />
+  <item component="ComponentInfo{com.kakao.talk/com.kakao.talk.activity.SplashActivity}" drawable="kakaotalk" name="KakaoTalk" />
+  <item component="ComponentInfo{nl.karwei.app.android/nl.intergamma.app.MainActivity}" drawable="karwei" name="KARWEI" />
+  <item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MainActivity}" drawable="kde" name="KDE Connect" />
+  <item component="ComponentInfo{org.kde.kdeconnect_tp/org.kde.kdeconnect.UserInterface.MaterialActivity}" drawable="kde" name="KDE Connect" />
+  <item component="ComponentInfo{keepass2android.keepass2android/crc64dd09b2a2e58bb27d.KeePass}" drawable="keepass2android" name="Keepass2Android" />
+  <item component="ComponentInfo{com.kunzisoft.keepass.free/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="keepassdx" name="KeePassDX" />
+  <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.activities.FileDatabaseSelectActivity}" drawable="keepassdx" name="KeePassDX" />
+  <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FilePickerStylishActivity}" drawable="keepassdx" name="KeePassDX" />
+  <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.fileselect.FileSelectActivity}" drawable="keepassdx" name="KeePassDX" />
+  <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.KeePass}" drawable="keepassdx" name="KeePassDX" />
+  <item component="ComponentInfo{com.kunzisoft.keepass.libre/com.kunzisoft.keepass.password.PasswordActivity}" drawable="keepassdx" name="KeePassDX" />
+  <item component="ComponentInfo{com.aamra.kfc.bd.kfc_bd/com.aamra.kfc.bd.kfc_bd.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.by.kfc/com.io.fimble.views.screens.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.cts.kfcthailand/crc64d7d1da6f42c816aa.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.foodbooking.kfcsuriname/com.foodbooking.kfcsuriname.page.ScanActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.gr.kfc/com.io.fimble.views.screens.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc_cs/com.kfc_polska.ui.main.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc_hu/com.kfc_polska.ui.main.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc_polska/com.kfc_polska.ui.main.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.bahrain/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.de.mobileapp/com.kfc.de.mobileapp.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.dominicanrepublic/com.kfc.dominicanrepublic.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.egypt/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.it.mobileapp/com.kfc.it.mobileapp.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.jordan/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.ksa/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.kwt/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.malaysia/com.kfc.my.views.activity.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.me/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.mexico/com.kfc.mexico.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.mobile/com.kfc.mobile.presentation.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.nl.mobileapp/com.kfc.nl.mobileapp.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.oman/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.panama/com.kfc.panama.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.philippines/crc648a0708e1cff74fcc.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.qatar/com.americana.me.ui.onboarding.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.sa/com.kfc.sa.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfc.us.mobile/com.kfc.us.mobile.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfcapp.gt/com.kfcapp.gt.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfcaus.ordering/com.cognizantorderserv.kfcindiadroid.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfchk.app.and2021/com.ld.zy.kfc.activity.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfcnz.orderserv/com.kfcnz.orderserv.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfctn/com.kfctn.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kfcturkiye.app/com.kfcturkiye.app.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kineticcafe.kfccolonelsclub/com.kineticcafe.kfccolonelsclub.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.kz.kfc/com.io.fimble.views.screens.splash.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.lsretail.omni.hospitality.loyalty.android.kfc/crc643204f0a5560cbc30.SplashScreenActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.nanoequipment.kfc/crc64ded25ac84fd66723.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.phonegap.kfcchile/com.phonegap.kfcchile.matrizKFC}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.restogroupsarl.kfcgabon/com.restogroupsarl.kfcgabon.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.sirma.kfc/com.sirma.kfc.view.activity.SplashscreenActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.telexpress.kfctaiwanapps/com.telexpress.kfctaiwanapps.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.yum.colonelsclub/com.kfc.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{com.yum.kfc/com.cognizantorderserv.kfcindiadroid.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{es.kfc.spain/com.kfces.orderserv.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{fr.kfc.mobileapp/com.kfcfr.orderserv.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{io.bramerz.kfc/io.bramerz.kfc.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{jp.dreambrain.adiorama/jp.co.kfc.ui.MainActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{kfc_ko.kore.kg.kfc_korea/kfc_ko.kore.kg.kfc_korea.activity.IntroActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{kfc.vietnam/com.kfcvn.dev.SplashActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{ru.kfc.kfc_delivery/com.kfc.ui.activities.NativeModuleActivity}" drawable="kfc" name="KFC" />
+  <item component="ComponentInfo{org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity}" drawable="khan_academy" name="Khan Academy" />
+  <item component="ComponentInfo{com.kiwibrowser.browser.dev/com.google.android.apps.chrome.Main}" drawable="kiwi_browser" name="Kiwi Browser" />
+  <item component="ComponentInfo{com.kiwibrowser.browser/com.google.android.apps.chrome.Main}" drawable="kiwi_browser" name="Kiwi Browser" />
+  <item component="ComponentInfo{org.kustom.lockscreen/org.kustom.app.OnBoardingActivity}" drawable="kustom" name="KLCK" />
+  <item component="ComponentInfo{org.kustom.lockscreen/org.kustom.lib.editor.LockAdvancedEditorActivity}" drawable="kustom" name="KLCK" />
   <item component="ComponentInfo{com.ebay.kleinanzeigen/com.ebay.kleinanzeigen.SplashScreenActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
   <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.home.HomeActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
   <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.SplashActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
   <item component="ComponentInfo{com.ebay.kleinanzeigen/ebk.ui.splash.SplashActivity}" drawable="kleinanzeigen" name="Kleinanzeigen" />
+  <item component="ComponentInfo{org.kustom.wallpaper/org.kustom.app.OnBoardingActivity}" drawable="kustom" name="KLWP" />
+  <item component="ComponentInfo{org.kustom.wallpaper/org.kustom.lib.editor.WpAdvancedEditorActivity}" drawable="kustom" name="KLWP" />
+  <item component="ComponentInfo{org.kustom.wallpaper/org.kustom.lib.settings.SettingsActivity}" drawable="kustom" name="KLWP" />
+  <item component="ComponentInfo{org.kustom.wallpaper/org.kustom.lib.settings.WpSettingsActivity}" drawable="kustom" name="KLWP" />
+  <item component="ComponentInfo{de.komoot.android/de.komoot.android.app.CardListActivity}" drawable="komoot" name="Komoot" />
+  <item component="ComponentInfo{de.komoot.android/de.komoot.android.app.InspirationActivity}" drawable="komoot" name="Komoot" />
+  <item component="ComponentInfo{de.komoot.android/de.komoot.android.ui.inspiration.InspirationActivity}" drawable="komoot" name="Komoot" />
+  <item component="ComponentInfo{org.kustom.widget/com.duapps.ad.DuAd}" drawable="kustom" name="KWGT" />
+  <item component="ComponentInfo{org.kustom.widget/org.kustom.app.OnBoardingActivity}" drawable="kustom" name="KWGT" />
+  <item component="ComponentInfo{org.kustom.widget/org.kustom.widget.picker.WidgetPicker}" drawable="kustom" name="KWGT" />
   <item component="ComponentInfo{com.oplus.dialer/com.android.contacts.DialtactsActivityAlias}" drawable="google_phone" name="ODialer" />
   <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivityAlias}" drawable="dialer" name="Phone" />
   <item component="ComponentInfo{com.android.dialer/.app.DialtactsActivity}" drawable="dialer" name="Phone" />
