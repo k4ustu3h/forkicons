@@ -22,80 +22,11 @@
     <icon name="o2tv" drawable="@drawable/o2tv" package="cz.o2.o2tv" />
     <icon name="OLEDBuddy" drawable="@drawable/oledbuddy" package="me.mikecroall.oledbuddy" />
     <icon name="Overlayer" drawable="@drawable/overlayer" package="de.dertyp7214.overlayer" />
-    <icon name="QKSMS" drawable="@drawable/qksms" package="com.moez.QKSMS" />
-    <icon name="QuickEdit" drawable="@drawable/quickedit" package="com.rhmsoft.edit" />
-    <icon name="QuickPic Mod" drawable="@drawable/quickpic_mod" package="com.wstxda.PicFolder" />
-    <icon name="QuickPic" drawable="@drawable/quickpic" package="com.alensw.PicFolder" />
-    <icon name="Quickswitch" drawable="@drawable/quickswitch" package="xyz.paphonb.quickstepswitcher" />
-    <icon name="Quora" drawable="@drawable/quora" package="com.quora.android" />
-    <icon name="Rabo Wallet" drawable="@drawable/rabo_wallet" package="nl.rabowallet" />
-    <icon name="rabobank" drawable="@drawable/rabobank" package="nl.rabomobiel" />
     <icon name="Razer Camera" drawable="@drawable/razer_camera" package="com.razer.camera" />
     <icon name="Razer Camera" drawable="@drawable/razer_camera" package="com.razerzone.camera" />
-    <icon name="Rboard Creator" drawable="@drawable/rboard_creator" package="de.dertyp7214.rboardthemecreator" />
-    <icon name="Rboard IME Tester" drawable="@drawable/rboard_ime_test" package="de.dertyp7214.rboardimetester" />
-    <icon name="Rboard Manager" drawable="@drawable/rboard" package="de.dertyp7214.rboardthememanager" />
-    <icon name="Rboard Patcher" drawable="@drawable/rboard_patcher" package="de.dertyp7214.rboardpatcher" />
-    <icon name="Read You" drawable="@drawable/read_you" package="me.ash.reader" />
-    <icon name="Realme Link" drawable="@drawable/realmelink" package="com.realme.link" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="com.android.bbksoundrecorder" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="com.android.soundrecorder" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="com.first75.voicerecorder2" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="com.google.android.apps.recorder" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="com.oneplus.soundrecorder" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="com.sec.android.app.voicenote" />
-    <icon name="Recorder" drawable="@drawable/recorder" package="org.lineageos.recorder" />
-    <icon name="Reddit" drawable="@drawable/reddit" package="com.reddit.frontpage" />
-    <icon name="Relay Pro" drawable="@drawable/relay" package="reddit.news" />
-    <icon name="Relay" drawable="@drawable/relay" package="free.reddit.news" />
-    <icon name="Remini" drawable="@drawable/remini" package="com.bigwinepot.nwdn.international" />
-    <icon name="Remote Fingerprint Unlock" drawable="@drawable/remotefingerauth" package="ro.andreimircius.remotefingerauth" />
-    <icon name="Repainter" drawable="@drawable/repainter" package="dev.kdrag0n.dyntheme" />
-    <icon name="Resplash" drawable="@drawable/resplash" package="com.b_lam.resplash" />
-    <icon name="Reverso Context" drawable="@drawable/reverso_context" package="com.softissimo.reverso.context" />
-    <icon name="Revolt" drawable="@drawable/revolt" package="chat.revolt.app.twa" />
-    <icon name="Revolut" drawable="@drawable/revolut" package="com.revolut.revolut" />
     <icon name="Ring" drawable="@drawable/ring" package="com.ideopay.user" />
-    <icon name="Riot Mobile" drawable="@drawable/riot_games" package="com.riotgames.mobile.leagueconnect" />
-    <icon name="Roku" drawable="@drawable/roku" package="com.roku.remote" />
-    <icon name="RustDesk" drawable="@drawable/rustdesk" package="com.carrierz.flutter_hbb" />
-    <icon name="SAI" drawable="@drawable/sai" package="com.aefyr.sai" />
-    <icon name="Saikou" drawable="@drawable/saikou" package="ani.saikou.beta" />
-    <icon name="Samsung Calculator" drawable="@drawable/samsungcalculator" package="com.sec.android.app.popupcalculator" />
-    <icon name="Samsung Calendar" drawable="@drawable/samsungcalendar" package="com.samsung.android.calendar" />
-    <icon name="Samsung Contacts" drawable="@drawable/samsungcontacts" package="com.samsung.android.app.contacts" />
-    <icon name="Samsung Contacts" drawable="@drawable/samsungcontacts" package="com.samsung.android.contacts" />
-    <icon name="Samsung Email" drawable="@drawable/samsungemail" package="com.samsung.android.email.provider" />
-    <icon name="Samsung Files" drawable="@drawable/samsungfiles" package="com.sec.android.app.myfiles" />
-    <icon name="Samsung Gallery" drawable="@drawable/samsunggallery" package="com.sec.android.gallery3d" />
-    <icon name="Samsung health" drawable="@drawable/samsung_health" package="com.sec.android.app.shealth" />
-    <icon name="Samsung Internet Browser Beta" drawable="@drawable/samsung_internet_browser_beta" package="com.sec.android.app.sbrowser.beta" />
-    <icon name="Samsung Internet Browser" drawable="@drawable/samsung_internet_browser" package="com.sec.android.app.sbrowser" />
-    <icon name="Samsung Music" drawable="@drawable/samsungmusic" package="com.sec.android.app.music" />
-    <icon name="Samsung Notes" drawable="@drawable/samsungnotes" package="com.samsung.android.app.notes" />
     <icon name="Samsung Pay" drawable="@drawable/samsung_pay" package="com.samsung.android.spay" />
-    <icon name="Samsung Wear" drawable="@drawable/samsung_wear" package="com.samsung.android.app.watchmanager" />
-    <icon name="Scanner" drawable="@drawable/coronacheck_scanner" package="nl.rijksoverheid.ctr.verifier" />
     <icon name="Scany" drawable="@drawable/scany" package="app.moonlight.sda.scany" />
-    <icon name="School Planner" drawable="@drawable/schoolplanner" package="daldev.android.gradehelper" />
-    <icon name="Scoop" drawable="@drawable/scoop" package="taco.scoop" />
-    <icon name="Scoop" drawable="@drawable/scoop" package="xyz.paphonb.scoop" />
-    <icon name="Screen Recorder" drawable="@drawable/screenrecorder" package="com.kimcy929.screenrecorder" />
-    <icon name="SD Maid" drawable="@drawable/sd_maid" package="eu.thedarken.sdm.unlocker" />
-    <icon name="SD Maid" drawable="@drawable/sd_maid" package="eu.thedarken.sdm" />
-    <icon name="Session" drawable="@drawable/pixel_heroes" package="com.headupgames.pixelheroes" />
-    <icon name="Session" drawable="@drawable/session" package="network.loki.messenger" />
-    <icon name="Settings" drawable="@drawable/settings" package="com.android.settings" />
-    <icon name="ShareMe" drawable="@drawable/shareme" package="com.xiaomi.midrop" />
-    <icon name="Shazam" drawable="@drawable/shazam" package="com.shazam.android" />
-    <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.id" />
-    <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.my" />
-    <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.ph" />
-    <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.pl" />
-    <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.th" />
-    <icon name="Shopee" drawable="@drawable/shopee" package="com.shopee.tw" />
-    <icon name="Signal" drawable="@drawable/signal" package="org.thoughtcrime.securesms" />
-    <icon name="SIM Toolkit" drawable="@drawable/sim_toolkit" package="com.android.stk" />
     <icon name="Simple Dialer" drawable="@drawable/dialer" package="com.simplemobiletools.dialer" />
     <icon name="Simple File Manager Pro" drawable="@drawable/files" package="com.simplemobiletools.filemanager.pro" />
     <icon name="Simple File Manager" drawable="@drawable/files" package="com.simplemobiletools.filemanager" />
