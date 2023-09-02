@@ -31,104 +31,17 @@
     <icon name="Simple File Manager Pro" drawable="@drawable/files" package="com.simplemobiletools.filemanager.pro" />
     <icon name="Simple File Manager" drawable="@drawable/files" package="com.simplemobiletools.filemanager" />
     <icon name="Simple File Notes Pro" drawable="@drawable/notes" package="com.simplemobiletools.notes.pro" />
-    <icon name="Simple Gallery Pro" drawable="@drawable/simple_gallery_pro" package="com.simplemobiletools.gallery.pro" />
-    <icon name="Simple Gallery" drawable="@drawable/simple_gallery_pro" package="com.simplemobiletools.gallery" />
-    <icon name="Simple QR" drawable="@drawable/qr_reader" package="com.tomfong.simpleqr" />
     <icon name="Simple Sms Messenger" drawable="@drawable/messages" package="com.simplemobiletools.smsmessenger" />
-    <icon name="Simplenote" drawable="@drawable/simplenote" package="com.automattic.simplenote" />
-    <icon name="Sky: Children of the Light" drawable="@drawable/sky_children_of_the_light" package="com.tgc.sky.android" />
-    <icon name="Skype" drawable="@drawable/skype" package="com.skype.raider" />
-    <icon name="Slack" drawable="@drawable/slack" package="com.Slack" />
-    <icon name="Sleep as Android" drawable="@drawable/sleep_as_android" package="com.urbandroid.sleep" />
-    <icon name="slice" drawable="@drawable/slice" package="indwin.c3.shareapp" />
     <icon name="Smart Life" drawable="@drawable/smartlife" package="com.tuya.smartlife" />
-    <icon name="SMARTY" drawable="@drawable/smarty" package="com.hutchison3g.sundae" />
-    <icon name="SMS Organizer" drawable="@drawable/sms_organizer" package="com.microsoft.android.smsorganizer" />
-    <icon name="Snapchat" drawable="@drawable/snapchat" package="com.snapchat.android" />
-    <icon name="Snapdrop" drawable="@drawable/snapdrop" package="com.fmsys.snapdrop" />
-    <icon name="Snapseed" drawable="@drawable/snapseed" package="com.niksoftware.snapseed" />
-    <icon name="Solid Explorer" drawable="@drawable/solid_explorer" package="pl.solidexplorer2" />
     <icon name="Solitaire" drawable="@drawable/solitaire" package="ee.dustland.android.solitaire" />
-    <icon name="Sony Headphones Connect" drawable="@drawable/sony_headphonesconnect" package="com.sony.songpal.mdr" />
     <icon name="Sony Music" drawable="@drawable/sonymusic" package="com.sonyericsson.music" />
-    <icon name="SoundCloud" drawable="@drawable/soundcloud" package="com.soundcloud.android" />
-    <icon name="Sova V" drawable="@drawable/sova" package="re.sova.five" />
-    <icon name="Spark Email" drawable="@drawable/spark_email" package="com.readdle.spark" />
-    <icon name="Speedtest by Ookla" drawable="@drawable/speedtest_by_ookla" package="org.zwanoo.android.speedtest" />
-    <icon name="Spotify" drawable="@drawable/spotify" package="com.spotify.lite" />
-    <icon name="Spotify" drawable="@drawable/spotify" package="com.spotify.music" />
-    <icon name="Spotistats" drawable="@drawable/spotistats" package="dev.netlob.spotistats" />
-    <icon name="Squircle IDE" drawable="@drawable/squircle" package="com.blacksquircle.ui" />
     <icon name="Stay Focused" drawable="@drawable/stay_focused" package="com.stayfocused" />
-    <icon name="Steam" drawable="@drawable/steam" package="com.valvesoftware.android.steam.community" />
-    <icon name="Stellio" drawable="@drawable/stellio" package="io.stellio.music" />
-    <icon name="Strava" drawable="@drawable/strava" package="com.strava" />
-    <icon name="Stremio" drawable="@drawable/stremio" package="com.stremio.one" />
-    <icon name="substratum Lite" drawable="@drawable/substratum_lite" package="projekt.substratum.lite" />
-    <icon name="Sudoku" drawable="@drawable/sudoku" package="ee.dustland.android.dustlandsudoku" />
-    <icon name="Sweech" drawable="@drawable/sweech" package="com.sweech" />
-    <icon name="Swift Backup" drawable="@drawable/swift_backup" package="org.swiftapps.swiftbackup" />
-    <icon name="Swiggy" drawable="@drawable/swiggy" package="in.swiggy.android" />
-    <icon name="Sync" drawable="@drawable/sync" package="com.laurencedawson.reddit_sync.dev" />
-    <icon name="Sync" drawable="@drawable/sync" package="com.laurencedawson.reddit_sync.pro" />
-    <icon name="Sync" drawable="@drawable/sync" package="com.laurencedawson.reddit_sync" />
-    <icon name="Syncthing-Fork" drawable="@drawable/syncthing" package="com.github.catfriend1.syncthingandroid" />
-    <icon name="Syncthing" drawable="@drawable/syncthing" package="com.nutomic.syncthingandroid" />
-    <icon name="Tachiyomi" drawable="@drawable/tachiyomi" package="eu.kanade.tachiyomi.debug" />
-    <icon name="Tachiyomi" drawable="@drawable/tachiyomi" package="eu.kanade.tachiyomi.j2k" />
-    <icon name="Tachiyomi" drawable="@drawable/tachiyomi" package="eu.kanade.tachiyomi" />
-    <icon name="TachiyomiSY" drawable="@drawable/tachiyomisy" package="eu.kanade.tachiyomi.sy" />
-    <icon name="Tailscale" drawable="@drawable/tailscale" package="com.tailscale.ipn" />
-    <icon name="Talon for Twitter" drawable="@drawable/talon" package="com.klinker.android.twitter_l" />
-    <icon name="Talon for Twitter" drawable="@drawable/talon" package="com.klinker.android.twitter" />
-    <icon name="Tapatalk Pro" drawable="@drawable/tapatalk_pro" package="com.quoord.tapatalk" />
-    <icon name="Task Mate" drawable="@drawable/task_mate" package="com.google.android.apps.nbu.tinytask" />
-    <icon name="Tasker" drawable="@drawable/tasker" package="net.dinglisch.android.taskerm" />
-    <icon name="Tasks" drawable="@drawable/tasks" package="foundation.e.tasks" />
-    <icon name="Teams" drawable="@drawable/microsoft_teams" package="com.microsoft.teams" />
-    <icon name="Telegram X" drawable="@drawable/telegram_x" package="org.thunderdog.challegram" />
-    <icon name="Telegram X" drawable="@drawable/telegram_x" package="org.thunderdog.challegramtwo" />
-    <icon name="Telegram" drawable="@drawable/telegram" package="org.telegram.messenger.beta" />
-    <icon name="Telegram" drawable="@drawable/telegram" package="org.telegram.messenger.web" />
-    <icon name="Telegram" drawable="@drawable/telegram" package="org.telegram.messenger" />
-    <icon name="Terabox" drawable="@drawable/terabox" package="com.dubox.drive" />
-    <icon name="Termux" drawable="@drawable/termux" package="com.termux" />
-    <icon name="The Athletic" drawable="@drawable/theathletic" package="com.theathletic" />
-    <icon name="Threema Libre" drawable="@drawable/threema" package="ch.threema.app.libre" />
-    <icon name="Threema" drawable="@drawable/threema" package="ch.threema.app" />
-    <icon name="TickTick" drawable="@drawable/ticktick" package="com.ticktick.task" />
-    <icon name="Tidal" drawable="@drawable/tidal" package="com.aspiro.tidal" />
-    <icon name="TikTok" drawable="@drawable/tiktok" package="com.ss.android.ugc.trill" />
-    <icon name="TikTok" drawable="@drawable/tiktok" package="com.zhiliaoapp.musically" />
-    <icon name="Todoist" drawable="@drawable/todoist" package="com.todoist" />
-    <icon name="Tor Browser" drawable="@drawable/tor_browser" package="org.torproject.torbrowser" />
-    <icon name="Trail Sense" drawable="@drawable/trail_sense" package="com.kylecorry.trail_sense" />
     <icon name="Traveloka" drawable="@drawable/traveloka" package="com.traveloka.android" />
-    <icon name="Trust Wallet" drawable="@drawable/trust_wallet" package="com.wallet.crypto.trustapp" />
-    <icon name="Tumblr" drawable="@drawable/tumblr" package="com.tumblr" />
     <icon name="Tuya Smart" drawable="@drawable/tuya_smart" package="com.tuya.smart" />
-    <icon name="TV Time" drawable="@drawable/tv_time" package="com.tozelabs.tvshowtime" />
-    <icon name="Twire" drawable="@drawable/twire" package="com.perflyst.twire" />
-    <icon name="Twitch" drawable="@drawable/twitch" package="tv.twitch.android.app" />
-    <icon name="Twitch" drawable="@drawable/twitch" package="tv.twitch.bttvandroid.app" />
-    <icon name="TwitchMod" drawable="@drawable/twitch" package="tv.twitchmod.android.app" />
     <icon name="Twitter" drawable="@drawable/twitter" package="com.twitter.android.lite" />
     <icon name="Twitter" drawable="@drawable/twitter" package="com.twitter.android" />
     <icon name="Tyra" drawable="@drawable/tyra" package="se.bayou.android.tyra" />
-    <icon name="Uber" drawable="@drawable/uber" package="com.ubercab" />
     <icon name="Unicode Pad" drawable="@drawable/unicode_pad" package="jp.ddo.hotmist.unicodepad" />
-    <icon name="UniFi Network" drawable="@drawable/unifi_network" package="com.ubnt.easyunifi" />
-    <icon name="Uphold" drawable="@drawable/uphold" package="com.uphold.wallet" />
-    <icon name="Vi" drawable="@drawable/vi" package="com.mventus.selfcare.activity" />
-    <icon name="Via Browser" drawable="@drawable/via_browser" package="mark.via.gp" />
-    <icon name="Viber" drawable="@drawable/viber" package="com.viber.voip" />
-    <icon name="Viper4Android FX" drawable="@drawable/viper4android" package="com.pittvandewitt.viperfx" />
-    <icon name="Vivaldi" drawable="@drawable/vivaldi" package="com.vivaldi.browser.snapshot" />
-    <icon name="Vivaldi" drawable="@drawable/vivaldi" package="com.vivaldi.browser" />
-    <icon name="VK" drawable="@drawable/vk" package="com.tea.android" />
-    <icon name="VK" drawable="@drawable/vk" package="com.vkontakte.android" />
-    <icon name="VLC" drawable="@drawable/vlc" package="org.videolan.vlc" />
-    <icon name="Vodafone" drawable="@drawable/vodafone" package="com.zentity.vodafone" />
     <icon name="Waze" drawable="@drawable/waze" package="com.waze" />
     <icon name="Wear OS" drawable="@drawable/wear_os" package="com.google.android.wearable.app" />
     <icon name="Webcam" drawable="@drawable/webcam" package="com.jacksoftw.webcam" />
