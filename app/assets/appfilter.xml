@@ -438,6 +438,7 @@
   <item component="ComponentInfo{com.ryzac.codecademygo/host.exp.exponent.MainActivity}" drawable="codecademy_go" name="Codecademy Go" />
   <item component="ComponentInfo{com.github.muellerma.coffee/com.github.muellerma.coffee.activities.MainActivity}" drawable="coffee" name="Coffee" />
   <item component="ComponentInfo{com.github.muellerma.coffee/com.github.muellerma.coffee.MainActivity}" drawable="coffee" name="Coffee" />
+  <item component="ComponentInfo{com.zerodha.coin/com.zerodha.coin.MainActivity}" drawable="zerodha_coin" name="Coin" />
   <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.LaunchActivity}" drawable="coinbase" name="Coinbase" />
   <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.MainActivity}" drawable="coinbase" name="Coinbase" />
   <item component="ComponentInfo{com.coinbase.android/com.coinbase.android.signin.IntroActivity}" drawable="coinbase" name="Coinbase" />
@@ -1025,6 +1026,8 @@
   <item component="ComponentInfo{com.evo.inware/com.evo.inware.ui.activities.SplashActivity}" drawable="inware" name="Inware" />
   <item component="ComponentInfo{com.evo.inware/com.evo.inware.ui.activities.SweetHomeActivity}" drawable="inware" name="Inware" />
   <item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.ima.activities.IRCTCConnectActivity}" drawable="irctc" name="IRCTC Rail Connect" />
+  <item component="ComponentInfo{com.jacksoftw.webcam/com.iriun.webcam.IntroActivity}" drawable="iriun_webcam" name="Iriun Webcam" />
+  <item component="ComponentInfo{com.jacksoftw.webcam/com.jacksoftw.webcam.IntroActivity}" drawable="iriun_webcam" name="Iriun Webcam" />
   <item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.MainActivity}" drawable="island" name="Island" />
   <item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.settings.IslandSettingsActivity}" drawable="island" name="Island" />
   <item component="ComponentInfo{org.jellyfin.mobile/org.jellyfin.mobile.MainActivity}" drawable="jellyfin" name="Jellyfin" />
@@ -1099,6 +1102,7 @@
   <item component="ComponentInfo{kfc.vietnam/com.kfcvn.dev.SplashActivity}" drawable="kfc" name="KFC" />
   <item component="ComponentInfo{ru.kfc.kfc_delivery/com.kfc.ui.activities.NativeModuleActivity}" drawable="kfc" name="KFC" />
   <item component="ComponentInfo{org.khanacademy.android/org.khanacademy.android.ui.library.MainActivity}" drawable="khan_academy" name="Khan Academy" />
+  <item component="ComponentInfo{com.zerodha.kite3/com.zerodha.kite3.MainActivity}" drawable="zerodha_kite" name="Kite" />
   <item component="ComponentInfo{com.kiwibrowser.browser.dev/com.google.android.apps.chrome.Main}" drawable="kiwi_browser" name="Kiwi Browser" />
   <item component="ComponentInfo{com.kiwibrowser.browser/com.google.android.apps.chrome.Main}" drawable="kiwi_browser" name="Kiwi Browser" />
   <item component="ComponentInfo{org.kustom.lockscreen/org.kustom.app.OnBoardingActivity}" drawable="kustom" name="KLCK" />
@@ -1160,6 +1164,8 @@
   <item component="ComponentInfo{ru.yandex.mail/ru.yandex.mail.im.RosterActivity}" drawable="yandex_mail" name="Mail" />
   <item component="ComponentInfo{ru.yandex.mail/ru.yandex.mail.ui.LoginActivity}" drawable="yandex_mail" name="Mail" />
   <item component="ComponentInfo{ru.yandex.mail/ru.yandex.mail.ui.MailListActivity}" drawable="yandex_mail" name="Mail" />
+  <item component="ComponentInfo{ru.yandex.yandexmaps/ru.yandex.yandexmaps.MapActivity}" drawable="yandex_maps" name="Maps" />
+  <item component="ComponentInfo{ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}" drawable="yandex_maps" name="Maps" />
   <item component="ComponentInfo{online.hisubway.marindeck/io.kodular.shenyusoftware.MarinDeck.Screen1}" drawable="marindeck" name="MarinDeck" />
   <item component="ComponentInfo{org.joinmastodon.android/org.joinmastodon.android.MainActivity}" drawable="mastodon" name="Mastodon" />
   <item component="ComponentInfo{com.pluscubed.matlog/com.pluscubed.logcat.ui.LogcatActivity}" drawable="matlog" name="MatLog" />
@@ -2488,6 +2494,9 @@
   <item component="ComponentInfo{org.ungoogled.chromium.stable/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Ungoogled Chromium" />
   <item component="ComponentInfo{com.ubnt.easyunifi/com.ubnt.unifi.network.splashscreen.SplashScreenActivity}" drawable="unifi" name="UniFi" />
   <item component="ComponentInfo{com.uphold.wallet/com.uphold.wallet.MainActivity}" drawable="uphold" name="Uphold" />
+  <item component="ComponentInfo{com.vanced.manager/com.vanced.manager.ui.core.SplashScreenActivity}" drawable="vanced_manager" name="Vanced Manager" />
+  <item component="ComponentInfo{com.vanced.manager/com.vanced.manager.ui.SplashScreenActivity}" drawable="vanced_manager" name="Vanced Manager" />
+  <item component="ComponentInfo{com.vanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="Vanced YouTube Music" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivity$Main}" drawable="discord" name="Vendetta" />
   <item component="ComponentInfo{dev.beefers.vendetta/com.discord.app.AppActivityMain}" drawable="discord" name="Vendetta" />
@@ -2528,8 +2537,190 @@
   <item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.gui.tv.MainTvActivity}" drawable="vlc" name="VLC" />
   <item component="ComponentInfo{org.videolan.vlc/org.videolan.vlc.StartActivity}" drawable="vlc" name="VLC" />
   <item component="ComponentInfo{com.bnyro.wallpaper/com.bnyro.wallpaper.ui.activities.MainActivity}" drawable="simple_gallery" name="Wall You" />
-  <item component="ComponentInfo{com.kapp.youtube.final/com.kapp.youtube.ui.MainActivity}" drawable="generic_player" name="YMusic" />
-  <item component="ComponentInfo{com.kapp.youtube.final/com.marverenic.music.activity.HomeActivity}" drawable="generic_player" name="YMusic" />
-  <item component="ComponentInfo{com.kapp.youtube.final/com.marverenic.music.ui.library.LibraryActivity}" drawable="generic_player" name="YMusic" />
-  <item component="ComponentInfo{com.kapp.youtube.final/com.marverenic.music.ui.youtube.HomeActivity}" drawable="generic_player" name="YMusic" />
+  <item component="ComponentInfo{com.waze/com.waze.FreeMapAppActivity}" drawable="waze" name="Waze" />
+  <item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.launcher.LauncherActivity}" drawable="wear_os" name="Wear OS" />
+  <item component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.StatusActivity}" drawable="wear_os" name="Wear OS" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.0}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.1}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.10}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.11}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.12}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.13}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.14}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.15}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.16}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.17}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.18}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.19}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.2}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.21}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.22}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.23}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.24}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.25}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.26}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.27}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.28}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.29}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.3}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.30}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.31}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.32}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.33}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.34}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.36}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.37}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.38}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.39}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.4}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.42}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.43}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.44}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.45}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.46}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.47}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.48}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.49}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.5}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.50}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.51}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.52}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.53}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.54}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.55}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.57}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.58}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.59}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.6}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.60}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.61}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.62}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.63}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.64}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.65}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.66}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.67}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.68}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.69}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.7}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.70}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.71}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.72}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.73}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.74}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.75}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.76}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.77}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.8}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.9}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.HomeActivity}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconfive}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconfour}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconone}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.iconthree}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.icontwo}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-01}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-02}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-03}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-04}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-05}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-06}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-07}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-08}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-09}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-10}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-11}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-12}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-13}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-14}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-15}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-16}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-17}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-18}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Plus}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main-Reborn}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main0}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main1}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main10}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main11}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main12}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main13}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main14}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main15}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main16}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main17}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main2}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main21}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main24}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main26}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main3}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main30}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main31}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main37}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main38}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main4}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main5}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main6}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main7}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main8}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main9}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp/com.whatsapp.mod.Mulbhut-05}" drawable="whatsapp" name="WhatsApp" />
+  <item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="whatsapp_business" name="WhatsApp Business" />
+  <item component="ComponentInfo{com.whereismytrain.android/com.whereismytrain.view.activities.MainPagerActivity}" drawable="where_is_my_train" name="Where is my Train" />
+  <item component="ComponentInfo{org.wikipedia/org.wikipedia.main.MainActivity}" drawable="wikipedia" name="Wikipedia" />
+  <item component="ComponentInfo{org.wikipedia/org.wikipedia.MainActivity}" drawable="wikipedia" name="Wikipedia" />
+  <item component="ComponentInfo{org.wikipedia/org.wikipedia.page.PageActivity}" drawable="wikipedia" name="Wikipedia" />
+  <item component="ComponentInfo{org.wikipedia/org.wikipedia.PageActivity}" drawable="wikipedia" name="Wikipedia" />
+  <item component="ComponentInfo{org.wikipedia/org.wikipedia.WikipediaActivity}" drawable="wikipedia" name="Wikipedia" />
+  <item component="ComponentInfo{com.wildberries.ru/com.wildberries.ru.Splash.SplashActivity}" drawable="wildberries" name="Wildberries" />
+  <item component="ComponentInfo{com.wildberries.ru/ru.wildberries.SplashActivity}" drawable="wildberries" name="Wildberries" />
+  <item component="ComponentInfo{com.windscribe.vpn/com.windscribe.mobile.splash.SplashActivity}" drawable="windscribe" name="Windscribe" />
+  <item component="ComponentInfo{com.windscribe.vpn/com.windscribe.vpn.splash.SplashActivity}" drawable="windscribe" name="Windscribe" />
+  <item component="ComponentInfo{com.windscribe.vpn/com.windscribe.vpn.ui.activities.EntryPointActivity}" drawable="windscribe" name="Windscribe" />
+  <item component="ComponentInfo{com.wordwebsoftware.android.wordweb/com.wordwebsoftware.android.wordweb.activity.WordWebActivity}" drawable="wordweb" name="WordWeb" />
+  <item component="ComponentInfo{com.xda.labs.play/com.xda.labs.ForumLauncher}" drawable="xda" name="XDA" />
+  <item component="ComponentInfo{com.xda.labs.play/com.xda.labs.one.ui.MainActivity}" drawable="xda" name="XDA" />
+  <item component="ComponentInfo{com.xda.labs.play/host.exp.exponent.MainActivity}" drawable="xda" name="XDA" />
+  <item component="ComponentInfo{com.xda.labs/com.xda.labs.ForumLauncher}" drawable="xda" name="XDA" />
+  <item component="ComponentInfo{com.xda.labs/com.xda.labs.LabsLauncher}" drawable="xda" name="XDA" />
+  <item component="ComponentInfo{com.xda.labs/com.xda.labs.MainActivity}" drawable="xda" name="XDA" />
+  <item component="ComponentInfo{video.player.videoplayer/com.inshot.xplayer.activities.FileExplorerActivity}" drawable="xplayer" name="XPlayer" />
+  <item component="ComponentInfo{video.player.videoplayer/com.inshot.xplayer.activities.SplashActivity}" drawable="xplayer" name="XPlayer" />
+  <item component="ComponentInfo{rikka.safetynetchecker/rikka.safetynetchecker.main.MainActivity}" drawable="yasnac" name="YASNAC" />
+  <item component="ComponentInfo{com.yeelight.cherry/com.yeelight.cherry.ui.activity.LauncherActivity}" drawable="yeelight" name="Yeelight" />
+  <item component="ComponentInfo{com.kapp.youtube.final/com.kapp.youtube.ui.MainActivity}" drawable="ymusic" name="YMusic" />
+  <item component="ComponentInfo{com.kapp.youtube.final/com.marverenic.music.activity.HomeActivity}" drawable="ymusic" name="YMusic" />
+  <item component="ComponentInfo{com.kapp.youtube.final/com.marverenic.music.ui.library.LibraryActivity}" drawable="ymusic" name="YMusic" />
+  <item component="ComponentInfo{com.kapp.youtube.final/com.marverenic.music.ui.youtube.HomeActivity}" drawable="ymusic" name="YMusic" />
+  <item component="ComponentInfo{com.google.android.youtube/.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomePage}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="YouTube Music" />
+  <item component="ComponentInfo{app.revanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="YouTube Music Revanced" />
+  <item component="ComponentInfo{app.rvx.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="YouTube Music ReVanced Extended" />
+  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/com.google.android.youtube.app.honeycomb.ShellHomeActivity}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube ReVanced Extended" />
+  <item component="ComponentInfo{app.rvx.android.youtube/com.google.android.youtube.app.honeycomb.ShellHomeActivity}" drawable="youtube" name="YouTube ReVanced Extended" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.creator/.main.MainActivity}" drawable="ytstudio" name="YouTube Studio" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.activities.SplashActivity}" drawable="ytstudio" name="YouTube Studio" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity}" drawable="ytstudio" name="YouTube Studio" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.activities.MainActivity}" drawable="youtube_tv" name="YouTube TV" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.features.main.MainActivity}" drawable="youtube_tv" name="YouTube TV" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.startup.activity.SplashActivity}" drawable="youtube_tv" name="YouTube TV" />
+  <item component="ComponentInfo{com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube_vanced" name="YouTube Vanced" />
+  <item component="ComponentInfo{com.vanced.android.youtube/com.vanced.android.youtube.pmp}" drawable="youtube_vanced" name="YouTube Vanced" />
+  <item component="ComponentInfo{pl.zabka.apb2c/pl.zabka.b2c.presentation.welcome.WelcomeActivity}" drawable="zappka" name="zappka" />
+  <item component="ComponentInfo{ru.zdevs.zarchiver.pro/ru.zdevs.zarchiver.pro.ZArchiver}" drawable="zarchiver" name="ZArchiver" />
+  <item component="ComponentInfo{ru.zdevs.zarchiver/com.file.fileManage.ui.SplashActivity}" drawable="zarchiver" name="ZArchiver" />
+  <item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiver}" drawable="zarchiver" name="ZArchiver" />
+  <item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiverFS}" drawable="zarchiver" name="ZArchiver" />
+  <item component="ComponentInfo{com.application.zomato/com.application.zomato.activities.Splash}" drawable="zomato" name="Zomato" />
+  <item component="ComponentInfo{com.application.zomato/com.application.zomato.Splash}" drawable="zomato" name="Zomato" />
+  <item component="ComponentInfo{com.zulipmobile/com.zulipmobile.MainActivity}" drawable="zulip" name="Zulip" />
 </resources>

@@ -42,43 +42,6 @@
     <icon name="Twitter" drawable="@drawable/twitter" package="com.twitter.android" />
     <icon name="Tyra" drawable="@drawable/tyra" package="se.bayou.android.tyra" />
     <icon name="Unicode Pad" drawable="@drawable/unicode_pad" package="jp.ddo.hotmist.unicodepad" />
-    <icon name="Waze" drawable="@drawable/waze" package="com.waze" />
-    <icon name="Wear OS" drawable="@drawable/wear_os" package="com.google.android.wearable.app" />
-    <icon name="Webcam" drawable="@drawable/webcam" package="com.jacksoftw.webcam" />
-    <icon name="WebWeaver" drawable="@drawable/webweaver" package="de.digionline.webweaverorg" />
-    <icon name="WhatsApp Business" drawable="@drawable/whatsapp_business" package="com.whatsapp.w4b" />
-    <icon name="WhatsApp" drawable="@drawable/whatsapp" package="com.whatsapp" />
-    <icon name="WhatsApp" drawable="@drawable/whatsapp" package="io.kuenzler.whatsappwebtogo" />
-    <icon name="Where is my Train" drawable="@drawable/where_is_my_train" package="com.whereismytrain.android" />
     <icon name="WiFiman" drawable="@drawable/wifiman" package="com.ubnt.usurvey" />
-    <icon name="Wikipedia" drawable="@drawable/wikipedia" package="org.wikipedia" />
-    <icon name="Wildberries" drawable="@drawable/wildberries" package="com.wildberries.ru" />
-    <icon name="Windscribe VPN" drawable="@drawable/windscribe_vpn" package="com.windscribe.vpn" />
-    <icon name="WordWeb" drawable="@drawable/wordweb" package="com.wordwebsoftware.android.wordweb" />
-    <icon name="Wulkanowy" drawable="@drawable/wulkanowy" package="io.github.wulkanowy" />
     <icon name="x-kom" drawable="@drawable/xkom" package="pl.xkom" />
-    <icon name="XDA" drawable="@drawable/xda" package="com.xda.labs.play" />
-    <icon name="XDA" drawable="@drawable/xda" package="com.xda.labs" />
-    <icon name="Xplayer" drawable="@drawable/xplayer" package="video.player.videoplayer" />
-    <icon name="Yandex Keyboard" drawable="@drawable/yandex_keyboard" package="ru.yandex.androidkeyboard" />
-    <icon name="Yandex Maps" drawable="@drawable/yandexmaps" package="ru.yandex.yandexmaps" />
-    <icon name="Yandex Metro" drawable="@drawable/yandex_metro" package="ru.yandex.metro" />
-    <icon name="YASNAC" drawable="@drawable/yasnac" package="rikka.safetynetchecker" />
-    <icon name="Yeelight" drawable="@drawable/yeelight" package="com.yeelight.cherry" />
-    <icon name="YMusic" drawable="@drawable/ymusic" package="com.kapp.youtube.final" />
-    <icon name="YMusic" drawable="@drawable/youtube_music" package="app.revanced.android.apps.youtube.music" />
-    <icon name="YouTube Music" drawable="@drawable/youtube_music" package="com.google.android.apps.youtube.music" />
-    <icon name="YouTube Music" drawable="@drawable/youtube_music" package="com.vanced.android.apps.youtube.music" />
-    <icon name="YouTube Studio" drawable="@drawable/ytstudio" package="com.google.android.apps.youtube.creator" />
-    <icon name="YouTube TV" drawable="@drawable/youtube_tv" package="com.google.android.apps.youtube.unplugged" />
-    <icon name="YouTube Vanced Manager" drawable="@drawable/youtube_vanced_manager" package="com.vanced.manager" />
-    <icon name="YouTube Vanced" drawable="@drawable/youtube_vanced" package="com.vanced.android.youtube" />
-    <icon name="YouTube" drawable="@drawable/youtube" package="app.revanced.android.youtube" />
-    <icon name="YouTube" drawable="@drawable/youtube" package="com.google.android.youtube" />
-    <icon name="Żappka" drawable="@drawable/zappka" package="pl.zabka.apb2c" />
-    <icon name="ZArchiever" drawable="@drawable/zarchiver" package="ru.zdevs.zarchiver" />
-    <icon name="Zerodha Coin" drawable="@drawable/zerodha_coin" package="com.zerodha.coin" />
-    <icon name="Zerodha Kite" drawable="@drawable/zerodha_kite" package="com.zerodha.kite3" />
-    <icon name="Zomato" drawable="@drawable/zomato" package="com.application.zomato" />
-    <icon name="Zulip" drawable="@drawable/zulip" package="com.zulipmobile" />
 </icons>
