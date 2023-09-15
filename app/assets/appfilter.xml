@@ -100,6 +100,8 @@
   <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
   <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
   <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.twa.CustomTWALauncherActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{com.fox2code.mmm.fdroid/com.fox2code.mmm.MainActivity}" drawable="foxmmm" name="AMM" />
+  <item component="ComponentInfo{com.fox2code.mmm.fdroid/com.fox2code.mmm.settings.SettingsActivity}" drawable="foxmmm" name="AMM" />
   <item component="ComponentInfo{com.google.android.projection.gearhead/com.google.android.gearhead.vanagon.VnLaunchPadActivity}" drawable="android_auto" name="Android Auto" />
   <item component="ComponentInfo{com.google.android.projection.gearhead/com.google.android.projection.gearhead.companion.SplashScreenActivity}" drawable="android_auto" name="Android Auto" />
   <item component="ComponentInfo{xyz.jmir.tachiyomi.mi.debug/eu.kanade.tachiyomi.ui.main.MainActivity}" drawable="aniyomi" name="Aniyomi" />
@@ -748,6 +750,7 @@
   <item component="ComponentInfo{com.samruston.twitter/com.samruston.twitter.MainActivity}" drawable="flamingo" name="Flamingo" />
   <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.Flipkart}" drawable="flipkart" name="FlipKart" />
   <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.SplashActivity}" drawable="flipkart" name="FlipKart" />
+  <item component="ComponentInfo{com.handmadeideas.floccus/com.handmadeideas.floccus.MainActivity}" drawable="floccus" name="floccus" />
   <item component="ComponentInfo{dev.patrickgold.florisboard/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard" />
   <item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Beta" />
   <item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Debug" />
@@ -774,6 +777,8 @@
   <item component="ComponentInfo{org.forkgram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" name="Fork Client" />
   <item component="ComponentInfo{app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons" />
   <item component="ComponentInfo{app.lawnchair.lawnicons.light/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons (light)" />
+  <item component="ComponentInfo{com.fox2code.mmm/com.fox2code.mmm.MainActivity}" drawable="foxmmm" name="Fox's Magisk Module Manager" />
+  <item component="ComponentInfo{com.fox2code.mmm/com.fox2code.mmm.settings.SettingsActivity}" drawable="foxmmm" name="Fox's Magisk Module Manager" />
   <item component="ComponentInfo{com.franco.kernel/a.spl}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
   <item component="ComponentInfo{com.franco.kernel/a.spl/com.franco.kernel.activities.SplashActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
   <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.activities.MainActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
@@ -872,6 +877,7 @@
   <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
   <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.view.activity.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
   <item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="github" name="GitHub" />
+  <item component="ComponentInfo{nl.viter.glider.MainActivity/nl.viter.glider.MainActivity}" drawable="glider" name="Glider" />
   <item component="ComponentInfo{ph.com.globe.globeonesuperapp/ph.com.globe.globeonesuperapp.BaseActivity}" drawable="globeone" name="GlobeOne" />
   <item component="ComponentInfo{com.google.android.gm.lite/com.google.android.gm.ConversationListActivityGmail}" drawable="gmail" name="Gmail" />
   <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="gmail" name="Gmail" />
@@ -914,6 +920,7 @@
   <item component="ComponentInfo{com.chrome.dev/org.chromium.android_webview.devui.MonochromeLauncherActivity}" drawable="google_chrome_dev" name="Google Chrome Dev" />
   <item component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.application.launcher.LauncherActivity}" drawable="google_classroom" name="Google Classroom" />
   <item component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.application.LauncherActivity}" drawable="google_classroom" name="Google Classroom" />
+  <item component="ComponentInfo{com.google.android.apps.cloudconsole/com.google.android.apps.cloudconsole.common.MainContainerActivity}" drawable="google_cloud" name="Google Cloud" />
   <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.DocumentOpenerActivityProxy}" drawable="google_docs" name="Google Docs" />
   <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mBaseDisplayId=0 mFlags=0 }}" drawable="google_docs" name="Google Docs" />
   <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="google_docs" name="Google Docs" />
@@ -996,6 +1003,7 @@
   <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.presentation.newface.NewFace}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.splash.SplashActivity}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.v3.splash.SplashActivity}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.area120.grasshopper/com.google.engedu.grasshopper.flutter.MainActivity}" drawable="grasshopper" name="Grasshopper" />
   <item component="ComponentInfo{com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity}" drawable="greenify" name="Greenify" />
   <item component="ComponentInfo{com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity}" drawable="greenify" name="Greenify (Donation Package)" />
   <item component="ComponentInfo{com.aistra.hail/com.aistra.hail.ui.main.MainActivity}" drawable="hail" name="Hail" />
@@ -1277,6 +1285,26 @@
   <item component="ComponentInfo{com.samsung.android.messaging/com.android.mms.ui.ConversationComposer VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_messages" name="Messages" />
   <item component="ComponentInfo{com.samsung.android.messaging/com.android.mms.ui.ConversationComposer}" drawable="samsung_messages" name="Messages" />
   <item component="ComponentInfo{com.samsung.android.messaging/com.samsung.android.messaging.ui.ConversationList}" drawable="samsung_messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Amber}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue_grey}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Blue}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Brown}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Cyan}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_orange}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Deep_purple}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Green}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Grey_black}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Indigo}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_blue}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Light_green}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Lime}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Orange}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Pink}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Purple}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Red}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Teal}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity.Yellow}" drawable="messages" name="Messages" />
+  <item component="ComponentInfo{com.simplemobiletools.smsmessenger/com.simplemobiletools.smsmessenger.activities.SplashActivity}" drawable="messages" name="Messages" />
   <item component="ComponentInfo{com.facebook.mlite/.coreui.view.MainActivity}" drawable="messenger" name="Messenger" />
   <item component="ComponentInfo{com.facebook.mlite/com.facebook.lite.MainActivity}" drawable="messenger" name="Messenger" />
   <item component="ComponentInfo{com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity}" drawable="messenger" name="Messenger" />
@@ -1712,6 +1740,27 @@
   <item component="ComponentInfo{com.samsung.android.dialer/.DialtactsActivity}" drawable="samsung_phone" name="Phone" />
   <item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="samsung_phone" name="Phone" />
   <item component="ComponentInfo{com.sh.smart.caller/com.android.dialer.main.impl.MainActivity}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Amber}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Black}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Blue_grey}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Blue}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Brown}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Cyan}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Deep_orange}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Deep_purple}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Green}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Grey_black}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Indigo}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Light_blue}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Light_green}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Lime}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Orange}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Pink}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Purple}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Red}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Teal}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity.Yellow}" drawable="dialer" name="Phone" />
+  <item component="ComponentInfo{com.simplemobiletools.dialer/com.simplemobiletools.dialer.activities.SplashActivity}" drawable="dialer" name="Phone" />
   <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="dialer" name="Phone" />
   <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.DialtactsActivity}" drawable="dialer" name="Phone" />
   <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="dialer" name="Phone" />
@@ -2225,6 +2274,45 @@
   <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Red}" drawable="contacts" name="Simple Contacts Pro" />
   <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Teal}" drawable="contacts" name="Simple Contacts Pro" />
   <item component="ComponentInfo{com.simplemobiletools.contacts.pro/com.simplemobiletools.contacts.pro.activities.SplashActivity.Yellow}" drawable="contacts" name="Simple Contacts Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Amber}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Blue_grey}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Blue}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Brown}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Cyan}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Deep_orange}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Deep_purple}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Green}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Grey_black}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Indigo}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Light_blue}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Light_green}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Lime}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Orange}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Pink}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Purple}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Red}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Teal}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity.Yellow}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager/com.simplemobiletools.filemanager.activities.SplashActivity}" drawable="files" name="Simple File Manager" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Amber}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Blue_grey}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Blue}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Brown}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Cyan}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Deep_orange}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Deep_purple}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Green}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Grey_black}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Indigo}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Light_blue}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Light_green}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Lime}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Orange}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Pink}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Purple}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Red}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Teal}" drawable="files" name="Simple File Manager Pro" />
+  <item component="ComponentInfo{com.simplemobiletools.filemanager.pro/com.simplemobiletools.filemanager.pro.activities.SplashActivity.Yellow}" drawable="files" name="Simple File Manager Pro" />
   <item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.MainActivity}" drawable="simple_gallery" name="Simple Gallery" />
   <item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity.Amber}" drawable="simple_gallery" name="Simple Gallery" />
   <item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity.Blue_grey}" drawable="simple_gallery" name="Simple Gallery" />
@@ -2679,6 +2767,18 @@
   <item component="ComponentInfo{com.windscribe.vpn/com.windscribe.vpn.splash.SplashActivity}" drawable="windscribe" name="Windscribe" />
   <item component="ComponentInfo{com.windscribe.vpn/com.windscribe.vpn.ui.activities.EntryPointActivity}" drawable="windscribe" name="Windscribe" />
   <item component="ComponentInfo{com.wordwebsoftware.android.wordweb/com.wordwebsoftware.android.wordweb.activity.WordWebActivity}" drawable="wordweb" name="WordWeb" />
+  <item component="ComponentInfo{com.twitter.android.lite/com.twitter.android.lite.BrowserActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android.lite/com.twitter.android.lite.LauncherActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android.lite/com.twitter.android.lite.TwitterLiteActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.example.nm.TwitterLauncherMainActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.android.LoginActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.android.MainActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.android.stub.MainActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.applib.StartActivity}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.icon5}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.twitter.subscriptions.appicon.implementation.seasonal_icon20}" drawable="x" name="X" />
+  <item component="ComponentInfo{com.twitter.android/com.yrwl.admanager.bytedance.SplashActivity}" drawable="x" name="X" />
   <item component="ComponentInfo{com.xda.labs.play/com.xda.labs.ForumLauncher}" drawable="xda" name="XDA" />
   <item component="ComponentInfo{com.xda.labs.play/com.xda.labs.one.ui.MainActivity}" drawable="xda" name="XDA" />
   <item component="ComponentInfo{com.xda.labs.play/host.exp.exponent.MainActivity}" drawable="xda" name="XDA" />

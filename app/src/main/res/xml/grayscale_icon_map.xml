@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <icons>
-    <icon name="floccus" drawable="@drawable/floccus" package="org.handmadeideas.floccus" />
-    <icon name="Fox MMM" drawable="@drawable/foxmmm" package="com.fox2code.mmm.fdroid" />
-    <icon name="Fox MMM" drawable="@drawable/foxmmm" package="com.fox2code.mmm" />
-    <icon name="Glider" drawable="@drawable/glider" package="nl.viter.glider" />
-    <icon name="Grasshopper" drawable="@drawable/grasshopper" package="com.area120.grasshopper" />
-    <icon name="In pocasi" drawable="@drawable/inpocasi" package="com.johnniek.inpocasi.widget" />
     <icon name="Infinity Loop" drawable="@drawable/infinity_loop" package="com.balysv.loop" />
     <icon name="iVoox" drawable="@drawable/ivoox" package="com.ivoox.app" />
     <icon name="KAPK" drawable="@drawable/kustom" package="org.kustom.apkmaker" />
@@ -27,19 +21,13 @@
     <icon name="Ring" drawable="@drawable/ring" package="com.ideopay.user" />
     <icon name="Samsung Pay" drawable="@drawable/samsung_pay" package="com.samsung.android.spay" />
     <icon name="Scany" drawable="@drawable/scany" package="app.moonlight.sda.scany" />
-    <icon name="Simple Dialer" drawable="@drawable/dialer" package="com.simplemobiletools.dialer" />
-    <icon name="Simple File Manager Pro" drawable="@drawable/files" package="com.simplemobiletools.filemanager.pro" />
-    <icon name="Simple File Manager" drawable="@drawable/files" package="com.simplemobiletools.filemanager" />
     <icon name="Simple File Notes Pro" drawable="@drawable/notes" package="com.simplemobiletools.notes.pro" />
-    <icon name="Simple Sms Messenger" drawable="@drawable/messages" package="com.simplemobiletools.smsmessenger" />
     <icon name="Smart Life" drawable="@drawable/smartlife" package="com.tuya.smartlife" />
     <icon name="Solitaire" drawable="@drawable/solitaire" package="ee.dustland.android.solitaire" />
     <icon name="Sony Music" drawable="@drawable/sonymusic" package="com.sonyericsson.music" />
     <icon name="Stay Focused" drawable="@drawable/stay_focused" package="com.stayfocused" />
     <icon name="Traveloka" drawable="@drawable/traveloka" package="com.traveloka.android" />
     <icon name="Tuya Smart" drawable="@drawable/tuya_smart" package="com.tuya.smart" />
-    <icon name="Twitter" drawable="@drawable/twitter" package="com.twitter.android.lite" />
-    <icon name="Twitter" drawable="@drawable/twitter" package="com.twitter.android" />
     <icon name="Tyra" drawable="@drawable/tyra" package="se.bayou.android.tyra" />
     <icon name="Unicode Pad" drawable="@drawable/unicode_pad" package="jp.ddo.hotmist.unicodepad" />
     <icon name="WiFiman" drawable="@drawable/wifiman" package="com.ubnt.usurvey" />
