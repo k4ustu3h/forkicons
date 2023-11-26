@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.collectAsState
@@ -20,13 +19,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.navigation.NavController
 import app.lawnchair.lawnicons.R
 import app.lawnchair.lawnicons.model.GitHubContributor
 import app.lawnchair.lawnicons.ui.components.ContributorRow
 import app.lawnchair.lawnicons.ui.components.ContributorRowPlaceholder
 import app.lawnchair.lawnicons.ui.components.ExternalLinkRow
 import app.lawnchair.lawnicons.ui.components.core.LawniconsScaffold
+import app.lawnchair.lawnicons.ui.theme.LawniconsTheme
+import app.lawnchair.lawnicons.ui.util.LawniconsPreview
 import app.lawnchair.lawnicons.ui.util.toPaddingValues
 import app.lawnchair.lawnicons.viewmodel.ContributorsUiState
 import app.lawnchair.lawnicons.viewmodel.ContributorsViewModel
@@ -36,27 +36,27 @@ const val contributorsUrl = "https://github.com/k4ustu3h/forkicons/graphs/contri
 @Composable
 fun Contributors(
     contributorsViewModel: ContributorsViewModel = hiltViewModel(),
-    navController: NavController,
-    windowSizeClass: WindowSizeClass,
+    onBack: () -> Unit,
+    isExpandedScreen: Boolean,
 ) {
     val uiState by contributorsViewModel.uiState.collectAsState()
     Contributors(
         uiState = uiState,
-        navController = navController,
-        windowSizeClass = windowSizeClass,
+        onBack = onBack,
+        isExpandedScreen = isExpandedScreen,
     )
 }
 
 @Composable
 fun Contributors(
     uiState: ContributorsUiState,
-    navController: NavController,
-    windowSizeClass: WindowSizeClass,
+    onBack: () -> Unit,
+    isExpandedScreen: Boolean,
 ) {
     LawniconsScaffold(
         title = stringResource(id = R.string.contributors),
-        navController = navController,
-        windowSizeClass = windowSizeClass,
+        onBack = onBack,
+        isExpandedScreen = isExpandedScreen,
     ) { paddingValues ->
         Crossfade(
             targetState = uiState,
@@ -66,8 +66,7 @@ fun Contributors(
             when (it) {
                 is ContributorsUiState.Success -> ContributorList(contributors = it.contributors)
                 is ContributorsUiState.Loading -> ContributorListPlaceholder()
-                is ContributorsUiState.Error ->
-                    ContributorListError(onBack = navController::popBackStack)
+                is ContributorsUiState.Error -> ContributorListError(onBack = onBack)
             }
         }
     }
@@ -138,5 +137,65 @@ fun ContributorListError(
         val website = Uri.parse(contributorsUrl)
         val intent = Intent(Intent.ACTION_VIEW, website)
         context.startActivity(intent)
+    }
+}
+
+@LawniconsPreview
+@Composable
+fun ContributorsScreenPreview() {
+    val contributors = listOf(
+        GitHubContributor(
+            id = 1,
+            login = "Example",
+            avatarUrl = "https://google.com",
+            htmlUrl = "https://google.com",
+            contributions = 1,
+        ),
+    )
+
+    LawniconsTheme {
+        Contributors(
+            ContributorsUiState.Success(contributors),
+            {},
+            false,
+        )
+    }
+}
+
+@LawniconsPreview
+@Composable
+fun ContributorsScreenLoadingPreview() {
+    LawniconsTheme {
+        Contributors(
+            ContributorsUiState.Loading,
+            {},
+            false,
+        )
+    }
+}
+
+@LawniconsPreview
+@Composable
+fun ContributorListPreview() {
+    val contributors = listOf(
+        GitHubContributor(
+            id = 1,
+            login = "Example",
+            avatarUrl = "https://google.com",
+            htmlUrl = "https://google.com",
+            contributions = 1,
+        ),
+    )
+
+    LawniconsTheme {
+        ContributorList(contributors)
+    }
+}
+
+@LawniconsPreview
+@Composable
+fun ContributorListPlaceholderPreview() {
+    LawniconsTheme {
+        ContributorListPlaceholder()
     }
 }

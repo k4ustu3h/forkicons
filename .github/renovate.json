@@ -3,8 +3,7 @@
     "extends": ["config:base"],
     "packageRules": [
         {
-            "groupName": "Kotlin",
-            "groupSlug": "kotlin",
+            "groupName": "Kotlin, KSP and Compose Compiler",
             "matchPackagePrefixes": [
                 "com.google.devtools.ksp",
                 "androidx.compose.compiler"
@@ -13,13 +12,11 @@
         },
         {
             "groupName": "AGP",
-            "groupSlug": "agp",
             "matchPackagePatterns": ["com.android.*"]
         },
         {
             "groupName": "Hilt",
-            "groupSlug": "hilt",
-            "matchPackagePatterns": ["com.google.dagger*"]
+            "matchPackagePrefixes": ["com.google.dagger"]
         }
     ]
 }

@@ -3,11 +3,11 @@ package app.lawnchair.lawnicons.repository
 import app.lawnchair.lawnicons.api.GitHubContributorsAPI
 import javax.inject.Inject
 
-val coreContributorIds =
-    listOf(
-        8080853,
-        56888459,
-    )
+val coreContributorIds = listOf(
+    8080853,
+    29139614,
+    56888459,
+)
 
 class GitHubContributorsRepository
 @Inject
