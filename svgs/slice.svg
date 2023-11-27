@@ -1,5 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" viewBox="0 0 192 192" width="192" height="192" style="stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-width:1;stroke-dasharray:none;fill:#000000;fill-opacity:1;fill-rule:evenodd" font-family="Arial" font-size="15px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-  <path id="Substract" d="M96,16C125.2578,16 149.3333,40.0755 149.3333,69.3333C149.3333,98.5911 125.2578,122.6667 96,122.6667L96,69.3334L42.6667,69.3334L42.6667,69.3333C42.6667,40.0755 66.7422,16 96,16z" />
-  <path id="Intersect" d="M42.6667,122.6667L96,122.6667L96,176C68.5708,176 45.6964,154.8399 42.9442,128.0872L42.6667,122.6667z" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" font-family="Arial" font-size="15" style="stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-width:1;stroke-dasharray:none;fill:#000;fill-opacity:1;fill-rule:evenodd" viewBox="0 0 192 192"><path d="M96 16c29.258 0 53.333 24.075 53.333 53.333S125.258 122.667 96 122.667V69.333H42.667C42.667 40.076 66.742 16 96 16M42.667 122.667H96V176c-27.43 0-50.304-21.16-53.056-47.913l-.277-5.42"/></svg>

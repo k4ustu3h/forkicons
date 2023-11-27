@@ -1,12 +1,1 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <defs>
-    <style>
-      .cls-1 {
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <g id="Shape_525" data-name="Shape 525">
-    <path class="cls-1" d="M17.19,7.5V7.17a5.18,5.18,0,0,0-10.36,0V7.5H2.5L3.65,18.18A4.27,4.27,0,0,0,7.89,22h8.22a4.27,4.27,0,0,0,4.24-3.82L21.5,7.5Zm-8.11,0V7.17a2.92,2.92,0,0,1,5.84,0V7.5Z"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.187 7.507v-.33a5.177 5.177 0 0 0-10.355 0v.33H2.504l1.15 10.675A4.268 4.268 0 0 0 7.892 22h8.215a4.268 4.268 0 0 0 4.238-3.818l1.15-10.675zm-8.106 0v-.33a2.919 2.919 0 0 1 5.837 0v.33z"/></svg>

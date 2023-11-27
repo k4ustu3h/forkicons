@@ -1364,7 +1364,6 @@
     <item component="ComponentInfo{bin.mt.plus/bin.mt.plus.MainDarkIcon}" drawable="mt_manager" name="MT Manager" />
     <item component="ComponentInfo{bin.mt.plus/bin.mt.plus.MainLightIcon}" drawable="mt_manager" name="MT Manager" />
     <item component="ComponentInfo{bin.mt.plus/bin.mt.plus.MainNoBgIcon}" drawable="mt_manager" name="MT Manager" />
-    <item component="ComponentInfo{us.spotco.fennec_dos/us.spotco.fennec_dos.App}" drawable="mull" name="Mull" />
     <item component="ComponentInfo{com.kyant.vanilla/com.kyant.vanilla.MainActivity}" drawable="music" name="Music" />
     <item component="ComponentInfo{com.miui.player/.ui.MusicBrowserActivity}" drawable="music" name="Music" />
     <item component="ComponentInfo{com.miui.player/com.miui.player.component.MusicBrowserActivity}" drawable="music" name="Music" />
