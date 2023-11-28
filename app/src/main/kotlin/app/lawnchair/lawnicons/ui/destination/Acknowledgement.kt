@@ -46,16 +46,16 @@ fun Acknowledgement(
     requireNotNull(name)
 
     val notice by
-    acknowledgementViewModel
-        .getNoticeForOssLibrary(
-            ossLibraryName = name,
-            linkStyle =
-            SpanStyle(
-                color = MaterialTheme.colorScheme.primary,
-                textDecoration = TextDecoration.Underline,
-            ),
-        )
-        .collectAsState()
+        acknowledgementViewModel
+            .getNoticeForOssLibrary(
+                ossLibraryName = name,
+                linkStyle =
+                SpanStyle(
+                    color = MaterialTheme.colorScheme.primary,
+                    textDecoration = TextDecoration.Underline,
+                ),
+            )
+            .collectAsState()
 
     LawniconsScaffold(
         title = name,
