@@ -20,7 +20,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
-            Thanks for your interest in contributing to Lawnicons!
-            Ensure that the size of your icons, their line thicknesses, and their corner radius match the [Lawnicons guidelines](https://github.com/LawnchairLauncher/lawnicons/blob/develop/.github/CONTRIBUTING.md#icon-guidelines).
+            Thanks for your interest in contributing to Forkicons!
+            Ensure that the icons match the [Forkicons guidelines](https://github.com/k4ustu3h/forkicons/blob/develop/.github/CONTRIBUTING.md#icon-guidelines).
             If something is wrong with your icons, please correct them and update the PR.
             If everything is according to the guidelines, the reviewers will quickly accept the PR. Otherwise, you will be asked to fix the icons.
