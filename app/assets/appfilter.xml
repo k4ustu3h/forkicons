@@ -668,6 +668,7 @@
     <item component="ComponentInfo{com.duolingo/com.duolingo.app.LaunchActivity}" drawable="duolingo" name="Duolingo" />
     <item component="ComponentInfo{com.duolingo/com.duolingo.app.LoginActivity}" drawable="duolingo" name="Duolingo" />
     <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSocietyLauncher}" drawable="duolingo" name="Duolingo" />
+    <item component="ComponentInfo{com.TreetopCrew.EarthInc/com.unity3d.player.UnityPlayerActivity}" drawable="earth_inc" name="Earth Inc." />
     <item component="ComponentInfo{com.done.faasos/com.done.faasos.activity.SplashActivity}" drawable="eatsure" name="EatSure" />
     <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay}" drawable="ebay" name="eBay" />
     <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay$}" drawable="ebay" name="eBay" />
@@ -1016,6 +1017,7 @@
     <item component="ComponentInfo{in.startv.hotstaronly/in.startv.hotstar.rocky.launch.splash.SplashActivity}" drawable="hotstar" name="Hotstar" />
     <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.market.MarketAuthenticationActivity}" drawable="ibispaint_x" name="ibisPaint X" />
     <item component="ComponentInfo{jp.ne.ibis.ibispaintx.app/jp.ne.ibis.ibispaintx.app.title.TitleActivity}" drawable="ibispaint_x" name="ibisPaint X" />
+    <item component="ComponentInfo{dev.southpaw.iconpusher/dev.southpaw.iconpusher.AppListerActivity}" drawable="icon_pusher" name="Icon Pusher" />
     <item component="ComponentInfo{at.bitfire.icsdroid/at.bitfire.icsdroid.ui.CalendarListActivity}" drawable="proton_calendar" name="ICSx5" />
     <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.Home}" drawable="imdb" name="IMDb" />
     <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.HomeActivity}" drawable="imdb" name="IMDb" />
@@ -2429,6 +2431,11 @@
     <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" name="Spotify" />
     <item component="ComponentInfo{com.blacksquircle.ui/com.blacksquircle.ui.application.activities.MainActivity}" drawable="squircle" name="Squircle IDE" />
     <item component="ComponentInfo{com.blacksquircle.ui/com.blacksquircle.ui.application.activity.MainActivity}" drawable="squircle" name="Squircle IDE" />
+    <item component="ComponentInfo{com.starbucks.ae/com.starbucks.emea.splash.SplashActivity}" drawable="starbucks" name="Starbucks" />
+    <item component="ComponentInfo{com.starbucks.au/au.com.mobileden.starbucksau.activities.SplashActivity}" drawable="starbucks" name="Starbucks" />
+    <item component="ComponentInfo{com.starbucks.cn/com.starbucks.cn.home.revamp.launch.RevampLaunchActivity}" drawable="starbucks" name="Starbucks" />
+    <item component="ComponentInfo{com.starbucks.id/com.starbucks.id.MainActivity}" drawable="starbucks" name="Starbucks" />
+    <item component="ComponentInfo{com.starbucks.in/com.tsb.app.home.presentation.view.activity.HomeActivity}" drawable="starbucks" name="Starbucks" />
     <item component="ComponentInfo{dev.netlob.spotistats/dev.netlob.spotistats.MainActivity}" drawable="stats_fm" name="Stats.fm" />
     <item component="ComponentInfo{com.valvesoftware.android.steam.community/android.support.main.a}" drawable="steam" name="Steam" />
     <item component="ComponentInfo{com.valvesoftware.android.steam.community/com.valvesoftware.android.steam.community.activity.CommunityActivity}" drawable="steam" name="Steam" />
@@ -2821,6 +2828,7 @@
     <item component="ComponentInfo{ru.zdevs.zarchiver/com.file.fileManage.ui.SplashActivity}" drawable="zarchiver" name="ZArchiver" />
     <item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiver}" drawable="zarchiver" name="ZArchiver" />
     <item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiverFS}" drawable="zarchiver" name="ZArchiver" />
+    <item component="ComponentInfo{zebpay.Application/zebpay.application.ui.activity.MainActivity}" drawable="zebpay" name="ZebPay" />
     <item component="ComponentInfo{com.application.zomato/com.application.zomato.activities.Splash}" drawable="zomato" name="Zomato" />
     <item component="ComponentInfo{com.application.zomato/com.application.zomato.Splash}" drawable="zomato" name="Zomato" />
     <item component="ComponentInfo{com.zulipmobile/com.zulipmobile.MainActivity}" drawable="zulip" name="Zulip" />
