@@ -20,6 +20,8 @@
     <string name="about">O aplikacji</string>
 
     <!-- About page -->
+    <!-- External Links label -->
+    <string name="external_links">Linki zewnętrzne</string>
 
     <!-- Contributors section of About page -->
     <!-- Contributors label -->
@@ -35,10 +37,8 @@
     <!-- Special Thanks section of About page -->
     <!-- Special Thanks label -->
     <string name="special_thanks">Specjalne podziękowania</string>
-    <!-- Subtitle displayed below the user who inspired the app icon -->
-    <string name="special_thanks_icon">Za zainspirowanie ikony aplikacji.</string>
-    <!-- Subtitle displayed below the user who named the app -->
-    <string name="special_thanks_name">Za nazwanie aplikacji.</string>
+    <!-- Subtitle displayed below the user who first restored the original icons -->
+    <string name="special_thanks_restoration">Do przywracania starych ikon.</string>
 
     <!-- Icon Information Popup window -->
 

@@ -48,7 +48,7 @@ private val coreContributors =
             name = "paphonb",
             username = "paphonb",
             photoUrl = "https://avatars.githubusercontent.com/u/8080853",
-            socialUrl = "https://twitter.com/paphonb",
+            socialUrl = "https://x.com/paphonb",
         ),
         Contributor(
             name = "Patrick Michalik",
@@ -63,7 +63,7 @@ private val specialThanks =
         Contributor(
             name = "Radek Bledowski",
             photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
-            socialUrl = "https://twitter.com/rkbdi",
+            socialUrl = "https://x.com/rkbdi",
             descriptionRes = R.string.special_thanks_restoration,
         ),
     )
@@ -123,7 +123,7 @@ fun About(onBack: () -> Unit, onNavigate: (String) -> Unit, isExpandedScreen: Bo
                 }
             }
             item {
-                Card(label = "External Links") {
+                Card(label = stringResource(id = R.string.external_links)) {
                     externalLinks.mapIndexed { index, it ->
                         ExternalLinkRow(
                             name = it.name,

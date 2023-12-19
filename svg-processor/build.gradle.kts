@@ -6,7 +6,7 @@ plugins {
 application { mainClass = "app.lawnchair.lawnicons.helper.ApplicationKt" }
 
 dependencies {
-    implementation("com.android.tools:sdk-common:31.1.4")
+    implementation("com.android.tools:sdk-common:31.2.0")
     implementation("org.dom4j:dom4j:2.1.4")
-    implementation("commons-io:commons-io:2.15.0")
+    implementation("commons-io:commons-io:2.15.1")
 }
