@@ -382,9 +382,6 @@
     <item component="ComponentInfo{com.android.MGC.not.stable/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.android.mgc/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.android.MGC/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
-    <item component="ComponentInfo{com.asus.camera/.CameraApp}" drawable="camera" name="Camera" />
-    <item component="ComponentInfo{com.asus.camera/com.asus.camera.CameraApp}" drawable="camera" name="Camera" />
-    <item component="ComponentInfo{com.asus.camera/com.asus.camera.MirrorApp}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.google.android.apps.cameralite/com.google.android.apps.cameralite.capture.CaptureActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.google.android.GoogleCamera.Cameight/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.google.android.GoogleCamera.cameralite/com.google.android.apps.cameralite.capture.CaptureActivity}" drawable="camera" name="Camera" />
@@ -404,11 +401,8 @@
     <item component="ComponentInfo{com.GoogleCamera.mwp83/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.GoogleCamera.mwp84/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.googleCamera.Wichaya8/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
-    <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.CameraActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.CameraActivity}" drawable="nokia_camera" name="Camera" />
-    <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.GuideActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.GuideActivity}" drawable="nokia_camera" name="Camera" />
-    <item component="ComponentInfo{com.hmdglobal.camera2/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.hmdglobal.camera2/com.android.camera.CameraLauncher}" drawable="nokia_camera" name="Camera" />
     <item component="ComponentInfo{com.honor.camera/com.honor.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.huawei.camera/com.huawei.camera}" drawable="camera" name="Camera" />
@@ -422,24 +416,15 @@
     <item component="ComponentInfo{com.lge.camera/com.lge.camera.CamLoading}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.lge.camera/com.lge.camera.SecureCameraApp}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.motorola.camera/com.motorola.camera.Camera}" drawable="motorola_camera" name="Camera" />
-    <item component="ComponentInfo{com.motorola.camera2/com.motorola.camera.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.motorola.camera2/com.motorola.camera.Camera}" drawable="motorola_camera2" name="Camera" />
-    <item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.Camera}" drawable="motorola_camera3" name="Camera" />
-    <item component="ComponentInfo{com.motorola.cameraone/com.motorola.camera.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.motorola.cameraone/com.motorola.camera.Camera}" drawable="motorola_camera" name="Camera" />
     <item component="ComponentInfo{com.ngcam.camera/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
-    <item component="ComponentInfo{com.oneplus.camera/.OPCameraActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oneplus.camera/.OPCameraActivity}" drawable="oneplus_camera" name="Camera" />
-    <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.MainActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.MainActivity}" drawable="oneplus_camera" name="Camera" />
-    <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.OPCameraActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oneplus.camera/com.oneplus.camera.OPCameraActivity}" drawable="oneplus_camera" name="Camera" />
-    <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera}" drawable="oneplus_camera" name="Camera" />
-    <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera#0}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.Camera#0}" drawable="oneplus_camera" name="Camera" />
-    <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.OPCameraActivity}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oplus.camera/com.oplus.camera.OPCameraActivity}" drawable="oneplus_camera" name="Camera" />
     <item component="ComponentInfo{com.oppo.camera/.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.oppo.camera/com.oppo.camera.activity.CameraActivity}" drawable="camera" name="Camera" />
@@ -449,13 +434,9 @@
     <item component="ComponentInfo{com.samsung.agc.gcam88/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.samsung.agc.gcam90/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.samsung.agc.gcam91/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
-    <item component="ComponentInfo{com.sec.android.app.camera/.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.sec.android.app.camera/.Camera}" drawable="samsung_camera" name="Camera" />
-    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="samsung_camera" name="Camera" />
-    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_camera" name="Camera" />
-    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="samsung_camera" name="Camera" />
     <item component="ComponentInfo{com.shamim.cam/com.android.camera.CameraLauncher}" drawable="camera" name="Camera" />
     <item component="ComponentInfo{com.simplemobiletools.camera/com.simplemobiletools.camera.activities.MainActivity}" drawable="camera" name="Camera" />
@@ -490,7 +471,6 @@
     <item component="ComponentInfo{com.addenergie.circuitelectrique/com.eptix.app.ui.splash.SplashActivity}" drawable="circuit_electrique" name="Circuit électrique" />
     <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity_Rainbow}" drawable="citymapper" name="Citymapper" />
     <item component="ComponentInfo{com.citymapper.app.release/com.citymapper.app.MainActivity}" drawable="citymapper" name="Citymapper" />
-    <item component="ComponentInfo{com.asus.deskclock/com.asus.deskclock.DeskClock}" drawable="clock" name="Clock" />
     <item component="ComponentInfo{com.best.deskclock/com.best.deskclock.DeskClock}" drawable="clock" name="Clock" />
     <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" name="Clock" />
     <item component="ComponentInfo{com.motorola.cn.deskclock/com.motorola.cn.deskclock.DeskClock}" drawable="clock" name="clock" />
@@ -1054,10 +1034,6 @@
     <item component="ComponentInfo{com.miHoYo.GenshinImpact/com.miHoYo.GenshinImpact.MainActivity}" drawable="genshin_impact" name="Genshin Impact" />
     <item component="ComponentInfo{com.miHoYo.GenshinImpact/com.miHoYo.GetMobileInfo.MainActivity}" drawable="genshin_impact" name="Genshin Impact" />
     <item component="ComponentInfo{com.miHoYo.Yuanshen/com.miHoYo.GetMobileInfo.MainActivity}" drawable="genshin_impact" name="Genshin Impact" />
-    <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.GraphingCalculatorSplashScreenActivity_}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
-    <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.android.activity.SplashScreenActivity_}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
-    <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity_}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
-    <item component="ComponentInfo{org.geogebra.android/org.geogebra.android.privatelibrary.splashscreen.SplashScreenActivity}" drawable="geogebra_graphing_calculator" name="GeoGebra Graphing Calculator" />
     <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.main.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
     <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.main.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
     <item component="ComponentInfo{wangdaye.com.geometricweather/wangdaye.com.geometricweather.ui.activity.MainActivity}" drawable="geometric_weather" name="Geometric Weather" />
@@ -1258,8 +1234,6 @@
     <item component="ComponentInfo{com.zionhuang.music.debug/com.zionhuang.music.ui.activities.MainActivity}" drawable="innertune" name="InnerTune" />
     <item component="ComponentInfo{com.zionhuang.music/com.zionhuang.music.MainActivity}" drawable="innertune" name="InnerTune" />
     <item component="ComponentInfo{com.zionhuang.music/com.zionhuang.music.ui.activities.MainActivity}" drawable="innertune" name="InnerTune" />
-    <item component="ComponentInfo{com.zionhuang.music/com.zionhuang.music.ui.activities.MainActivity}" drawable="music" name="InnerTune" />
-    <item component="ComponentInfo{com.zionhuang.music.debug/com.zionhuang.music.ui.activities.MainActivity}" drawable="music" name="InnerTune Debug" />
     <item component="ComponentInfo{pl.inpost.mobile/md5b11543c22ddb1a4d81d612765617cfa5.SplashActivity}" drawable="inpost" name="InPost Mobile" />
     <item component="ComponentInfo{com.instagram.android/.activity.MainTabActivity}" drawable="instagram" name="Instagram" />
     <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="instagram" name="Instagram" />
@@ -1463,7 +1437,6 @@
     <item component="ComponentInfo{com.android.email/com.android.email.activity.ContainerActivity}" drawable="samsung_email" name="Mail" />
     <item component="ComponentInfo{com.android.email/com.android.email.activity.EmailActivity}" drawable="samsung_email" name="Mail" />
     <item component="ComponentInfo{com.android.email/com.android.email.activity.Welcome}" drawable="samsung_email" name="Mail" />
-    <item component="ComponentInfo{com.android.email/com.android.email.login.activity.WelcomeActivity}" drawable="gmail" name="Mail" />
     <item component="ComponentInfo{com.android.email/com.android.email.login.activity.WelcomeActivity}" drawable="samsung_email" name="Mail" />
     <item component="ComponentInfo{com.android.email/com.android.email.MainActivity}" drawable="samsung_email" name="Mail" />
     <item component="ComponentInfo{com.android.email/com.kingsoft.email.activity.setup.GuideActivity}" drawable="samsung_email" name="Mail" />
