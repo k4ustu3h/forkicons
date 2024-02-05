@@ -1,30 +1,29 @@
 # Description
 
-<!-- Please provide a short summary of what icons you added, changed, or linked
--->
+<!-- Please provide a short summary of what icons you added, changed, or linked -->
 
 ## Icons addition information
 
-<!-- Please specify if you added an icon that was requested in the icon request form, as seen below -->
+### Added
 
-### Icons added
+App Name (`com.package.app`)
+App Name (`com.package.app`)
+App Name (`com.package.app`)
 
--   App Name (`package.name`) - added from icon request form
--   App Name (`package.name`)
--   App Name (`package.name`)
+### Linked
 
-### Icons updated
+App Name (`com.package.app` → `drawable.svg`)
+App Name (`com.package.app` → `drawable.svg`)
 
--   App Name (`package.name`)
--   App Name (`package.name`)
+### Updated
 
-### Icons linked
-
--   App Name (linked `package.name` to `@drawable/package`)
--   App Name (linked `package.name` to `@drawable/package`)
+App Name (`com.package.app`)
+App Name (`com.package.app`)
 
 ## Contributor's checklist
 
--   [ ] I have followed the [Lawnicons Guidelines](https://github.com/k4ustu3h/forkicons/blob/develop/.github/CONTRIBUTING.md)
+<!-- Replace [ ] with [x] to check -->
+
+-   [ ] I have followed the [Lawnicons Guidelines](https://github.com/k4ustu3h/forkicons/blob/main/CONTRIBUTING.md)
 -   [ ] I have ensured that Lawnicons builds correctly
 -   [ ] I am willing to make changes to my icons if someone suggests changes

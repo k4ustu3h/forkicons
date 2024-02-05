@@ -31,32 +31,25 @@ import app.lawnchair.lawnicons.ui.theme.LawniconsTheme
 import app.lawnchair.lawnicons.ui.util.Contributor
 import app.lawnchair.lawnicons.ui.util.Destinations
 import app.lawnchair.lawnicons.ui.util.ExternalLink
-import app.lawnchair.lawnicons.ui.util.LawniconsPreview
+import app.lawnchair.lawnicons.ui.util.PreviewLawnicons
 import app.lawnchair.lawnicons.util.appIcon
 
 private val externalLinks =
     listOf(
         ExternalLink(
-            name = "GitHub",
+            name = R.string.github,
             url = "https://github.com/k4ustu3h/forkicons",
         ),
     )
 
-private val coreContributors =
-    listOf(
-        Contributor(
-            name = "paphonb",
-            username = "paphonb",
-            photoUrl = "https://avatars.githubusercontent.com/u/8080853",
-            socialUrl = "https://x.com/paphonb",
-        ),
-        Contributor(
-            name = "Patrick Michalik",
-            username = "patrickmichalik",
-            photoUrl = "https://avatars.githubusercontent.com/u/120058021?v=4",
-            socialUrl = "https://patrickmichalik.com/",
-        ),
-    )
+private val coreContributors = listOf(
+    Contributor(
+        name = "paphonb",
+        username = "paphonb",
+        photoUrl = "https://pbs.twimg.com/profile_images/1120260206888284160/raJuXQFl.jpg",
+        socialUrl = "https://x.com/paphonb",
+    ),
+)
 
 private val specialThanks =
     listOf(
@@ -126,7 +119,7 @@ fun About(onBack: () -> Unit, onNavigate: (String) -> Unit, isExpandedScreen: Bo
                 Card(label = stringResource(id = R.string.external_links)) {
                     externalLinks.mapIndexed { index, it ->
                         ExternalLinkRow(
-                            name = it.name,
+                            name = stringResource(id = it.name),
                             url = it.url,
                             divider = index != externalLinks.lastIndex,
                         )
@@ -178,9 +171,9 @@ fun About(onBack: () -> Unit, onNavigate: (String) -> Unit, isExpandedScreen: Bo
     }
 }
 
-@LawniconsPreview
+@PreviewLawnicons
 @Composable
-fun AboutPreview() {
+private fun AboutPreview() {
     LawniconsTheme {
         About(
             {},
@@ -190,9 +183,9 @@ fun AboutPreview() {
     }
 }
 
-@LawniconsPreview
+@PreviewLawnicons
 @Composable
-fun AboutPreviewExpanded() {
+private fun AboutPreviewExpanded() {
     LawniconsTheme {
         About(
             {},

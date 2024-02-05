@@ -1,6 +1,5 @@
 <resources>
     <!-- General -->
-
     <!-- Version name, with %s as the version code -->
     <string name="version_x">Version %s</string>
 

@@ -36,14 +36,9 @@ class OssLibraryRepository @Inject constructor(private val application: Applicat
     fun getNoticeForOssLibrary(
         ossLibraryName: String,
         annotate: (String) -> AnnotatedString,
-    ): Flow<AnnotatedString?> =
-        ossLibraries.map { it ->
-            val ossLib = it.first { it.name == ossLibraryName }
-            val string =
-                (ossLib.spdxLicenses ?: ossLib.unknownLicenses)
-                    ?.firstOrNull()
-                    ?.url
-                    .orEmpty()
-            annotate(string)
-        }
+    ): Flow<AnnotatedString?> = ossLibraries.map { it ->
+        val ossLib = it.first { it.name == ossLibraryName }
+        val string = (ossLib.spdxLicenses ?: ossLib.unknownLicenses)?.firstOrNull()?.url.orEmpty()
+        annotate(string)
+    }
 }

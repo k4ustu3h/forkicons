@@ -86,7 +86,7 @@ fun TopBarWithInsets(
 @OptIn(ExperimentalMaterial3Api::class)
 @Preview(showBackground = true)
 @Composable
-fun TopBarWithInsetsPreview() {
+private fun TopBarWithInsetsPreview() {
     LawniconsTheme {
         TopBarWithInsets(
             navigationIcon = {
