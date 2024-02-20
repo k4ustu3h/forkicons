@@ -60,6 +60,7 @@
     <item component="ComponentInfo{org.adaway/org.adaway.ui.MainActivity}" drawable="adaway" name="AdAway" />
     <item component="ComponentInfo{io.stark.admob/io.stark.admob.ui.MainActivity}" drawable="admobile" name="AdMobile" />
     <item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="adobe_acrobat_reader" name="Adobe Acrobat Reader" />
+    <item component="ComponentInfo{com.adobe.premiererush.videoeditor/com.adobe.rush.splashscreen.controllers.SplashScreenActivity}" drawable="adobe_premiere_rush" name="Adobe Premiere Rush" />
     <item component="ComponentInfo{com.adobe.scan.android/com.adobe.scan.android.SplashActivity}" drawable="adobe_scan" name="Adobe Scan" />
     <item component="ComponentInfo{com.dv.adm.pay/com.dv.adm.pay.Main}" drawable="adm" name="Advanced Download Manager" />
     <item component="ComponentInfo{com.dv.adm.pay/com.dv.get.Main}" drawable="adm" name="Advanced Download Manager" />
@@ -198,7 +199,10 @@
     <item component="ComponentInfo{com.bereal.ft/bereal.app.MainActivity}" drawable="bereal" name="BeReal." />
     <item component="ComponentInfo{com.bewakoof.bewakoof/com.bewakoof.bewakoof.MainActivity}" drawable="bewakoof" name="Bewakoof" />
     <item component="ComponentInfo{org.telegram.BifToGram/org.telegram.ui.LaunchActivity}" drawable="bgram" name="BGram" />
+    <item component="ComponentInfo{com.wirelessalien.android.bhagavadgita/com.wirelessalien.android.bhagavadgita.activity.SplashActivity}" drawable="bhagavad_gita" name="Bhagavad Gita" />
+    <item component="ComponentInfo{com.wirelessalien.android.bhagavadgita/com.wirelessalien.android.bhagavadgita.MainActivity}" drawable="bhagavad_gita" name="Bhagavad Gita" />
     <item component="ComponentInfo{com.biglybt.android.client/com.biglybt.android.client.activity.IntentHandler}" drawable="biglybt" name="BiglyBT" />
+    <item component="ComponentInfo{com.bikewale.app/com.bikewale.app.MainActivity}" drawable="bikewale" name="BikeWale" />
     <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.main.MainActivity}" drawable="binance" name="Binance" />
     <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.splash.SplashActivity}" drawable="binance" name="Binance" />
     <item component="ComponentInfo{com.binance.dev/com.binance.dev.SplashActivity}" drawable="binance" name="Binance" />
@@ -964,6 +968,7 @@
     <item component="ComponentInfo{app.lawnchair.lawnicons.light/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons (light)" />
     <item component="ComponentInfo{com.fox2code.mmm/com.fox2code.mmm.MainActivity}" drawable="foxmmm" name="Fox's Magisk Module Manager" />
     <item component="ComponentInfo{com.fox2code.mmm/com.fox2code.mmm.settings.SettingsActivity}" drawable="foxmmm" name="Fox's Magisk Module Manager" />
+    <item component="ComponentInfo{com.fp.downloader/net.dinglisch.android.taskerm.Kid}" drawable="fingerprint" name="Fp Downloader" />
     <item component="ComponentInfo{com.franco.kernel/a.spl}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
     <item component="ComponentInfo{com.franco.kernel/a.spl/com.franco.kernel.activities.SplashActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
     <item component="ComponentInfo{com.franco.kernel/com.franco.kernel.activities.MainActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
@@ -1440,6 +1445,7 @@
     <item component="ComponentInfo{pl.librus.synergiaDru2/pl.librus.synergiaDru2.MainActivity}" drawable="librus" name="Librus" />
     <item component="ComponentInfo{com.adobe.lrmobile/com.adobe.lrmobile.LrMobileActivity}" drawable="lightroom" name="Lightroom" />
     <item component="ComponentInfo{com.adobe.lrmobile/com.adobe.lrmobile.StorageCheckActivity}" drawable="lightroom" name="Lightroom" />
+    <item component="ComponentInfo{com.adobe.lrmobile/com.jojoy.delegate.JojoyInstallerActivity}" drawable="lightroom" name="Lightroom" />
     <item component="ComponentInfo{jp.naver.line.android/jp.naver.line.android.activity.SplashActivity}" drawable="line" name="LINE" />
     <item component="ComponentInfo{com.microsoft.appmanager/com.microsoft.appmanager.StartUpActivity}" drawable="microsoft_link" name="Link to Windows" />
     <item component="ComponentInfo{com.microsoft.appmanager/com.microsoft.appmanager.StartUpCoreActivity}" drawable="microsoft_link" name="Link to Windows" />
@@ -1528,6 +1534,9 @@
     <item component="ComponentInfo{org.telegram.mdgram/org.telegram.ui.LaunchActivityBlueIcon}" drawable="mdgram" name="MDGram" />
     <item component="ComponentInfo{meditofoundation.medito/com.ryanheise.audioservice.AudioServiceActivity}" drawable="medito" name="Medito" />
     <item component="ComponentInfo{meditofoundation.medito/meditofoundation.medito.MainActivity}" drawable="medito" name="Medito" />
+    <item component="ComponentInfo{com.medium.reader/android.support.main.a}" drawable="medium" name="Medium" />
+    <item component="ComponentInfo{com.medium.reader/com.medium.android.donkey.start.SignInActivity}" drawable="medium" name="Medium" />
+    <item component="ComponentInfo{com.medium.reader/com.medium.android.donkey.start.SplashActivity}" drawable="medium" name="Medium" />
     <item component="ComponentInfo{mega.privacy.android.app/com.duapps.ad.DuAd}" drawable="mega" name="Mega" />
     <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.LauncherActivity}" drawable="mega" name="Mega" />
     <item component="ComponentInfo{mega.privacy.android.app/mega.privacy.android.app.lollipop.ManagerActivity}" drawable="mega" name="Mega" />
@@ -2189,6 +2198,9 @@
     <item component="ComponentInfo{com.microblink.photomath/com.microblink.photomath.main.activity.LauncherActivity}" drawable="photomath" name="Photomath" />
     <item component="ComponentInfo{com.google.android.apps.photos.scanner/com.google.android.apps.photo.scanner.home.HomeActivity}" drawable="photoscan" name="PhotoScan" />
     <item component="ComponentInfo{com.google.android.apps.photos.scanner/com.google.android.apps.photos.scanner.home.HomeActivity}" drawable="photoscan" name="PhotoScan" />
+    <item component="ComponentInfo{com.adobe.psmobile/com.adobe.psmobile.MainActivity}" drawable="photoshop_express" name="Photoshop Express" />
+    <item component="ComponentInfo{com.adobe.psmobile/com.adobe.psmobile.PhotoshopMobile}" drawable="photoshop_express" name="Photoshop Express" />
+    <item component="ComponentInfo{com.adobe.psmobile/com.adobe.psmobile.SplashScreen}" drawable="photoshop_express" name="Photoshop Express" />
     <item component="ComponentInfo{com.picpay/com.picpay.features.enter.PicPayEnterActivity}" drawable="picpay" name="PicPay" />
     <item component="ComponentInfo{com.picpay/com.picpay.features.enter.ReleasePicPayEnter}" drawable="picpay" name="PicPay" />
     <item component="ComponentInfo{com.picpay/com.picpay.visao.PicPayEnter}" drawable="picpay" name="PicPay" />
@@ -2354,6 +2366,7 @@
     <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.MailboxActivity}" drawable="proton_mail" name="Proton Mail" />
     <item component="ComponentInfo{ch.protonmail.android/ch.protonmail.android.mailbox.presentation.ui.MailboxActivity}" drawable="proton_mail" name="Proton Mail" />
     <item component="ComponentInfo{ch.protonvpn.android/com.protonvpn.android.ui.onboarding.SplashActivity}" drawable="proton_vpn" name="Proton VPN" />
+    <item component="ComponentInfo{com.adobe.lens.android/com.adobe.photocam.ui.viewfinder.LauncherActivity}" drawable="ps_camera" name="PS Camera" />
     <item component="ComponentInfo{com.psiphon3.subscription/com.psiphon3.MainActivity}" drawable="psiphon" name="Psiphon" />
     <item component="ComponentInfo{au.gov.vic.ptv/au.gov.vic.ptv.ui.main.MainActivity}" drawable="ptv" name="PTV" />
     <item component="ComponentInfo{com.pubg.newstate/com.epicgames.ue4.SplashActivity}" drawable="pubg" name="PUBG" />
@@ -3004,6 +3017,7 @@
     <item component="ComponentInfo{com.mwm.stems/com.mwm.stems.main_activity.MainActivity}" drawable="stemz" name="Stemz" />
     <item component="ComponentInfo{com.stepsappgmbh.stepsapp/com.stepsappgmbh.stepsapp.home.MainActivity}" drawable="stepsapp" name="StepsApp" />
     <item component="ComponentInfo{com.stepsappgmbh.stepsapp/com.stepsappgmbh.stepsapp.steps.MainActivity}" drawable="stepsapp" name="StepsApp" />
+    <item component="ComponentInfo{com.MartianRexInc.StoneStory/com.google.firebase.MessagingUnityPlayerActivity}" drawable="stone_story" name="Stone Story RPG" />
     <item component="ComponentInfo{com.strava/com.strava.SplashActivity}" drawable="strava" name="Strava" />
     <item component="ComponentInfo{com.streamlabs/com.streamlabs.live.ui.main.HomeActivity}" drawable="streamlabs" name="Streamlabs" />
     <item component="ComponentInfo{com.stremio.one/com.stremio.MainActivity}" drawable="stremio" name="Stremio" />
