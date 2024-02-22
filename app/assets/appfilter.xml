@@ -219,9 +219,12 @@
     <item component="ComponentInfo{com.x8bit.bitwarden/com.x8bit.bitwarden.MainActivity}" drawable="bitwarden" name="Bitwarden" />
     <item component="ComponentInfo{com.x8bit.bitwarden/md5b95ad25b85f158431f24aa9fc17a1c1e.SplashActivity}" drawable="bitwarden" name="Bitwarden" />
     <item component="ComponentInfo{com.x8bit.bitwarden/md5fb78b69c5ddbc157f4db38fd738139a6.SplashActivity}" drawable="bitwarden" name="Bitwarden" />
+    <item component="ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity}" drawable="bixby_voice" name="Bixby Voice" />
+    <item component="ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeMainActivity}" drawable="bixby_voice" name="Bixby Voice" />
     <item component="ComponentInfo{web1n.stopapp/web1n.stopapp.activity.MainActivity}" drawable="black_house" name="Black House" />
     <item component="ComponentInfo{black.light.icons.ddt/black.light.icons.ddt.MainActivity}" drawable="black_light_icon_pack" name="Black Light Icon Pack" />
     <item component="ComponentInfo{com.immediasemi.android.blink/com.immediasemi.blink.activities.MainActivity}" drawable="blink" name="Blink" />
+    <item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.DEFAULT}" drawable="blinkit" name="Blinkit" />
     <item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.ui.screens.home.HomeActivity}" drawable="blinkit" name="Blinkit" />
     <item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.ui.screens.home.SplashActivity}" drawable="blinkit" name="Blinkit" />
     <item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.ui.screens.nonServiceableView.NonServiceableViewActivity}" drawable="blinkit" name="Blinkit" />
@@ -906,9 +909,11 @@
     <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_files" name="Files" />
     <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.MainActivity}" drawable="samsung_files" name="Files" />
     <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.Myfiles}" drawable="samsung_files" name="Files" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.ui.ForMyFilesAppIconInHomeScreenActivity}" drawable="samsung_files" name="Files" />
     <item component="ComponentInfo{me.zhanghai.android.files/me.zhanghai.android.files.filelist.FileListActivity}" drawable="files" name="Files" />
     <item component="ComponentInfo{org.aospstudio.files/com.aospstudio.shortcuts.MainActivity}" drawable="files" name="Files" />
     <item component="ComponentInfo{org.aospstudio.files/org.aospstudio.files.FileManager}" drawable="files" name="Files" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.ui.MainActivity}" drawable="samsung_files" name="Files" />
     <item component="ComponentInfo{com.google.android.apps.nbu.files/.home.HomeActivity}" drawable="files_by_google" name="Files by Google" />
     <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="files_by_google" name="Files by Google" />
     <item component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.activities.MainActivity}" drawable="find_my_device" name="Find My Device" />
@@ -1982,6 +1987,7 @@
     <item component="ComponentInfo{hu.otpbank.mobile/hu.otpbank.mobile.ui.StartupActivity}" drawable="otp_bank" name="OTP Bank" />
     <item component="ComponentInfo{hu.otp.szepapp/hu.otpbank.mobile.ui.StartupActivity}" drawable="otp_szep_card" name="OTP SZÉP Card / OTP SZEP Card" />
     <item component="ComponentInfo{de.dertyp7214.overlayer/de.dertyp7214.overlayer.screens.SetupActivity}" drawable="overlayer" name="Overlayer" />
+    <item component="ComponentInfo{com.mutaeb.OVFEditor/com.mutaeb.OVFEditor.MainActivity}" drawable="ovf_editor" name="OVF Editor" />
     <item component="ComponentInfo{nl.skywave.ovinfo/nl.ovapi.ovinfo.MainActivity}" drawable="ovinfo" name="OVinfo" />
     <item component="ComponentInfo{it.owlgram.android/org.telegram.messenger.DefaultIcon}" drawable="owlgram" name="OwlGram" />
     <item component="ComponentInfo{it.owlgram.android/org.telegram.messenger.OG_Icon_Alt_Default}" drawable="owlgram" name="OwlGram" />
@@ -2442,6 +2448,10 @@
     <item component="ComponentInfo{com.radio.fmradio/com.radio.fmradio.InitFM}" drawable="fm_radio" name="Radio FM - Podcast App" />
     <item component="ComponentInfo{com.radio.fmradio/com.radio.fmradio.RadioFM}" drawable="fm_radio" name="Radio FM - Podcast App" />
     <item component="ComponentInfo{ru.uxapps.random/ru.uxapps.random.MainActivity}" drawable="random_number_generator" name="Random Number Generator" />
+    <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.activities.SplashScreen}" drawable="rapido" name="Rapido" />
+    <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.DefaultAlias}" drawable="rapido" name="Rapido" />
+    <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.launcher.ui.LauncherActivity}" drawable="rapido" name="Rapido" />
+    <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.OfferAlias}" drawable="rapido" name="Rapido" />
     <item component="ComponentInfo{me.ash.reader/me.ash.reader.MainActivity}" drawable="read_you" name="Read You" />
     <item component="ComponentInfo{com.google.android.accessibility.reader/com.google.android.accessibility.reader.settings.ReaderActivity}" drawable="reading_mode" name="Reading mode" />
     <item component="ComponentInfo{com.devgary.ready/com.devgary.ready.activity.MainActivity}" drawable="reddit" name="Ready" />
@@ -2536,6 +2546,8 @@
     <item component="ComponentInfo{com.samsung.android.statsd/com.samsung.android.statsd.home.HomeActivity}" drawable="samsung_battery_guardian" name="Samsung Battery Guardian" />
     <item component="ComponentInfo{com.samsung.android.visionintelligence/com.samsung.android.visionintelligence.app.DummyActivity}" drawable="samsung_bixby_vision" name="Samsung Bixby Vision" />
     <item component="ComponentInfo{com.samsung.android.visionintelligence/com.samsung.android.visionintelligence.main.DummyActivity}" drawable="samsung_bixby_vision" name="Samsung Bixby Vision" />
+    <item component="ComponentInfo{com.samsung.android.scloud/com.samsung.android.scloud.app.ui.splash.launcher}" drawable="samsung_cloud" name="Samsung Cloud" />
+    <item component="ComponentInfo{com.samsung.android.scloud/com.samsung.android.scloud.app.ui.splash.SplashActivity}" drawable="samsung_cloud" name="Samsung Cloud" />
     <item component="ComponentInfo{com.samsung.android.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="samsung_contacts" name="Samsung Contacts" />
     <item component="ComponentInfo{com.samsung.android.email.provider/com.samsung.android.email.ui.activity.MessageListXL}" drawable="samsung_email" name="Samsung Email" />
     <item component="ComponentInfo{com.android.samsung.utilityapp/com.android.samsung.utilityapp.app.presentation.welcomepage.WelcomeActivity}" drawable="samsung_good_guardians" name="Samsung Good Guardians" />
@@ -2554,7 +2566,13 @@
     <item component="ComponentInfo{com.sec.android.app.sbrowser.beta/com.sec.android.app.sbrowser.SBrowserMainActivity}" drawable="samsung_internet_browser_beta" name="Samsung Internet Browser Beta" />
     <item component="ComponentInfo{com.samsung.android.keyscafe/com.samsung.android.keyscafe.main.ui.KeysCafeSplashActivity}" drawable="samsung_keys_cafe" name="Samsung Keys Cafe" />
     <item component="ComponentInfo{com.opera.max.oem/com.opera.max.ui.v2.MainActivity}" drawable="samsung_max_vpn" name="Samsung Max VPN" />
+    <item component="ComponentInfo{com.sec.android.app.music/com.samsung.android.app.music.common.activity.MusicMainActivity}" drawable="samsung_music" name="Samsung Music" />
+    <item component="ComponentInfo{com.sec.android.app.music/com.samsung.musicplus.MusicMainActivity}" drawable="samsung_music" name="Samsung Music" />
+    <item component="ComponentInfo{com.sec.android.app.music/com.samsung.musicplus.MusicMainPagerActivity}" drawable="samsung_music" name="Samsung Music" />
     <item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity}" drawable="samsung_music" name="Samsung Music" />
+    <item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.list.activity.MpMainTabActivity}" drawable="samsung_music" name="Samsung Music" />
+    <item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.MusicActionTabActivity}" drawable="samsung_music" name="Samsung Music" />
+    <item component="ComponentInfo{com.sec.android.app.music/com.sec.android.app.music.MusicBrowserTabActivity}" drawable="samsung_music" name="Samsung Music" />
     <item component="ComponentInfo{com.samsung.android.app.notes/.memolist.MemoListActivity}" drawable="samsung_notes" name="Samsung Notes" />
     <item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}" drawable="samsung_notes" name="Samsung Notes" />
     <item component="ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivitycom.samsung.android.app.notes/com.samsung.android.app.notes.memolist.MemoListActivity}" drawable="samsung_notes" name="Samsung Notes" />
@@ -2569,6 +2587,12 @@
     <item component="ComponentInfo{com.samsung.android.privateshare/com.samsung.android.privacy.view.MainActivity}" drawable="samsung_private_share" name="Samsung Private Share" />
     <item component="ComponentInfo{com.samsung.android.app.routines/com.samsung.android.app.routines.ui.main.RoutineLaunchActivityDummy}" drawable="samsung_routines_plus" name="Samsung Routines +" />
     <item component="ComponentInfo{com.samsung.android.app.sprotect/com.samsung.android.app.sprotect.dashboard.DashBoard}" drawable="s_secure" name="Samsung S Secure" />
+    <item component="ComponentInfo{com.samsung.ecomm.global.gbr/com.samsung.ecomm.global.shop_app.MainActivity}" drawable="samsung_shop" name="Samsung Shop" />
+    <item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.global.in.SampleActivity}" drawable="samsung_shop" name="Samsung Shop" />
+    <item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.global.shop_app.MainActivity}" drawable="samsung_shop" name="Samsung Shop" />
+    <item component="ComponentInfo{com.samsung.ecomm.global.in/com.samsung.ecomm.MainActivity}" drawable="samsung_shop" name="Samsung Shop" />
+    <item component="ComponentInfo{com.samsung.ecomm/com.samsung.ecomm.MainActivity}" drawable="samsung_shop" name="Samsung Shop" />
+    <item component="ComponentInfo{com.samsung.shop/com.samsung.shop.MainActivity}" drawable="samsung_shop" name="Samsung Shop" />
     <item component="ComponentInfo{com.samsung.android.app.watchmanager/com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity}" drawable="samsung_wear" name="Samsung Wear" />
     <item component="ComponentInfo{com.sec.android.daemonapp/com.samsung.android.weather.app.AppLauncherActivity}" drawable="samsung_weather" name="Samsung Weather" />
     <item component="ComponentInfo{com.sec.android.daemonapp/com.sec.android.daemonapp.app.MainActivity}" drawable="samsung_weather" name="Samsung Weather" />
@@ -2961,6 +2985,8 @@
     <item component="ComponentInfo{com.tuya.smartlife/com.smart.ThingSplashActivity}" drawable="smart_life" name="Smart Life" />
     <item component="ComponentInfo{com.tuya.smartlife/com.smart.TuyaSplashActivity}" drawable="smart_life" name="Smart Life" />
     <item component="ComponentInfo{com.tuya.smartlife/com.tuyasmart.sample.TuyaSplashActivity}" drawable="smart_life" name="Smart Life" />
+    <item component="ComponentInfo{com.sec.android.easyMover/com.sec.android.easyMover.DistributionActivity}" drawable="smart_switch" name="Smart Switch" />
+    <item component="ComponentInfo{com.sec.android.easyMover/com.sec.android.easyMover.DistributionNoIconActivity}" drawable="smart_switch" name="Smart Switch" />
     <item component="ComponentInfo{app.smart.timetable/app.smart.timetable.MainActivity}" drawable="smart_timetable" name="Smart Timetable" />
     <item component="ComponentInfo{com.hutchison3g.sundae/com.hutchison3g.sundae.MainActivity}" drawable="smarty" name="SMARTY" />
     <item component="ComponentInfo{com.microsoft.android.smsorganizer/com.microsoft.android.smsorganizer.StartupActivity}" drawable="sms_organizer" name="SMS Organizer" />
@@ -3133,7 +3159,8 @@
     <item component="ComponentInfo{ir.ilmili.telegraph/org.telegram.ui.LaunchActivity}" drawable="telegram" name="Telegraph" />
     <item component="ComponentInfo{com.einnovation.temu/com.baogong.splash.activity.MainFrameActivity}" drawable="temu" name="Temu" />
     <item component="ComponentInfo{com.dubox.drive/com.dubox.drive.ui.Logo0LauncherActivity}" drawable="terabox" name="TeraBox" />
-    <item component="ComponentInfo{com.dubox.drive/com.dubox.drive.ui.Navigate}" drawable="terabox" name="TeraBox" />
+    <item component="ComponentInfo{com.dubox.drive/com.dubox.drive.ui.LogoNewLauncherActivity}" drawable="terabox" name="Terabox" />
+    <item component="ComponentInfo{com.dubox.drive/com.dubox.drive.ui.Navigate}" drawable="terabox" name="Terabox" />
     <item component="ComponentInfo{com.termux.api/com.termux.api.activities.TermuxAPIActivity}" drawable="termux" name="Termux" />
     <item component="ComponentInfo{com.termux.boot/com.termux.boot.BootActivity}" drawable="termux" name="Termux" />
     <item component="ComponentInfo{com.termux.styling/com.termux.styling.TermuxStyleActivity}" drawable="termux" name="Termux" />
@@ -3206,6 +3233,7 @@
     <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.KMainActivity_}" drawable="tv_time" name="TV Time" />
     <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity_}" drawable="tv_time" name="TV Time" />
     <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity}" drawable="tv_time" name="TV Time" />
+    <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.MainActivity}" drawable="tv_time" name="TV Time" />
     <item component="ComponentInfo{com.perflyst.twire/com.perflyst.twire.activities.StartUpActivity}" drawable="twire" name="Twire" />
     <item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.app.core.LandingActivity}" drawable="twitch" name="Twitch" />
     <item component="ComponentInfo{tv.twitch.android.app/tv.twitch.android.apps.LandingActivity}" drawable="twitch" name="Twitch" />
@@ -3519,6 +3547,7 @@
     <item component="ComponentInfo{it.zave.app/it.zave.app.MainActivity}" drawable="zave_it" name="zave.it" />
     <item component="ComponentInfo{com.ziadoua.zcalc/com.ziadoua.zcalc.MainActivity}" drawable="zcalc" name="zCalc" />
     <item component="ComponentInfo{zebpay.Application/zebpay.application.ui.activity.MainActivity}" drawable="zebpay" name="ZebPay" />
+    <item component="ComponentInfo{zebpay.Application/zebpay.application.ui.activity.SplashActivity}" drawable="zebpay" name="ZebPay" />
     <item component="ComponentInfo{com.xiaomi.hm.health/cn.com.smartdevices.bracelet.activity.MainActivity}" drawable="zepp_life" name="Zepp Life" />
     <item component="ComponentInfo{com.xiaomi.hm.health/cn.com.smartdevices.bracelet.activity.StartUpActivity}" drawable="zepp_life" name="Zepp Life" />
     <item component="ComponentInfo{com.xiaomi.hm.health/com.xiaomi.hm.health.activity.StartUpActivity}" drawable="zepp_life" name="Zepp Life" />
