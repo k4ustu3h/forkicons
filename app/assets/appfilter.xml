@@ -821,6 +821,7 @@
     <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.crunchyroid.ui.views.activities.SplashActivity}" drawable="crunchyroll" name="Crunchyroll" />
     <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.crunchyroll.neo.android.activity.DelegatingActivity}" drawable="crunchyroll" name="Crunchyroll" />
     <item component="ComponentInfo{com.crunchyroll.crunchyroid/com.ellation.crunchyroll.presentation.startup.StartupActivity}" drawable="crunchyroll" name="Crunchyroll" />
+    <item component="ComponentInfo{com.anonymousaliens.cu/com.anonymousaliens.cu.MainActivity}" drawable="cuims" name="CUIMS" />
     <item component="ComponentInfo{com.imaginecurve.curve.prd/com.imaginecurve.curve.main.MainActivity}" drawable="curve" name="Curve" />
     <item component="ComponentInfo{com.dark.papers/com.dark.papers.MainActivity}" drawable="darkpapers" name="DarkPapers" />
     <item component="ComponentInfo{com.kieronquinn.app.darq/com.kieronquinn.app.darq.activities.MainActivity}" drawable="darq" name="DarQ" />
