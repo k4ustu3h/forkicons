@@ -3,6 +3,6 @@
 
     <style name="Theme.Lawnicons.SplashScreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
-        <item name="postSplashScreenTheme">@style/Theme.AppCompat.DayNight.NoActionBar</item>
+        <item name="postSplashScreenTheme">@style/android:Theme.Material.Light.NoActionBar</item>
     </style>
 </resources>

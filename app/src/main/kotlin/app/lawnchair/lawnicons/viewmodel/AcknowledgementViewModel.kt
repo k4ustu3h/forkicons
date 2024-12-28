@@ -24,6 +24,8 @@ constructor(
     private val ossLibraryRepository: OssLibraryRepository,
 ) : ViewModel() {
 
+    val ossLibraries = ossLibraryRepository.ossLibraries
+
     fun getNoticeForOssLibrary(
         ossLibraryName: String,
         linkStyle: SpanStyle,

@@ -1,6 +1,8 @@
 *.iml
 .gradle
 local.properties
+.idea
+.kotlin
 .DS_Store
 build
 captures
@@ -14,7 +16,6 @@ __pycache__/
 
 # IDEs cache directory
 .vs/
-.idea/*
-!.idea/icon.png
+.idea/
 .vscode/
 .vsc/

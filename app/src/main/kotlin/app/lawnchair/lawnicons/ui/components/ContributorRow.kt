@@ -23,6 +23,7 @@ import coil.request.ImageRequest
 fun ContributorRow(
     name: String,
     photoUrl: String,
+    modifier: Modifier = Modifier,
     profileUrl: String? = null,
     socialUrl: String? = null,
     description: String? = null,
@@ -45,6 +46,7 @@ fun ContributorRow(
         }
 
     SimpleListRow(
+        modifier = modifier,
         background = background,
         first = first,
         last = last,
@@ -52,7 +54,7 @@ fun ContributorRow(
         label = name,
         description = description,
         onClick = onClick,
-        icon = {
+        startIcon = {
             if (LocalInspectionMode.current) {
                 Icon(Icons.Rounded.Star, contentDescription = null)
             } else {

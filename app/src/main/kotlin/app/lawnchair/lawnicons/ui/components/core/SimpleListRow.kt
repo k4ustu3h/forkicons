@@ -1,6 +1,5 @@
 package app.lawnchair.lawnicons.ui.components.core
 
-import androidx.compose.material.ContentAlpha
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -14,7 +13,8 @@ fun SimpleListRow(
     label: String,
     modifier: Modifier = Modifier,
     description: String? = null,
-    icon: (@Composable () -> Unit)? = null,
+    startIcon: (@Composable () -> Unit)? = null,
+    endIcon: (@Composable () -> Unit)? = null,
     tall: Boolean = description != null,
     divider: Boolean = true,
     background: Boolean = false,
@@ -24,7 +24,8 @@ fun SimpleListRow(
 ) {
     ListRow(
         modifier = modifier,
-        icon = icon,
+        startIcon = startIcon,
+        endIcon = endIcon,
         tall = tall,
         divider = divider,
         background = background,
@@ -43,12 +44,7 @@ fun SimpleListRow(
                 Text(
                     text = description,
                     style = MaterialTheme.typography.bodyMedium,
-                    color =
-                    MaterialTheme.colorScheme.onSurface.copy(
-                        alpha = ContentAlpha.medium,
-                    ),
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
         },

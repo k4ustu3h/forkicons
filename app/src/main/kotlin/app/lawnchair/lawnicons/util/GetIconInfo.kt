@@ -1,15 +1,23 @@
 package app.lawnchair.lawnicons.util
 
+import android.annotation.SuppressLint
 import android.content.Context
+import androidx.annotation.XmlRes
 import app.lawnchair.lawnicons.R
 import app.lawnchair.lawnicons.model.IconInfo
+import app.lawnchair.lawnicons.model.LabelAndComponent
+import app.lawnchair.lawnicons.model.mergeByDrawableName
 import org.xmlpull.v1.XmlPullParser
 
-fun Context.getIconInfo(): List<IconInfo> {
+@SuppressLint("DiscouragedApi")
+fun Context.getIconInfo(
+    @XmlRes xmlId: Int = R.xml.appfilter,
+): List<IconInfo> {
     val iconInfo = mutableListOf<IconInfo>()
 
+    val componentInfoPrefixLength = "ComponentInfo{".length
+
     try {
-        val xmlId = R.xml.grayscale_icon_map
         if (xmlId != 0) {
             val parser = resources.getXml(xmlId)
             val depth = parser.depth
@@ -20,14 +28,32 @@ fun Context.getIconInfo(): List<IconInfo> {
                     ) && type != XmlPullParser.END_DOCUMENT
             ) {
                 if (type != XmlPullParser.START_TAG) continue
-                if ("icon" == parser.name) {
-                    val pkg = parser.getAttributeValue(null, "package")
+                if ("item" == parser.name) {
+                    val component = parser.getAttributeValue(null, "component")
                     val iconName = parser.getAttributeValue(null, "name")
-                    val iconId = parser.getAttributeResourceValue(null, "drawable", 0)
-                    val iconDrawable = resources.getResourceEntryName(iconId)
-                    if (iconId != 0 && pkg.isNotEmpty()) {
-                        iconInfo += IconInfo(iconName, iconDrawable, pkg, iconId)
+
+                    val initialIconId = parser.getAttributeValue(null, "drawable")
+                    val iconId = "${initialIconId}_foreground"
+                    val iconDrawable = resources.getIdentifier(iconId, "drawable", packageName)
+
+                    var actualComponent = ""
+
+                    val parsedComponent =
+                        component.substring(componentInfoPrefixLength, component.length - 1)
+
+                    if (parsedComponent.isNotEmpty() && !parsedComponent.startsWith("/") &&
+                        !parsedComponent.endsWith("/")
+                    ) {
+                        actualComponent = parsedComponent
                     }
+
+                    iconInfo.add(
+                        IconInfo(
+                            iconId,
+                            listOf(LabelAndComponent(iconName, actualComponent)),
+                            iconDrawable,
+                        ),
+                    )
                 }
             }
         }
@@ -35,5 +61,5 @@ fun Context.getIconInfo(): List<IconInfo> {
         e.printStackTrace()
     }
 
-    return iconInfo
+    return iconInfo.mergeByDrawableName()
 }

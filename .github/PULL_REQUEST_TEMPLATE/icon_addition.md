@@ -1,29 +1,33 @@
 # Description
 
-<!-- Please provide a short summary of what icons you added, changed, or linked -->
+<!-- Please provide a short summary of your pull request. -->
 
 ## Icons addition information
 
+<!-- Please specify in the sections below which applications and packages you have worked on. Unnecessary sections can be deleted. -->
+
 ### Added
 
-App Name (`com.package.app`)
+<!--  Apps for which you add icons. -->
+
 App Name (`com.package.app`)
 App Name (`com.package.app`)
 
 ### Linked
+
+<!--  New links for apps that were already in Forkicons. -->
 
 App Name (`com.package.app` → `drawable.svg`)
 App Name (`com.package.app` → `drawable.svg`)
 
 ### Updated
 
+<!--  When replacing old icons with new ones. -->
+
 App Name (`com.package.app`)
 App Name (`com.package.app`)
 
 ## Contributor's checklist
 
-<!-- Replace [ ] with [x] to check -->
-
--   [ ] I have followed the [Lawnicons Guidelines](https://github.com/k4ustu3h/forkicons/blob/main/CONTRIBUTING.md)
--   [ ] I have ensured that Lawnicons builds correctly
--   [ ] I am willing to make changes to my icons if someone suggests changes
+-   [ ] I followed [the Forkicons guidelines](https://github.com/k4ustu3h/forkicons/blob/main/CONTRIBUTING.md) and will make changes if someone suggests. I will also make sure that Lawnicons builds correctly.
+<!-- If you think that everything is correct, then replace [ ] with [x] or click on the checkbox after creating the pull request. -->

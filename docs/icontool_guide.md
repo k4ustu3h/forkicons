@@ -74,6 +74,9 @@ Some common utilities are described below.
 
 ### Sorting appfilter.xml
 
+> [!WARNING]  
+> At the moment, the sorting works with errors: duplicates and extra spaces are added. It is recommended not to use it.
+
 ```console
 python3 ./icontool.py sort
 ```

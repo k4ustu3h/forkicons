@@ -1,88 +1,200 @@
 package app.lawnchair.lawnicons.ui.destination
 
+import android.annotation.SuppressLint
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.grid.GridItemSpan
+import androidx.compose.foundation.lazy.grid.rememberLazyGridState
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.navigation.NavGraphBuilder
+import androidx.navigation.compose.composable
+import app.lawnchair.lawnicons.model.IconInfo
+import app.lawnchair.lawnicons.repository.preferenceManager
+import app.lawnchair.lawnicons.ui.components.home.AppBarListItem
+import app.lawnchair.lawnicons.ui.components.home.DebugMenu
+import app.lawnchair.lawnicons.ui.components.home.HomeBottomBar
+import app.lawnchair.lawnicons.ui.components.home.HomeTopBar
+import app.lawnchair.lawnicons.ui.components.home.HomeTopBarUiState
 import app.lawnchair.lawnicons.ui.components.home.IconPreviewGrid
-import app.lawnchair.lawnicons.ui.components.home.LawniconsSearchBar
-import app.lawnchair.lawnicons.ui.components.home.PlaceholderSearchBar
+import app.lawnchair.lawnicons.ui.components.home.IconPreviewGridPadding
+import app.lawnchair.lawnicons.ui.components.home.IconRequestFAB
+import app.lawnchair.lawnicons.ui.components.home.NewIconsCard
+import app.lawnchair.lawnicons.ui.components.home.PlaceholderUI
+import app.lawnchair.lawnicons.ui.components.home.search.PlaceholderSearchBar
 import app.lawnchair.lawnicons.ui.theme.LawniconsTheme
 import app.lawnchair.lawnicons.ui.util.PreviewLawnicons
-import app.lawnchair.lawnicons.ui.util.SampleData
+import app.lawnchair.lawnicons.viewmodel.DummyLawniconsViewModel
 import app.lawnchair.lawnicons.viewmodel.LawniconsViewModel
+import app.lawnchair.lawnicons.viewmodel.LawniconsViewModelImpl
+import kotlinx.serialization.Serializable
 
+@Serializable
+data object Home
+
+fun NavGraphBuilder.homeDestination(
+    isExpandedScreen: Boolean,
+    isIconPicker: Boolean,
+    onNavigateToAbout: () -> Unit,
+    onNavigateToNewIcons: () -> Unit,
+    onSendResult: (IconInfo) -> Unit,
+) {
+    composable<Home> {
+        Home(
+            onNavigateToAbout = onNavigateToAbout,
+            onNavigateToNewIcons = onNavigateToNewIcons,
+            isExpandedScreen = isExpandedScreen,
+            isIconPicker = isIconPicker,
+            onSendResult = onSendResult,
+        )
+    }
+}
+
+@SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun Home(
-    onNavigate: (String) -> Unit,
+private fun Home(
+    onNavigateToAbout: () -> Unit,
+    onNavigateToNewIcons: () -> Unit,
+    onSendResult: (IconInfo) -> Unit,
     isExpandedScreen: Boolean,
-    lawniconsViewModel: LawniconsViewModel = hiltViewModel(),
+    modifier: Modifier = Modifier,
+    isIconPicker: Boolean = false,
+    lawniconsViewModel: LawniconsViewModel = hiltViewModel<LawniconsViewModelImpl>(),
 ) {
-    val iconInfoModel by lawniconsViewModel.iconInfoModel.collectAsState()
-    val searchedIconInfoModel by lawniconsViewModel.searchedIconInfoModel.collectAsState()
-    var searchTerm by rememberSaveable { mutableStateOf(value = "") }
+    with(lawniconsViewModel) {
+        val iconInfoModel by iconInfoModel.collectAsStateWithLifecycle()
+        val searchedIconInfoModel by searchedIconInfoModel.collectAsStateWithLifecycle()
+        val iconRequestModel by iconRequestModel.collectAsStateWithLifecycle()
+        val newIconsInfoModel by newIconsInfoModel.collectAsStateWithLifecycle()
+        val context = LocalContext.current
 
-    Crossfade(
-        targetState = iconInfoModel != null,
-        label = "",
-    ) { targetState ->
-        if (targetState) {
-            searchedIconInfoModel?.let {
-                LawniconsSearchBar(
-                    query = searchTerm,
-                    isQueryEmpty = searchTerm == "",
-                    onClearAndBackClick = {
-                        searchTerm = ""
-                        lawniconsViewModel.searchIcons("")
+        val lazyGridState = rememberLazyGridState()
+        val snackbarHostState = remember { SnackbarHostState() }
+
+        val focusRequester = remember { FocusRequester() }
+
+        Crossfade(
+            modifier = modifier,
+            targetState = iconInfoModel.iconCount > 0,
+            label = "",
+        ) { visible ->
+            if (visible) {
+                Scaffold(
+                    topBar = {
+                        HomeTopBar(
+                            uiState = HomeTopBarUiState(
+                                isSearchExpanded = expandSearch,
+                                isExpandedScreen = isExpandedScreen,
+                                searchedIconInfoModel = searchedIconInfoModel,
+                                searchTerm = searchTerm,
+                                searchMode = searchMode,
+                                isIconPicker = isIconPicker,
+                            ),
+                            onFocusChange = { expandSearch = !expandSearch },
+                            onClearSearch = ::clearSearch,
+                            onChangeMode = ::changeMode,
+                            onSearchIcons = ::searchIcons,
+                            onNavigate = onNavigateToAbout,
+                            onSendResult = onSendResult,
+                            focusRequester = focusRequester,
+                        )
                     },
-                    onQueryChange = { newValue ->
-                        searchTerm = newValue
-                        lawniconsViewModel.searchIcons(newValue)
+                    bottomBar = {
+                        if (!isExpandedScreen) {
+                            HomeBottomBar(
+                                context = context,
+                                iconRequestModel = iconRequestModel,
+                                snackbarHostState = snackbarHostState,
+                                onNavigate = onNavigateToAbout,
+                                onExpandSearch = { expandSearch = true },
+                            )
+                        }
                     },
-                    iconInfoModel = it,
-                    onNavigate = onNavigate,
-                    isExpandedScreen = isExpandedScreen,
-                )
+                    floatingActionButton = {
+                        if (isExpandedScreen) {
+                            IconRequestFAB(
+                                iconRequestModel = iconRequestModel,
+                                lazyGridState = lazyGridState,
+                                snackbarHostState = snackbarHostState,
+                            )
+                        }
+                    },
+                    snackbarHost = {
+                        SnackbarHost(hostState = snackbarHostState)
+                    },
+                ) {
+                    IconPreviewGrid(
+                        iconInfo = iconInfoModel.iconInfo,
+                        onSendResult = onSendResult,
+                        contentPadding = if (isExpandedScreen) IconPreviewGridPadding.ExpandedSize else IconPreviewGridPadding.Defaults,
+                        isIconPicker = isIconPicker,
+                        gridState = lazyGridState,
+                    ) {
+                        if (!isExpandedScreen) {
+                            item(
+                                span = { GridItemSpan(maxLineSpan) },
+                            ) {
+                                AppBarListItem()
+                            }
+                        }
+                        if (newIconsInfoModel.iconCount != 0) {
+                            item(
+                                span = { GridItemSpan(maxLineSpan) },
+                            ) {
+                                NewIconsCard(onNavigateToNewIcons)
+                            }
+                        }
+                    }
+                }
+            } else {
+                if (isExpandedScreen) {
+                    PlaceholderSearchBar()
+                } else {
+                    PlaceholderUI(newIconsInfoModel.iconCount != 0)
+                }
             }
-            iconInfoModel?.let {
-                IconPreviewGrid(iconInfo = it.iconInfo, isExpandedScreen = isExpandedScreen)
+        }
+        LaunchedEffect(expandSearch) {
+            if (expandSearch) {
+                focusRequester.requestFocus()
             }
-        } else {
-            PlaceholderSearchBar()
+        }
+        val prefs = preferenceManager(context)
+        if (prefs.showDebugMenu.asState().value) {
+            DebugMenu(
+                iconInfoModel,
+                iconRequestModel,
+                newIconsInfoModel,
+            )
         }
     }
 }
 
-@OptIn(ExperimentalFoundationApi::class)
 @PreviewLawnicons
 @Composable
 private fun HomePreview() {
-    var searchTerm by remember { mutableStateOf(value = "") }
-    val iconInfo = SampleData.iconInfoList
-
     LawniconsTheme {
-        LawniconsSearchBar(
-            query = searchTerm,
-            isQueryEmpty = searchTerm == "",
-            onClearAndBackClick = {
-                searchTerm = ""
-            },
-            onQueryChange = { newValue ->
-                searchTerm = newValue
-                // No actual searching, this is just a preview
-            },
-            iconCount = 3,
-            iconInfo = iconInfo,
-            onNavigate = {},
-            isExpandedScreen = true,
-        )
-        IconPreviewGrid(iconInfo = iconInfo, isExpandedScreen = false)
+        Surface(Modifier.fillMaxSize()) {
+            Home(
+                onNavigateToAbout = {},
+                onNavigateToNewIcons = {},
+                isExpandedScreen = true,
+                onSendResult = {},
+                lawniconsViewModel = DummyLawniconsViewModel(),
+            )
+        }
     }
 }
