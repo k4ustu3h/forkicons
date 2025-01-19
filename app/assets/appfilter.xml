@@ -1096,8 +1096,8 @@
     <item component="ComponentInfo{org.forkclient.messenger.beta/org.telegram.ui.LaunchActivity}" drawable="telegram" name="Fork Client" />
     <item component="ComponentInfo{org.forkgram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram" name="Fork Client" />
     <item component="ComponentInfo{org.forkgram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" name="Fork Client" />
-    <item component="ComponentInfo{app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons" />
-    <item component="ComponentInfo{app.lawnchair.lawnicons.light/app.lawnchair.lawnicons.MainActivity}" drawable="forkicons" name="Forkicons (light)" />
+    <item component="ComponentInfo{k4ustu3h.forkicons/k4ustu3h.forkicons.MainActivity}" drawable="forkicons" name="Forkicons" />
+    <item component="ComponentInfo{k4ustu3h.forkicons.light/k4ustu3h.forkicons.MainActivity}" drawable="forkicons" name="Forkicons (light)" />
     <item component="ComponentInfo{com.fox2code.mmm/com.fox2code.mmm.MainActivity}" drawable="foxmmm" name="Fox's Magisk Module Manager" />
     <item component="ComponentInfo{com.fox2code.mmm/com.fox2code.mmm.settings.SettingsActivity}" drawable="foxmmm" name="Fox's Magisk Module Manager" />
     <item component="ComponentInfo{com.fp.downloader/net.dinglisch.android.taskerm.Kid}" drawable="fingerprint" name="Fp Downloader" />

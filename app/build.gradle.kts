@@ -31,10 +31,10 @@ val versionDisplayName = version + if (!isReleaseBuild) " $devReleaseName" else 
 
 android {
     compileSdk = 35
-    namespace = "app.lawnchair.lawnicons"
+    namespace = "k4ustu3h.forkicons"
 
     defaultConfig {
-        applicationId = "app.lawnchair.lawnicons"
+        applicationId = "k4ustu3h.forkicons"
         minSdk = 26
         targetSdk = compileSdk
         versionCode = 16
@@ -80,7 +80,7 @@ android {
     productFlavors {
         create("app") {
             dimension = "product"
-            resValue("string", "apps_name", "Lawnicons")
+            resValue("string", "apps_name", "Forkicons")
         }
     }
     sourceSets.getByName("app") {
