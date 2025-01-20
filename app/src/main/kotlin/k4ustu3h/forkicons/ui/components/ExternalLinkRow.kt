@@ -18,6 +18,7 @@ fun ExternalLinkRow(
     background: Boolean = false,
     first: Boolean = false,
     last: Boolean = false,
+    startIcon: @Composable (() -> Unit)? = null,
 ) {
     val context = LocalContext.current
     val onClick = {
@@ -34,6 +35,7 @@ fun ExternalLinkRow(
         divider = divider,
         label = name,
         onClick = onClick,
+        startIcon = startIcon,
     )
 }
 

@@ -1,4 +1,20 @@
-package k4ustu3h.forkicons.ui.components.home
+/*
+ * Copyright 2024 Lawnchair Launcher
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package k4ustu3h.forkicons.ui.components.home.iconpreview
 
 import android.content.Intent
 import androidx.compose.foundation.layout.Arrangement
@@ -123,7 +139,7 @@ fun IconInfoSheet(
                     IconLink(
                         iconResId = R.drawable.github_foreground,
                         label = stringResource(id = R.string.view_on_github),
-                        url = "${Constants.GITHUB}/blob/develop/svgs/$githubName.svg",
+                        url = "${Constants.GITHUB}/blob/main/svgs/$githubName.svg",
                     )
                     Spacer(Modifier.width(16.dp))
                     IconLink(
@@ -214,19 +230,17 @@ private fun IconInfoListRow(
     label: String,
     componentNames: List<String>,
 ) {
-    ListRow(
-        label = {
-            SelectionContainer {
+    SelectionContainer {
+        ListRow(
+            label = {
                 Text(
                     text = label,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                 )
-            }
-        },
-        description = {
-            Spacer(Modifier.height(4.dp))
-            SelectionContainer {
+            },
+            description = {
+                Spacer(Modifier.height(4.dp))
                 Column {
                     componentNames.forEach {
                         Text(
@@ -238,12 +252,12 @@ private fun IconInfoListRow(
                         Spacer(Modifier.height(6.dp))
                     }
                 }
-            }
-        },
-        divider = false,
-        enforceHeight = false,
-    )
-    Spacer(Modifier.height(16.dp))
+            },
+            divider = false,
+            enforceHeight = false,
+        )
+        Spacer(Modifier.height(16.dp))
+    }
 }
 
 @PreviewLawnicons

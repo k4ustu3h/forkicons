@@ -26,8 +26,3 @@ App Name (`com.package.app` → `drawable.svg`)
 
 App Name (`com.package.app`)
 App Name (`com.package.app`)
-
-## Contributor's checklist
-
--   [ ] I followed [the Forkicons guidelines](https://github.com/k4ustu3h/forkicons/blob/main/CONTRIBUTING.md) and will make changes if someone suggests. I will also make sure that Lawnicons builds correctly.
-<!-- If you think that everything is correct, then replace [ ] with [x] or click on the checkbox after creating the pull request. -->

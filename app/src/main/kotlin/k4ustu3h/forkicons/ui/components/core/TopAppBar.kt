@@ -12,7 +12,7 @@ import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import k4ustu3h.forkicons.ui.components.home.ClickableIcon
+import k4ustu3h.forkicons.ui.components.home.NavigationIconButton
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
 
@@ -53,7 +53,7 @@ private fun SmallTopAppBarPreview() {
     LawniconsTheme {
         TopAppBar(
             navigationIcon = {
-                ClickableIcon(
+                NavigationIconButton(
                     onClick = {},
                     imageVector = Icons.AutoMirrored.Rounded.ArrowBack,
                     size = 40.dp,
@@ -74,7 +74,7 @@ private fun LargeTopAppBarPreview() {
     LawniconsTheme {
         TopAppBar(
             navigationIcon = {
-                ClickableIcon(
+                NavigationIconButton(
                     onClick = {},
                     imageVector = Icons.AutoMirrored.Rounded.ArrowBack,
                     size = 40.dp,

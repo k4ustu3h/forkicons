@@ -50,3 +50,5 @@ Please see our guidelines for information on contributing icons or code, it will
 
 -   [Lawnicons](https://github.com/LawnchairLauncher/lawnicons)
 -   [RKicons](https://github.com/RadekBledowski/rkicons) - The first Lawnicons fork that restored the original icons.
+
+<!-- `Open Forkicons 2.13+ → Tap "Request icons" → Submit the response` -->

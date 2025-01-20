@@ -47,6 +47,8 @@ import k4ustu3h.forkicons.ui.components.core.placeholder.PlaceholderHighlight
 import k4ustu3h.forkicons.ui.components.core.placeholder.fade
 import k4ustu3h.forkicons.ui.components.core.placeholder.placeholder
 import k4ustu3h.forkicons.ui.components.core.placeholder.shimmer
+import k4ustu3h.forkicons.ui.components.home.iconpreview.IconPreviewGridPadding
+import k4ustu3h.forkicons.ui.components.home.iconpreview.iconColor
 import k4ustu3h.forkicons.ui.util.toPaddingValues
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

@@ -21,7 +21,7 @@ jobs:
         with:
           cache-encryption-key: Da25KUVSE5jbGds2zXmfXw==
       - name: Write sign info
-        if: github.repository_owner == 'LawnchairLauncher'
+        if: github.repository_owner == 'k4ustu3h'
         run: |
           if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
             echo storePassword='${{ secrets.KEYSTORE_PASSWORD }}' >> keystore.properties

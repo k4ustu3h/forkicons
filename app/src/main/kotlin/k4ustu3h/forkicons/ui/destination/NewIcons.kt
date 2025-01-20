@@ -28,8 +28,8 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import k4ustu3h.forkicons.R
 import k4ustu3h.forkicons.ui.components.core.LawniconsScaffold
-import k4ustu3h.forkicons.ui.components.home.IconPreviewGrid
-import k4ustu3h.forkicons.ui.components.home.IconPreviewGridPadding
+import k4ustu3h.forkicons.ui.components.home.iconpreview.IconPreviewGrid
+import k4ustu3h.forkicons.ui.components.home.iconpreview.IconPreviewGridPadding
 import k4ustu3h.forkicons.viewmodel.NewIconsViewModel
 import kotlinx.serialization.Serializable
 

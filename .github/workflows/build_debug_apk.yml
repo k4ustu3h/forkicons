@@ -4,12 +4,53 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - develop
+      - main
   pull_request:
 
 jobs:
+  check-paths:
+    runs-on: ubuntu-latest
+    outputs:
+      skip_steps: ${{ steps.filter.outputs.workflows && !steps.nofilter.outputs.workflows }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Check for ignored paths
+        uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            workflows:
+              - '**.md'
+              - 'LICENSE'
+              - '.idea/**'
+              - 'docs/**'
+              - '.github/ISSUE_TEMPLATE/**'
+              - '.gitignore'
+              - '.gitattributes'
+              - '.github/labeler.yml'
+              - '.github/release.yml'
+      - name: Check for non ignored paths
+        uses: dorny/paths-filter@v3
+        id: nofilter
+        with:
+          filters: |
+            workflows:
+              - '!**.md'
+              - '!LICENSE'
+              - '!.idea/**'
+              - '!docs/**'
+              - '!.github/ISSUE_TEMPLATE/**'
+              - '!.gitignore'
+              - '!.gitattributes'
+              - '!.github/labeler.yml'
+              - '!.github/release.yml'
   build-debug-apk:
     runs-on: ubuntu-latest
+    needs: check-paths
+    if: needs.check-paths.outputs.skip_steps != 'true'
     continue-on-error: true
     steps:
       - name: Check out repository
@@ -40,9 +81,10 @@ jobs:
         with:
           name: Debug APK
           path: app/build/outputs/apk/app/debug/*.apk
-
   check-style:
     runs-on: ubuntu-latest
+    needs: check-paths
+    if: needs.check-paths.outputs.skip_steps != 'true'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -53,3 +95,27 @@ jobs:
           java-version: 21
       - uses: gradle/actions/setup-gradle@v4
       - run: ./gradlew spotlessCheck
+
+  nightly-release:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'k4ustu3h' && github.event_name == 'push' && needs.check-paths.outputs.skip_steps != 'true'
+    needs: build-debug-apk
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: Debug APK
+          path: artifacts/debug-apk
+      - name: Export APK_NAME for later use
+        run: echo "APK_NAME=Forkicons.Debug.${{ github.ref_name }}.Nightly-CI_${{ github.run_number }}-$(echo ${{ github.sha }} | cut -c1-7).apk" >> $GITHUB_ENV
+      - name: Rename .apk file
+        run: |
+          mv artifacts/debug-apk/*.apk $APK_NAME
+      - name: Delete release if exist then create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view "nightly" && gh release delete "nightly" -y --cleanup-tag
+          gh release create "nightly" "$APK_NAME" -p -t "Forkicons Nightly" --generate-notes

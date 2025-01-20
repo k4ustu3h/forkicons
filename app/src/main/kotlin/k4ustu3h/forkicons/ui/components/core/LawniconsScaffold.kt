@@ -15,7 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.unit.dp
-import k4ustu3h.forkicons.ui.components.home.ClickableIcon
+import k4ustu3h.forkicons.ui.components.home.NavigationIconButton
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
 import k4ustu3h.forkicons.ui.util.toPaddingValues
@@ -39,7 +39,7 @@ fun LawniconsScaffold(
                 scrollBehavior = scrollBehavior,
                 title = title,
                 navigationIcon = {
-                    ClickableIcon(
+                    NavigationIconButton(
                         onClick = onBack,
                         imageVector = Icons.AutoMirrored.Rounded.ArrowBack,
                         size = 40.dp,
@@ -51,8 +51,7 @@ fun LawniconsScaffold(
         },
     ) {
         Box(
-            modifier =
-            Modifier.then(
+            modifier = Modifier.then(
                 if (isExpandedScreen) {
                     Modifier.padding(
                         WindowInsets.navigationBars.toPaddingValues(

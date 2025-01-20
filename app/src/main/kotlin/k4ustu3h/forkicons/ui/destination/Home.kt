@@ -1,7 +1,10 @@
 package k4ustu3h.forkicons.ui.destination
 
 import android.annotation.SuppressLint
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.grid.GridItemSpan
@@ -23,15 +26,16 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import k4ustu3h.forkicons.model.IconInfo
 import k4ustu3h.forkicons.repository.preferenceManager
-import k4ustu3h.forkicons.ui.components.home.AppBarListItem
 import k4ustu3h.forkicons.ui.components.home.DebugMenu
 import k4ustu3h.forkicons.ui.components.home.HomeBottomBar
 import k4ustu3h.forkicons.ui.components.home.HomeTopBar
 import k4ustu3h.forkicons.ui.components.home.HomeTopBarUiState
-import k4ustu3h.forkicons.ui.components.home.IconPreviewGrid
 import k4ustu3h.forkicons.ui.components.home.IconRequestFAB
 import k4ustu3h.forkicons.ui.components.home.NewIconsCard
 import k4ustu3h.forkicons.ui.components.home.PlaceholderUI
+import k4ustu3h.forkicons.ui.components.home.iconpreview.AppBarListItem
+import k4ustu3h.forkicons.ui.components.home.iconpreview.IconPreviewGrid
+import k4ustu3h.forkicons.ui.components.home.iconpreview.IconPreviewGridPadding
 import k4ustu3h.forkicons.ui.components.home.search.PlaceholderSearchBar
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
@@ -84,6 +88,7 @@ private fun Home(
         val snackbarHostState = remember { SnackbarHostState() }
 
         val focusRequester = remember { FocusRequester() }
+        val prefs = preferenceManager(context)
 
         Crossfade(
             modifier = modifier,
@@ -113,18 +118,26 @@ private fun Home(
                     },
                     bottomBar = {
                         if (!isExpandedScreen) {
-                            HomeBottomBar(
-                                context = context,
-                                iconRequestModel = iconRequestModel,
-                                snackbarHostState = snackbarHostState,
-                                onNavigate = onNavigateToAbout,
-                                onExpandSearch = { expandSearch = true },
-                            )
+                            AnimatedVisibility(
+                                !expandSearch,
+                                enter = fadeIn(),
+                                exit = fadeOut(),
+                            ) {
+                                HomeBottomBar(
+                                    context = context,
+                                    iconRequestsEnabled = iconRequestsEnabled,
+                                    iconRequestModel = iconRequestModel,
+                                    snackbarHostState = snackbarHostState,
+                                    onNavigate = onNavigateToAbout,
+                                    onExpandSearch = { expandSearch = true },
+                                )
+                            }
                         }
                     },
                     floatingActionButton = {
                         if (isExpandedScreen) {
                             IconRequestFAB(
+                                iconRequestsEnabled = iconRequestsEnabled,
                                 iconRequestModel = iconRequestModel,
                                 lazyGridState = lazyGridState,
                                 snackbarHostState = snackbarHostState,
@@ -138,7 +151,7 @@ private fun Home(
                     IconPreviewGrid(
                         iconInfo = iconInfoModel.iconInfo,
                         onSendResult = onSendResult,
-                        contentPadding = if (isExpandedScreen) k4ustu3h.forkicons.ui.components.home.IconPreviewGridPadding.ExpandedSize else k4ustu3h.forkicons.ui.components.home.IconPreviewGridPadding.Defaults,
+                        contentPadding = if (isExpandedScreen) IconPreviewGridPadding.ExpandedSize else IconPreviewGridPadding.Defaults,
                         isIconPicker = isIconPicker,
                         gridState = lazyGridState,
                     ) {
@@ -162,16 +175,17 @@ private fun Home(
                 if (isExpandedScreen) {
                     PlaceholderSearchBar()
                 } else {
-                    PlaceholderUI(newIconsInfoModel.iconCount != 0)
+                    PlaceholderUI(prefs.showNewIconsCard.asState().value)
                 }
             }
         }
+
         LaunchedEffect(expandSearch) {
             if (expandSearch) {
                 focusRequester.requestFocus()
             }
         }
-        val prefs = preferenceManager(context)
+
         if (prefs.showDebugMenu.asState().value) {
             DebugMenu(
                 iconInfoModel,

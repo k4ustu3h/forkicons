@@ -1,7 +1,7 @@
 package k4ustu3h.forkicons.ui.util
 
 object Constants {
-    const val ICON_REQUEST_FORM = "https://forms.gle/xt7sJhgWEasuo9TR9"
+    const val ICON_REQUEST_FORM = "https://lawnchair.app/lawnicons-request"
     const val GITHUB = "https://github.com/k4ustu3h/forkicons"
 
     const val ICON_PICKER_INTENT_ACTION = "com.novalauncher.THEME"
