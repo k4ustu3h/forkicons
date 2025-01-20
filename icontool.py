@@ -12,8 +12,8 @@ PATTERN = re.compile(r"([A-Za-z0-9_]+(\.[A-Za-z0-9_]+)+)/([A-Za-z0-9_]+(\.[A-Za-
                      re.IGNORECASE)
 APPFILTER_PATH = "./app/assets/appfilter.xml"
 SVGS_FOLDER = "./svgs/"
-CALENDARS_PATTERN = r'(  <!-- Dynamic Calendars -->.*?<!-- Lawnicons -->)'
-LAWNICONS_PATTERN = r'<!-- Lawnicons -->\s*(.*?)\s*</resources>'
+CALENDARS_PATTERN = r'(  <!-- Dynamic Calendars -->.*?<!-- Forkicons -->)'
+FORKICONS_PATTERN = r'<!-- Forkicons -->\s*(.*?)\s*</resources>'
 
 
 #####
@@ -48,7 +48,7 @@ def sort_xml_file(file, new_item):
     else:
         x = ""
 
-    lawnicons_section = re.search(LAWNICONS_PATTERN, file, re.DOTALL)
+    lawnicons_section = re.search(FORKICONS_PATTERN, file, re.DOTALL)
     lawnicons_items = lawnicons_section.group(1).strip().splitlines() if lawnicons_section else []
 
     if new_item:

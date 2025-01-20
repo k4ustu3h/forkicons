@@ -1,11 +1,11 @@
 package k4ustu3h.forkicons.api
 
-import k4ustu3h.forkicons.util.kotlinxJson
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
+import k4ustu3h.forkicons.util.kotlinxJson
 import okhttp3.MediaType.Companion.toMediaType
 import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory

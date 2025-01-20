@@ -8,9 +8,9 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import k4ustu3h.forkicons.repository.OssLibraryRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import k4ustu3h.forkicons.repository.OssLibraryRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -29,14 +29,13 @@ constructor(
     fun getNoticeForOssLibrary(
         ossLibraryName: String,
         linkStyle: SpanStyle,
-    ): StateFlow<AnnotatedString?> =
-        ossLibraryRepository
-            .getNoticeForOssLibrary(
-                ossLibraryName = ossLibraryName,
-                annotate = { annotate(it, linkStyle) },
-            )
-            .flowOn(Dispatchers.Default)
-            .stateIn(viewModelScope, SharingStarted.Lazily, null)
+    ): StateFlow<AnnotatedString?> = ossLibraryRepository
+        .getNoticeForOssLibrary(
+            ossLibraryName = ossLibraryName,
+            annotate = { annotate(it, linkStyle) },
+        )
+        .flowOn(Dispatchers.Default)
+        .stateIn(viewModelScope, SharingStarted.Lazily, null)
 
     private fun annotate(
         notice: String,

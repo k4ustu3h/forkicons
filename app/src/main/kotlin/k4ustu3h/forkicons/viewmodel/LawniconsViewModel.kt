@@ -6,6 +6,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 import k4ustu3h.forkicons.model.IconInfoModel
 import k4ustu3h.forkicons.model.IconRequestModel
 import k4ustu3h.forkicons.model.SearchMode
@@ -13,8 +15,6 @@ import k4ustu3h.forkicons.repository.IconRepository
 import k4ustu3h.forkicons.repository.IconRequestSettingsRepository
 import k4ustu3h.forkicons.repository.NewIconsRepository
 import k4ustu3h.forkicons.ui.util.SampleData
-import dagger.hilt.android.lifecycle.HiltViewModel
-import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

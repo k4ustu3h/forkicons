@@ -13,11 +13,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
 import k4ustu3h.forkicons.ui.components.core.SimpleListRow
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
-import coil.compose.AsyncImage
-import coil.request.ImageRequest
 
 @Composable
 fun ContributorRow(

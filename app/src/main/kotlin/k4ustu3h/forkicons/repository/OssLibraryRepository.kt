@@ -2,9 +2,9 @@ package k4ustu3h.forkicons.repository
 
 import android.app.Application
 import androidx.compose.ui.text.AnnotatedString
+import javax.inject.Inject
 import k4ustu3h.forkicons.model.OssLibrary
 import k4ustu3h.forkicons.util.kotlinxJson
-import javax.inject.Inject
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.Flow
@@ -24,8 +24,7 @@ interface OssLibraryRepository {
     ): Flow<AnnotatedString?>
 }
 
-class OssLibraryRepositoryImpl @Inject constructor(private val application: Application) :
-    OssLibraryRepository {
+class OssLibraryRepositoryImpl @Inject constructor(private val application: Application) : OssLibraryRepository {
 
     private val coroutineScope = MainScope()
 

@@ -17,9 +17,9 @@
 package k4ustu3h.forkicons.viewmodel
 
 import androidx.lifecycle.ViewModel
-import k4ustu3h.forkicons.repository.NewIconsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import k4ustu3h.forkicons.repository.NewIconsRepository
 
 @HiltViewModel
 class NewIconsViewModel @Inject constructor(

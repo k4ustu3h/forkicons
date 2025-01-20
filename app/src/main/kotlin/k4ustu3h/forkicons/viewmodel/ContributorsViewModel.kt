@@ -3,10 +3,10 @@ package k4ustu3h.forkicons.viewmodel
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import k4ustu3h.forkicons.model.GitHubContributor
-import k4ustu3h.forkicons.repository.GitHubContributorsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import k4ustu3h.forkicons.model.GitHubContributor
+import k4ustu3h.forkicons.repository.GitHubContributorsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map

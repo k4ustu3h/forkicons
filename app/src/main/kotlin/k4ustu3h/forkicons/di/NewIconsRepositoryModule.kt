@@ -17,19 +17,18 @@
 package k4ustu3h.forkicons.di
 
 import android.app.Application
-import k4ustu3h.forkicons.repository.NewIconsRepository
-import k4ustu3h.forkicons.repository.NewIconsRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
+import k4ustu3h.forkicons.repository.NewIconsRepository
+import k4ustu3h.forkicons.repository.NewIconsRepositoryImpl
 
 @Module
 @InstallIn(SingletonComponent::class)
 object NewIconsRepositoryModule {
     @Provides
     @Singleton
-    fun provideNewIconsRepository(application: Application): NewIconsRepository =
-        NewIconsRepositoryImpl(application)
+    fun provideNewIconsRepository(application: Application): NewIconsRepository = NewIconsRepositoryImpl(application)
 }

@@ -21,13 +21,13 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.DrawableCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import dagger.hilt.android.AndroidEntryPoint
 import k4ustu3h.forkicons.R
 import k4ustu3h.forkicons.model.IconInfo
 import k4ustu3h.forkicons.ui.Lawnicons
 import k4ustu3h.forkicons.ui.components.SetupEdgeToEdge
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.Constants
-import dagger.hilt.android.AndroidEntryPoint
 
 @ExperimentalFoundationApi
 @ExperimentalMaterial3Api

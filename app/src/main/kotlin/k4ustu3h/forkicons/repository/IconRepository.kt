@@ -1,6 +1,7 @@
 package k4ustu3h.forkicons.repository
 
 import android.app.Application
+import javax.inject.Inject
 import k4ustu3h.forkicons.model.IconInfo
 import k4ustu3h.forkicons.model.IconInfoModel
 import k4ustu3h.forkicons.model.IconRequest
@@ -11,7 +12,6 @@ import k4ustu3h.forkicons.model.getFirstLabelAndComponent
 import k4ustu3h.forkicons.model.splitByComponentName
 import k4ustu3h.forkicons.util.getIconInfo
 import k4ustu3h.forkicons.util.getSystemIconInfoAppfilter
-import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

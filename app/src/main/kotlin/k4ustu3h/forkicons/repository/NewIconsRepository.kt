@@ -17,11 +17,11 @@
 package k4ustu3h.forkicons.repository
 
 import android.app.Application
+import javax.inject.Inject
 import k4ustu3h.forkicons.BuildConfig
 import k4ustu3h.forkicons.R
 import k4ustu3h.forkicons.model.IconInfoModel
 import k4ustu3h.forkicons.util.getIconInfo
-import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

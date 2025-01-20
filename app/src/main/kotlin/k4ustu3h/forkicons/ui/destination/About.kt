@@ -203,7 +203,7 @@ private val externalLinks = listOf(
         iconResId = R.drawable.github_foreground,
         name = R.string.github,
         url = Constants.GITHUB,
-    )
+    ),
 )
 
 private val coreContributors = listOf(
@@ -257,7 +257,7 @@ private val specialThanks = listOf(
         photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
         socialUrl = "https://x.com/rkbdi",
         descriptionRes = R.string.special_thanks_restoration,
-    )
+    ),
 )
 
 @PreviewLawnicons

@@ -1,7 +1,7 @@
 package k4ustu3h.forkicons.repository
 
-import k4ustu3h.forkicons.api.GitHubContributorsAPI
 import javax.inject.Inject
+import k4ustu3h.forkicons.api.GitHubContributorsAPI
 
 val coreContributorIds = listOf(
     // Remove Patryk from contributors list, as per https://t.me/lawnchairci/1557
@@ -27,8 +27,7 @@ class GitHubContributorsRepository
 constructor(
     private val api: GitHubContributorsAPI,
 ) {
-    suspend fun getTopContributors() =
-        api.getContributors()
-            .filterNot { coreContributorIds.contains(it.id) }
-            .sortedByDescending { it.contributions }
+    suspend fun getTopContributors() = api.getContributors()
+        .filterNot { coreContributorIds.contains(it.id) }
+        .sortedByDescending { it.contributions }
 }

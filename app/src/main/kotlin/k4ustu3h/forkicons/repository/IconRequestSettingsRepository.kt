@@ -16,8 +16,8 @@
 
 package k4ustu3h.forkicons.repository
 
-import k4ustu3h.forkicons.api.IconRequestSettingsAPI
 import javax.inject.Inject
+import k4ustu3h.forkicons.api.IconRequestSettingsAPI
 
 class IconRequestSettingsRepository @Inject constructor(
     private val api: IconRequestSettingsAPI,
