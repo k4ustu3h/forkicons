@@ -13,7 +13,7 @@ PATTERN = re.compile(r"([A-Za-z0-9_]+(\.[A-Za-z0-9_]+)+)\/([A-Za-z0-9_]+(\.[A-Za
 
 APPFILTER_PATH = "app/assets/appfilter.xml"
 SVGS_FOLDER = "svgs/"
-CALENDAR_REGEX = r"(?s)  <!-- Dynamic Calendars -->.*?  <!-- Lawnicons -->"
+CALENDAR_REGEX = r"(?s)  <!-- Dynamic Calendars -->.*?  <!-- Forkicons -->"
 
 # Helper Functions
 def print_error(msg):
@@ -38,7 +38,7 @@ def sort_components(xml_file):
         original_file = open(APPFILTER_PATH, "r", encoding="utf-8").read()
         calendar_stuff = re.findall(CALENDAR_REGEX, original_file)
         return calendar_stuff
-        
+
     def remove_calendar_components(has_calendar):
         return re.sub(CALENDAR_REGEX, "", xml_file) if has_calendar else xml_file
 
@@ -75,7 +75,7 @@ def find_logic(mode):
     def find_duplicates():
         packages = [i.attrib["component"] for i in root]
         duplicates = {i for i in packages if (packages.count(i) > 1) and not ("calendar" in i)}
-        
+
         if len(duplicates) == 0:
             print("no duplicates found")
             return
@@ -97,21 +97,21 @@ def find_logic(mode):
             if i not in drawables:
                 if not i.startswith("themed_icon_calendar_"):
                     unused_list.append(i)
-        
+
         if len(unused_list) == 0:
             print("no unused svg files found")
             return
-        
+
         print("unused svg files:")
         for i in unused_list: print("* " + i)
-    
+
     match mode:
         case "duplicates":
             find_duplicates()
-        
+
         case "unused":
             find_unused_icons()
-        
+
         case _:
             print_error("you must specify a mode {duplicates,unused}")
 
@@ -131,7 +131,7 @@ def parse_component(link_mode, svg, component, name, show_message):
     #
     if not svg.endswith(".svg"):
         svg += ".svg"
-    
+
     basename = os.path.basename(svg)
 
     if not PATTERN.match(component):
@@ -151,18 +151,18 @@ def parse_component(link_mode, svg, component, name, show_message):
                 path = "current directory"
 
             print_error(f"svg '{basename}' doesn't exist in {path}. check if the file exists and try again.")
-        
+
         if os.path.isfile(SVGS_FOLDER + basename):
             user_input = input(f"\033[93mwarning\033[0m: svg \033[4m{basename}\033[0m already exists in the svgs directory. replace? (Yes/No/Link) [N] ").lower()
             if  user_input == "" or user_input[0] == "n":
                 exit()
-    
+
             if user_input[0] == "l":
                 parse_component(True, basename, component, name, show_message)
                 return
-                
+
             if user_input[0] != "y": exit()
-            
+
             print(f"replacing {basename} in svgs folder...")
 
         svg_in_svgs_folder = SVGS_FOLDER + basename
@@ -341,7 +341,7 @@ match args.subcommand:
 
     case "sort" | "s":
         sort_parser()
-    
+
     case "find" | "f":
         find_parser(args)
 

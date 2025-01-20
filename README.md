@@ -34,8 +34,6 @@ Forkicons is best used [on the latest version of Lawnchair](https://play.google.
   </a>
 </p>
 
-Due to different package names, Forkicons on the Play Store will install as a different app from other sources.
-
 **Development builds:** [nightly.link](https://nightly.link/k4ustu3h/forkicons/workflows/build_debug_apk/main/Debug%20APK)
 
 ## Contributing
