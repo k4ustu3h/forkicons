@@ -3,6 +3,8 @@
 
     <!-- Application name -->
     <string name="app_name" translatable="false">Forkicons</string>
+    <!-- Lawnicons -->
+    <string name="lawnicons" translatable="false">Lawnicons</string>
     <!-- Version name, with %s as the version code -->
     <string name="version_x">Version %s</string>
 
@@ -51,7 +53,7 @@
     <!-- Special Thanks label -->
     <string name="special_thanks">Special thanks</string>
     <!-- Subtitle displayed below the user who first restored the original icons. -->
-    <string name="special_thanks_restoration">For restoring the old icons.</string>
+    <string name="special_thanks_restoration">For restoring the original icons.</string>
 
     <!-- List item that links to the Acknowledgements page -->
     <string name="acknowledgements">Open-source licenses</string>

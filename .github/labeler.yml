@@ -9,9 +9,8 @@ icons:
   - app/assets/appfilter.xml
 
 code:
-  - any: ['app/**/*']
-    all: ['!app/assets/appfilter.xml', '!app/src/main/res/*/strings.xml']
+  - any: ["app/**/*"]
+    all: ["!app/assets/appfilter.xml", "!app/src/main/res/*/strings.xml"]
 
 locale:
   - app/src/main/res/*/strings.xml
-  

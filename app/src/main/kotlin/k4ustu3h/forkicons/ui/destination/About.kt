@@ -160,6 +160,22 @@ private fun About(
                 }
             }
             item {
+                Card(
+                    label = stringResource(id = R.string.app_name) + " " + stringResource(id = R.string.core_contributors).lowercase(),
+                    modifier = Modifier.padding(top = 16.dp),
+                ) {
+                    forkiconsContributors.mapIndexed { index, it ->
+                        ContributorRow(
+                            name = it.name,
+                            photoUrl = it.photoUrl,
+                            profileUrl = it.socialUrl,
+                            divider = index != forkiconsContributors.lastIndex,
+                            description = it.descriptionRes?.let { stringResource(id = it) },
+                        )
+                    }
+                }
+            }
+            item {
                 Card(modifier = Modifier.padding(top = 16.dp)) {
                     SimpleListRow(
                         onClick = onNavigateToContributors,
@@ -191,6 +207,23 @@ private fun About(
                         onClick = onNavigateToAcknowledgements,
                         label = stringResource(id = R.string.acknowledgements),
                         divider = false,
+                    )
+                }
+            }
+            item {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 16.dp),
+                    horizontalArrangement = Arrangement.Center,
+                ) {
+                    Text(
+                        text = stringResource(R.string.lawnicons) + " " + stringResource(
+                            id = R.string.version_x,
+                            Constants.LAWNICONS_VERSION,
+                        ).lowercase(),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
             }
@@ -251,10 +284,20 @@ private val coreContributors = listOf(
     ),
 )
 
+private val forkiconsContributors = listOf(
+    Contributor(
+        name = "Kaustubh Ladiya",
+        username = "k4ustu3h",
+        photoUrl = "https://avatars.githubusercontent.com/u/49553711",
+        socialUrl = "https://k4ustu3h.live/",
+        descriptionRes = R.string.contribution_core,
+    ),
+)
+
 private val specialThanks = listOf(
     Contributor(
         name = "Radek Bledowski",
-        photoUrl = "https://avatars.githubusercontent.com/u/22264125?v=4",
+        photoUrl = "https://avatars.githubusercontent.com/u/22264125",
         socialUrl = "https://x.com/rkbdi",
         descriptionRes = R.string.special_thanks_restoration,
     ),

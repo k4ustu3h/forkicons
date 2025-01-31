@@ -63,5 +63,5 @@
     <string name="clear">기록 삭제</string>
     <string name="new_icons_in_version">New icons in v%1$s</string>
     <string name="new_icons">New icons (%1$s)</string>
-    <string name="special_thanks_restoration">오래된 아이콘을 복원합니다.</string>
+    <string name="special_thanks_restoration">원래 아이콘을 복원합니다.</string>
 </resources>

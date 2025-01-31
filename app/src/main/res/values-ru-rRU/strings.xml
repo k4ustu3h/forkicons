@@ -63,5 +63,5 @@
     <string name="clear">Очистить</string>
     <string name="new_icons_in_version">Новые иконки в v%1$s</string>
     <string name="new_icons">Новые иконки (%1$s)</string>
-    <string name="special_thanks_restoration">Pentru restaurarea pictogramelor vechi.</string>
+    <string name="special_thanks_restoration">Для восстановления оригинальных иконок.</string>
 </resources>

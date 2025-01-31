@@ -63,5 +63,5 @@
     <string name="clear">Netejar</string>
     <string name="new_icons_in_version">New icons in v%1$s</string>
     <string name="new_icons">New icons (%1$s)</string>
-    <string name="special_thanks_restoration">Per restaurar les icones antigues.</string>
+    <string name="special_thanks_restoration">Per restaurar les icones originals.</string>
 </resources>

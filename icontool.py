@@ -8,12 +8,14 @@ import xml.etree.ElementTree as ElementTree
 #####
 # Global variables
 #####
-PATTERN = re.compile(r"([A-Za-z0-9_]+(\.[A-Za-z0-9_]+)+)/([A-Za-z0-9_]+(\.[A-Za-z0-9_]+)+)",
-                     re.IGNORECASE)
+PATTERN = re.compile(
+    r"([A-Za-z0-9_]+(\.[A-Za-z0-9_]+)+)/([A-Za-z0-9_]+(\.[A-Za-z0-9_]+)+)",
+    re.IGNORECASE,
+)
 APPFILTER_PATH = "./app/assets/appfilter.xml"
 SVGS_FOLDER = "./svgs/"
-CALENDARS_PATTERN = r'(  <!-- Dynamic Calendars -->.*?<!-- Forkicons -->)'
-FORKICONS_PATTERN = r'<!-- Forkicons -->\s*(.*?)\s*</resources>'
+CALENDARS_PATTERN = r"(  <!-- Dynamic Calendars -->.*?<!-- Forkicons -->)"
+FORKICONS_PATTERN = r"<!-- Forkicons -->\s*(.*?)\s*</resources>"
 
 
 #####
@@ -28,13 +30,16 @@ def check_file_existence():
     if not os.path.exists(SVGS_FOLDER):
         print_error("svgs folder does not exist. Please ensure the path is correct.")
     if not os.path.isfile(APPFILTER_PATH):
-        print_error("appfilter.xml file does not exist. Please ensure the path is correct.")
+        print_error(
+            "appfilter.xml file does not exist. Please ensure the path is correct."
+        )
 
 
 def validate_component_format(component):
     if not PATTERN.match(component):
         print_error(
-            "Invalid component entry. Must be in format [PACKAGE_NAME]/[APP_ACTIVITY_NAME], e.g., package.name/component.name")
+            "Invalid component entry. Must be in format [PACKAGE_NAME]/[APP_ACTIVITY_NAME], e.g., package.name/component.name"
+        )
 
 
 #####
@@ -49,20 +54,22 @@ def sort_xml_file(file, new_item):
         x = ""
 
     lawnicons_section = re.search(FORKICONS_PATTERN, file, re.DOTALL)
-    lawnicons_items = lawnicons_section.group(1).strip().splitlines() if lawnicons_section else []
+    lawnicons_items = (
+        lawnicons_section.group(1).strip().splitlines() if lawnicons_section else []
+    )
 
     if new_item:
         lawnicons_items.append(new_item)
 
     lawnicons_items_sorted = sorted(
-        ["  " + line.strip() for line in lawnicons_items if '<item ' in line],
-        key=lambda item: item.split('name="')[1].split('"')[0].lower()
+        ["  " + line.strip() for line in lawnicons_items if "<item " in line],
+        key=lambda item: item.split('name="')[1].split('"')[0].lower(),
     )
 
     result = '<?xml version="1.0" encoding="UTF-8"?>\n\n<resources>\n'
-    result += x + '\n'
-    result += '\n'.join(lawnicons_items_sorted) + '\n'
-    result += '</resources>\n'
+    result += x + "\n"
+    result += "\n".join(lawnicons_items_sorted) + "\n"
+    result += "</resources>\n"
 
     return result
 
@@ -77,7 +84,8 @@ def add_or_link_component(link_mode, svg, component, name):
         options = ["y", "n", "l"]
         while True:
             user_input = input(
-                f"\033[93mwarning\033[0m: svg \033[4m{svg_file}\033[0m already exists in the svgs directory. Replace? (Yes/No/Link) [N] ").lower()
+                f"\033[93mwarning\033[0m: svg \033[4m{svg_file}\033[0m already exists in the svgs directory. Replace? (Yes/No/Link) [N] "
+            ).lower()
             if user_input in options:
                 return user_input
             print("Invalid input, please enter 'y', 'n', or 'l'.")
@@ -87,7 +95,8 @@ def add_or_link_component(link_mode, svg, component, name):
             shutil.copyfile(svg_file, svg_file_in_folder)
         except shutil.SameFileError:
             print_error(
-                f"The source and destination SVG are identical: '{os.path.basename(svg_file)}'")
+                f"The source and destination SVG are identical: '{os.path.basename(svg_file)}'"
+            )
         except (PermissionError, FileNotFoundError) as e:
             print_error(f"Error copying file: {str(e)}")
         except Exception as e:
@@ -153,7 +162,8 @@ def remove_component(component, delete_svg):
                 deleted_line = line
                 component_found = True
                 print(
-                    f"Removed \033[92m{component}\033[0m icon in line \033[92m{linenumber}\033[0m")
+                    f"Removed \033[92m{component}\033[0m icon in line \033[92m{linenumber}\033[0m"
+                )
 
     if not component_found:
         print_error(f"Component {component} not found.")
@@ -173,16 +183,20 @@ def find_logic(mode):
 
     def find_duplicates(root_file):
         packages = [item.attrib["component"] for item in root_file]
-        duplicate_elements = {pkg for pkg in packages if
-                              packages.count(pkg) > 1 and "calendar" not in pkg}
+        duplicate_elements = {
+            pkg for pkg in packages if packages.count(pkg) > 1 and "calendar" not in pkg
+        }
         return duplicate_elements
 
     def find_unused_icons(root_file, svgs_list):
         drawables = [f"{item.attrib.get('drawable', None)}.svg" for item in root_file]
         unused_list = [
-            svg_item for svg_item in svgs_list
-            if (svg_item not in drawables and not svg_item.startswith("themed_icon_calendar_")
-                )
+            svg_item
+            for svg_item in svgs_list
+            if (
+                svg_item not in drawables
+                and not svg_item.startswith("themed_icon_calendar_")
+            )
         ]
         return unused_list
 
@@ -217,35 +231,55 @@ def sort_logic():
 # Parser logic
 #####
 
+
 def parse_args():
-    parser = argparse.ArgumentParser(prog="icontool", description="A CLI tool for managing icons.")
+    parser = argparse.ArgumentParser(
+        prog="icontool", description="A CLI tool for managing icons."
+    )
     subparsers = parser.add_subparsers(dest="command")
 
-    add_parser = subparsers.add_parser("add", help="Add a new component.", aliases=['a'])
-    add_parser.add_argument("svg", help="The name of the SVG file (without .svg extension).")
-    add_parser.add_argument("component",
-                            help="Component name in format PACKAGE_NAME/ACTIVITY_NAME.")
+    add_parser = subparsers.add_parser(
+        "add", help="Add a new component.", aliases=["a"]
+    )
+    add_parser.add_argument(
+        "svg", help="The name of the SVG file (without .svg extension)."
+    )
+    add_parser.add_argument(
+        "component", help="Component name in format PACKAGE_NAME/ACTIVITY_NAME."
+    )
     add_parser.add_argument("name", help="Display name for the component.")
 
-    link_parser = subparsers.add_parser("link", help="Link an existing SVG to a component.",
-                                        aliases=['l'])
-    link_parser.add_argument("svg", help="The name of the SVG file (without .svg extension).")
-    link_parser.add_argument("component",
-                             help="Component name in format PACKAGE_NAME/ACTIVITY_NAME.")
+    link_parser = subparsers.add_parser(
+        "link", help="Link an existing SVG to a component.", aliases=["l"]
+    )
+    link_parser.add_argument(
+        "svg", help="The name of the SVG file (without .svg extension)."
+    )
+    link_parser.add_argument(
+        "component", help="Component name in format PACKAGE_NAME/ACTIVITY_NAME."
+    )
     link_parser.add_argument("name", help="Display name for the component.")
 
-    remove_parser = subparsers.add_parser("remove", help="Remove a component.", aliases=['r', 'd'])
+    remove_parser = subparsers.add_parser(
+        "remove", help="Remove a component.", aliases=["r", "d"]
+    )
     remove_parser.add_argument("component", help="Component name to remove.")
-    remove_parser.add_argument("--delete", action="store_true",
-                               help="Delete the associated SVG file.")
+    remove_parser.add_argument(
+        "--delete", action="store_true", help="Delete the associated SVG file."
+    )
 
-    find_parser = subparsers.add_parser("find", help="Find duplicates or unused SVGs.",
-                                        aliases=['f'])
-    find_parser.add_argument("mode", choices=["duplicates", "unused"],
-                             help="Mode to find duplicates or unused SVGs.")
+    find_parser = subparsers.add_parser(
+        "find", help="Find duplicates or unused SVGs.", aliases=["f"]
+    )
+    find_parser.add_argument(
+        "mode",
+        choices=["duplicates", "unused"],
+        help="Mode to find duplicates or unused SVGs.",
+    )
 
-    subparsers.add_parser("sort", help='sorts the appfilter.xml file by component name',
-                          aliases=['s'])
+    subparsers.add_parser(
+        "sort", help="sorts the appfilter.xml file by component name", aliases=["s"]
+    )
 
     return parser.parse_args()
 

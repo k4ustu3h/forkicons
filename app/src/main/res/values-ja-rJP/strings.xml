@@ -63,5 +63,5 @@
     <string name="clear">消去</string>
     <string name="new_icons_in_version">New icons in v%1$s</string>
     <string name="new_icons">New icons (%1$s)</string>
-    <string name="special_thanks_restoration">古いアイコンを復元します。</string>
+    <string name="special_thanks_restoration">元のアイコンを復元します。</string>
 </resources>

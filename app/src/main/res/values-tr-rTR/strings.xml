@@ -63,5 +63,5 @@
     <string name="clear">Geçmişi temizle</string>
     <string name="new_icons_in_version">New icons in v%1$s</string>
     <string name="new_icons">New icons (%1$s)</string>
-    <string name="special_thanks_restoration">Eski ikonların geri getirilmesi için.</string>
+    <string name="special_thanks_restoration">Orijinal ikonların geri yüklenmesi için.</string>
 </resources>

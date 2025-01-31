@@ -63,5 +63,5 @@
     <string name="clear">清除</string>
     <string name="new_icons_in_version">v%1$s 中的新图标</string>
     <string name="new_icons">新图标 (%1$s)</string>
-    <string name="special_thanks_restoration">用於恢復舊圖示。</string>
+    <string name="special_thanks_restoration">用于恢复原始图标。</string>
 </resources>

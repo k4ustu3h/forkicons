@@ -63,5 +63,5 @@
     <string name="clear">Leeren</string>
     <string name="new_icons_in_version">New icons in v%1$s</string>
     <string name="new_icons">New icons (%1$s)</string>
-    <string name="special_thanks_restoration">Zum Wiederherstellen der alten Symbole.</string>
+    <string name="special_thanks_restoration">Zum Wiederherstellen der Originalsymbole.</string>
 </resources>

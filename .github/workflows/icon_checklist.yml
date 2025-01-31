@@ -1,11 +1,11 @@
 name: Comment icon checklist
 
 on:
-    pull_request_target:
-      branches: [develop]
-      types: [opened]
-      paths:
-        - svgs/*
+  pull_request_target:
+    branches: [main]
+    types: [opened]
+    paths:
+      - svgs/*
 
 permissions:
   contents: read
@@ -30,4 +30,3 @@ jobs:
               ...issue,
               body: ICON_CHECKLIST
             });
- 
