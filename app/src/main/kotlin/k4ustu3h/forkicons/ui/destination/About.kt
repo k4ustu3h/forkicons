@@ -237,6 +237,11 @@ private val externalLinks = listOf(
         name = R.string.github,
         url = Constants.GITHUB,
     ),
+    ExternalLink(
+        iconResId = R.drawable.icon_request_app,
+        name = R.string.request_form,
+        url = Constants.ICON_REQUEST_FORM,
+    ),
 )
 
 private val coreContributors = listOf(
