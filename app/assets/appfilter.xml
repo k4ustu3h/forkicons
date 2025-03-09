@@ -910,8 +910,9 @@
     <item component="ComponentInfo{com.rootify.emptyfoldercleaner/com.rootify.emptyfoldercleaner.MainActivity}" drawable="empty_folder_cleaner" name="Empty Folder Cleaner" />
     <item component="ComponentInfo{br.com.trinitysolucoes.saemobile/br.com.trinitysolucoes.saemobile.MainActivity}" drawable="enel" name="Enel" />
     <item component="ComponentInfo{it.enel/crc64d0549c3f31f5415a.SplashActivity}" drawable="enel" name="Enel" />
-    <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.activities.main.MainActivity}" drawable="epic_games" name="Epic Games" />
     <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.MainActivity}" drawable="epic_games" name="Epic Games" />
+    <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.activities.main.MainActivity}" drawable="epic_games" name="Epic Games" />
+    <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.ui.MainActivity}" drawable="epic_games" name="Epic Games" />
     <item component="ComponentInfo{com.coolkit/com.coolkit.SplashActivity}" drawable="ewelink" name="eWeLink" />
     <item component="ComponentInfo{com.none.tom.exiferaser/com.none.tom.exiferaser.ExifEraserActivity}" drawable="exiferaser" name="ExifEraser" />
     <item component="ComponentInfo{exodusmovement.exodus/exodusmovement.exodus.MainActivity}" drawable="exodus" name="Exodus" />
@@ -1308,6 +1309,7 @@
     <item component="ComponentInfo{com.area120.grasshopper/com.google.engedu.grasshopper.flutter.MainActivity}" drawable="grasshopper" name="Grasshopper" />
     <item component="ComponentInfo{com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity}" drawable="greenify" name="Greenify" />
     <item component="ComponentInfo{com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity}" drawable="greenify" name="Greenify (Donation Package)" />
+    <item component="ComponentInfo{ai.x.grok/ai.x.grok.main.GrokActivity}" drawable="grok" name="Grok" />
     <item component="ComponentInfo{online.konstruktor.groupemutuel/online.konstruktor.groupemutuel.MainActivity}" drawable="groupe_mutuel" name="Groupe Mutuel" />
     <item component="ComponentInfo{com.rockstargames.gtasa/com.fiveplay.mod.RMS.Recovery}" drawable="gta_sa" name="GTA SA" />
     <item component="ComponentInfo{com.rockstargames.gtasa/com.rockstargames.gtasa.Downloader}" drawable="gta_sa" name="GTA SA" />
@@ -1349,6 +1351,7 @@
     <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.HomeActivity}" drawable="imdb" name="IMDb" />
     <item component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.IMDb}" drawable="imdb" name="IMDb" />
     <item component="ComponentInfo{com.iMe.android/org.telegram.ui.LaunchActivityBlueIcon}" drawable="ime" name="iMe" />
+    <item component="ComponentInfo{in.goindigo.android/in.goindigo.android.MainActivity}" drawable="indigo" name="IndiGo" />
     <item component="ComponentInfo{com.balysv.loop/com.balysv.loop.SplashScreenActivity}" drawable="infinity_loop" name="Infinity Loop" />
     <item component="ComponentInfo{com.comarch.security.mobilebanking/pl.ing.ingflutter.MainActivity}" drawable="ing" name="ING" />
     <item component="ComponentInfo{com.ing.banking/com.ing.banking.features.welcome.WelcomeActivity}" drawable="ing" name="ING" />
