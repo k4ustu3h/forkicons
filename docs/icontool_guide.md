@@ -1,8 +1,10 @@
 # Icon Tool Guide
 
-[`icontool.py`](/icontool.py) is a simple python tool which can be used to automatically add/remove icons and sort `appfilter.xml` links in alphabetical order.
+[`icontool.py`](/icontool.py) is a simple python tool which can be used to automatically add/remove icons and sort `appfilter.xml` links in alphabetical order. You can see how some of icontool.py commands work on YouTube.
 
 For Mac/Linux users, you can simply type `./icontool` to run the program. Otherwise, you must run `python3 ./icontool.py`.
+
+[View on YouTube](https://youtu.be/EAvYelOK5Nw?t=266)
 
 ## Summary of usage
 
@@ -18,7 +20,7 @@ For Mac/Linux users, you can simply type `./icontool` to run the program. Otherw
 ## Adding icons
 
 ```console
-python3 icontool.py add /path/to/icon com.app.app/com.app.app.appActivity "App Name"
+python3 icontool.py add /path/to/ICON_NAME APP_COMPONENT "APP_NAME"
 ```
 
 The `.svg` extension for `icon.svg` is optional, since the program automatically adds them.
@@ -26,7 +28,7 @@ The `.svg` extension for `icon.svg` is optional, since the program automatically
 ## Linking icons
 
 ```console
-python3 icontool.py link icon com.app.app/com.app.app.appActivity "App Name"
+python3 icontool.py link APP_COMPONENT "APP_NAME"
 ```
 
 Note that `icon.svg` should be an SVG file located in the `svgs/` directory. The `.svg` extension for `icon.svg` is optional as well.
@@ -36,13 +38,13 @@ Note that `icon.svg` should be an SVG file located in the `svgs/` directory. The
 ### Normal usage
 
 ```console
-python3 icontool.py remove com.app.app/com.app.app.appActivity
+python3 icontool.py remove APP_COMPONENT
 ```
 
 ### Removing components with the same package name
 
 ```console
-python3 icontool.py remove com.app.app
+python3 icontool.py remove PACKAGE
 ```
 
 ### Removing a component and its SVG file
@@ -50,7 +52,7 @@ python3 icontool.py remove com.app.app
 Simply pass the `-d` or `--delete` flag:
 
 ```console
-python3 icontool.py remove com.app.app -d
+python3 icontool.py remove PACKAGE -d
 ```
 
 Note that the SVG file's name is based on the `drawable` attribute of the first `<item>` element.

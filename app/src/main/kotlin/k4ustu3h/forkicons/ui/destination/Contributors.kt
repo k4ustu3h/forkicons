@@ -1,7 +1,5 @@
 package k4ustu3h.forkicons.ui.destination
 
-import android.content.Intent
-import android.net.Uri
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -40,6 +38,7 @@ import k4ustu3h.forkicons.ui.components.core.LawniconsScaffold
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.Constants
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
+import k4ustu3h.forkicons.ui.util.visitUrl
 import k4ustu3h.forkicons.viewmodel.ContributorsUiState
 import k4ustu3h.forkicons.viewmodel.ContributorsViewModel
 import kotlinx.serialization.Serializable
@@ -145,8 +144,7 @@ private fun ContributorList(
                         Icon(
                             painter = painterResource(R.drawable.github_foreground),
                             contentDescription = null,
-                            modifier = Modifier
-                                .size(24.dp),
+                            modifier = Modifier.size(24.dp),
                         )
                     }
                 },
@@ -208,9 +206,7 @@ private fun ContributorListError(
     SideEffect {
         onBack()
         // we might be rate-limited, open the web ui instead
-        val website = Uri.parse(CONTRIBUTOR_URL)
-        val intent = Intent(Intent.ACTION_VIEW, website)
-        context.startActivity(intent)
+        context.visitUrl(CONTRIBUTOR_URL)
     }
 }
 

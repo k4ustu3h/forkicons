@@ -1,13 +1,12 @@
 package k4ustu3h.forkicons.ui.components
 
-import android.content.Intent
-import android.net.Uri
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import k4ustu3h.forkicons.ui.components.core.SimpleListRow
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
+import k4ustu3h.forkicons.ui.util.visitUrl
 
 @Composable
 fun ExternalLinkRow(
@@ -21,11 +20,6 @@ fun ExternalLinkRow(
     startIcon: @Composable (() -> Unit)? = null,
 ) {
     val context = LocalContext.current
-    val onClick = {
-        val website = Uri.parse(url)
-        val intent = Intent(Intent.ACTION_VIEW, website)
-        context.startActivity(intent)
-    }
 
     SimpleListRow(
         modifier = modifier,
@@ -34,7 +28,7 @@ fun ExternalLinkRow(
         last = last,
         divider = divider,
         label = name,
-        onClick = onClick,
+        onClick = { context.visitUrl(url) },
         startIcon = startIcon,
     )
 }

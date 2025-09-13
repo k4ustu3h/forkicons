@@ -1,6 +1,7 @@
 package k4ustu3h.forkicons.viewmodel
 
 import android.util.Log
+import androidx.compose.foundation.text.input.TextFieldState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -31,7 +32,7 @@ interface LawniconsViewModel {
     var expandSearch: Boolean
 
     val searchMode: SearchMode
-    val searchTerm: String
+    val searchTermTextState: TextFieldState
 
     fun searchIcons(query: String)
     fun changeMode(mode: SearchMode)
@@ -43,8 +44,7 @@ class LawniconsViewModelImpl @Inject constructor(
     private val iconRepository: IconRepository,
     private val newIconsRepository: NewIconsRepository,
     private val iconRequestSettingsRepository: IconRequestSettingsRepository,
-) : ViewModel(),
-    LawniconsViewModel {
+) : ViewModel(), LawniconsViewModel {
     override val iconInfoModel = iconRepository.iconInfoModel
     override val searchedIconInfoModel = iconRepository.searchedIconInfoModel
     override val iconRequestModel = iconRepository.iconRequestList
@@ -55,13 +55,11 @@ class LawniconsViewModelImpl @Inject constructor(
     override var expandSearch by mutableStateOf(false)
 
     private var _searchMode by mutableStateOf(SearchMode.LABEL)
-    private var _searchTerm by mutableStateOf("")
 
     override val searchMode: SearchMode
         get() = _searchMode
 
-    override val searchTerm: String
-        get() = _searchTerm
+    override val searchTermTextState = TextFieldState()
 
     init {
         viewModelScope.launch {
@@ -88,21 +86,19 @@ class LawniconsViewModelImpl @Inject constructor(
     }
 
     override fun searchIcons(query: String) {
-        _searchTerm = query
         viewModelScope.launch {
-            iconRepository.search(searchMode, searchTerm)
+            iconRepository.search(searchMode, searchTermTextState.text.toString())
         }
     }
 
     override fun changeMode(mode: SearchMode) {
         _searchMode = mode
         viewModelScope.launch {
-            iconRepository.search(searchMode, searchTerm)
+            iconRepository.search(searchMode, searchTermTextState.text.toString())
         }
     }
 
     override fun clearSearch() {
-        _searchTerm = ""
         viewModelScope.launch {
             iconRepository.clearSearch()
         }
@@ -112,17 +108,22 @@ class LawniconsViewModelImpl @Inject constructor(
 class DummyLawniconsViewModel : LawniconsViewModel {
     private val list = SampleData.iconInfoList
 
-    override val iconInfoModel = MutableStateFlow(IconInfoModel(iconInfo = list, iconCount = list.size)).asStateFlow()
-    override val searchedIconInfoModel = MutableStateFlow(IconInfoModel(iconInfo = list, iconCount = list.size)).asStateFlow()
-    override val iconRequestModel = MutableStateFlow(IconRequestModel(list = listOf(), iconCount = 0)).asStateFlow()
-    override val newIconsInfoModel = MutableStateFlow(IconInfoModel(iconInfo = list, iconCount = list.size)).asStateFlow()
+    override val iconInfoModel =
+        MutableStateFlow(IconInfoModel(iconInfo = list, iconCount = list.size)).asStateFlow()
+    override val searchedIconInfoModel =
+        MutableStateFlow(IconInfoModel(iconInfo = list, iconCount = list.size)).asStateFlow()
+    override val iconRequestModel =
+        MutableStateFlow(IconRequestModel(list = listOf(), iconCount = 0)).asStateFlow()
+    override val newIconsInfoModel =
+        MutableStateFlow(IconInfoModel(iconInfo = list, iconCount = list.size)).asStateFlow()
 
     override var iconRequestsEnabled = true
 
     override var expandSearch by mutableStateOf(false)
 
+    override val searchTermTextState = TextFieldState()
+
     override val searchMode = SearchMode.LABEL
-    override val searchTerm = ""
 
     override fun searchIcons(query: String) {}
 

@@ -24,23 +24,20 @@ interface OssLibraryRepository {
     ): Flow<AnnotatedString?>
 }
 
-class OssLibraryRepositoryImpl @Inject constructor(private val application: Application) : OssLibraryRepository {
+class OssLibraryRepositoryImpl @Inject constructor(private val application: Application) :
+    OssLibraryRepository {
 
     private val coroutineScope = MainScope()
 
     override val ossLibraries: StateFlow<List<OssLibrary>> = flow {
-        val jsonString = application.resources.assets.open("artifacts.json")
-            .bufferedReader().use { it.readText() }
-        val ossLibraries = kotlinxJson.decodeFromString<List<OssLibrary>>(jsonString)
-            .asSequence()
+        val jsonString =
+            application.resources.assets.open("app/cash/licensee/artifacts.json").bufferedReader()
+                .use { it.readText() }
+        val ossLibraries = kotlinxJson.decodeFromString<List<OssLibrary>>(jsonString).asSequence()
             .filter { it.name != OssLibrary.UNKNOWN_NAME }
-            .distinctBy { "${it.groupId}:${it.artifactId}" }
-            .sortedBy { it.name }
-            .toList()
+            .distinctBy { "${it.groupId}:${it.artifactId}" }.sortedBy { it.name }.toList()
         emit(ossLibraries)
-    }
-        .flowOn(Dispatchers.IO)
-        .stateIn(coroutineScope, SharingStarted.Lazily, emptyList())
+    }.flowOn(Dispatchers.IO).stateIn(coroutineScope, SharingStarted.Lazily, emptyList())
 
     override fun getNoticeForOssLibrary(
         ossLibraryName: String,

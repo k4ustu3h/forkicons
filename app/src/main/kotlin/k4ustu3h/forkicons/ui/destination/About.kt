@@ -5,13 +5,15 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Star
 import androidx.compose.material3.Icon
@@ -20,11 +22,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavGraphBuilder
@@ -33,7 +34,7 @@ import k4ustu3h.forkicons.BuildConfig
 import k4ustu3h.forkicons.R
 import k4ustu3h.forkicons.ui.components.ContributorRow
 import k4ustu3h.forkicons.ui.components.IconLink
-import k4ustu3h.forkicons.ui.components.core.Card
+import k4ustu3h.forkicons.ui.components.core.CardHeader
 import k4ustu3h.forkicons.ui.components.core.LawniconsScaffold
 import k4ustu3h.forkicons.ui.components.core.SimpleListRow
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
@@ -41,8 +42,12 @@ import k4ustu3h.forkicons.ui.util.Constants
 import k4ustu3h.forkicons.ui.util.Contributor
 import k4ustu3h.forkicons.ui.util.ExternalLink
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
-import k4ustu3h.forkicons.util.appIcon
+import k4ustu3h.forkicons.ui.util.visitUrl
 import kotlinx.serialization.Serializable
+
+enum class ColumnTypes {
+    SPACER, HEADER, NAVIGATION_ITEM, LIST_ITEM,
+}
 
 @Serializable
 data object About
@@ -72,6 +77,7 @@ private fun About(
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
+    val lawniconsUrl = "https://github.com/LawnchairLauncher/lawnicons/releases/tag/v"
 
     LawniconsScaffold(
         modifier = modifier,
@@ -107,11 +113,9 @@ private fun About(
                         )
                     } else {
                         Image(
-                            bitmap = context.appIcon().asImageBitmap(),
+                            painter = painterResource(R.drawable.forkicons_logo),
                             contentDescription = stringResource(id = R.string.app_name),
-                            modifier = Modifier
-                                .size(72.dp)
-                                .clip(CircleShape),
+                            modifier = Modifier.size(72.dp),
                         )
                     }
                     Text(
@@ -143,89 +147,109 @@ private fun About(
                     }
                 }
             }
+            item(contentType = ColumnTypes.SPACER) {
+                Spacer(Modifier.height(16.dp))
+            }
+            item(contentType = ColumnTypes.HEADER) {
+                CardHeader(stringResource(id = R.string.core_contributors))
+            }
+            itemsIndexed(coreContributors) { index, it ->
+                ContributorRow(
+                    name = it.name,
+                    photoUrl = it.photoUrl,
+                    profileUrl = it.socialUrl,
+                    divider = index != coreContributors.lastIndex,
+                    description = it.descriptionRes?.let { stringResource(id = it) },
+                    background = true,
+                    first = index == 0,
+                    last = index == coreContributors.lastIndex,
+                )
+            }
+            item(contentType = ColumnTypes.SPACER) {
+                Spacer(Modifier.height(16.dp))
+            }
+            item(contentType = ColumnTypes.HEADER) {
+                CardHeader(stringResource(id = R.string.app_name) + " " + stringResource(id = R.string.core_contributors).lowercase())
+            }
+            itemsIndexed(forkiconsContributors) { index, it ->
+                ContributorRow(
+                    name = it.name,
+                    photoUrl = it.photoUrl,
+                    profileUrl = it.socialUrl,
+                    divider = index != forkiconsContributors.lastIndex,
+                    description = it.descriptionRes?.let { stringResource(id = it) },
+                    background = true,
+                    first = index == 0,
+                    last = index == forkiconsContributors.lastIndex,
+                )
+            }
+            item(contentType = ColumnTypes.SPACER) {
+                Spacer(Modifier.height(16.dp))
+            }
             item {
-                Card(
-                    label = stringResource(id = R.string.core_contributors),
-                    modifier = Modifier.padding(top = 16.dp),
-                ) {
-                    coreContributors.mapIndexed { index, it ->
-                        ContributorRow(
-                            name = it.name,
-                            photoUrl = it.photoUrl,
-                            profileUrl = it.socialUrl,
-                            divider = index != coreContributors.lastIndex,
-                            description = it.descriptionRes?.let { stringResource(id = it) },
+                SimpleListRow(
+                    onClick = onNavigateToContributors,
+                    label = stringResource(id = R.string.see_all_contributors),
+                    divider = false,
+                    first = true,
+                    last = true,
+                    background = true,
+                )
+            }
+            item(contentType = ColumnTypes.SPACER) {
+                Spacer(Modifier.height(16.dp))
+            }
+            item(contentType = ColumnTypes.HEADER) {
+                CardHeader(stringResource(id = R.string.special_thanks))
+            }
+            itemsIndexed(specialThanks) { index, it ->
+                ContributorRow(
+                    name = it.name,
+                    photoUrl = it.photoUrl,
+                    profileUrl = it.username?.let { "https://github.com/$it" },
+                    description = it.descriptionRes?.let { stringResource(id = it) },
+                    divider = index != specialThanks.lastIndex,
+                    socialUrl = it.socialUrl,
+                    background = true,
+                    first = index == 0,
+                    last = index == specialThanks.lastIndex,
+                )
+            }
+            item(contentType = ColumnTypes.SPACER) {
+                Spacer(Modifier.height(16.dp))
+            }
+            item {
+                SimpleListRow(
+                    onClick = onNavigateToAcknowledgements,
+                    label = stringResource(id = R.string.acknowledgements),
+                    divider = false,
+                    first = true,
+                    last = true,
+                    background = true,
+                )
+            }
+            item(contentType = ColumnTypes.SPACER) {
+                Spacer(Modifier.height(16.dp))
+            }
+            item {
+                SimpleListRow(
+                    onClick = { context.visitUrl(lawniconsUrl + Constants.LAWNICONS_VERSION) },
+                    label = stringResource(R.string.lawnicons) + " " + stringResource(
+                        id = R.string.version_x,
+                        Constants.LAWNICONS_VERSION,
+                    ).lowercase(),
+                    divider = false,
+                    first = true,
+                    last = true,
+                    background = true,
+                    startIcon = {
+                        Image(
+                            painter = painterResource(R.drawable.lawnicons_logo),
+                            contentDescription = stringResource(id = R.string.app_name),
+                            modifier = Modifier.size(32.dp),
                         )
-                    }
-                }
-            }
-            item {
-                Card(
-                    label = stringResource(id = R.string.app_name) + " " + stringResource(id = R.string.core_contributors).lowercase(),
-                    modifier = Modifier.padding(top = 16.dp),
-                ) {
-                    forkiconsContributors.mapIndexed { index, it ->
-                        ContributorRow(
-                            name = it.name,
-                            photoUrl = it.photoUrl,
-                            profileUrl = it.socialUrl,
-                            divider = index != forkiconsContributors.lastIndex,
-                            description = it.descriptionRes?.let { stringResource(id = it) },
-                        )
-                    }
-                }
-            }
-            item {
-                Card(modifier = Modifier.padding(top = 16.dp)) {
-                    SimpleListRow(
-                        onClick = onNavigateToContributors,
-                        label = stringResource(id = R.string.see_all_contributors),
-                        divider = false,
-                    )
-                }
-            }
-            item {
-                Card(
-                    label = stringResource(id = R.string.special_thanks),
-                    modifier = Modifier.padding(top = 16.dp),
-                ) {
-                    specialThanks.mapIndexed { index, it ->
-                        ContributorRow(
-                            name = it.name,
-                            photoUrl = it.photoUrl,
-                            profileUrl = it.username?.let { "https://github.com/$it" },
-                            description = it.descriptionRes?.let { stringResource(id = it) },
-                            divider = index != specialThanks.lastIndex,
-                            socialUrl = it.socialUrl,
-                        )
-                    }
-                }
-            }
-            item {
-                Card(modifier = Modifier.padding(top = 16.dp)) {
-                    SimpleListRow(
-                        onClick = onNavigateToAcknowledgements,
-                        label = stringResource(id = R.string.acknowledgements),
-                        divider = false,
-                    )
-                }
-            }
-            item {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(top = 16.dp),
-                    horizontalArrangement = Arrangement.Center,
-                ) {
-                    Text(
-                        text = stringResource(R.string.lawnicons) + " " + stringResource(
-                            id = R.string.version_x,
-                            Constants.LAWNICONS_VERSION,
-                        ).lowercase(),
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                }
+                    },
+                )
             }
         }
     }
@@ -236,11 +260,6 @@ private val externalLinks = listOf(
         iconResId = R.drawable.github_foreground,
         name = R.string.github,
         url = Constants.GITHUB,
-    ),
-    ExternalLink(
-        iconResId = R.drawable.icon_request_app,
-        name = R.string.request_form,
-        url = Constants.ICON_REQUEST_FORM,
     ),
 )
 

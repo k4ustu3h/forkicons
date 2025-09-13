@@ -13,10 +13,12 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.unit.dp
 import k4ustu3h.forkicons.ui.components.home.NavigationIconButton
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
+import k4ustu3h.forkicons.ui.theme.adaptiveSurfaceColor
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
 import k4ustu3h.forkicons.ui.util.toPaddingValues
 
@@ -27,6 +29,7 @@ fun LawniconsScaffold(
     onBack: () -> Unit,
     isExpandedScreen: Boolean,
     modifier: Modifier = Modifier,
+    containerColor: Color = adaptiveSurfaceColor,
     content: @Composable (PaddingValues) -> Unit,
 ) {
     val scrollBehavior =
@@ -47,8 +50,10 @@ fun LawniconsScaffold(
                     )
                 },
                 isExpandedScreen = isExpandedScreen,
+                containerColor = containerColor,
             )
         },
+        containerColor = containerColor,
     ) {
         Box(
             modifier = Modifier.then(

@@ -10,6 +10,7 @@ import kotlinx.serialization.Serializable
  * labels of the apps that have the icon.
  * @property id A unique identifier for the icon.
  */
+@Serializable
 data class IconInfo(
     val drawableName: String,
     val componentNames: List<LabelAndComponent>,
@@ -30,8 +31,7 @@ data class IconInfo(
  *         sharing the same drawable name.
  */
 fun List<IconInfo>.mergeByDrawableName(): List<IconInfo> {
-    return groupBy { it.drawableName }
-        .map { (drawableName, icons) ->
+    return groupBy { it.drawableName }.map { (drawableName, icons) ->
             val mergedComponentNames = icons.flatMap { it.componentNames }
             IconInfo(
                 componentNames = mergedComponentNames,

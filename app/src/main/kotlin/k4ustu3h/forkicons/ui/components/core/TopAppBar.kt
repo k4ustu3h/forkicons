@@ -4,19 +4,23 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.LargeTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
+import androidx.compose.material3.LargeFlexibleTopAppBar
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.TopAppBarScrollBehavior
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import k4ustu3h.forkicons.ui.components.home.NavigationIconButton
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
+import k4ustu3h.forkicons.ui.theme.adaptiveSurfaceColor
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 @Composable
 fun TopAppBar(
     navigationIcon: @Composable () -> Unit,
@@ -24,15 +28,22 @@ fun TopAppBar(
     title: String,
     modifier: Modifier = Modifier,
     isExpandedScreen: Boolean = false,
+    containerColor: Color = adaptiveSurfaceColor,
 ) {
+    val topAppBarColors = TopAppBarDefaults.topAppBarColors().copy(
+        containerColor = containerColor,
+        scrolledContainerColor = MaterialTheme.colorScheme.surfaceContainerHigh,
+    )
+
     if (!isExpandedScreen) {
-        LargeTopAppBar(
+        LargeFlexibleTopAppBar(
             modifier = modifier,
             scrollBehavior = scrollBehavior,
             navigationIcon = navigationIcon,
             title = {
                 Text(title)
             },
+            colors = topAppBarColors,
         )
     } else {
         TopAppBar(
@@ -42,6 +53,7 @@ fun TopAppBar(
             title = {
                 Text(title)
             },
+            colors = topAppBarColors,
         )
     }
 }

@@ -1,19 +1,22 @@
 {
+    $schema: "https://docs.renovatebot.com/renovate-schema.json",
+    extends: ["config:recommended"],
     labels: ["dependencies"],
-    extends: ["config:base"],
     packageRules: [
         {
             groupName: "Kotlin and KSP",
-            matchPackagePrefixes: ["com.google.devtools.ksp"],
-            matchPackagePatterns: ["org.jetbrains.kotlin.*"],
+            matchPackageNames: [
+                "com.google.devtools.ksp{/,}**",
+                "/org.jetbrains.kotlin.*/",
+            ],
         },
         {
             groupName: "AGP",
-            matchPackagePatterns: ["com.android.*"],
+            matchPackageNames: ["/com.android.*/"],
         },
         {
             groupName: "Hilt",
-            matchPackagePrefixes: ["com.google.dagger"],
+            matchPackageNames: ["com.google.dagger{/,}**"],
         },
     ],
 }

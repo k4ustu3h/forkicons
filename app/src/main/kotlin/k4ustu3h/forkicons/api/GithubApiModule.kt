@@ -18,10 +18,8 @@ class GithubApiModule {
     @Provides
     @Singleton
     fun providesGitHubContributorsApi(): GitHubContributorsAPI {
-        return Retrofit.Builder()
-            .baseUrl("https://api.github.com/")
+        return Retrofit.Builder().baseUrl("https://api.github.com/")
             .addConverterFactory(kotlinxJson.asConverterFactory("application/json".toMediaType()))
-            .build()
-            .create()
+            .build().create()
     }
 }

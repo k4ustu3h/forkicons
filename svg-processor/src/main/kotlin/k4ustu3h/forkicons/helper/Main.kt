@@ -16,20 +16,24 @@
 
 package k4ustu3h.forkicons.helper
 
-fun main() {
-    val rootDir = ".."
-    val sourceDir = "$rootDir/svgs/"
-    val resDir = "$rootDir/app/src/runtime/res"
-    val appFilterFile = "$rootDir/app/assets/appfilter.xml"
+fun main(args: Array<String>) {
+    val (svgDir, resDir, customTag, assetsDir) = args
+    val appFilterFile = "$assetsDir/appfilter.xml"
+    val previousAppFilterFile = "$resDir/xml/appfilter_previous.xml"
 
     // Convert svg to drawable in runtime
-    SvgFilesProcessor.process(sourceDir, "$resDir/drawable")
+    SvgFilesProcessor.process(svgDir, "$resDir/drawable")
     println("SvgToVectorDrawable task completed")
 
     // Read appfilter xml and create icon, drawable xml file.
     ConfigProcessor.loadAndCreateConfigs(appFilterFile, resDir)
     println("ConfigProcessor task completed")
 
-    AppfilterDiffCreator.createAppfilterDiff(resDir, appFilterFile)
+    AppfilterDiffCreator.createAppfilterDiff(
+        resDir,
+        customTag,
+        appFilterFile,
+        previousAppFilterFile,
+    )
     println("Appfilter diff task completed")
 }
