@@ -1,186 +1,325 @@
 # Forkicons contributing guide
 
-Welcome to the Forkicons contributing guide! This file will tell you what you need to know to contribute to Forkicons.
+Welcome to the Forkicons contributing guide!
 
-Before you start, please [fork](https://github.com/k4ustu3h/forkicons/fork) the project and clone it to your machine. Afterwards, you can either contribute icons or code.
+If you find errors or want to suggest improvements in the guide itself, create an issue.
 
-## Contributing icons
+## Involvement
 
-For beginners, it is faster to create icons [in Figma](https://www.figma.com/), although [Inkscape](https://inkscape.org/) and similar software will do. A file explorer, a text editor, and a terminal window will also be useful.
+**Contributors**
 
-### TL;DR on icon design
+The development of the core app is not done here. Forkicons focuses on providing a curated set of icons and adapting the base project to our needs. The Lawnicons community (which includes everyone who wants to contribute) handles the core app development. The primary focus is on managing icons and the specific features that Forkicons offers.
 
-> [!NOTE]
-> Upload no more than 10 icons at a time.
+[Lawnicons contributors](https://github.com/LawnchairLauncher/forkicons/graphs/contributors) • [Forkicons contributors](https://github.com/k4ustu3h/forkicons/graphs/contributors) • [Lawnchair](https://github.com/k4ustu3h/lawnchair)
 
-The canvas is `192×192px`. The content area for most icons is `160×160px`, meaning the long side of an icon should be `160px`. Square icons should be `154×154px`. All shapes should be black `#000`. Avoid noticable black spots, close distances between shapes. Simplify details, but don't lose originality. Provide original and localized names, so the icons can be found. The icon should be an identical but a monotone variant of the original icon.
+**Development**
 
-To avoid rework, save time and understand the limitations of the guidelines, it is worth reading reviews (e.g., [+8 icons, +1 link, +4 updates](https://github.com/LawnchairLauncher/lawnicons/pull/1865)) and creating 5-10 icons in the first contribution.
+The main tasks are to maintain Forkicons and interaction with launchers, fix bugs, add new features and automate organizational processes. Please see our issues for more details.
 
-### Canvas & Sizes
+**Icons**
 
-![](docs/images/creating-icons-1-artboard.png)
+You can contribute your icons, fulfill icon requests, add missing app components, refine and update existing icons, clean up dead apps and duplicates. Mastering the Forkicons design guidelines in practice will allow you to do icon reviews.
 
-#### Canvas
+## Contributing code
 
-The canvas size should be `192×192px` so that there is a safe zone around the icons to control consistency.
+Code-related contributions are welcome, but please note a crucial distinction: **the core application code is maintained upstream in the Lawnicons repository**.
 
-#### Content area for all but square
+If you discover a bug or issue with the app’s core functionality, please check the Lawnicons repository first. If the issue exists there, you should report it to Lawnicons and track its progress on their issues page. Once they release a stable version with a fix, it will be merged into Forkicons.
 
-All but square icons must fit the `160×160px` content area size. Be careful with abstract icons: the long side should be `160px`, but the other side can be smaller.
+If your code contribution is specific to Forkicons (e.g., adding a new feature that doesn't exist in the upstream Lawnicons), please discuss it by creating an issue.
 
-#### Content area for squares
+To build Forkicons, select the `appDebug` build variant.
 
-Square icons must fit the `154×154px` content area size. Icons that mostly fit in a square are considered square. If the icon is kinda square and kinda not, choose a size based on density: `154×154px` for dense icons, `160×160px` for the rest. Examples: [GitHub](docs/images/creating-icons-6-sample-icons.png).
+Tips
 
-### Foundation
+-   You can use either Java or, preferably, Kotlin.
+-   Make sure your code is logical and well formatted. If using Kotlin, see "Coding conventions" in the Kotlin documentation.
+-   The `app` module contains most of Forkicons' core code, while the `svg-processor` module contains the code that converts the SVGs inside the `svgs` folder into Android Drawables. Generally, the `app` module is where you should make most of your contributions.
 
-#### Color
+[Coding conventions](https://kotlinlang.org/docs/coding-conventions.html) • [App module](app/) • [SVG-processor module](svg-processor/)
 
-All shapes must have black color `#000000`. The shapes can have tranparency, but should be visible enough.
+## Forkicons design guidelines
 
-### Details
+The contributors who laid the foundations: [GrabsterTV](https://github.com/Grabstertv) and [Chefski](https://github.com/Chefski).
 
-![](docs/images/creating-icons-3-detail.png)
+### Approach
 
-When designing icons, it's important to strike a balance with the level of detail. While some icons can be highly detailed, it's acceptable to remove certain details as long as the icon remains recognizable and stays true to its original concept. In some cases, you may need to completely rethink the icon to achieve a minimalist design.
+The Forkicons style is built on strong fundamentals and a commitment to quality. To minimize the need for rework, please read these guidelines carefully. Our main goal is to create high-quality icons that clearly represent their respective apps. To achieve this goal, you may sometimes need to redesign an icon from scratch.
 
-A great example of this is the Subway Surfers icon as seen in the example above. It was reimagined by using the graffiti-styled "S" from the game's logo instead of depicting the character, which would have required intricate shapes.
+Tips
 
-![](docs/images/creating-icons-3-balance.png)
+-   Practice on easy-to-make icons to understand the whole process.
+-   See how other contributors have made pull requests (PRs).
+-   Make no more than 5 icons at a time, as long as your PRs require rework.
+-   Prioritize quality.
 
-In contrary, it's also important to avoid too few details, as they may not be easily recognizable. Take the Headspace icon, for instance, which consists only of a circle. This may pose a problem for users since Forkicons are not colored, and a simple circle on its own is not easily identifiable. Whenever possible, incorporate additional details that align with the app's design language.
+[Merged PRs](https://github.com/k4ustu3h/forkicons/pulls?q=is%3Apr+is%3Amerged+label%3Aicons)
 
-In the Headspace example above, the circles usually have a face representing mood. By adding one of those faces to the circle, you can make the icon more recognizable.
+### Fundamentals
 
-## Naming
+**1 Canvas**
 
-To make it easier to find icons, you should keep the original names. Arabic, Chinese or Japanese names need to be supplemented with an English version. If you are adding a link to an existing icon, keep (or complement) the existing app and drawable names.
+![](docs/images/fundamentals-1-canvas.png)
 
-### App name
+`192 × 192 px`. Use the correct canvas size to create a safe zone around icons.
 
-Should be the same as in Google Play, F-Droid or the official name. If the name in the source is too long, it's acceptable to remove the second part of the name without loss of recognition.
+**2 Abstract icons**
+
+![](docs/images/fundamentals-2-abstract-icons.png)
+
+`160 × 160 px`. The long side of an abstract icon should be `160 px`, but the other side could be smaller. In the case of curved boundaries, the margin of error is `<0.1 px`.
+
+**3 Square icons**
+
+![](docs/images/fundamentals-3-square-icons.png)
+
+`154 × 154 px`. These are icons with `50%` or more of the edges running along the square.
+
+**4 Color**
+
+![](docs/images/fundamentals-4-color.png)
+
+All shapes must be without fill. Shapes can be transparent to match the original icon.
+
+### Quality
+
+The goal is to create a high-quality icon pack by either using existing monochrome icons or designing new ones that are faithful to the original app's branding.
+
+**1 Consistency**
+
+![](docs/images/quality-1-consistency.png)
+
+The primary goal is to maintain consistency with the app's official monochrome icon.
+
+-   If the app has an official monochrome icon, use that one. This ensures the icon pack is as true to the original branding as possible.
+
+-   If the app does not have an official monochrome icon, you must design a new, high-quality one. This icon should be a monochromatic version of the original app icon, keeping its core design and recognizable elements.
+
+**2 Visual balance**
+
+![](docs/images/quality-2-visual-balance.png)
+
+-   Ensure the elements in your icon have a natural, balanced look.
+-   Avoid jarring transitions between different shapes or sections.
+-   The final icon should feel harmonious and intentional, not fragmented or pieced together.
+
+**3 Excessive density**
+
+![](docs/images/quality-4-excessive-density.png)
+
+Your icons should be clean and easy to read. Avoid making them too dense or detailed. Avoid unnecessary tranparency.
+
+Tips
+
+-   Icons should have enough space between elements to be clear at small sizes.
+-   Simplify the design to focus on the most important features.
+-   If the original icon is very complex, enlarge the key features to make them easier to draw in a simplified, monochrome style.
+
+**4 Alignment**
+
+![](docs/images/quality-5-alignment.png)
+
+Icons should be centered, but shape-aware.
+
+In most cases, you should place an icon so that the vertical and horizontal margins from the canvas borders are the same. Some icons will look misaligned because of their shape. You need to align them to the optical center as much as possible within the icon content area. The optical aligment is where your icon looks and feels centered.
+
+**5 Text icons**
+
+![](docs/images/quality-6-text-icons.png)
+
+-   Avoid using long text strings (more than `3` letters in `1` line) unless it's a critical part of the branding.
+
+-   Brands with text logos should be studied carefully to create a recognizable, high-quality monochrome version.
+
+-   The text itself should be clear, sharp, and occupy a significant portion of the icon area (at least one-third) to be readable.
+
+**6 Complex icons**
+
+![](docs/images/quality-7-complex-icons.png)
+
+Many complex icons can be made in the monochrome style, taking into account the original, so it's worth giving it a try first. When it’s clear that the original icon can’t be conveyed in the monochrome style, you need to study the visual part of an app or a game.
+
+Whatever you come to, the result should be at least logical, high-quality and representing the core identity of the app
+
+Sources for creating a recognizable icon:
+
+-   Branding guidelines.
+-   UI or gameplay.
+-   Website’s favicons.
+-   In-app icons.
+-   Essence of an app or a game.
+-   Combination of recognizable features and your own ideas.
+
+**7 Minimal icons**
+
+![](docs/images/quality-8-minimal-icons.png)
+
+Some minimal icons should be detailed based on an app design to become more recognizable. Add distinctive features to them **only** when it makes sense.
+
+Only add the additional feaures if they appear anywhere in the app. Don't stray away from the original.
+
+### Naming
+
+**App name**
+
+The main app name should be in its native language. It can be found in app stores or primary sources.
+
+Non-English apps require an additional name based on the English alphabet. At best it will be a localized official app name. If an app name is mostly made up of letters from the English alphabet, it doesn't need an additional one.
+
+Tips
+
+-   Add localized names if available.
+-   Transliterate non-English names when there are no localized ones.
+-   Delete things that aren't part of an app name.
+-   Use the HTML character references for special symbols: for instance, `&amp;` instead of "&".
+
+[Thousands of examples](app/assets/appfilter.xml)
 
 ```
-Wrong • Google Play name: "Zoom - One Platform to Connect"
-<item component="..." drawable="zoom" name="Zoom - One Platform to Connect" />
+Do
+<item component="..." drawable="doviz" name="Döviz" />
+<item component="..." drawable="gps_status_and_toolbox" name="GPS Status &amp; Toolbox" />
+<item component="..." drawable="playstation" name="PlayStation" />
+<item component="..." drawable="eromodo" name="Vágyaid ~~ Eromodo" />
+
+Don't
+<item component="..." drawable="doviz" name="Döviz ~~ Doviz" />
+<item component="..." drawable="gps_status_and_toolbox" name="GPS Status & Toolbox" />
+<item component="..." drawable="playstation" name="PlayStation App" />
+<item component="..." drawable="eromodo" name="Eromodo" />
 ```
 
-```
-Correct • Edited name: "Zoom"
-<item component="..." drawable="zoom" name="Zoom" />
-```
-
-Names in different languages are separated via `~~`. If the app name is localized, then the first name should be the one most commonly spoken by the people who will be searching for the icon (if in doubt, in English).
+Separate app names using `~~`. First, the main app name, then the additional one.
 
 ```
-Wrong
+Do • Considering the origin of the Hulu app
+<item component="..." drawable="hulu" name="Hulu ~~ フールー" />
+
+Don't
 <item component="..." drawable="hulu" name="フールー ~~ Hulu" />
 ```
 
-```
-Correct
-<item component="..." drawable="hulu" name="Hulu ~~ フールー" />
-```
+**Icon name (drawable)**
 
-If the first `3` characters of the app name contain letters not from the English alphabet, then it's worth adding the transliterated name.
+Repeat the app name if possible. Use `a–z`, `0–9`, and `_` for spaces.
+
+Tips
+
+-   When multiple apps are linked to `1` icon, choose the most popular app name for it.
+-   Replace non-English letters with English letters.
 
 ```
-Wrong
+Do
+<item component="..." drawable="a_and_w" name="A&amp;W" />
+<item component="..." drawable="blade_player" name="Blade Player" />
 <item component="..." drawable="lansforsakringar" name="Länsförsäkringar" />
+<item component="..." drawable="yahoo_news" name="Yahoo!ニュース ~~ Yahoo! News" />
+
+Don't
+<item component="..." drawable="aw" name="A&amp;W" />
+<item component="..." drawable="bladeplayer" name="Blade Player" />
+<item component="..." drawable="länsförsäkringar" name="Länsförsäkringar" />
+<item component="..." drawable="yahoo!_news" name="Yahoo!ニュース ~~ Yahoo! News" />
 ```
 
-```
-Correct
-<item component="..." drawable="lansforsakringar" name="Länsförsäkringar ~~ Lansforsakringar" />
-```
-
-### Drawable
-
-Should contain letters from the English alphabet and repeat the app name if possible.
+Insert `_` before a digit at the beginning of an icon name.
 
 ```
-Wrong
-<item component="..." drawable="itaú" name="Itaú" />
-```
+Do
+<item component="..." drawable="_9gag" name="9GAG" />
 
-```
-Correct
-<item component=..." drawable="itau" name="Itaú" />
-```
-
-If the app name starts with a digit, then the drawable should start with `_`.
-
-```
-Wrong
+Don't
+<item component="..." drawable="9gag" name="9GAG" />
 <item component="..." drawable="ninegag" name="9GAG" />
 ```
 
-```
-Correct
-<item component="..." drawable="_9gag" name="9GAG" />
-```
+## Icon contribution tools
 
-## Adding an icon to Forkicons
+### Vector graphics editor
 
-### Prerequisites
+To create icons, you need a vector graphics editor, which allows you to save icons in SVG format. Mobile vector editors won't work. We recommend Figma because it has easier quality control. You can use Advanced SVG Export to save optimized SVGs in Figma.
 
--   A fork of the Forkicons repository.
--   Your icon in the SVG format, adhering to [the above guidelines](#contributing-icons). The filename must use snake case (e.g. `spck_editor.svg`).
--   The package and activity name of the app.
+[Figma](https://www.figma.com/) • [Advanced SVG Export](https://www.figma.com/community/plugin/782713260363070260)
 
-### Via `icontool.py`
+### GitHub Desktop
 
-Please check [the icon tool guide](/docs/icontool_guide.md) for more information.
+You can use it to create a local copy of your repository on GitHub and upload all the changes. Before getting into your repository, the changes must appear in your local copy.
 
-### Via manual process
+[GitHub Desktop](https://github.com/apps/desktop)
 
-1. Add the ready SVG to the `svgs` directory. If you want to add a link to an existing SVG, you will need its name.
+### App components search tool
 
-2. Add a new line to `app/assets/appfilter.xml` (in alphabetical order, by the `name` attribute), and map the new icon to a package name and app's activity.
+You can use it to find app components. If you fulfill icon requests from our table, all the app components are there.
 
-    **Example**
+[How to find app components](#how-to-find-app-components)
 
-    - the app name: `Spck Editor`;
-    - the svg (drawable) name: `spck_editor`;
-    - the package and activity of the app: `io.spck/io.spck.EditorActivity`.
+### Other tools
 
-    **The new line**
+**File explorer**. It will help you copy icons to a local copy of your repository.
 
-    ```xml
-    <item component="ComponentInfo{io.spck/io.spck.EditorActivity}" drawable="spck_editor" name="Spck Editor" />
-    ```
+**Text editor**. It will help you to link icons and app components in `appfilter.xml`. This is how icon packs work.
 
-    **General template**
+**Terminal (command line)**. It will add convenience if you regularly contribute dozens of icons.
 
-    ```xml
-    <item component="ComponentInfo{[PACKAGE_NAME]/[APP_ACIVITY_NAME]}" drawable="[DRAWABLE NAME]" name="[APP NAME]" />
-    ```
+## How to find app components
 
-3. Done! You're ready to open a pull request. Please set `main` as the base branch.
+An app component is a record consisting of a package and an activity, separated by `/`. App components allow you to link icons and apps.
 
-## Finding the package and activity name of an app
+Sample (Forkicons)  
+Package: `k4ustu3h.forkicons`  
+Activity: `k4ustu3h.forkicons.MainActivity`  
+App component: `k4ustu3h.forkicons/k4ustu3h.forkicons.MainActivity`
 
-<!--
-### Using Forkicons
-1. Install and open [Forkicons 2.10+](https://github.com/k4ustu3h/forkicons/releases).
-2. Tap "Request icons". After that, our request form will open with a response ready to be submit.
-3. Submit the response. You can copy the submitted activities [from our table](https://docs.google.com/spreadsheets/d/1AXc9EDXA6udZeGROtB5nuABjM33VluGY_V24tIzHaKc/edit?resourcekey=&gid=1039095616#gid=1039095616) (sorted by date).
--->
+**Forkicons**
 
-### Using `adb`
+This method is suitable if you are interested in installed apps that aren't supported in Forkicons.
 
-1. Connect your Android device or emulator to your laptop/desktop PC that has `adb` installed (see [this tutorial](https://www.xda-developers.com/install-adb-windows-macos-linux/) for more information) and open the app whose details you want to inspect, e.g. Telegram.
-2. Open a new Command Prompt or Terminal window and input `adb devices`.
-3. Finally, type the below-given command to get the information about the currently open application.
+1. Install and open Forkicons.
+2. Long press our logo.
+3. Swipe down.
+4. Copy missing app components to clipboard.
+5. Save it wherever it's convenient.
 
-    **For Mac or Linux**:
+[Download Forkicons](https://github.com/k4ustu3h/forkicons#download)
+
+**Icon Request**
+
+1. Download and launch Icon Request.
+2. Tap one of the options:
+
+-   UPDATE EXISTING — to copy app components.
+-   REQUEST NEW — to save icon images and app components. This option is better if you are creating icons.
+
+3. Use the Icon Request toolbar to select apps.
+4. Copy, save or share.
+
+[Google Play](https://play.google.com/store/apps/details?id=de.kaiserdragon.iconrequest) • [GitHub](https://github.com/Kaiserdragon2/IconRequest/releases)
+
+**Icon Pusher**
+
+1. Download and launch Icon Pusher.
+2. Select the icons you want to upload or select all by pressing the square in the top right.
+3. Submit the selected apps.
+4. View your submission on the Icon Pusher website.
+
+[Google Play](https://play.google.com/store/apps/details?id=dev.southpaw.iconpusher) • [Website](https://iconpusher.com/)
+
+**Android Debug Bridge (adb)**
+
+1. Connect your Android device or emulator to your laptop/desktop PC that has `adb` installed.
+2. Open the app whose details you want to inspect (e.g. Telegram).
+3. Open a new Command Prompt or Terminal window and input `adb devices`.
+4. Finally, type the below-given command to get the information about the currently open app.
+
+[How to install ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+
+Mac or Linux
 
 ```console
 adb shell dumpsys window | grep 'mCurrentFocus'
 ```
 
-**For Windows**:
+Windows
 
 ```console
 adb shell dumpsys window | findstr "mCurrentFocus"
@@ -188,37 +327,53 @@ adb shell dumpsys window | findstr "mCurrentFocus"
 
 ![](docs/images/contributing-image-3.png)
 
-The part before the `/` character in the above image, i.e. `org.telegram.messenger`, is the package name (`[PACKAGE_NAME]`). The part after it, i.e. `org.telegram.messenger.DefaultIcon`, is the activity name (`[APP_ACIVITY_NAME]`).
+## Adding icons and missing app components to Forkicons
 
-### Using 3rd-party apps
+You need to link SVGs and app components correctly, create a PR to our repository through your fork, and wait for it to be reviewed.
 
-#### IconRequest app
+Tips
 
-1. Download IconRequest: [Google Play](https://play.google.com/store/apps/details?id=de.kaiserdragon.iconrequest) • [GitHub](https://github.com/Kaiserdragon2/IconRequest/releases).
-2. Launch IconRequest and tap one of the options:
+-   Avoid name conflicts.
+-   Add missing components to icons that are identical to the originals.
+-   Make sure your icons or missing app components haven't been added earlier: search the `appfilter.xml` and check PRs.
 
--   UPDATE EXISTING — to copy packages with activities.
--   REQUEST NEW — to save icon images and packages with activities. This option is better if you are creating icons.
+[View on YouTube](https://youtu.be/EAvYelOK5Nw) • [Icon contribution tools](#icon-contribution-tools) • [appfilter.xml](app/assets/appfilter.xml) • [PRs](https://github.com/k4ustu3h/forkicons/pulls)
 
-3. Use the app toolbar to select the apps for which youʼd like to request or make icons.
-4. Copy, save or share.
+### Manual process
 
-#### Icon Pusher app
+Let's imagine that you have an icon in SVG format, an app name and an app component.
 
-1. Download the [Icon Pusher app](https://play.google.com/store/apps/details?id=dev.southpaw.iconpusher&hl=en&gl=US).
-2. Launch the app.
-3. Select the icon(s) you want to upload or select all by pressing the square in the top right. Then press "Send".
-4. View the packages with the activities for each app on the [Icon Pusher website](https://iconpusher.com/). Please make sure the `drawable="[DRAWABLE NAME]"` matches the icon SVG file name.
+Icon: `forkicons.svg`  
+App name: `Forkicons`  
+App component: `k4ustu3h.forkicons/k4ustu3h.forkicons.MainActivity`
 
-## Contributing code
+1. Fork our repository so that you have your own copy to work with. Your repository will be a bridge between our repository and your contribution.
+2. Clone your repository in GitHub Desktop and open it with a file explorer. This is your local copy.
+3. Сopy `forkicons.svg` to `svgs/` folder. Memorize the icon name so that you can link the app component to it.
+4. Open `app/assets/appfilter.xml` and add a new line based on your information. Take into account the alphabetical sorting by the app name.
 
-While adding icons is the main focus for most contributors, code-related contributions are welcome.
+```
+Do
+<item component="ComponentInfo{k4ustu3h.forkicons/k4ustu3h.forkicons.MainActivity}" drawable="forkicons" name="Forkicons" />
 
-To build Forkicons, select the `appDebug` build variant.
+Template
+<item component="ComponentInfo{APP_COMPONENT}" drawable="ICON_NAME" name="APP_NAME" />
+```
 
-Here are a few contribution tips:
+5. Save all your changes and push it to your repository via GitHub Desktop.
+6. Open your repository in a web browser and create a PR: `Contribute → Open pull request`. Describe your PR according to our templates.
+7. Make sure that the build went without errors. Wait for a review or do a self-review.
+8. We will merge your PR, fix the little things, or leave a comment asking you to rework.
 
--   [The `app` module](https://github.com/k4ustu3h/forkicons/tree/main/app) contains most of Forkicons' core code, while [the `svg-processor` module](https://github.com/k4ustu3h/forkicons/tree/main/svg-processor) contains the code that converts the SVGs inside the `svgs` folder into Android Drawables. Generally, the `app` module is where you should make most of your contributions.
--   You can use either Java or, preferably, Kotlin.
--   Make sure your code is logical and well formatted. If using Kotlin, see ["Coding conventions"](https://kotlinlang.org/docs/coding-conventions.html) in the Kotlin documentation.
--   Set `main` as the base branch for pull requests.
+**Clean commit history**
+
+Please keep your repository up to date if you plan to create more than one PR, otherwise you may drag a commit history through all your PRs. There are two main ways to do this:
+
+-   Open `Terminal` on the local copy of your repository via GitHub Desktop. Run `git reset --hard upstream/main`. Overwrite your repository with your local copy via GitHub Desktop: `Force push origin`.
+-   Or delete your repository and start the contribution process from scratch.
+
+### icontool.py
+
+This tool will help you if you regularly contribute icons or missing app components.
+
+[icontool.py guide](/docs/icontool_guide.md)

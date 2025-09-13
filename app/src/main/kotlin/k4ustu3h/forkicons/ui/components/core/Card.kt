@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -12,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
+import k4ustu3h.forkicons.ui.theme.adaptiveSurfaceContainerColor
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
 
 @Composable
@@ -26,12 +26,16 @@ fun Card(
             CardHeader(label)
         }
         Surface(
-            color = MaterialTheme.colorScheme.surfaceContainer,
-            shape = RoundedCornerShape(size = 16.dp),
+            color = adaptiveSurfaceContainerColor,
+            shape = MaterialTheme.shapes.large,
             modifier = contentModifier
                 .padding(horizontal = 16.dp)
                 .fillMaxWidth(),
-        ) { Column { content() } }
+        ) {
+            Column {
+                content()
+            }
+        }
     }
 }
 
@@ -41,7 +45,7 @@ fun CardHeader(label: String, modifier: Modifier = Modifier) {
         text = label,
         style = MaterialTheme.typography.titleSmall,
         color = MaterialTheme.colorScheme.primary,
-        modifier = modifier.padding(start = 32.dp, bottom = 6.dp),
+        modifier = modifier.padding(start = 32.dp, bottom = 8.dp),
     )
 }
 

@@ -1,7 +1,5 @@
 package k4ustu3h.forkicons.ui.components
 
-import android.content.Intent
-import android.net.Uri
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
@@ -18,6 +16,7 @@ import coil.request.ImageRequest
 import k4ustu3h.forkicons.ui.components.core.SimpleListRow
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
+import k4ustu3h.forkicons.ui.util.visitUrl
 
 @Composable
 fun ContributorRow(
@@ -34,16 +33,11 @@ fun ContributorRow(
 ) {
     val context = LocalContext.current
     val url = profileUrl ?: socialUrl
-    val onClick =
-        if (url != null) {
-            {
-                val website = Uri.parse(url)
-                val intent = Intent(Intent.ACTION_VIEW, website)
-                context.startActivity(intent)
-            }
-        } else {
-            null
-        }
+    val onClick = if (url != null) {
+        { context.visitUrl(url) }
+    } else {
+        null
+    }
 
     SimpleListRow(
         modifier = modifier,

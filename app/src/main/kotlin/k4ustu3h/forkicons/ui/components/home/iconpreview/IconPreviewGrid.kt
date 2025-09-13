@@ -61,9 +61,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalInspectionMode
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -74,7 +74,6 @@ import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
 import k4ustu3h.forkicons.ui.util.SampleData
 import k4ustu3h.forkicons.ui.util.toPaddingValues
-import k4ustu3h.forkicons.util.appIcon
 import my.nanihadesuka.compose.InternalLazyVerticalGridScrollbar
 import my.nanihadesuka.compose.ScrollbarSelectionMode
 import my.nanihadesuka.compose.ScrollbarSettings
@@ -88,7 +87,7 @@ data class IconPreviewGridPadding(
     companion object {
         val Defaults = IconPreviewGridPadding(
             topPadding = 0.dp,
-            bottomPadding = 80.dp,
+            bottomPadding = 0.dp,
             horizontalPadding = 8.dp,
         )
 
@@ -111,7 +110,7 @@ fun IconPreviewGrid(
     contentPadding: IconPreviewGridPadding = IconPreviewGridPadding.Defaults,
     isIconPicker: Boolean = false,
     gridState: LazyGridState = rememberLazyGridState(),
-    otherContent: (LazyGridScope.() -> Unit) = {},
+    startContent: (LazyGridScope.() -> Unit) = {},
 ) {
     val indexOfFirstItem by remember { derivedStateOf { gridState.firstVisibleItemIndex } }
     val letter = iconInfo[indexOfFirstItem].label[0].uppercase()
@@ -135,7 +134,7 @@ fun IconPreviewGrid(
                 ),
                 state = gridState,
             ) {
-                otherContent()
+                startContent()
                 items(
                     items = iconInfo,
                     contentType = { "icon_preview" },
@@ -248,7 +247,7 @@ fun AppBarListItem(modifier: Modifier = Modifier) {
             ) {
                 if (!LocalInspectionMode.current) {
                     Image(
-                        bitmap = context.appIcon().asImageBitmap(),
+                        painter = painterResource(R.drawable.forkicons_logo),
                         contentDescription = stringResource(id = R.string.app_name),
                         modifier = Modifier
                             .size(36.dp)

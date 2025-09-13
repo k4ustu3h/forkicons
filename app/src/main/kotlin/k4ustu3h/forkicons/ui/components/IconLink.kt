@@ -1,7 +1,5 @@
 package k4ustu3h.forkicons.ui.components
 
-import android.content.Intent
-import android.net.Uri
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -30,6 +28,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import k4ustu3h.forkicons.ui.theme.LawniconsTheme
 import k4ustu3h.forkicons.ui.util.PreviewLawnicons
+import k4ustu3h.forkicons.ui.util.visitUrl
 
 @Composable
 fun IconLink(
@@ -45,11 +44,7 @@ fun IconLink(
         label = label,
         onClick = {
             if (!inPreviewMode) {
-                val webpage = Uri.parse(url)
-                val intent = Intent(Intent.ACTION_VIEW, webpage)
-                if (intent.resolveActivity(context.packageManager) != null) {
-                    context.startActivity(intent)
-                }
+                context.visitUrl(url)
             }
         },
         modifier = modifier,
@@ -81,16 +76,14 @@ fun IconLink(
                 painterResource(id = iconResId),
                 contentDescription = null,
                 colorFilter = ColorFilter.tint(color = LocalContentColor.current),
-                modifier = Modifier
-                    .size(24.dp),
+                modifier = Modifier.size(24.dp),
             )
         } else {
             Image(
                 Icons.Rounded.Star,
                 contentDescription = null,
                 colorFilter = ColorFilter.tint(color = LocalContentColor.current),
-                modifier = Modifier
-                    .size(24.dp),
+                modifier = Modifier.size(24.dp),
             )
         }
         Spacer(modifier = Modifier.requiredHeight(4.dp))

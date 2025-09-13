@@ -75,12 +75,10 @@ fun IconInfoSheet(
         skipPartiallyExpanded = true,
     )
 
-    val groupedComponents = rememberSaveable {
-        iconInfo.componentNames
-            .groupBy { it.label }
-            .map { (label, components) ->
-                label to components.map { it.componentName }
-            }
+    val groupedComponents = remember {
+        iconInfo.componentNames.groupBy { it.label }.map { (label, components) ->
+            label to components.map { it.componentName }
+        }
     }
 
     val githubName = iconInfo.drawableName.replace(
