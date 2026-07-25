@@ -1616,6 +1616,7 @@
   <item component="ComponentInfo{moe.shizuku.fontprovider/moe.shizuku.fontprovider.FontManageActivity}" drawable="generic_shell" name="Font Provider" />
   <item component="ComponentInfo{com.irctc.fot/com.irctc.fot.ui.screens.main.MainActivity}" drawable="food_on_track" name="Food on Track" />
   <item component="ComponentInfo{info.kfsoft.force.rotation/info.kfsoft.force.rotation.StartActivity}" drawable="generic_rotation" name="Force Rotation" />
+  <item component="ComponentInfo{cc.forestapp/cc.forestapp.applications.SplashActivity}" drawable="forest" name="Forest" />
   <item component="ComponentInfo{org.forkclient.messenger.beta/org.telegram.ui.LaunchActivity}" drawable="telegram" name="Fork Client" />
   <item component="ComponentInfo{org.forkgram.messenger/org.telegram.messenger.DefaultIcon}" drawable="telegram" name="Fork Client" />
   <item component="ComponentInfo{org.forkgram.messenger/org.telegram.ui.LaunchActivity}" drawable="telegram" name="Fork Client" />
@@ -2228,6 +2229,7 @@
   <item component="ComponentInfo{com.hihonor.notepad/com.example.android.notepad.NotePadActivity}" drawable="generic_notes" name="Honor Notes" />
   <item component="ComponentInfo{com.hihonor.notepad/com.hihonor.notes.NotePadActivity}" drawable="generic_notes" name="Honor Notes" />
   <item component="ComponentInfo{com.hihonor.soundrecorder/com.android.soundrecorder.RecordListActivity}" drawable="generic_voice_recorder_waves" name="Honor Recorder" />
+  <item component="ComponentInfo{com.hihonor.search/com.hihonor.search.presentation.ui.activity.AliasActivity}" drawable="generic_search" name="Honor Search" />
   <item component="ComponentInfo{com.bug.hookvip/com.bug.hookvip.MainActivityAlias}" drawable="generic_shell" name="HookVIP" />
   <item component="ComponentInfo{com.bug.hookvip/com.bug.hookvip.MainActivity}" drawable="generic_shell" name="HookVIP" />
   <item component="ComponentInfo{chenige.chkchk.wairz/chenige.chkchk.wairz.landing.MainActivity}" drawable="cube_escape_collection" name="HouseBook" />
@@ -2356,6 +2358,27 @@
   <item component="ComponentInfo{com.jacksoftw.webcam/com.iriun.webcam.IntroActivity}" drawable="iriun_webcam" name="Iriun Webcam" />
   <item component="ComponentInfo{com.jacksoftw.webcam/com.jacksoftw.webcam.IntroActivity}" drawable="iriun_webcam" name="Iriun Webcam" />
   <item component="ComponentInfo{app.irlpro.android/com.wmspanel.streamer.LaunchActivity}" drawable="generic_camera" name="IRL Pro" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.App}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidLight}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidDark}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidRed}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidGreen}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidBlue}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidPurple}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppSolidPurpleDark}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientSunrise}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientGoldenHour}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientSunset}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientBlueHour}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientTwilight}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientMidnight}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppGradientNorthernLights}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppRetro2004}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppPixelated}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppPride}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppFlaming}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppMinimal}" drawable="ironfox" name="IronFox" />
+  <item component="ComponentInfo{org.ironfoxoss.ironfox/org.ironfoxoss.ironfox.AppCool}" drawable="ironfox" name="IronFox" />
   <item component="ComponentInfo{com.bpmobile.iscanner.free/com.bpmobile.scanner.presentation.activity.SplashActivity}" drawable="generic_scanner" name="iScanner" />
   <item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.MainActivity}" drawable="island" name="Island" />
   <item component="ComponentInfo{com.oasisfeng.island/com.oasisfeng.island.settings.IslandSettingsActivity}" drawable="island" name="Island" />
@@ -2895,6 +2918,13 @@
   <item component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.powerpoint.PPTActivity}" drawable="microsoft_powerpoint" name="Microsoft PowerPoint" />
   <item component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity}" drawable="microsoft_powerpoint" name="Microsoft PowerPoint" />
   <item component="ComponentInfo{com.microsoft.stream/com.microsoft.stream.MainActivity}" drawable="microsoft_stream" name="Microsoft Stream" />
+  <item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.swiftkey.main}" drawable="microsoft_swiftkey" name="Microsoft SwiftKey" />
+  <item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.swiftkey.Applanet_2}" drawable="microsoft_swiftkey" name="Microsoft SwiftKey" />
+  <item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.LauncherActivity}" drawable="microsoft_swiftkey" name="Microsoft SwiftKey" />
+  <item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.LauncherActivity-Icon}" drawable="microsoft_swiftkey" name="Microsoft SwiftKey" />
+  <item component="ComponentInfo{com.touchtype.swiftkey/com.touchtype.LauncherActivityIcon}" drawable="microsoft_swiftkey" name="Microsoft SwiftKey" />
+  <item component="ComponentInfo{com.touchtype.swiftkey.beta/com.touchtype.LauncherActivity}" drawable="microsoft_swiftkey_beta" name="Microsoft SwiftKey Beta" />
+  <item component="ComponentInfo{com.touchtype.swiftkey.beta/com.touchtype.LauncherActivityIcon}" drawable="microsoft_swiftkey_beta" name="Microsoft SwiftKey Beta" />
   <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}" drawable="microsoft_todo" name="Microsoft To Do" />
   <item component="ComponentInfo{com.microsoft.todos/com.microsoft.todoss}" drawable="microsoft_todo" name="Microsoft To Do" />
   <item component="ComponentInfo{com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="microsoft_word" name="Microsoft Word" />
@@ -5532,6 +5562,7 @@
   <item component="ComponentInfo{com.yubico.yubioath/com.yubico.authenticator.MainActivity}" drawable="yubico_authenticator" name="Yubico Authenticator" />
   <item component="ComponentInfo{com.yubico.yubioath/com.yubico.yubioath.ui.main.MainActivity}" drawable="yubico_authenticator" name="Yubico Authenticator" />
   <item component="ComponentInfo{pl.zabka.apb2c/pl.zabka.b2c.presentation.welcome.WelcomeActivity}" drawable="zappka" name="zappka" />
+  <item component="ComponentInfo{dev.zapstore.app/dev.zapstore.app.MainActivity}" drawable="zapstore" name="Zapstore" />
   <item component="ComponentInfo{com.dewmobile.kuaiya.play/com.dewmobile.kuaiya.act.DmStartupActivity}" drawable="zapya" name="Zapya" />
   <item component="ComponentInfo{com.dewmobile.kuaiya.play/com.dewmobile.kuaiya.activity.DmStartupActivity}" drawable="zapya" name="Zapya" />
   <item component="ComponentInfo{com.dewmobile.kuaiya.play/com.dewmobile.kuaiya.activity.MainActivity}" drawable="zapya" name="Zapya" />
