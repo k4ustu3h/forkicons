@@ -5,6 +5,7 @@ object Constants {
     const val ICON_REQUEST_EMAIL = "monoconsrequest@gmail.com"
     const val WEBSITE = "https://monocons.vercel.app/"
     const val GITHUB = "https://github.com/k4ustu3h/monocons-android"
+    const val GITHUB_SPONSORS = "https://github.com/sponsors/k4ustu3h"
     const val LAWNICONS_VERSION = "2.18.0"
 
     const val ICON_PICKER_INTENT_ACTION = "com.novalauncher.THEME"

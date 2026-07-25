@@ -43,8 +43,10 @@ import k4ustu3h.monocons.R
 import k4ustu3h.monocons.ui.components.core.SimpleListRow
 import k4ustu3h.monocons.ui.theme.icon.About
 import k4ustu3h.monocons.ui.theme.icon.Github
+import k4ustu3h.monocons.ui.theme.icon.GithubSponsors
 import k4ustu3h.monocons.ui.theme.icon.IconRequest
 import k4ustu3h.monocons.ui.theme.icon.Monocons
+import k4ustu3h.monocons.ui.theme.icon.More
 import k4ustu3h.monocons.ui.theme.icon.NewIcons
 import k4ustu3h.monocons.ui.theme.icon.Search
 import k4ustu3h.monocons.ui.util.Constants
@@ -102,6 +104,11 @@ fun BoxScope.HomeBottomBar(
                 }
             },
         ),
+        ToolbarItem(
+            icon = Monocons.GithubSponsors,
+            label = stringResource(R.string.github_sponsors),
+            onClick = { context.visitUrl(Constants.GITHUB_SPONSORS) },
+        ),
     ).filter {
         showNewIcons || it.icon != Monocons.NewIcons
     }
@@ -146,6 +153,17 @@ fun BoxScope.HomeBottomBar(
                             modifier = Modifier.requiredSize(24.dp),
                         )
                     }
+                }
+            }
+            SimpleTooltipBox(
+                label = stringResource(R.string.action_menu_overflow_description),
+            ) {
+                IconButton(onClick = { showBottomSheet = true }) {
+                    Icon(
+                        imageVector = Monocons.More,
+                        contentDescription = stringResource(R.string.action_menu_overflow_description),
+                        modifier = Modifier.requiredSize(24.dp),
+                    )
                 }
             }
         },
