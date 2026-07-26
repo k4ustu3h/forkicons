@@ -237,7 +237,7 @@ private fun About(
                     startIcon = {
                         Image(
                             imageVector = Monocons.Lawnicons,
-                            contentDescription = stringResource(id = R.string.app_name),
+                            contentDescription = stringResource(id = R.string.lawnicons),
                             modifier = Modifier
                                 .size(32.dp)
                                 .clip(CircleShape),
