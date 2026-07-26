@@ -219,7 +219,7 @@ private fun About(
                     description = it.descriptionRes?.let { stringResource(id = it) },
                     divider = index != specialThanks.lastIndex,
                     socialUrl = it.socialUrl,
-                    shapes = ListItemDefaults.segmentedShapes(index, specialThanks.size),
+                    shapes = ListRowDefaults.singleItemShapes,
                 )
             }
             item(contentType = ColumnTypes.SPACER) {
