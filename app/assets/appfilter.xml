@@ -118,6 +118,14 @@
   <item component="ComponentInfo{com.aimp.player/com.aimp.player.ui.activities.main.MainActivity}" drawable="aimp" name="AIMP" />
   <item component="ComponentInfo{com.transat.airtransat/com.transat.airtransat.main.MainActivity}" drawable="air_transat" name="Air Transat" />
   <item component="ComponentInfo{com.airasia.mobile/com.airasia.mobile.MainActivity2}" drawable="airasia" name="airasia" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.activities.HomeActivityAlias}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.activities.MainActivity}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.activities.SplashActivity}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.feat.homescreen.HomeActivity}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.feat.legacy.activities.HomeActivity}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.feat.splashscreen.chinalauncher.ChinaLauncherActivity}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.feat.splashscreen.SplashScreenActivity}" drawable="airbnb" name="Airbnb" />
+  <item component="ComponentInfo{com.airbnb.android/com.airbnb.android.flavor.full.activities.HomeActivity}" drawable="airbnb" name="Airbnb" />
   <item component="ComponentInfo{me.tagavari.airmessage/me.tagavari.airmessage.activity.Conversations}" drawable="airmessage" name="AirMessage" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activities.LauncherActivity}" drawable="myairtel" name="Airtel" />
   <item component="ComponentInfo{com.myairtelapp/com.myairtelapp.activity.HomeActivity}" drawable="myairtel" name="Airtel" />
@@ -2163,6 +2171,8 @@
   <item component="ComponentInfo{com.area120.grasshopper/com.google.engedu.grasshopper.flutter.MainActivity}" drawable="grasshopper" name="Grasshopper" />
   <item component="ComponentInfo{com.oasisfeng.greenify/com.oasisfeng.greenify.GreenifyActivity}" drawable="greenify" name="Greenify" />
   <item component="ComponentInfo{com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity}" drawable="greenify" name="Greenify (Donation Package)" />
+  <item component="ComponentInfo{com.shub39.grit/com.shub39.grit.app.MainActivity}" drawable="grit" name="Grit" />
+  <item component="ComponentInfo{com.shub39.grit/com.shub39.grit.MainActivity}" drawable="grit" name="Grit" />
   <item component="ComponentInfo{ai.x.grok/ai.x.grok.main.GrokActivity}" drawable="grok" name="Grok" />
   <item component="ComponentInfo{online.konstruktor.groupemutuel/online.konstruktor.groupemutuel.MainActivity}" drawable="groupe_mutuel" name="Groupe Mutuel" />
   <item component="ComponentInfo{com.nextbillion.groww/com.nextbillion.groww.MainActivitycom.nextbillion.groww}" drawable="groww" name="Groww" />
@@ -2686,6 +2696,7 @@
   <item component="ComponentInfo{ch.lunchcheck.android/crc641d3f5ba78457ee8b.MainActivity}" drawable="generic_aid" name="Lunch-Check" />
   <item component="ComponentInfo{com.leanbitlab.lwidget/com.leanbitlab.lwidget.MainActivity}" drawable="lwidget" name="Lwidget" />
   <item component="ComponentInfo{me.lyft.android/me.lyft.android.ui.MainActivity}" drawable="lyft" name="Lyft" />
+  <item component="ComponentInfo{com.mobond.mindicator/com.mobond.mindicator.SplashUI}" drawable="m_indicator" name="m-Indicator" />
   <item component="ComponentInfo{com.appslab.materialyou.widgetspro/com.appslab.materialyou.widgetspro.MainActivity}" drawable="m3_expressive_widgets" name="M3 Expressive Widgets" />
   <item component="ComponentInfo{org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity}" drawable="m64plus_fz" name="M64Plus FZ" />
   <item component="ComponentInfo{fr.creditagricole.androidapp/fr.ca.cats.nmb.start.StartActivity}" drawable="credit_agricole" name="Ma Banque" />
@@ -3004,6 +3015,8 @@
   <item component="ComponentInfo{app.morphe.manager/app.revanced.manager.MainActivity}" drawable="morphe" name="Morphe" />
   <item component="ComponentInfo{app.morphe.manager/app.morphe.manager.MainActivity_Dark_1}" drawable="morphe" name="Morphe" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_dark_2}" drawable="morphe" name="Morphe" />
+  <item component="ComponentInfo{org.joinmastodon.android.moshinda/org.joinmastodon.android.MainActivity}" drawable="moshidon" name="Moshidon" />
+  <item component="ComponentInfo{org.joinmastodon.android.moshinda.nightly/org.joinmastodon.android.MainActivity}" drawable="moshidon_nightly" name="Moshidon Nightly" />
   <item component="ComponentInfo{com.bhznjns.motion_ease_tune/com.bhznjns.motion_ease_tune.MainActivity}" drawable="generic_voice" name="MotionEaseTune" />
   <item component="ComponentInfo{com.motorola.moto/com.motorola.assist.LauncherActivity}" drawable="moto" name="Moto" />
   <item component="ComponentInfo{com.motorola.moto/com.motorola.assist.ui.screens.MainActivity}" drawable="moto" name="Moto" />
