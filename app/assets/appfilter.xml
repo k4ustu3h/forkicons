@@ -155,6 +155,8 @@
   <item component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.SplashActivity}" drawable="aliexpress" name="AliExpress" />
   <item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.module.home.MainActivity}" drawable="aliexpress" name="AliExpress" />
   <item component="ComponentInfo{ru.aliexpress.buyer/com.alibaba.aliexpresshd.home.ui.MainActivity}" drawable="aliexpress" name="AliExpress" />
+  <item component="ComponentInfo{com.alibaba.aliexpresshd/com.google.android.archive.ReactivateActivity}" drawable="aliexpress" name="AliExpress" />
+  <item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity}" drawable="aliexpress" name="AliExpress" />
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivity$Main}" drawable="discord" name="Aliucord" />
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivityMain}" drawable="discord" name="Aliucord" />
   <item component="ComponentInfo{yuku.alkitab/yuku.alkitab.base.IsiActivity}" drawable="generic_bible" name="Alkitab" />
@@ -182,10 +184,13 @@
   <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.client.activity.LauncherActivity}" drawable="amazon_music" name="Amazon Music" />
   <item component="ComponentInfo{com.amazon.mp3/com.amazon.mp3.library.activity.LaunchActivity}" drawable="amazon_music" name="Amazon Music" />
   <item component="ComponentInfo{com.amazon.mp3/leakcanary.internal.activity.LeakLauncherActivity}" drawable="amazon_music" name="Amazon Music" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.amazonpay.AmazonPayHomeActivityAlias}" drawable="amazon_pay" name="Amazon Pay" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.amazonpay.AmazonPayHomeActivityAliasWoShortcuts}" drawable="amazon_pay" name="Amazon Pay" />
   <item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="amazon_prime_video" name="Amazon Prime Video" />
-  <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon" name="Amazon Shopping" />
-  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon" name="Amazon Shopping" />
-  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.twa.CustomTWALauncherActivity}" drawable="amazon" name="Amazon Shopping" />
+  <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.twa.CustomTWALauncherActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
+  <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.google.android.archive.ReactivateActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
   <item component="ComponentInfo{com.fox2code.mmm.fdroid/com.fox2code.mmm.MainActivity}" drawable="foxmmm" name="AMM" />
   <item component="ComponentInfo{com.fox2code.mmm.fdroid/com.fox2code.mmm.settings.SettingsActivity}" drawable="foxmmm" name="AMM" />
   <item component="ComponentInfo{com.innersloth.spacemafia/com.d.a}" drawable="among_us" name="Among Us" />
@@ -211,6 +216,7 @@
   <item component="ComponentInfo{com.dsi.ant.service.socket/com.dsi.ant.legacy.ForceClaimAntInterfaceDialog}" drawable="ant_radio_service" name="ANT Radio Service" />
   <item component="ComponentInfo{com.dsi.ant.plugins.antplus/com.google.android.gms.common.api.GoogleApiActivity}" drawable="ant_plus_plugins_service" name="ANT+ Plugins Service" />
   <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}" drawable="antennapod" name="AntennaPod" />
+  <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="antennapod" name="AntennaPod" />
   <item component="ComponentInfo{dev.lucanlm.antimine/dev.lucasnlm.antimine.main.MainActivity}" drawable="antimine" name="Antimine" />
   <item component="ComponentInfo{dev.lucanlm.antimine/dev.lucasnlm.antimine.splash.SplashActivity}" drawable="antimine" name="Antimine" />
   <item component="ComponentInfo{com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.gui.activity.MainActivity}" drawable="anydesk" name="AnyDesk" />
@@ -298,6 +304,7 @@
   <item component="ComponentInfo{deckers.thibault.aves.libre/deckers.thibault.aves.libre.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
   <item component="ComponentInfo{deckers.thibault.aves.libre/deckers.thibault.aves.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
   <item component="ComponentInfo{deckers.thibault.aves/deckers.thibault.aves.MainActivity}" drawable="aves_gallery" name="Aves Gallery" />
+  <item component="ComponentInfo{me.highest.aviate/me.highest.aviate.MainActivity}" drawable="aviate" name="Aviate" />
   <item component="ComponentInfo{com.avito.android/com.avito.android.Launcher}" drawable="avito" name="Avito" />
   <item component="ComponentInfo{com.avito.android/com.avito.android.ui.activity.SplashScreenActivity}" drawable="avito" name="Avito" />
   <item component="ComponentInfo{com.avito.android/com.avito.android.view.splash.SplashScreenActivity}" drawable="avito" name="Avito" />
@@ -1940,6 +1947,10 @@
   <item component="ComponentInfo{com.garmin.connectiq/com.garmin.connectiq.ui.nav.MainActivity}" drawable="garmin_connect_iq" name="Garmin Connect IQ" />
   <item component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}" drawable="gboard" name="Gboard" />
   <item component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}" drawable="gboard" name="Gboard" />
+  <item component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="Gboard" />
+  <item component="ComponentInfo{com.google.android.inputmethod.latin.adobo/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="Gboard" />
+  <item component="ComponentInfo{com.google.android.inputmethod.morphe/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="Gboard Morphe" />
+  <item component="ComponentInfo{com.google.android.inputmethod.latis/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="GboardMd" />
   <item component="ComponentInfo{com.samsung.agc.gcam92/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Gcam" />
   <item component="ComponentInfo{arn.android.gcam/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Gcam" />
   <item component="ComponentInfo{com.agc.gcam85/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Gcam" />
@@ -5243,7 +5254,8 @@
   <item component="ComponentInfo{com.dephotos.crello/com.dephotos.crello.presentation.AppActivity}" drawable="vistacreate" name="VistaCreate" />
   <item component="ComponentInfo{com.vitastudio.mahjong/com.meevii.vitastudio.VitaDelegateActivity}" drawable="generic_mahjong" name="Vita Mahjong" />
   <item component="ComponentInfo{com.vivaldi.browser/com.google.android.apps.chrome.Main}" drawable="vivaldi" name="Vivaldi" />
-  <item component="ComponentInfo{com.vivaldi.browser.snapshot/com.google.android.apps.chrome.Main}" drawable="vivaldi" name="Vivaldi Browser Snapshot" />
+  <item component="ComponentInfo{com.vivaldi.browser/com.vivaldi.browser.IconAlt0}" drawable="vivaldi" name="Vivaldi" />
+  <item component="ComponentInfo{com.vivaldi.browser.snapshot/com.google.android.apps.chrome.Main}" drawable="vivaldi" name="Vivaldi Snapshot" />
   <item component="ComponentInfo{com.vivi.vivimusic/com.music.vivi.MainActivityAlias}" drawable="vivi_music" name="VIVI Music" />
   <item component="ComponentInfo{com.vivi.vivimusic/com.music.vivi.MainActivity}" drawable="vivi_music" name="VIVI Music" />
   <item component="ComponentInfo{com.vivi.vivimusic/com.music.vivi.WelcomeActivity}" drawable="vivi_music" name="VIVI Music" />
