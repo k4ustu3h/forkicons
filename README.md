@@ -51,6 +51,8 @@ Try Monocons on the latest version of Lawnchair. You can enable themed icons by 
 ## Contributing
 
 <div align="left">
+    <a href="https://monoconsrequests.vercel.app/">
+        <img alt="Community-requested icons" src="https://img.shields.io/badge/Community--requested%20icons-94009E?logo=vercel&logoColor=ffffff"></a>
     <a href="CONTRIBUTING.md">
         <img alt="Monocons guidelines" src="https://img.shields.io/badge/Monocons%20guidelines-3F9E00?logo=gitbook&logoColor=ffffff"></a>
     <a href="https://lawnchair.crowdin.com/lawnicons">
