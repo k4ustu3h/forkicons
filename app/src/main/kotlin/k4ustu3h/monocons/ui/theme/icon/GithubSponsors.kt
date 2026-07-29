@@ -19,31 +19,100 @@ val Monocons.GithubSponsors: ImageVector
             viewportHeight = 24f,
         ).apply {
             path(fill = SolidColor(Color.Black)) {
-                moveTo(12.345f, 18.916f)
-                arcToRelative(0.75f, 0.75f, 0f, isMoreThanHalf = false, isPositiveArc = true, -0.69f, 0f)
-                lineToRelative(-0.008f, -0.004f)
-                lineToRelative(-0.018f, -0.01f)
-                curveToRelative(-0.103f, -0.057f, -0.208f, -0.11f, -0.31f, -0.17f)
-                arcToRelative(22f, 22f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3.434f, -2.414f)
-                curveTo(6.045f, 14.731f, 4f, 12.35f, 4f, 9.5f)
-                curveTo(4f, 6.836f, 6.086f, 5f, 8.25f, 5f)
-                curveToRelative(1.547f, 0f, 2.903f, 0.802f, 3.75f, 2.02f)
-                curveTo(12.847f, 5.802f, 14.203f, 5f, 15.75f, 5f)
-                curveTo(17.914f, 5f, 20f, 6.836f, 20f, 9.5f)
-                curveToRelative(0f, 2.85f, -2.045f, 5.231f, -3.885f, 6.818f)
-                arcToRelative(22f, 22f, 0f, isMoreThanHalf = false, isPositiveArc = true, -3.744f, 2.584f)
-                lineToRelative(-0.018f, 0.01f)
-                lineToRelative(-0.006f, 0.003f)
-                moveTo(8.25f, 6.5f)
-                curveToRelative(-1.336f, 0f, -2.75f, 1.164f, -2.75f, 3f)
-                curveToRelative(0f, 2.15f, 1.58f, 4.144f, 3.365f, 5.682f)
-                arcTo(20.6f, 20.6f, 0f, isMoreThanHalf = false, isPositiveArc = false, 12f, 17.393f)
-                arcToRelative(20.6f, 20.6f, 0f, isMoreThanHalf = false, isPositiveArc = false, 3.135f, -2.211f)
-                curveTo(16.92f, 13.644f, 18.5f, 11.65f, 18.5f, 9.5f)
-                curveToRelative(0f, -1.836f, -1.414f, -3f, -2.75f, -3f)
-                curveToRelative(-1.373f, 0f, -2.609f, 0.986f, -3.029f, 2.456f)
-                curveToRelative(-0.205f, 0.728f, -1.237f, 0.728f, -1.442f, 0f)
-                curveTo(10.859f, 7.486f, 9.623f, 6.5f, 8.25f, 6.5f)
+                moveTo(16.687f, 3.25f)
+                curveToRelative(-1.933f, 0f, -3.628f, 1.002f, -4.688f, 2.524f)
+                curveTo(10.94f, 4.252f, 9.244f, 3.25f, 7.311f, 3.25f)
+                curveTo(4.606f, 3.25f, 2f, 5.544f, 2f, 8.874f)
+                curveToRelative(0f, 3.563f, 2.555f, 6.54f, 4.855f, 8.523f)
+                arcToRelative(
+                    27.6f,
+                    27.6f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = false,
+                    4.68f,
+                    3.23f,
+                )
+                lineToRelative(0.024f, 0.015f)
+                lineToRelative(0.007f, 0.002f)
+                verticalLineToRelative(0.003f)
+                arcToRelative(
+                    0.9f,
+                    0.9f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = false,
+                    0.433f,
+                    0.103f,
+                )
+                arcToRelative(
+                    0.9f,
+                    0.9f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = false,
+                    0.435f,
+                    -0.103f,
+                )
+                verticalLineToRelative(-0.003f)
+                lineToRelative(0.005f, -0.002f)
+                lineToRelative(0.024f, -0.015f)
+                arcToRelative(
+                    27.6f,
+                    27.6f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = false,
+                    4.68f,
+                    -3.23f,
+                )
+                curveTo(19.444f, 15.414f, 22f, 12.437f, 22f, 8.874f)
+                curveToRelative(0f, -3.33f, -2.608f, -5.625f, -5.313f, -5.625f)
+                moveToRelative(-0.767f, 12.73f)
+                arcToRelative(
+                    26f,
+                    26f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = true,
+                    -3.918f,
+                    2.764f,
+                )
+                lineTo(12f, 18.741f)
+                lineToRelative(-0.003f, 0.002f)
+                arcToRelative(
+                    26f,
+                    26f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = true,
+                    -3.92f,
+                    -2.763f,
+                )
+                curveToRelative(-2.23f, -1.923f, -4.206f, -4.416f, -4.206f, -7.104f)
+                curveToRelative(0f, -2.295f, 1.768f, -3.75f, 3.438f, -3.75f)
+                curveToRelative(1.717f, 0f, 3.261f, 1.233f, 3.787f, 3.07f)
+                arcToRelative(
+                    0.93f,
+                    0.93f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = false,
+                    0.904f,
+                    0.663f,
+                )
+                arcToRelative(
+                    0.92f,
+                    0.92f,
+                    0f,
+                    isMoreThanHalf = false,
+                    isPositiveArc = false,
+                    0.905f,
+                    -0.663f,
+                )
+                curveToRelative(0.525f, -1.837f, 2.07f, -3.07f, 3.787f, -3.07f)
+                curveToRelative(1.67f, 0f, 3.438f, 1.455f, 3.438f, 3.75f)
+                curveToRelative(0f, 2.688f, -1.975f, 5.18f, -4.207f, 7.103f)
             }
         }.build()
 
