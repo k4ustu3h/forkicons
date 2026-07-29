@@ -73,6 +73,7 @@
   <item component="ComponentInfo{de.szalkowski.activitylauncher/de.szalkowski.activitylauncher.entrypoint.MainActivity}" drawable="activity_launcher" name="Activity Launcher" />
   <item component="ComponentInfo{de.szalkowski.activitylauncher.rustore_fork/de.szalkowski.activitylauncher.rustore_fork.ui.activity.MainActivity}" drawable="activity_launcher" name="Activity Launcher" />
   <item component="ComponentInfo{de.szalkowski.activitylauncher.oss/de.szalkowski.activitylauncher.MainActivity}" drawable="activity_launcher" name="Activity Launcher" />
+  <item component="ComponentInfo{de.szalkowski.activitylauncher.oss/de.szalkowski.activitylauncher.entrypoint.MainActivity}" drawable="activity_launcher" name="Activity Launcher" />
   <item component="ComponentInfo{wit.android.bcpBankingApp.activoBank/wit.android.bcpBankingApp.ui.activities.SplashScreenActivity}" drawable="activobank" name="ActivoBank" />
   <item component="ComponentInfo{wit.android.bcpBankingApp.activoBank/wit.android.bcpBankingApp.ui.activities.SlidingMenusActivity}" drawable="activobank" name="ActivoBank" />
   <item component="ComponentInfo{com.jndapp.adaptive.material.you.iconpack/com.jndapp.adaptive.material.you.iconpack.MainActivity}" drawable="adaptive_you_icons" name="Adaptive You Icons" />
@@ -171,6 +172,7 @@
   <item component="ComponentInfo{no.alt.www.twa/no.alt.www.twa.LauncherActivity}" drawable="alt" name="ALT" />
   <item component="ComponentInfo{deltazero.amarok.foss/deltazero.amarok.launcher.default}" drawable="amarok" name="Amarok" />
   <item component="ComponentInfo{deltazero.amarok.foss/deltazero.amarok.ui.MainActivity}" drawable="amarok" name="Amarok" />
+  <item component="ComponentInfo{deltazero.amarok.foss/deltazero.amarok.launcher.calendar}" drawable="amarok" name="Amarok" />
   <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="amaze" name="Amaze" />
   <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.ui.activities.MainActivity}" drawable="amaze" name="Amaze" />
   <item component="ComponentInfo{com.amazon.dee.app/.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
@@ -1483,6 +1485,7 @@
   <item component="ComponentInfo{com.nononsenseapps.feeder/com.nononsenseapps.feeder.ui.MainActivity}" drawable="feeder" name="Feeder" />
   <item component="ComponentInfo{org.mozilla.fennec_fdroid/org.mozilla.fennec_fdroid.App}" drawable="fennec" name="Fennec" />
   <item component="ComponentInfo{de.marmaro.krt.ffupdater/de.marmaro.krt.ffupdater.MainActivity}" drawable="ffupdater" name="FFUpdater" />
+  <item component="ComponentInfo{de.marmaro.krt.ffupdater/de.marmaro.krt.ffupdater.activity.main.MainActivity}" drawable="ffupdater" name="FFUpdater" />
   <item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.ui.MainActivity}" drawable="fi_money" name="Fi Money" />
   <item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.MainActivityAliasDefault}" drawable="fi_money" name="Fi Money" />
   <item component="ComponentInfo{com.epifi.paisa/com.epifi.paisa.ui.launcher.LauncherActivity}" drawable="fi_money" name="Fi Money" />
@@ -1923,9 +1926,7 @@
   <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.camera_activity1}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.android.gallery3d/com.android.medialist.PlayListActivity}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.android.gallery3d/com.freeme.gallery.app.GalleryNewActivity}" drawable="generic_gallery" name="Gallery" />
-  <item component="ComponentInfo{com.dot.gallery/com.dot.gallery.feature_node.presentation.main.MainActivity}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.android.gallery3d/com.android.camera.VideoCamera}" drawable="generic_gallery" name="Gallery" />
-  <item component="ComponentInfo{com.dot.gallery/com.dot.gallery.MainActivity}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.android.gallery3d/.app.GalleryActivity}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.android.gallery3d/.app.Gallery}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.android.gallery3d/com.acer.muse.app.GalleryActivity}" drawable="generic_gallery" name="Gallery" />
@@ -2199,6 +2200,7 @@
   <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.v3.splash.SplashActivity}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.anticor.graby/com.anticor.graby.activities.SplashActivity}" drawable="graby_ui_icon_pack" name="Graby UI Icon Pack" />
   <item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.MainActivity}" drawable="gramophone" name="Gramophone" />
+  <item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.ui.MainActivity}" drawable="gramophone" name="Gramophone" />
   <item component="ComponentInfo{app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity}" drawable="generic_camera" name="GrapheneOS Secure Camera" />
   <item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="generic_camera" name="GrapheneOS Secure Camera" />
   <item component="ComponentInfo{org.grapheneos.pdfviewer/org.grapheneos.pdfviewer.PdfViewer}" drawable="generic_pdf_square" name="GrapheneOS Secure PDF Viewer" />
@@ -3258,6 +3260,7 @@
   <item component="ComponentInfo{dev.anilbeesetti.nextplayer/dev.anilbeesetti.nextplayer.MainActivity}" drawable="next_player" name="Next Player" />
   <item component="ComponentInfo{br.com.bradesco.next/br.com.next.ui.activity.SplashActivity_}" drawable="next_conta_digital_e_cartao" name="Next: Conta Digital e Cartao" />
   <item component="ComponentInfo{com.nextcloud.client/com.owncloud.android.ui.activity.FileDisplayActivity}" drawable="nextcloud" name="Nextcloud" />
+  <item component="ComponentInfo{com.nextcloud.client/com.nmc.android.ui.LauncherActivity}" drawable="nextcloud" name="Nextcloud" />
   <item component="ComponentInfo{com.nextcloud_cookbook_flutter/com.nextcloud_cookbook_flutter.MainActivity}" drawable="generic_silverware" name="Nextcloud Cookbook" />
   <item component="ComponentInfo{de.lukasneugebauer.nextcloudcookbook/de.lukasneugebauer.nextcloudcookbook.core.presentation.MainActivity}" drawable="generic_silverware" name="Nextcloud Cookbook" />
   <item component="ComponentInfo{com.nextcloud.android.beta/com.owncloud.android.ui.activity.FileDisplayActivity}" drawable="nextcloud" name="Nextcloud Dev" />
@@ -3323,6 +3326,10 @@
   <item component="ComponentInfo{com.nu.production/br.com.nubank.app.SplashScreenActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nu.production/br.com.nubank.shell.screens.splash.SplashActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nu.production/com.nu.activity.main.InitialActivity}" drawable="nubank" name="Nubank" />
+  <item component="ComponentInfo{com.nu.production/br.com.nubank.app.valhalla.ValhallaBaseSplashActivity}" drawable="nubank" name="Nubank" />
+  <item component="ComponentInfo{com.nu.production/br.com.nubank.app.valhalla.ValhallaSplashScreenActivity}" drawable="nubank" name="Nubank" />
+  <item component="ComponentInfo{com.nu.production/br.com.nubank.app.LegacySplashActivity}" drawable="nubank" name="Nubank" />
+  <item component="ComponentInfo{com.nu.production/br.com.nubank.app.LegacyUvSplashActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nx.video.player/com.nx.video.player.ui.SplashActivity}" drawable="generic_player" name="NX Player" />
   <item component="ComponentInfo{com.fsn.nykaa/com.fsn.nykaa.SplashScreenActivity}" drawable="nykaa" name="Nykaa" />
   <item component="ComponentInfo{com.fsn.nykaa/com.fsn.nykaa.default}" drawable="nykaa" name="Nykaa" />
@@ -3526,6 +3533,7 @@
   <item component="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.MainActivity}" drawable="paseo" name="Paseo" />
   <item component="ComponentInfo{com.patreon.android/com.patreon.android.ui.shared.LauncherActivity}" drawable="patreon" name="Patreon" />
   <item component="ComponentInfo{com.patreon.android/com.patreon.app.RootActivity}" drawable="patreon" name="Patreon" />
+  <item component="ComponentInfo{com.patreon.android/com.patreon.android.screens.launcher.LauncherActivity}" drawable="patreon" name="Patreon" />
   <item component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.GridLauncherActivity}" drawable="paypal" name="PayPal" />
   <item component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.HubActivity}" drawable="paypal" name="PayPal" />
   <item component="ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.IntroActivity}" drawable="paypal" name="PayPal" />
@@ -4014,6 +4022,7 @@
   <item component="ComponentInfo{net.qrbot/net.qrbot.ui.main.MainActivity}" drawable="generic_qr_reader" name="QRbot" />
   <item component="ComponentInfo{com.hero.iot/com.hero.iot.ui.splash.LoadingActivity}" drawable="qubo" name="Qubo" />
   <item component="ComponentInfo{m.hero.iot/com.hero.iot.ui.splash.LoadingActivity}" drawable="qubo" name="Qubo" />
+  <item component="ComponentInfo{com.hero.iot/com.hero.iot.ui.splash.SplashActivity}" drawable="qubo" name="Qubo" />
   <item component="ComponentInfo{com.qubotracker.iot/app.qubotracker.iot.ui.splash.SplashActivity}" drawable="qubo" name="Qubo Go" />
   <item component="ComponentInfo{de.tlogic.dddblocks/de.tlogic.dddblocks.MainActivity}" drawable="qubotron" name="qubotron" />
   <item component="ComponentInfo{yuku.alkitab.kjv/yuku.alkitab.base.IsiActivity}" drawable="generic_bible" name="Quick Bible" />
@@ -4108,6 +4117,9 @@
   <item component="ComponentInfo{org.quantumbadger.redreader/org.quantumbadger.redreader.activities.MainActivity}" drawable="redreader" name="RedReader" />
   <item component="ComponentInfo{com.refind.android/com.refind.android.RefindActivity}" drawable="refind" name="Refind" />
   <item component="ComponentInfo{com.reflectlyApp/com.reflectlyApp.MainActivity}" drawable="reflectly" name="Reflectly" />
+  <item component="ComponentInfo{com.dot.gallery/com.dot.gallery.MainActivity}" drawable="refra" name="ReFra" />
+  <item component="ComponentInfo{com.dot.gallery/com.dot.gallery.feature_node.presentation.main.MainActivity}" drawable="refra" name="ReFra" />
+  <item component="ComponentInfo{com.dot.gallery/com.dot.gallery.Launcher_Gallery}" drawable="refra" name="ReFra" />
   <item component="ComponentInfo{com.shanjiancaofu.gallery.preview/com.shanjiancaofu.gallery.MainActivity}" drawable="generic_gallery" name="RelaxPic" />
   <item component="ComponentInfo{free.reddit.news/free.reddit.news.RedditNavigation}" drawable="relay" name="Relay" />
   <item component="ComponentInfo{free.reddit.news/reddit.news.RedditNavigation}" drawable="relay" name="Relay" />
@@ -5118,13 +5130,20 @@
   <item component="ComponentInfo{com.aspiro.tidal/com.aspiro.wamp.LoginFragmentActivity}" drawable="tidal" name="Tidal" />
   <item component="ComponentInfo{com.huanchengfly.tieba.post/com.huanchengfly.tieba.post.activities.MainActivity}" drawable="tieba_lite" name="Tieba Lite" />
   <item component="ComponentInfo{com.huanchengfly.tieba.post/com.huanchengfly.tieba.post.MainActivity}" drawable="tieba_lite" name="Tieba Lite" />
+  <item component="ComponentInfo{com.ss.android.ugc.aweme.mobile/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok" />
+  <item component="ComponentInfo{com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok" />
   <item component="ComponentInfo{com.ss.android.ugc.trill/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok" />
-  <item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="tiktok" name="TikTok" />
-  <item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok" />
   <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok" />
   <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.trill.splash.I18nSplashActivity}" drawable="tiktok" name="TikTok" />
   <item component="ComponentInfo{com.zhiliaoapp.musically/com.zhiliaoapp.musically.activity.SplashActivity}" drawable="tiktok" name="TikTok" />
   <item component="ComponentInfo{com.zhiliaoapp.musically/com.zhiliaoapp.musically.MainActivity}" drawable="tiktok" name="TikTok" />
+  <item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="tiktok" name="TikTok Lite" />
+  <item component="ComponentInfo{com.zhiliaoapp.musically.go/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok Lite" />
+  <item component="ComponentInfo{com.tiktok.lite.go/com.ss.android.ugc.aweme.main.homepage.MainActivity}" drawable="tiktok" name="TikTok Lite" />
+  <item component="ComponentInfo{com.zhiliaoapp.musically.go/com.zhiliaoapp.musically.go.mini.MainActivity}" drawable="tiktok" name="TikTok Lite" />
+  <item component="ComponentInfo{com.ss.android.ugc.tiktok.livewallpaper/com.ss.android.ugc.aweme.livewallpaper.ui.MainActivity}" drawable="tiktok" name="TikTok Live Wallpaper" />
+  <item component="ComponentInfo{com.zhiliao.musically.livewallpaper/com.ss.android.ugc.aweme.livewallpaper.ui.MainActivity}" drawable="tiktok" name="TikTok Live Wallpaper" />
+  <item component="ComponentInfo{com.ss.android.tt.creator/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok" name="TikTok Studio" />
   <item component="ComponentInfo{digital.rbi.timhortons/digital.rbi.timhortons.MainActivity}" drawable="tim_hortons" name="Tim Hortons" />
   <item component="ComponentInfo{com.microsoft.psatime/md5be7421b330c97a13969acfa959ab0eb7.MainActivity}" drawable="generic_clock" name="Time Capture Concept App A1" />
   <item component="ComponentInfo{com.amandafarrell.timeprogressbars/com.amandafarrell.timeprogressbars.MainActivity}" drawable="generic_clock" name="Time Progress Bars" />
@@ -5164,6 +5183,7 @@
   <item component="ComponentInfo{com.traveloka.android/com.traveloka.android.appentry.splash.SplashActivity}" drawable="traveloka" name="Traveloka" />
   <item component="ComponentInfo{com.lynxspa.prontotreno/com.ibm.android.states.main.MainActivity}" drawable="trenitalia" name="Trenitalia" />
   <item component="ComponentInfo{com.lynxspa.prontotreno/com.ibm.android.states.startup.StartUpActivity}" drawable="trenitalia" name="Trenitalia" />
+  <item component="ComponentInfo{com.lynxspa.prontotreno/com.ibm.android._redesign.HostActivity}" drawable="trenitalia" name="Trenitalia" />
   <item component="ComponentInfo{com.tresorit.mobile/com.tresorit.android.activity.RootTresoritActivity}" drawable="tresorit" name="Tresorit" />
   <item component="ComponentInfo{ai.holymolly.tripo3daimodel/com.godot.game.GodotApp}" drawable="tripo_ai" name="Tripo AI" />
   <item component="ComponentInfo{com.truecaller/com.truecaller.messaging.MessagesActivity}" drawable="generic_dialer" name="Truecaller" />
@@ -5236,6 +5256,7 @@
   <item component="ComponentInfo{com.uniqlo.usa.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.DummyLauncherActivity}" drawable="uniqlo" name="UNIQLO" />
   <item component="ComponentInfo{com.uniqlo.kr.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.DummyLauncherActivity}" drawable="uniqlo" name="UNIQLO" />
   <item component="ComponentInfo{com.kratosle.unlim/com.kratosle.unlim.scenes.login.LoginScene}" drawable="unlim_cloud" name="Unlim Cloud" />
+  <item component="ComponentInfo{com.kratosle.unlim/com.kratosle.unlim.scenes.main.MainActivity}" drawable="unlim_cloud" name="Unlim Cloud" />
   <item component="ComponentInfo{com.matteljv.uno/com.netease.uno.CustomOverrideActivity}" drawable="uno" name="UNO" />
   <item component="ComponentInfo{uno.platform.calculator/crc6426eaf249022d8948.MainActivity}" drawable="generic_calculator_plus_minus_multi_equal" name="Uno Calculator" />
   <item component="ComponentInfo{com.updateme/com.updateme.MainActivity}" drawable="update_me" name="Update Me" />
@@ -5588,18 +5609,25 @@
   <item component="ComponentInfo{com.yousician.yousician/com.yousician.yousiciannative.PlayerActivity}" drawable="yousician" name="Yousician" />
   <item component="ComponentInfo{com.yousician.yousician/com.yousician.yousiciannative.YousicianActivity}" drawable="yousician" name="Yousician" />
   <item component="ComponentInfo{com.yousician.yousician/com.yousician.YousicianPlayerActivity}" drawable="yousician" name="Yousician" />
-  <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_1}" drawable="youtube" name="Youtube" />
-  <item component="ComponentInfo{app.morphe.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.google.android.youtube/.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="youtube" name="YouTube" />
-  <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube" name="Youtube" />
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomePage}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1}" drawable="youtube" name="YouTube" />
-  <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_2}" drawable="morphe" name="YouTube Morphe" />
+  <item component="ComponentInfo{com.gbox.com.google.android.youtube/com.gbox.app.LaunchAppActivity}" drawable="youtube" name="Youtube" />
+  <item component="ComponentInfo{anddea.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.rvx.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.rvx.android.youtube/com.rvx.android.youtube.revanced_original_1}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_1}" drawable="youtube" name="Youtube" />
+  <item component="ComponentInfo{app.morphe.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.rve.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity}" drawable="youtube" name="YouTube for Android TV" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_2}" drawable="youtube" name="YouTube Morphe" />
+  <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_2}" drawable="morphe" name="YouTube Morphe" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_light_2}" drawable="morphe" name="YouTube Morphe" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_5}" drawable="morphe" name="YouTube Morphe" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_4}" drawable="youtube" name="YouTube Morphe" />
@@ -5610,6 +5638,13 @@
   <item component="ComponentInfo{app.morphe.android.apps.youtube.music/app.morphe.android.apps.youtube.music.morphe_black_3}" drawable="morphe" name="YouTube Music Morphe" />
   <item component="ComponentInfo{app.revanced.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="YouTube Music Revanced" />
   <item component="ComponentInfo{app.rvx.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="youtube_music" name="YouTube Music ReVanced Extended" />
+  <item component="ComponentInfo{com.google.android.youtube.pro/com.google.android.youtube.pro.MainActivity}" drawable="youtube" name="Youtube Pro" />
+  <item component="ComponentInfo{com.gold.android.youtube/com.google.android.youtube.app.honeycomb.Shell}" drawable="youtube" name="YouTube Pro" />
+  <item component="ComponentInfo{com.gold.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube Pro" />
+  <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_original_1}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_original_2}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_original_3}" drawable="youtube" name="YouTube ReVanced" />
+  <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_original_4}" drawable="youtube" name="YouTube ReVanced" />
   <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_minimal_1}" drawable="youtube_revanced" name="YouTube ReVanced" />
   <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_minimal_2}" drawable="youtube_revanced" name="YouTube ReVanced" />
   <item component="ComponentInfo{app.revanced.android.youtube/app.revanced.android.youtube.revanced_minimal_3}" drawable="youtube_revanced" name="YouTube ReVanced" />
@@ -5633,6 +5668,7 @@
   <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.activities.MainActivity}" drawable="youtube_tv" name="YouTube TV" />
   <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.features.main.MainActivity}" drawable="youtube_tv" name="YouTube TV" />
   <item component="ComponentInfo{com.google.android.apps.youtube.unplugged/com.google.android.apps.youtube.unplugged.startup.activity.SplashActivity}" drawable="youtube_tv" name="YouTube TV" />
+  <item component="ComponentInfo{com.android.youtube.valure/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube Valure" />
   <item component="ComponentInfo{com.sirma.mobile.bible.android/youversion.bible.app.MainActivity}" drawable="generic_bible" name="YouVersion Bible" />
   <item component="ComponentInfo{com.sirma.mobile.bible.android/com.youversion.mobile.android.screens.activities.LoadingActivity}" drawable="generic_bible" name="YouVersion Bible" />
   <item component="ComponentInfo{com.sirma.mobile.bible.android/com.youversion.mobile.android.screens.LoadingActivity}" drawable="generic_bible" name="YouVersion Bible" />
