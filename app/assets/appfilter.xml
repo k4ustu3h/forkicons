@@ -1414,6 +1414,8 @@
   <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay}" drawable="ebay" name="eBay" />
   <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay$}" drawable="ebay" name="eBay" />
   <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}" drawable="ebay" name="eBay" />
+  <item component="ComponentInfo{iad1tya.echo.music/iad1tya.echo.music.MainActivityAlias}" drawable="echo_music" name="Echo Music" />
+  <item component="ComponentInfo{iad1tya.echo.music/iad1tya.echo.music.MainActivity}" drawable="echo_music" name="Echo Music" />
   <item component="ComponentInfo{com.instagram.basel/com.instagram.basel.mainactivity.BaselActivity}" drawable="edits" name="Edits" />
   <item component="ComponentInfo{jp.konami.pesam/com.epicgames.ue4.SplashActivity}" drawable="efootball" name="eFootball" />
   <item component="ComponentInfo{com.auxbrain.egginc/com.auxbrain.egginc.EggIncActivity}" drawable="egg_inc" name="Egg, Inc." />
@@ -1790,6 +1792,26 @@
   <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Red}" drawable="generic_keyboard" name="Fossify Keyboard" />
   <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Teal}" drawable="generic_keyboard" name="Fossify Keyboard" />
   <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Yellow}" drawable="generic_keyboard" name="Fossify Keyboard" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Amber}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue_grey}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Brown}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Cyan}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Deep_orange}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Deep_purple}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Green}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Grey_black}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Indigo}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Light_blue}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Light_green}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Lime}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Orange}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Pink}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Purple}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Red}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Teal}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Yellow}" drawable="fossify_messages" name="Fossify Messages" />
   <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow}" drawable="fossify_notes" name="Fossify Notes" />
   <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal}" drawable="fossify_notes" name="Fossify Notes" />
   <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple}" drawable="fossify_notes" name="Fossify Notes" />
