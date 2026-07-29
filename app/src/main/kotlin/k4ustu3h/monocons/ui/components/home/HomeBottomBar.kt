@@ -44,6 +44,7 @@ import k4ustu3h.monocons.ui.components.core.SimpleListRow
 import k4ustu3h.monocons.ui.theme.icon.About
 import k4ustu3h.monocons.ui.theme.icon.Github
 import k4ustu3h.monocons.ui.theme.icon.GithubSponsors
+import k4ustu3h.monocons.ui.theme.icon.IconDashboard
 import k4ustu3h.monocons.ui.theme.icon.IconRequest
 import k4ustu3h.monocons.ui.theme.icon.Monocons
 import k4ustu3h.monocons.ui.theme.icon.More
@@ -108,6 +109,11 @@ fun BoxScope.HomeBottomBar(
             icon = Monocons.GithubSponsors,
             label = stringResource(R.string.github_sponsors),
             onClick = { context.visitUrl(Constants.GITHUB_SPONSORS) },
+        ),
+        ToolbarItem(
+            icon = Monocons.IconDashboard,
+            label = stringResource(R.string.icon_request_dashboard),
+            onClick = { context.visitUrl(Constants.ICON_REQUEST_DASHBOARD) },
         ),
     ).filter {
         showNewIcons || it.icon != Monocons.NewIcons
