@@ -55,7 +55,11 @@
   <item component="ComponentInfo{com.deluxeware.earthmoon.wp/app.RootActivity}" drawable="generic_earth" name="3D Earth &amp; Real Moon" />
   <item component="ComponentInfo{ru.fourpda.client/ru.fourpda.client.MainActivity}" drawable="fourpda" name="4PDA" />
   <item component="ComponentInfo{ru.fourpda.client/ru.fourpda.MainActivity}" drawable="fourpda" name="4PDA" />
-  <item component="ComponentInfo{asuk.com.android.app/net.appsynth.allmember.main.presentation.splash.SplashActivity}" drawable="seven_eleven" name="7-Eleven" />
+  <item component="ComponentInfo{jp.co.sej.app/jp.co.sej.app.activity.SplashActivity}" drawable="_7_eleven" name="7-Eleven ~~ セブン‐イレブン" />
+  <item component="ComponentInfo{asuk.com.android.app/net.appsynth.allmember.main.presentation.splash.SplashActivity}" drawable="_7_eleven" name="7-Eleven ~~ セブン‐イレブン" />
+  <item component="ComponentInfo{au.com.fuel7eleven/au.com.sevenelevenapp.ui.DeepLinkActivity}" drawable="_7_eleven" name="7-Eleven ~~ セブン‐イレブン" />
+  <item component="ComponentInfo{com.sei.android/com.sei.android.controllers.activity.SplashActivity}" drawable="_7_eleven" name="7-Eleven: Rewards" />
+  <item component="ComponentInfo{com.sei.android/com.sei.android.MainActivity}" drawable="_7_eleven" name="7-Eleven: Rewards" />
   <item component="ComponentInfo{com.miniclip.eightballpool/com.miniclip.eightballpool.EightBallPoolActivity}" drawable="eight_ball_pool" name="8 Ball Pool" />
   <item component="ComponentInfo{nl.negentwee/nl.negentwee.activities.StartupActivity}" drawable="negentwee" name="9292" />
   <item component="ComponentInfo{nl.negentwee/nl.negentwee.ui.StartActivity}" drawable="negentwee" name="9292" />
@@ -681,12 +685,8 @@
   <item component="ComponentInfo{com.motorola.odm.camera3/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.android.MGC_9_2_113/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{org.derpfest.flash/org.lineageos.aperture.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.samsung.android.scan3d/com.vibhorsrv.shamim.cameraids.MainActivity}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.samsung.android.scan3d/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.MirrorCameraActivity}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.ontim.camera2/com.ontim.camera2.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.mediatek.hz.camera/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.samsung.agc.gcam84/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.hihonor.camera/com.hihonor.camera}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.google.android.apps.cameraslite/com.google.android.apps.cameralite.capture.CaptureActivity}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.android.MGC_8_8_224/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
@@ -724,9 +724,6 @@
   <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.VideoCamera}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.google.android.GoogleCamera3/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.google.android.GoogleCameraLMC88/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.samsung.agc.gcam88/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.samsung.agc.gcam90/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{com.samsung.agc.gcam91/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.agc.gcam88/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.agc.gcam90/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.agc.gcam91/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
@@ -801,7 +798,6 @@
   <item component="ComponentInfo{com.sonyericsson.android.camera/com.sonyericsson.android.camera.CameraActivity}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.tcl.camera/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.transsion.camera/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
-  <item component="ComponentInfo{foundation.e.camera/net.sourceforge.opencamera.MainActivity}" drawable="open_camera" name="Camera" />
   <item component="ComponentInfo{org.codeaurora.qcamera3/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraActivity}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
@@ -821,6 +817,12 @@
   <item component="ComponentInfo{com.android.MGC_9_4_103/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.android.MGC_9_6_080/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
   <item component="ComponentInfo{com.fps.camera/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{com.evenwell.camera2/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{com.android.MGC_3_2_045/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{com.simplemobiletools.alabama.camera.manager.sam5/com.simplemobiletools.camera.activities.SplashActivity.Orange}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{com.vayunmathur.camera/com.vayunmathur.camera.MainActivity}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{com.motorola.camera3/com.motorola.camera.MirrorCameraActivity}" drawable="generic_camera" name="Camera" />
+  <item component="ComponentInfo{foundation.e.camera/net.sourceforge.opencamera.MainActivity}" drawable="open_camera" name="Camera" />
   <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.CameraActivity}" drawable="nokia_camera" name="Camera" />
   <item component="ComponentInfo{com.hmdglobal.app.camera/com.hmdglobal.app.camera.GuideActivity}" drawable="nokia_camera" name="Camera" />
   <item component="ComponentInfo{com.hmdglobal.camera2/com.android.camera.CameraLauncher}" drawable="nokia_camera" name="Camera" />
@@ -838,6 +840,7 @@
   <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="samsung_camera" name="Camera" />
   <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera VirtualScreenParam=Params{mDisplayId=-1, null, mFlags=0x00000000)}}" drawable="samsung_camera" name="Camera" />
   <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="samsung_camera" name="Camera" />
+  <item component="ComponentInfo{com.appmosaic.camerawatch/com.appmosaic.camerawatch.cameraxbasic.MainActivity}" drawable="generic_camera" name="CameraWatch" />
   <item component="ComponentInfo{dev.zwander.cameraxinfo/dev.zwander.cameraxinfo.MainActivity}" drawable="camerax_info" name="CameraX Info" />
   <item component="ComponentInfo{com.canaisstlonline/com.canaisstlonline.MainActivity}" drawable="generic_player" name="Canais STL Fut de TV Online" />
   <item component="ComponentInfo{com.king.candycrushsaga/com.king.candycrushsaga.CandyCrushSagaActivity}" drawable="candy_crush_saga" name="Candy Crush Saga" />
@@ -1417,6 +1420,8 @@
   <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay}" drawable="ebay" name="eBay" />
   <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.eBay$}" drawable="ebay" name="eBay" />
   <item component="ComponentInfo{com.ebay.mobile/com.ebay.mobile.activities.MainActivity}" drawable="ebay" name="eBay" />
+  <item component="ComponentInfo{iad1tya.echo.music/iad1tya.echo.music.MainActivityStatic}" drawable="echo_music" name="Echo Music" />
+  <item component="ComponentInfo{iad1tya.echo.music/iad1tya.echo.music.MainActivityLegacy}" drawable="echo_music" name="Echo Music" />
   <item component="ComponentInfo{iad1tya.echo.music/iad1tya.echo.music.MainActivityAlias}" drawable="echo_music" name="Echo Music" />
   <item component="ComponentInfo{iad1tya.echo.music/iad1tya.echo.music.MainActivity}" drawable="echo_music" name="Echo Music" />
   <item component="ComponentInfo{com.instagram.basel/com.instagram.basel.mainactivity.BaselActivity}" drawable="edits" name="Edits" />
@@ -1448,6 +1453,7 @@
   <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.MainActivity}" drawable="epic_games" name="Epic Games" />
   <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.activities.main.MainActivity}" drawable="epic_games" name="Epic Games" />
   <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.ui.MainActivity}" drawable="epic_games" name="Epic Games" />
+  <item component="ComponentInfo{com.epicgames.ega/com.epicgames.portal.ui.MainActivity}" drawable="epic_games" name="Epic Games" />
   <item component="ComponentInfo{epson.print/epson.print.WellcomeScreenActivity}" drawable="generic_printer" name="Epson iPrint" />
   <item component="ComponentInfo{com.sameerasw.essentials/com.sameerasw.essentials.MainActivity}" drawable="essentials" name="Essentials" />
   <item component="ComponentInfo{com.sameerasw.essentials/com.sameerasw.essentials.AppFreezingLauncher}" drawable="essentials_app_freezing" name="Essentials App Freezing" />
@@ -1640,6 +1646,7 @@
   <item component="ComponentInfo{com.motorola.fmplayer/com.motorola.fmplayer.FMPlayer}" drawable="generic_fm_radio" name="FM Radio" />
   <item component="ComponentInfo{com.quicinc.fmradio/com.quicinc.fmradio.FMRadio}" drawable="generic_fm_radio" name="FM Radio" />
   <item component="ComponentInfo{com.ape.fmradio/com.ape.fmradio.FmMainActivity}" drawable="generic_fm_radio" name="FM Radio" />
+  <item component="ComponentInfo{com.foap.android/com.foap.android.modules.start.activities.StartActivity}" drawable="generic_camera" name="Foap" />
   <item component="ComponentInfo{com.superelement.pomodoro/com.superelement.project.LauncherActivity}" drawable="focus_todo" name="Focus To-Do" />
   <item component="ComponentInfo{com.superelement.pomodoro/com.superelement.project.ProjectActivity}" drawable="focus_todo" name="Focus To-Do" />
   <item component="ComponentInfo{money.fold.marble/money.fold.marble.ui.screen.splash.SplashActivity_anarchy}" drawable="fold" name="Fold" />
@@ -2002,9 +2009,15 @@
   <item component="ComponentInfo{com.google.android.inputmethod.latin.adobo/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="Gboard" />
   <item component="ComponentInfo{com.google.android.inputmethod.morphe/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="Gboard Morphe" />
   <item component="ComponentInfo{com.google.android.inputmethod.latis/com.google.android.libraries.inputmethod.launcher.LauncherActivity}" drawable="gboard" name="GboardMd" />
-  <item component="ComponentInfo{com.samsung.agc.gcam92/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Gcam" />
-  <item component="ComponentInfo{arn.android.gcam/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Gcam" />
-  <item component="ComponentInfo{com.agc.gcam85/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Gcam" />
+  <item component="ComponentInfo{com.samsung.android.scan3d/com.vibhorsrv.shamim.cameraids.MainActivity}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.samsung.agc.gcam84/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.samsung.agc.gcam88/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.samsung.agc.gcam90/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.samsung.agc.gcam91/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.samsung.agc.gcam92/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{arn.android.gcam/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.agc.gcam85/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam" />
+  <item component="ComponentInfo{com.android.MGC_9_7_047/com.android.camera.CameraLauncher}" drawable="generic_camera" name="GCam MGC" />
   <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.BackToSchool2023}" drawable="gcash" name="GCash" />
   <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.Default}" drawable="gcash" name="GCash" />
   <item component="ComponentInfo{com.globe.gcash.android/com.globe.gcash.android.GCashBirthday}" drawable="gcash" name="GCash" />
@@ -2880,6 +2893,10 @@
   <item component="ComponentInfo{com.zombodroid.MemeGenerator/com.zombodroid.memegen6source.SplashActivity}" drawable="meme_generator" name="Meme Generator" />
   <item component="ComponentInfo{com.zombodroid.MemeGeneratorFullGplay/com.zombodroid.memegen6source.SplashActivity}" drawable="meme_generator_pro" name="Meme Generator Pro" />
   <item component="ComponentInfo{com.unknownprojectx.pi/com.unity3d.player.UnityPlayerActivity}" drawable="generic_pi" name="Memorize Pi Digits" />
+  <item component="ComponentInfo{com.mercadolibre/com.mercadolibre.splash.SplashActivity}" drawable="mercado_pago" name="Mercado Libre" />
+  <item component="ComponentInfo{com.mercadolibre/com.mercadolibre.activities.SplashActivity}" drawable="mercado_pago" name="Mercado Libre" />
+  <item component="ComponentInfo{com.mercadolibre/com.mercadolibre.SplashActivityAliasDefault}" drawable="mercado_pago" name="Mercado Libre" />
+  <item component="ComponentInfo{com.mercadolibre/com.mercadolibre.SplashActivityAliasApril}" drawable="mercado_pago" name="Mercado Libre" />
   <item component="ComponentInfo{com.mercadopago.wallet/com.mercadopago.wallet.splash.SplashActivity}" drawable="mercado_pago" name="Mercado Pago" />
   <item component="ComponentInfo{com.mercadopago.wallet/com.mercadopago.wallet.splashscreen.SplashScreenActivity}" drawable="mercado_pago" name="Mercado Pago" />
   <item component="ComponentInfo{com.mercadopago.wallet/com.mercadopago.wallet.AccountSummaryActivity}" drawable="mercado_pago" name="Mercado Pago" />
@@ -3211,6 +3228,7 @@
   <item component="ComponentInfo{it.vodafone.my190/it.vodafone.my190.presentation.deeplinking.DeepLinkActivity}" drawable="vodafone" name="My Vodafone ~~ MeinVodafone" />
   <item component="ComponentInfo{it.vodafone.my190/it.vodafone.my190.presentation.main.MainActivity}" drawable="vodafone" name="My Vodafone ~~ MeinVodafone" />
   <item component="ComponentInfo{it.vodafone.my190/it.vodafone.my190.ui.activity.MainActivity}" drawable="vodafone" name="My Vodafone ~~ MeinVodafone" />
+  <item component="ComponentInfo{my.com.sevenelevenmy.app/my.com.seveneleven.presentation.activity.SplashActivity}" drawable="_7_eleven" name="My7E" />
   <item component="ComponentInfo{ca.bell.selfserve.mybellmobile/ca.bell.selfserve.mybellmobile.ui.splash.view.SplashActivity}" drawable="mybell" name="MyBell" />
   <item component="ComponentInfo{ua.mybible/ua.mybible.activity.SplashScreen}" drawable="generic_bible" name="MyBible" />
   <item component="ComponentInfo{ua.mybible/ua.mybible.activity.SplashScreenCross}" drawable="generic_bible" name="MyBible" />
@@ -3297,6 +3315,7 @@
   <item component="ComponentInfo{com.wakdev.nfctools.pro/com.wakdev.nfctools.pro.views.MainActivityPro}" drawable="nfc_tools_pro" name="NFC Tools Pro" />
   <item component="ComponentInfo{com.wakdev.apps.nfctools.se/com.wakdev.apps.nfctools.se.MainActivitySE}" drawable="nfc_tools" name="NFC Tools SE" />
   <item component="ComponentInfo{one.plaza.nightwaveplaza/one.plaza.nightwaveplaza.MainActivity}" drawable="nightwave_plaza" name="Nightwave Plaza" />
+  <item component="ComponentInfo{com.shamim.skypatch/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Nocture" />
   <item component="ComponentInfo{com.shallwaystudio.nodevideo/com.unity3d.player.UnityPlayerActivity}" drawable="nodevideo" name="Node Video" />
   <item component="ComponentInfo{com.nokoprint/com.nokoprint.ActivityHome}" drawable="generic_printer" name="Noko Print" />
   <item component="ComponentInfo{com.omgodse.notally/com.omgodse.notally.activities.MainActivity}" drawable="notally" name="Notally" />
@@ -3492,6 +3511,7 @@
   <item component="ComponentInfo{com.oneplus.note/com.nearme.note.main.MainActivity}" drawable="generic_notes" name="OnePlus Notes" />
   <item component="ComponentInfo{com.oneplus.note/com.oneplus.note.ui.MainActivity}" drawable="generic_notes" name="OnePlus Notes" />
   <item component="ComponentInfo{com.oneplus.note/.ui.MainActivity}" drawable="generic_notes" name="OnePlus Notes" />
+  <item component="ComponentInfo{com.oplus.phonemanager/com.oplus.phonemanager.FakeActivity}" drawable="phone_manager" name="OnePlus Phone Manager" />
   <item component="ComponentInfo{com.oplus.phoneinfosetting/com.oplus.phoneinfosetting.MainActivity}" drawable="generic_shell" name="OnePlus RadioInfo Tool" />
   <item component="ComponentInfo{com.oneplus.soundrecorder/oplus.multimedia.soundrecorder.filebrowser.BrowseFile}" drawable="generic_voice_recorder_waves" name="OnePlus Recorder" />
   <item component="ComponentInfo{com.oneplus.soundrecorder/com.soundrecorder.browsefile.BrowseFile}" drawable="generic_voice_recorder_waves" name="OnePlus Recorder" />
@@ -3590,6 +3610,7 @@
   <item component="ComponentInfo{com.trustedapp.pdfreaderpdfviewer/com.trustedapp.pdfreader.view.splash.SplashActivity}" drawable="generic_pdf_file" name="PDF Reader" />
   <item component="ComponentInfo{com.utilitiesandtool.pdfreader/com.pdfreaderdreamw.pdfreader.view.activity.FirstActivity}" drawable="generic_pdf_file" name="PDF Reader" />
   <item component="ComponentInfo{com.document.reader.pdfreader.pdf/com.document.reader.pdfreader.pdf.SplashScreenActivity}" drawable="generic_pdf_file" name="PDF Reader &amp; PDF Viewer" />
+  <item component="ComponentInfo{com.kaikaisoft.pdfscanner/com.kaikaisoft.pdfscanner.activity.MainActivity}" drawable="generic_camera" name="PDF Scanner" />
   <item component="ComponentInfo{com.camscanner.documentscanner.pdfscanner.textscanner.photos.scanner/com.hazel.cam.scanner.free.activity.splash.SplashActivity}" drawable="generic_scanner" name="PDF Scanner" />
   <item component="ComponentInfo{com.xsdev.pdfreader.pdfeditor.pdf.document/com.rpdev.docreadermain.SplashActivity}" drawable="generic_pdf_file" name="PDF text editor" />
   <item component="ComponentInfo{com.ilite.pdfutility.lite/com.ilite.pdfutility.ui.SplashActivity}" drawable="generic_pdf_file" name="PDF Utility" />
@@ -4220,6 +4241,7 @@
   <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 }}" drawable="samsung_calculator" name="Samsung Calculator" />
   <item component="ComponentInfo{com.sec.android.app.popupcalculator/.Calculator}" drawable="samsung_calculator" name="Samsung Calculator" />
   <item component="ComponentInfo{com.sec.android.app.popupcalculator/com.sec.android.app.popupcalculator.Calculator}" drawable="samsung_calculator" name="Samsung Calculator" />
+  <item component="ComponentInfo{com.samsung.android.scan3d/com.android.camera.CameraLauncher}" drawable="samsung_camera" name="Samsung Camera" />
   <item component="ComponentInfo{com.samsung.android.scloud/com.samsung.android.scloud.app.ui.splash.launcher}" drawable="samsung_cloud" name="Samsung Cloud" />
   <item component="ComponentInfo{com.samsung.android.scloud/com.samsung.android.scloud.app.ui.splash.SplashActivity}" drawable="samsung_cloud" name="Samsung Cloud" />
   <item component="ComponentInfo{com.samsung.android.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="samsung_contacts" name="Samsung Contacts" />
