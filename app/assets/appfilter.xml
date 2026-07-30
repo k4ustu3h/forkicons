@@ -90,6 +90,7 @@
   <item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.SplashActivity}" drawable="adguard" name="AdGuard" />
   <item component="ComponentInfo{com.davidshewitt.admincontrol/com.davidshewitt.admincontrol.ControlYourDeviceActivity}" drawable="generic_lock" name="AdminControl" />
   <item component="ComponentInfo{io.stark.admob/io.stark.admob.ui.MainActivity}" drawable="admobile" name="AdMobile" />
+  <item component="ComponentInfo{com.eyalm.adns/com.eyalm.adns.MainActivity}" drawable="adns" name="ADNS" />
   <item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="adobe" name="Adobe Acrobat Reader" />
   <item component="ComponentInfo{com.adobe.spark.post/com.adobe.express.app.view.RoutingActivity}" drawable="adobe_express" name="Adobe Express" />
   <item component="ComponentInfo{com.adobe.spark.post/com.adobe.spark.view.main.SplashActivity}" drawable="adobe_express" name="Adobe Express" />
@@ -1815,6 +1816,25 @@
   <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Red}" drawable="fossify_messages" name="Fossify Messages" />
   <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Teal}" drawable="fossify_messages" name="Fossify Messages" />
   <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Yellow}" drawable="fossify_messages" name="Fossify Messages" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Yellow}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Teal}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Pink}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Lime}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Light_green}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Light_blue}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Indigo}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Grey_black}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Green}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Deep_purple}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Deep_orange}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Cyan}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Brown}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Blue_grey}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Blue}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Amber}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Orange}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Purple}" drawable="fossify_music_player" name="Fossify Music Player" />
+  <item component="ComponentInfo{org.fossify.musicplayer/org.fossify.musicplayer.activities.SplashActivity.Red}" drawable="fossify_music_player" name="Fossify Music Player" />
   <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Yellow}" drawable="fossify_notes" name="Fossify Notes" />
   <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Teal}" drawable="fossify_notes" name="Fossify Notes" />
   <item component="ComponentInfo{org.fossify.notes/org.fossify.notes.activities.SplashActivity.Purple}" drawable="fossify_notes" name="Fossify Notes" />
@@ -2398,6 +2418,7 @@
   <item component="ComponentInfo{com.instagram.android/com.OM7753.gold.icon1}" drawable="instagram" name="Instagram" />
   <item component="ComponentInfo{com.instagram.lite/com.facebook.lite.MainActivity}" drawable="instagram" name="Instagram" />
   <item component="ComponentInfo{com.instagram.lite/com.instagram.lite.IgLiteActivity}" drawable="instagram" name="Instagram" />
+  <item component="ComponentInfo{an1.Roblox.installer/com.aefyr.sai.ui.activities.MainActivity}" drawable="roblox" name="Installer Roblox" />
   <item component="ComponentInfo{com.instander.android/com.instagram.android.activity.MainTabActivity}" drawable="instagram" name="Instander" />
   <item component="ComponentInfo{com.instander.android/com.instander.android.activity.MainTabActivity}" drawable="instagram" name="Instander" />
   <item component="ComponentInfo{com.zero.wboard/com.zero.wboard.MainActivity}" drawable="generic_keyboard" name="Instant Board" />
@@ -3035,6 +3056,8 @@
   <item component="ComponentInfo{com.mixplorer/com.mixplorer.activities.TextEditorActivity}" drawable="mixplorer" name="MiXplorer" />
   <item component="ComponentInfo{foundation.e.pdfviewer/com.gsnathan.pdfviewer.LauncherAlias}" drawable="generic_pdf_square" name="MJ PDF" />
   <item component="ComponentInfo{foundation.e.pdfviewer/com.gitlab.mudlej.MjPdfReader.ui.main.MainActivity}" drawable="generic_pdf_square" name="MJ PDF" />
+  <item component="ComponentInfo{com.gitlab.mudlej.MjPdfReader/com.gitlab.mudlej.MjPdfReader.ui.main.MainActivity}" drawable="mj_pdf" name="MJ PDF" />
+  <item component="ComponentInfo{com.gitlab.mudlej.MjPdfReader/com.gitlab.mudlej.MjPdfReader.LauncherAlias}" drawable="mj_pdf" name="MJ PDF" />
   <item component="ComponentInfo{com.javiersantos.mlmanager/com.javiersantos.mlmanager.activities.MainActivity}" drawable="ml_manager" name="ML Manager" />
   <item component="ComponentInfo{com.javiersantos.mlmanagerpro/com.javiersantos.mlmanager.activities.MainActivity}" drawable="ml_manager" name="ML Manager Pro" />
   <item component="ComponentInfo{com.supercell.moco/com.supercell.moco.GameApp}" drawable="moco" name="mo.co" />
@@ -3225,6 +3248,7 @@
   <item component="ComponentInfo{pl.stokrotka.app/pl.stokrotka.app.MainActivity}" drawable="nasza_stokrotka" name="Nasza Stokrotka" />
   <item component="ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}" drawable="native_detector" name="Native Detector" />
   <item component="ComponentInfo{org.codeberg.genericpers0n.soundrecorderplus/org.codeberg.genericpers0n.soundrecorderplus.activities.MainActivity}" drawable="generic_microphone" name="Nauhuri" />
+  <item component="ComponentInfo{com.naviapp/com.naviapp.home.compose.activity.HomePageActivity}" drawable="navi" name="Navi" />
   <item component="ComponentInfo{com.narayana.nconnect/com.narayana.nconnect.activity.SplashActivity}" drawable="nconnect" name="nConnect" />
   <item component="ComponentInfo{com.nspira.nconnect/com.nspira.nconnect.MainActivity}" drawable="nconnect_parent" name="nConnect Parent" />
   <item component="ComponentInfo{genesis.nebula/genesis.nebula.module.activity.MainActivity}" drawable="nebula_horoscope" name="Nebula: Horoscope and Astrology" />
@@ -3330,6 +3354,7 @@
   <item component="ComponentInfo{com.nu.production/br.com.nubank.app.valhalla.ValhallaSplashScreenActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nu.production/br.com.nubank.app.LegacySplashActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nu.production/br.com.nubank.app.LegacyUvSplashActivity}" drawable="nubank" name="Nubank" />
+  <item component="ComponentInfo{app.myzel394.numberhub/app.myzel394.numberhub.MainActivity}" drawable="unitto" name="NumberHub" />
   <item component="ComponentInfo{com.nx.video.player/com.nx.video.player.ui.SplashActivity}" drawable="generic_player" name="NX Player" />
   <item component="ComponentInfo{com.fsn.nykaa/com.fsn.nykaa.SplashScreenActivity}" drawable="nykaa" name="Nykaa" />
   <item component="ComponentInfo{com.fsn.nykaa/com.fsn.nykaa.default}" drawable="nykaa" name="Nykaa" />
@@ -3964,6 +3989,7 @@
   <item component="ComponentInfo{com.puma.ecom.app/com.puma.MainActivity}" drawable="puma" name="Puma" />
   <item component="ComponentInfo{pure.lite.browser/com.vs.browser.MainActivity}" drawable="pure_web_browser" name="Pure Web Browser" />
   <item component="ComponentInfo{com.pushbullet.android/com.pushbullet.android.ui.LaunchActivity}" drawable="pushbullet" name="Pushbullet" />
+  <item component="ComponentInfo{org.prauga.messages/org.prauga.messages.feature.main.MainActivity}" drawable="pvot_messages" name="PVOT Messages" />
   <item component="ComponentInfo{com.alif.ide.python/com.alif.app.AppActivity}" drawable="generic_braces" name="PyCode" />
   <item component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.feature.main.MainActivity}" drawable="qksms" name="QKSMS" />
   <item component="ComponentInfo{com.moez.QKSMS/com.moez.QKSMS.ui.MainActivity-Black}" drawable="qksms" name="QKSMS" />
@@ -4158,6 +4184,8 @@
   <item component="ComponentInfo{com.goodwy.dialer/com.goodwy.dialer.activities.SplashActivity.Original}" drawable="generic_dialer" name="Right Dialer" />
   <item component="ComponentInfo{com.goodwy.filemanager/com.goodwy.filemanager.activities.SplashActivity.Original}" drawable="generic_files" name="Right Files" />
   <item component="ComponentInfo{com.goodwy.filemanager/com.goodwy.filemanager.activities.SplashActivity.Orange}" drawable="generic_files" name="Right Files" />
+  <item component="ComponentInfo{com.goodwy.smsmessenger/com.goodwy.smsmessenger.activities.SplashActivity.Orange}" drawable="right_messages" name="Right Messages" />
+  <item component="ComponentInfo{com.goodwy.smsmessenger/com.goodwy.smsmessenger.activities.SplashActivity.Original}" drawable="right_messages" name="Right Messages" />
   <item component="ComponentInfo{com.ideopay.user/com.ideopay.user.SplashScreenActivity}" drawable="ring" name="Ring" />
   <item component="ComponentInfo{ringtonemaker.musiccutter.customringtones.freeringtonemaker/app.better.ringtone.activity.SplashActivity}" drawable="generic_audio_editor" name="Ringtone Maker" />
   <item component="ComponentInfo{com.riotgames.mobile.leagueconnect/com.riotgames.mobile.leagueconnect.ui.MainActivity}" drawable="riot_games" name="Riot Mobile" />
@@ -4165,6 +4193,11 @@
   <item component="ComponentInfo{com.riotgames.mobile.leagueconnect/com.riotgames.mobile.leagueconnect.ui.SplashActivityom.riotgames.mobile.leagueconnect}" drawable="riot_games" name="Riot Mobile" />
   <item component="ComponentInfo{io.liankong.riskdetector/io.liankong.riskdetector.MainActivity}" drawable="generic_shell" name="Risk Detector" />
   <item component="ComponentInfo{com.my.newproject9/com.my.newproject9.MainActivity}" drawable="generic_shell" name="roblox" />
+  <item component="ComponentInfo{com.roblox.client/com.roblox.client.ActivitySplash}" drawable="roblox" name="Roblox" />
+  <item component="ComponentInfo{com.roblox.client/com.roblox.client.startup.ActivitySplash}" drawable="roblox" name="Roblox" />
+  <item component="ComponentInfo{com.roblox.client.samsunggalaxy/com.roblox.client.startup.ActivitySplash}" drawable="roblox" name="Roblox" />
+  <item component="ComponentInfo{com.roblox.client.vnggames/com.roblox.client.startup.ActivitySplash}" drawable="roblox" name="Roblox" />
+  <item component="ComponentInfo{com.roblox.client/com.min.n.MainActivity}" drawable="roblox" name="Roblox" />
   <item component="ComponentInfo{com.roku.remote/com.roku.remote.ui.activities.SplashActivity}" drawable="roku" name="Roku" />
   <item component="ComponentInfo{com.roku.remote/com.roku.remote.ui.WelcomeActivity}" drawable="roku" name="Roku" />
   <item component="ComponentInfo{me.timschneeberger.rootlessjamesdsp/me.timschneeberger.rootlessjamesdsp.activity.MainActivity}" drawable="rootless_james_dsp" name="RootlessJamesDSP" />
@@ -5200,6 +5233,7 @@
   <item component="ComponentInfo{org.transhelp.bykerr/org.transhelp.bykerr.uiRevamp.ui.activities.SplashActivity}" drawable="tummoc" name="Tummoc" />
   <item component="ComponentInfo{com.tuya.smart/com.smart.ThingSplashActivity}" drawable="tuya" name="Tuya Smart" />
   <item component="ComponentInfo{com.tuya.smart/com.smart.TuyaSplashActivity}" drawable="tuya" name="Tuya Smart" />
+  <item component="ComponentInfo{com.internet.tvbrowser/com.internet.tvbrowser.MainActivity}" drawable="tv_browser" name="TV BROWSER" />
   <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.KMainActivity_}" drawable="tv_time" name="TV Time" />
   <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity_}" drawable="tv_time" name="TV Time" />
   <item component="ComponentInfo{com.tozelabs.tvshowtime/com.tozelabs.tvshowtime.activity.MainActivity}" drawable="tv_time" name="TV Time" />
@@ -5255,6 +5289,7 @@
   <item component="ComponentInfo{com.uniqlo.in.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.DummyLauncherActivity}" drawable="uniqlo" name="UNIQLO" />
   <item component="ComponentInfo{com.uniqlo.usa.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.DummyLauncherActivity}" drawable="uniqlo" name="UNIQLO" />
   <item component="ComponentInfo{com.uniqlo.kr.catalogue/com.uniqlo.ja.catalogue.view.mobile.home.DummyLauncherActivity}" drawable="uniqlo" name="UNIQLO" />
+  <item component="ComponentInfo{com.sadellie.unitto/com.sadellie.unitto.MainActivity}" drawable="unitto" name="Unitto" />
   <item component="ComponentInfo{com.kratosle.unlim/com.kratosle.unlim.scenes.login.LoginScene}" drawable="unlim_cloud" name="Unlim Cloud" />
   <item component="ComponentInfo{com.kratosle.unlim/com.kratosle.unlim.scenes.main.MainActivity}" drawable="unlim_cloud" name="Unlim Cloud" />
   <item component="ComponentInfo{com.matteljv.uno/com.netease.uno.CustomOverrideActivity}" drawable="uno" name="UNO" />
