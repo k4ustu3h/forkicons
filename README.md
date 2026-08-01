@@ -44,9 +44,9 @@ Try Monocons on the latest version of Lawnchair. You can enable themed icons by 
 ## Supporting
 
 > [!IMPORTANT]
-> Support us on Lawnchair's Open Collective or its GitHub to help maintain Lawnicons, and in turn Monocons.
+> Sponsor us on GitHub to help maintain Monocons.
 
-[Open Collective](https://opencollective.com/lawnchair) • [GitHub](https://github.com/sponsors/LawnchairLauncher)
+[GitHub Sponsors](https://github.com/sponsors/k4ustu3h)
 
 ## Contributing
 
