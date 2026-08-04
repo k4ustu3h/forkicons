@@ -136,7 +136,7 @@ fun AnnouncementCard(
     AnnouncementCard(
         label = announcement.title,
         description = announcement.description,
-        icon = "${Constants.WEBSITE}/lawnicons/${announcement.icon}.svg",
+        icon = "${Constants.WEBSITE}/icons/${announcement.icon}.svg",
         url = announcement.url,
         modifier = modifier,
         colors = colors,
