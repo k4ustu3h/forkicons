@@ -235,6 +235,9 @@
   <item component="ComponentInfo{com.haibison.apksigner/app.activities.MainActivity}" drawable="settings" name="apk-signer" />
   <item component="ComponentInfo{com.apkmirror.helper.prod/com.apkmirror.presentation.start.StartActivity}" drawable="apkmirror_installer" name="APKMirror Installer" />
   <item component="ComponentInfo{com.apkupdater/com.apkupdater.ui.activity.MainActivity}" drawable="apkupdater" name="APKUpdater" />
+  <item component="ComponentInfo{com.apkupdater/com.apkupdater.activity.MainActivity_}" drawable="apkupdater" name="APKUpdater" />
+  <item component="ComponentInfo{com.apkupdater/com.apkupdater.activity.MainActivity}" drawable="apkupdater" name="APKUpdater" />
+  <item component="ComponentInfo{com.apkupdater.ci/com.apkupdater.ui.activity.MainActivity}" drawable="apkupdater" name="APKUpdater" />
   <item component="ComponentInfo{com.apollo.patientapp/com.apollopatient.MainActivity}" drawable="apollo_247" name="Apollo 247" />
   <item component="ComponentInfo{com.bluckapps.appinfomanager/com.bluckapps.appinfomanager.ui.MainActivity}" drawable="settings" name="App Info Manager" />
   <item component="ComponentInfo{foundation.e.apps/foundation.e.apps.MainActivity}" drawable="app_lounge" name="App Lounge" />
@@ -327,6 +330,7 @@
   <item component="ComponentInfo{com.kakaobrain.bdiscover/com.kakaobrain.bdiscover.MainActivity}" drawable="b_discover" name="B^ DISCOVER" />
   <item component="ComponentInfo{com.handycloset.android.eraser/com.handycloset.android.eraser.MainActivity}" drawable="generic_background_eraser" name="Background Eraser" />
   <item component="ComponentInfo{photoeditor.cutout.backgrounderaser/com.camerasideas.collagemaker.activity.DummyActivity}" drawable="generic_background_eraser" name="Background Eraser" />
+  <item component="ComponentInfo{photoeditor.cutout.backgrounderaser/com.min.n.MainActivity}" drawable="generic_background_eraser" name="Background Eraser" />
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.onboarding.revamp.activity.SecuritySplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.onboarding.revamp.activity.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.ui.activity.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
@@ -1014,6 +1018,7 @@
   <item component="ComponentInfo{com.activision.callofduty.warzone/com.activision.game.MainActivity}" drawable="cod_warzone" name="COD Warzone" />
   <item component="ComponentInfo{com.alif.ide/com.alif.ide.MainActivity}" drawable="generic_braces" name="Code Studio" />
   <item component="ComponentInfo{com.alif.ide/com.alif.app.AppActivity}" drawable="generic_braces" name="Code Studio" />
+  <item component="ComponentInfo{org.chromium.webapk.a13bcbd79270cd125_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity}" drawable="codeberg" name="Codeberg.org" />
   <item component="ComponentInfo{com.ryzac.codecademygo/host.exp.exponent.MainActivity}" drawable="codecademy_go" name="Codecademy Go" />
   <item component="ComponentInfo{com.kokoschka.michael.qrtools/com.kokoschka.michael.qrtools.activities.SplashActivity}" drawable="generic_qr_reader" name="Codora" />
   <item component="ComponentInfo{com.kokoschka.michael.qrtools/com.kokoschka.michael.qrtools.MainActivity}" drawable="generic_qr_reader" name="Codora" />
@@ -1664,6 +1669,7 @@
   <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.SilverIconAlias}" drawable="flipkart" name="Flipkart" />
   <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.BBDIconAlias}" drawable="flipkart" name="Flipkart" />
   <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.GrwmSaleIconAlias}" drawable="flipkart" name="Flipkart" />
+  <item component="ComponentInfo{com.flipkart.android/com.flipkart.android.IdSaleIconAlias}" drawable="flipkart" name="Flipkart" />
   <item component="ComponentInfo{de.flixbus.app/de.flixbus.app.Main}" drawable="flixbus" name="FlixBus" />
   <item component="ComponentInfo{org.iggymedia.periodtracker/org.iggymedia.periodtracker.activities.InitialActivity}" drawable="flo_period" name="Flo" />
   <item component="ComponentInfo{com.dslit.floatingclock/com.dslit.floatingclock.MainActivity}" drawable="generic_clock" name="Floating Clock" />
@@ -2279,11 +2285,16 @@
   <item component="ComponentInfo{com.govee.home/com.govee.home.HomeActivity}" drawable="govee_home" name="Govee Home" />
   <item component="ComponentInfo{org.woheller69.gpscockpit/org.woheller69.gpscockpit.MainActivity}" drawable="gps_cockpit" name="GPS Cockpit" />
   <item component="ComponentInfo{com.gpsmapcamera.geotagginglocationonphoto/com.gpsmapcamera.geotagginglocationonphoto.activity.Splash_Screen}" drawable="gps_map_camera" name="GPS Map Camera" />
-  <item component="ComponentInfo{com.grabtaxi.driver2/com.grab.driver.app.ui.v5.activities.landing.splash.SplashScreen}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.common.alias.VietnamLauncherAlias}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.common.alias.MalaysiaLauncherAlias}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.common.alias.DefaultLauncherAlias}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.Home}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.presentation.newface.NewFace}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.splash.SplashActivity}" drawable="grab" name="Grab" />
   <item component="ComponentInfo{com.grabtaxi.passenger/com.myteksi.passenger.v3.splash.SplashActivity}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.common.alias.RayaLauncherAlias}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.common.alias.IdRamadanLauncherAlias}" drawable="grab" name="Grab" />
+  <item component="ComponentInfo{com.grabtaxi.driver2/com.grab.driver.app.ui.v5.activities.landing.splash.SplashScreen}" drawable="grab" name="Grab Driver" />
   <item component="ComponentInfo{com.anticor.graby/com.anticor.graby.activities.SplashActivity}" drawable="graby_ui_icon_pack" name="Graby UI Icon Pack" />
   <item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.MainActivity}" drawable="gramophone" name="Gramophone" />
   <item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.ui.MainActivity}" drawable="gramophone" name="Gramophone" />
@@ -2495,6 +2506,7 @@
   <item component="ComponentInfo{com.instander.android/com.instander.android.activity.MainTabActivity}" drawable="instagram" name="Instander" />
   <item component="ComponentInfo{com.zero.wboard/com.zero.wboard.MainActivity}" drawable="generic_keyboard" name="Instant Board" />
   <item component="ComponentInfo{com.instantgaming.android/com.instantgaming.android.Activities.WebViewActivity}" drawable="instant_gaming" name="Instant Gaming" />
+  <item component="ComponentInfo{com.instagram.moonshot/com.instagram.moonshot.mainactivity.MoonshotActivity}" drawable="instants" name="Instants" />
   <item component="ComponentInfo{com.instapaper.android/com.instapaper.android.activity.HomeActivity}" drawable="instapaper" name="Instapaper" />
   <item component="ComponentInfo{com.instapaper.android/com.instapaper.android.MainActivity}" drawable="instapaper" name="Instapaper" />
   <item component="ComponentInfo{com.hooyee.downloaderinstag.photo.video.stories.saver.new/com.hooyee.downloaderinstag.ui.main.SplashActivity}" drawable="generic_download_shelf" name="InstSaver" />
@@ -2508,6 +2520,7 @@
   <item component="ComponentInfo{com.pecana.iptvextremepro/com.pecana.iptvextremepro.SplashActivity}" drawable="iptv_extreme_pro" name="IPTV Extreme Pro" />
   <item component="ComponentInfo{com.guidedways.iQuranPro/com.guidedways.iQuran.screens.SplashActivity}" drawable="generic_quran" name="iQuran" />
   <item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.ima.activities.IRCTCConnectActivity}" drawable="irctc" name="IRCTC Rail Connect" />
+  <item component="ComponentInfo{cris.org.in.prs.ima/cris.org.in.prs.ima.MainActivity}" drawable="irctc" name="IRCTC Rail Connect" />
   <item component="ComponentInfo{com.massimobiolcati.irealb/com.massimobiolcati.irealb.main.MainActivity}" drawable="ireal_pro" name="iReal Pro" />
   <item component="ComponentInfo{com.jacksoftw.webcam/com.iriun.webcam.IntroActivity}" drawable="iriun_webcam" name="Iriun Webcam" />
   <item component="ComponentInfo{com.jacksoftw.webcam/com.jacksoftw.webcam.IntroActivity}" drawable="iriun_webcam" name="Iriun Webcam" />
@@ -2581,9 +2594,11 @@
   <item component="ComponentInfo{com.qamar.ide.java/com.alif.app.AppActivity}" drawable="generic_braces" name="JStudio" />
   <item component="ComponentInfo{com.sonelli.juicessh/com.sonelli.juicessh.activities.MainActivity}" drawable="juicessh" name="JuiceSSH" />
   <item component="ComponentInfo{com.jumia.android/com.mobile.splash.SplashScreenActivity}" drawable="jumia" name="JUMIA" />
-  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="k9" name="K-9 Mail" />
-  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageCompose}" drawable="k9" name="K-9 Mail" />
-  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="k9" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MainActivity}" drawable="k_9_mail" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.Accounts}" drawable="k_9_mail" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageCompose}" drawable="k_9_mail" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/com.fsck.k9.activity.MessageList}" drawable="k_9_mail" name="K-9 Mail" />
+  <item component="ComponentInfo{com.fsck.k9/net.thunderbird.app.common.MainActivity}" drawable="k_9_mail" name="K-9 Mail" />
   <item component="ComponentInfo{com.kakao.talk/com.kakao.talk.activity.SplashActivity}" drawable="kakaotalk" name="KakaoTalk" />
   <item component="ComponentInfo{org.sabda.kamus/yuku.kbbiandroid.ac.MainActivity}" drawable="generic_bible" name="Kamus Alkitab" />
   <item component="ComponentInfo{com.kaorin.theme.iconpack/com.kaorin.theme.iconpack.activities.SplashActivity}" drawable="kaorin_icon_pack" name="Kaorin Icon Pack" />
@@ -2815,6 +2830,7 @@
   <item component="ComponentInfo{com.iodkols.onekeylockscreen/com.iodkols.onekeylockscreen.LockScreen}" drawable="generic_power" name="Lock Screen" />
   <item component="ComponentInfo{com.dp.logcatapp/com.dp.logcatapp.activities.SplashActivity}" drawable="logcat_reader" name="Logcat Reader" />
   <item component="ComponentInfo{com.dp.logcatapp/com.dp.logcatapp.activities.MainActivity}" drawable="logcat_reader" name="Logcat Reader" />
+  <item component="ComponentInfo{com.dp.logcatapp/com.dp.logcatapp.ui.MainActivity}" drawable="logcat_reader" name="Logcat Reader" />
   <item component="ComponentInfo{com.longint.lomag.scanner.pay/com.longint.lomag.scanner.MainActivity}" drawable="generic_qr_reader" name="LoMag Data Scanner" />
   <item component="ComponentInfo{loopring.defi.wallet/loopring.defi.wallet.activity.wallet.SplashActivity}" drawable="loopring_wallet" name="Loopring Wallet" />
   <item component="ComponentInfo{st.soundboard.sirenpranksound/st.soundboard.sirenpranksound.MainActivity}" drawable="loud_horns_and_sirens" name="Loud Horns and Sirens" />
