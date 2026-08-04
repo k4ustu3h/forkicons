@@ -21,7 +21,7 @@ import retrofit2.http.GET
 import retrofit2.http.Header
 
 interface AnnouncementsAPI {
-    @GET("monocons/announcements.json")
+    @GET("announcements.json")
     suspend fun getAnnouncements(
         @Header("Cache-Control") cacheControl: String = "public, max-age=0, max-stale=604800",
     ): Announcements
