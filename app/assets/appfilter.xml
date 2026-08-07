@@ -380,6 +380,7 @@
   <item component="ComponentInfo{ch.bcn.twint/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="BCN TWINT" />
   <item component="ComponentInfo{ch.bcv.twint/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="BCV TWINT" />
   <item component="ComponentInfo{ch.bcvs.twint/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="BCVS TWINT" />
+  <item component="ComponentInfo{com.beatbridge/com.beatbridge.MainActivity}" drawable="beatbridge" name="BeatBridge" />
   <item component="ComponentInfo{com.plumewifi.plume.iguana/com.plumewifi.plume.presentation.main.MainActivity}" drawable="bell_wifi" name="Bell Wi-Fi" />
   <item component="ComponentInfo{com.plumewifi.plume.iguana/com.plume.residential.ui.main.MainActivity}" drawable="bell_wifi" name="Bell Wi-Fi" />
   <item component="ComponentInfo{com.bereal.ft/com.bereal.ft.MainActivity}" drawable="bereal" name="BeReal." />
@@ -464,6 +465,7 @@
   <item component="ComponentInfo{com.grofers.customerapp/com.grofers.customerapp.VALENTINES}" drawable="blinkit" name="Blinkit" />
   <item component="ComponentInfo{app.blinkit.onboarding/com.carthero.driver.splash.SplashActivity}" drawable="blinkit" name="Blinkit Delivery Partner" />
   <item component="ComponentInfo{com.grofers.customerapp.lit/com.grofers.customerapp.DEFAULT}" drawable="blinkit_lit" name="Blinkit Lit" />
+  <item component="ComponentInfo{app.pwhs.blockads/app.pwhs.blockads.MainActivity}" drawable="blockads" name="BlockAds" />
   <item component="ComponentInfo{io.funswitch.blocker/io.funswitch.blocker.features.splashScreenPage.SplashScreenActivity}" drawable="blockerx" name="BlockerX" />
   <item component="ComponentInfo{org.blokada.alarm.dnschanger/core.MainActivity}" drawable="blokada" name="Blokada" />
   <item component="ComponentInfo{org.blokada.alarm.dnschanger/core.PanelActivity}" drawable="blokada" name="Blokada" />
@@ -2448,6 +2450,7 @@
   <item component="ComponentInfo{imagetopdf.pdfmaker.pdfconverter.pdfreader/imagetopdf.pdfmaker.pdfconverter.pdfreader.ui.I2WelcomeActivity}" drawable="generic_pdf_file" name="Image to PDF" />
   <item component="ComponentInfo{com.readpdf.pdfreader.pdfviewer/com.readpdf.pdfreader.pdfviewer.view.activity.SplashActivity}" drawable="generic_pdf_file" name="Image to PDF" />
   <item component="ComponentInfo{pdf.converter.imagetopdf.jpgtopdf.createpdf/pdf.converter.imagetopdf.jpgtopdf.createpdf.pdfviewer.onemb.imagetopdf.ui.splash.SplashActivity}" drawable="generic_pdf_file" name="Image to PDF Converter" />
+  <item component="ComponentInfo{ru.tech.imageresizershrinker/com.t8rin.imagetoolbox.app.presentation.AppActivity}" drawable="image_toolbox" name="Image Toolbox" />
   <item component="ComponentInfo{ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.presentation.AppActivity}" drawable="image_toolbox" name="Image Toolbox (Resizer)" />
   <item component="ComponentInfo{ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.presentation.MainActivity}" drawable="image_toolbox" name="Image Toolbox (Resizer)" />
   <item component="ComponentInfo{ru.tech.imageresizershrinker/ru.tech.imageresizershrinker.presentation.main_screen.MainActivity}" drawable="image_toolbox" name="Image Toolbox (Resizer)" />
@@ -3059,6 +3062,7 @@
   <item component="ComponentInfo{com.facebook.orca/.auth.StartScreenActivity}" drawable="messenger" name="Messenger" />
   <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="messenger" name="Messenger" />
   <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.MainActivity}" drawable="messenger" name="Messenger" />
+  <item component="ComponentInfo{com.facebook.stella/com.facebook.wearable.companion.silverstone.main.view.SilverstoneMainActivity}" drawable="meta_ai" name="Meta AI"/>
   <item component="ComponentInfo{com.oculus.twilight/com.oculus.twilight.crossapp.activity.XOCLoginActivity}" drawable="meta_quest" name="Meta Quest" />
   <item component="ComponentInfo{com.oculus.twilight/com.oculus.twilight.crossapp.activity.XOCMainActivity}" drawable="meta_quest" name="Meta Quest" />
   <item component="ComponentInfo{pt.ipma.meteo/pt.ipma.meteo.activities.splashscreen.SplashActivity}" drawable="meteoipma" name="Meteo@IPMA" />
@@ -3381,7 +3385,9 @@
   <item component="ComponentInfo{com.machiav3lli.fdroid/com.machiav3lli.fdroid.ui.activities.MainActivityX}" drawable="neo_store" name="Neo Store" />
   <item component="ComponentInfo{com.machiav3lli.fdroid.neo/com.machiav3lli.fdroid.ui.activities.MainActivityX}" drawable="neo_store" name="Neo Store" />
   <item component="ComponentInfo{br.com.neon/br.com.neon.features.login.ui.activities.HomeOnboardingActivity}" drawable="neon" name="Neon" />
+  <item component="ComponentInfo{br.com.neon/br.lXkha6.njxV17.c4JtS0.duA2M6.zcaTD1.iN6jx0}" drawable="neon" name="Neon" />
   <item component="ComponentInfo{br.com.neon/br.com.neon.features.login.ui.activities.SplashActivity}" drawable="neon" name="Neon" />
+  <item component="ComponentInfo{br.com.neon/br.p7YOS0.lXh4V3.qp8X90.suWSW4.fz5Xb0.hEJc35}" drawable="neon" name="Neon" />
   <item component="ComponentInfo{net.techet.netanalyzer.an/net.techet.netanalyzer.an.activity.MainActivity}" drawable="net_analyzer" name="Net Analyzer" />
   <item component="ComponentInfo{net.techet.netanalyzerlite.an/net.techet.netanalyzerlite.an.activity.MainActivity}" drawable="net_analyzer" name="Net Analyzer" />
   <item component="ComponentInfo{com.netflix.mediaclient/com.battlenet.showguide.SplashActivity}" drawable="netflix" name="Netflix" />
@@ -3694,6 +3700,7 @@
   <item component="ComponentInfo{net.one97.paytm/net.one97.paytm.SplashActivity}" drawable="paytm" name="Paytm" />
   <item component="ComponentInfo{de.pca.pca_kantine/de.pca.pca_kantine.MainActivity}" drawable="generic_silverware" name="PCA Kantine" />
   <item component="ComponentInfo{com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity}" drawable="pcapdroid" name="PCAPdroid" />
+  <item component="ComponentInfo{com.vayunmathur.pdf/com.vayunmathur.pdf.MainActivity}" drawable="generic_pdf_square" name="PDF"/>
   <item component="ComponentInfo{com.pdfconvertonline.pdfconvert/com.pdfconvertonline.pdfconvert.MainActivityNew}" drawable="generic_pdf_square" name="PDF Converter" />
   <item component="ComponentInfo{com.lonelycatgames.pdf.viewer/com.pdf_reader.ui.SplashActivity}" drawable="generic_pdf_square" name="PDF Document" />
   <item component="ComponentInfo{com.kmo.pdf.editor/com.kmo.pdf.editor.bootpage.splash.SplashActivity}" drawable="generic_pdf_file" name="PDF Pro" />
@@ -4281,6 +4288,8 @@
   <item component="ComponentInfo{dev.kdrag0n.dyntheme/dev.kdrag0n.dyntheme.ui.main.MainActivity}" drawable="repainter" name="Repainter" />
   <item component="ComponentInfo{com.hv.replaio/com.hv.replaio.activities.StartActivity}" drawable="generic_fm_radio" name="Replaio Radio" />
   <item component="ComponentInfo{com.b_lam.resplash/com.b_lam.resplash.ui.main.MainActivity}" drawable="resplash" name="Resplash" />
+  <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.HomeScreenActivity}" drawable="rethink" name="Rethink"/>
+  <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.activity.LauncherAliasAppLock}" drawable="rethink" name="Rethink"/>
   <item component="ComponentInfo{com.advasoft.touchretouch/com.advasoft.touchretouch.LicenseActivity}" drawable="retouch_advasoft" name="Retouch Advasoft" />
   <item component="ComponentInfo{com.advasoft.touchretouch/com.advasoft.touchretouch4.LicenseActivity}" drawable="retouch_advasoft" name="Retouch Advasoft" />
   <item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="retro_music" name="Retro Music" />
