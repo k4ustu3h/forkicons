@@ -3062,7 +3062,7 @@
   <item component="ComponentInfo{com.facebook.orca/.auth.StartScreenActivity}" drawable="messenger" name="Messenger" />
   <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="messenger" name="Messenger" />
   <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.MainActivity}" drawable="messenger" name="Messenger" />
-  <item component="ComponentInfo{com.facebook.stella/com.facebook.wearable.companion.silverstone.main.view.SilverstoneMainActivity}" drawable="meta_ai" name="Meta AI"/>
+  <item component="ComponentInfo{com.facebook.stella/com.facebook.wearable.companion.silverstone.main.view.SilverstoneMainActivity}" drawable="meta_ai" name="Meta AI" />
   <item component="ComponentInfo{com.oculus.twilight/com.oculus.twilight.crossapp.activity.XOCLoginActivity}" drawable="meta_quest" name="Meta Quest" />
   <item component="ComponentInfo{com.oculus.twilight/com.oculus.twilight.crossapp.activity.XOCMainActivity}" drawable="meta_quest" name="Meta Quest" />
   <item component="ComponentInfo{pt.ipma.meteo/pt.ipma.meteo.activities.splashscreen.SplashActivity}" drawable="meteoipma" name="Meteo@IPMA" />
@@ -3700,7 +3700,7 @@
   <item component="ComponentInfo{net.one97.paytm/net.one97.paytm.SplashActivity}" drawable="paytm" name="Paytm" />
   <item component="ComponentInfo{de.pca.pca_kantine/de.pca.pca_kantine.MainActivity}" drawable="generic_silverware" name="PCA Kantine" />
   <item component="ComponentInfo{com.emanuelef.remote_capture/com.emanuelef.remote_capture.activities.MainActivity}" drawable="pcapdroid" name="PCAPdroid" />
-  <item component="ComponentInfo{com.vayunmathur.pdf/com.vayunmathur.pdf.MainActivity}" drawable="generic_pdf_square" name="PDF"/>
+  <item component="ComponentInfo{com.vayunmathur.pdf/com.vayunmathur.pdf.MainActivity}" drawable="generic_pdf_square" name="PDF" />
   <item component="ComponentInfo{com.pdfconvertonline.pdfconvert/com.pdfconvertonline.pdfconvert.MainActivityNew}" drawable="generic_pdf_square" name="PDF Converter" />
   <item component="ComponentInfo{com.lonelycatgames.pdf.viewer/com.pdf_reader.ui.SplashActivity}" drawable="generic_pdf_square" name="PDF Document" />
   <item component="ComponentInfo{com.kmo.pdf.editor/com.kmo.pdf.editor.bootpage.splash.SplashActivity}" drawable="generic_pdf_file" name="PDF Pro" />
@@ -4288,8 +4288,8 @@
   <item component="ComponentInfo{dev.kdrag0n.dyntheme/dev.kdrag0n.dyntheme.ui.main.MainActivity}" drawable="repainter" name="Repainter" />
   <item component="ComponentInfo{com.hv.replaio/com.hv.replaio.activities.StartActivity}" drawable="generic_fm_radio" name="Replaio Radio" />
   <item component="ComponentInfo{com.b_lam.resplash/com.b_lam.resplash.ui.main.MainActivity}" drawable="resplash" name="Resplash" />
-  <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.HomeScreenActivity}" drawable="rethink" name="Rethink"/>
-  <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.activity.LauncherAliasAppLock}" drawable="rethink" name="Rethink"/>
+  <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.HomeScreenActivity}" drawable="rethink" name="Rethink" />
+  <item component="ComponentInfo{com.celzero.bravedns/com.celzero.bravedns.ui.activity.LauncherAliasAppLock}" drawable="rethink" name="Rethink" />
   <item component="ComponentInfo{com.advasoft.touchretouch/com.advasoft.touchretouch.LicenseActivity}" drawable="retouch_advasoft" name="Retouch Advasoft" />
   <item component="ComponentInfo{com.advasoft.touchretouch/com.advasoft.touchretouch4.LicenseActivity}" drawable="retouch_advasoft" name="Retouch Advasoft" />
   <item component="ComponentInfo{code.name.monkey.retromusic/code.name.monkey.retromusic.activities.MainActivity}" drawable="retro_music" name="Retro Music" />
