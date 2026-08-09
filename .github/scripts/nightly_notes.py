@@ -28,7 +28,7 @@ def get_merged_prs() -> list[dict]:
 
     # Get all merged PRs since the stable release
     if date_only:
-        cmd = f'gh pr list --state merged --json title,number,author,labels,mergedAt,baseRefName --limit 1000 --search "base:develop merged:>={date_only}"'
+        cmd = f'gh pr list --state merged --json title,number,author,labels,mergedAt,baseRefName --limit 1000 --search "base:main merged:>={date_only}"'
     else:
         cmd = "gh pr list --state merged --json title,number,author,labels,mergedAt,baseRefName --limit 200"
 
@@ -39,8 +39,8 @@ def get_merged_prs() -> list[dict]:
 
     all_prs = json.loads(output)
 
-    # Filter by develop branch
-    prs = [pr for pr in all_prs if pr.get("baseRefName") == "develop"]
+    # Filter by main branch
+    prs = [pr for pr in all_prs if pr.get("baseRefName") == "main"]
 
     # Additional filter by exact tag datetime
     if tag_date:
