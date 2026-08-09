@@ -138,8 +138,8 @@ def generate_notes() -> str:
 
     sha = os.getenv("GITHUB_SHA", "unknown")[:7]
     branch = os.getenv("GITHUB_REF_NAME", "main")
-    repo = os.getenv("GH_REPO", "k4ustu3h/Monocons")
-    latest_tag = run("git tag --list 'v*' --sort=-version:refname | grep -v 'nightly' | head -1") or "v2.17.1"
+    repo = os.getenv("GH_REPO", "k4ustu3h/monocons-android")
+    latest_tag = run("git tag --list 'v*' --sort=-version:refname | grep -v 'nightly' | head -1") or "v1.2.0"
 
     icon_contributors = get_icon_contributors(icon_prs)
 
