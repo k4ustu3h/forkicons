@@ -15,43 +15,69 @@ def run(cmd: str) -> str:
 
 
 def get_merged_prs() -> list[dict]:
-    # Get latest stable release tag (exclude nightly)
-    latest_tag = run("git tag --list 'v*' --sort=-version:refname | grep -v 'nightly' | head -1")
+    repo = os.getenv("GH_REPO", "k4ustu3h/monocons-android")
 
-    # Get tag date
+    latest_tag = run(f"gh api repos/{repo}/tags --jq '.[].name' | grep '^v' | grep -v 'nightly' | head -1")
+
     if latest_tag:
-        tag_date = run(f"git log -1 --format=%aI {latest_tag}")
-        date_only = tag_date[:10] if tag_date else None
+        output = run(f"git log {latest_tag}..HEAD --format='%s|%an|%h'")
     else:
-        tag_date = None
-        date_only = None
-
-    # Get all merged PRs since the stable release
-    if date_only:
-        cmd = f'gh pr list --state merged --json title,number,author,labels,mergedAt,baseRefName --limit 1000 --search "base:main merged:>={date_only}"'
-    else:
-        cmd = "gh pr list --state merged --json title,number,author,labels,mergedAt,baseRefName --limit 200"
-
-    output = run(cmd)
+        output = run("git log --since='24 hours ago' --format='%s|%an|%h'")
 
     if not output:
         return []
 
-    all_prs = json.loads(output)
+    commits = []
+    for line in output.split('\n'):
+        if not line.strip():
+            continue
 
-    # Filter by main branch
-    prs = [pr for pr in all_prs if pr.get("baseRefName") == "main"]
+        parts = line.split('|')
+        title = parts[0].strip() if len(parts) > 0 else ""
+        git_author = parts[1].strip() if len(parts) > 1 else "unknown"
+        commit_hash = parts[2].strip() if len(parts) > 2 else ""
 
-    # Additional filter by exact tag datetime
-    if tag_date:
-        prs = [pr for pr in prs if pr.get("mergedAt") and pr["mergedAt"] > tag_date]
-    else:
-        # Fallback to 24 hours
-        cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-        prs = [pr for pr in prs if pr.get("mergedAt") and
-               datetime.fromisoformat(pr["mergedAt"].replace("Z", "+00:00")) > cutoff]
+        author = git_author
+        labels = []
+        is_pr = False
+        pr_number = commit_hash
+        title_lower = title.lower()
 
-    return prs
+        code_prefixes = ["fix:", "refactor:", "perf:", "chore:", "ci:", "build:", "test:"]
+        if any(title_lower.startswith(prefix) for prefix in code_prefixes):
+            if not any(word in title_lower for word in ["dependenc", "bump"]):
+                labels.append({"name": "code"})
+
+        pr_match = re.search(r'\(#(\d+)\)\s*$', title)
+
+        if pr_match:
+            is_pr = True
+            pr_number = pr_match.group(1)
+
+            pr_data_json = run(f"gh pr view {pr_number} -R {repo} --json author,labels")
+
+            if pr_data_json:
+                try:
+                    pr_data = json.loads(pr_data_json)
+                    github_login = pr_data.get("author", {}).get("login")
+                    if github_login:
+                        author = github_login
+
+                    for label in pr_data.get("labels", []):
+                        labels.append({"name": label.get("name", "").lower()})
+
+                except json.JSONDecodeError:
+                    pass
+
+        commits.append({
+            "title": title,
+            "author": {"login": author},
+            "labels": labels,
+            "mergedAt": datetime.now(timezone.utc).isoformat(),
+            "number": pr_number
+        })
+
+    return commits
 
 
 def parse_icon_stats(title: str) -> tuple[int, int, int]:
@@ -61,9 +87,8 @@ def parse_icon_stats(title: str) -> tuple[int, int, int]:
     return icons, links, updates
 
 
-
 def is_first_timer_from_labels(pr: dict) -> bool:
-    labels = [l["name"] for l in pr.get("labels", [])]
+    labels = [l.get("name", "").lower() for l in pr.get("labels", [])]
     return "first timer" in labels
 
 
@@ -74,7 +99,7 @@ def get_icon_contributors(prs: list[dict]) -> list[dict]:
         title = pr.get("title", "")
         author = pr.get("author", {}).get("login", "unknown")
 
-        if any(word in title.lower() for word in ["icon", "link", "update", "qa"]):
+        if any(word in title.lower() for word in ["icon", "link", "update", "qa", "feat"]):
             icons, links, updates = parse_icon_stats(title)
 
             if icons > 0 or links > 0 or updates > 0:
@@ -82,8 +107,7 @@ def get_icon_contributors(prs: list[dict]) -> list[dict]:
                 contributors[author]["links"] += links
                 contributors[author]["updates"] += updates
 
-                pr_labels = [l["name"] for l in pr.get("labels", [])]
-                if "first timer" in pr_labels:
+                if is_first_timer_from_labels(pr):
                     contributors[author]["first_time"] = True
 
     def sort_key(item):
@@ -112,7 +136,7 @@ def generate_notes() -> str:
 
     icon_prs = [
         p for p in prs
-        if any(w in p.get("title", "").lower() for w in ["icon", "link", "update", "qa"])
+        if any(w in p.get("title", "").lower() for w in ["icon", "link", "update", "qa", "feat"])
     ]
     dep_prs = [
         p for p in prs
@@ -139,15 +163,17 @@ def generate_notes() -> str:
     sha = os.getenv("GITHUB_SHA", "unknown")[:7]
     branch = os.getenv("GITHUB_REF_NAME", "main")
     repo = os.getenv("GH_REPO", "k4ustu3h/monocons-android")
-    latest_tag = run("git tag --list 'v*' --sort=-version:refname | grep -v 'nightly' | head -1") or "v1.2.0"
+
+    latest_tag = run(f"gh api repos/{repo}/tags --jq '.[].name' | grep '^v' | grep -v 'nightly' | head -1") or "v1.2.0"
 
     icon_contributors = get_icon_contributors(icon_prs)
 
     lines = []
     lines.append(f"Build: `{sha}` \u2022 Branch: `{branch}`\n")
     lines.append("### Summary")
-    lines.append(f"- **{total_prs} pull requests** merged")
-    lines.append(f"- **{len(code_prs)} code improvements**")
+    lines.append(f"- **{total_prs} commits** merged")
+    if code_prs:
+        lines.append(f"- **{len(code_prs)} code improvements**")
     lines.append(f"- **~{total_icons} icons** and **~{total_links} links** added")
     lines.append(f"- **{len(dep_prs)} dependency updates** applied")
     lines.append(f"- **{len(all_authors)} contributors** participated")
@@ -182,7 +208,10 @@ def generate_notes() -> str:
             author = pr.get("author", {}).get("login", "unknown")
             title = pr.get("title", "")
             number = pr.get("number", "")
-            lines.append(f"- {title} by @{author} in #{number}")
+
+            clean_title = re.sub(r'\s*\(#\d+\)\s*$', '', title)
+            ref = f"#{number}" if str(number).isdigit() else f"`{number}`"
+            lines.append(f"- {clean_title} by @{author} in {ref}")
 
     lines.append(
         f"\nFull Changelog: [{latest_tag}...nightly](https://github.com/{repo}/compare/{latest_tag}...nightly)"
