@@ -1309,6 +1309,7 @@
   <item component="ComponentInfo{com.urbandroid.ddc/com.urbandroid.ddc.activity.TourActivity}" drawable="digital_detox" name="Digital Detox" />
   <item component="ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.settings.LauncherActivity}" drawable="digital_wellbeing" name="Digital Wellbeing" />
   <item component="ComponentInfo{com.samsung.android.forest/com.samsung.android.forest.launcher.LauncherActivity}" drawable="digital_wellbeing" name="Digital Wellbeing" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.MotopayActivity}" drawable="dimo" name="Dimo" />
   <item component="ComponentInfo{com.alibaba.android.rimet/com.alibaba.android.rimet.biz.LaunchHomeActivity}" drawable="dingtalk" name="DingTalk" />
   <item component="ComponentInfo{com.rem01gaming.disclosure/com.rem01gaming.disclosure.MainActivity}" drawable="generic_search" name="Disclosure" />
   <item component="ComponentInfo{com.discord/com.discord.app.AppActivity}" drawable="discord" name="Discord" />
@@ -2409,7 +2410,9 @@
   <item component="ComponentInfo{eu.berdosi.app.heartbeat/eu.berdosi.app.heartbeat.MainActivity}" drawable="generic_heart" name="HeartBeat" />
   <item component="ComponentInfo{com.bpcl.hellob2c/com.bpcl.hellob2c.view.common_experiences.onboarding.view.SplashActivity}" drawable="bpcl" name="Hello BPCL" />
   <item component="ComponentInfo{com.bpcl.channelPartner/com.bpcl.channelPartner.MainActivity}" drawable="bpcl" name="Hello BPCL- Channel Partner" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.HelloFeedActivity}" drawable="moto_notifications" name="Hello Feed" />
   <item component="ComponentInfo{com.cgt.bharatgas/com.cgt.bharatgas.MainActivity}" drawable="bpcl" name="HelloBPCL for Business" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.loyaltywebview.LoyaltyActivity}" drawable="hello_you" name="helloYOU" />
   <item component="ComponentInfo{com.hevy/com.hevy.MainActivity}" drawable="hevy" name="Hevy" />
   <item component="ComponentInfo{com.oplus.games/com.oplus.assistant.activity.SpeedUpStartActivity}" drawable="generic_games" name="HeyTap Games" />
   <item component="ComponentInfo{com.oplus.gamespace/com.oplus.gamespace.activity.MainActivity}" drawable="generic_games" name="HeyTap Games" />
@@ -2457,6 +2460,9 @@
   <item component="ComponentInfo{com.huawei.contacts/com.android.contacts.activities.PeopleActivity}" drawable="generic_contacts" name="Huawei Contacts" />
   <item component="ComponentInfo{com.huawei.email/com.android.email.activity.Welcome}" drawable="yandex_mail" name="Huawei Email" />
   <item component="ComponentInfo{com.huawei.HwMultiScreenShot/com.android.systemui.flashlight.FlashlightActivity}" drawable="generic_flashlight" name="Huawei Flashlight" />
+  <item component="ComponentInfo{com.huawei.health/com.huawei.healthcloud.cardui.MainActivity}" drawable="huawei_health" name="Huawei Health" />
+  <item component="ComponentInfo{com.huawei.health/com.huawei.health.ui.SplashActivity}" drawable="huawei_health" name="Huawei Health" />
+  <item component="ComponentInfo{com.huawei.health/com.huawei.health.MainActivity}" drawable="huawei_health" name="Huawei Health" />
   <item component="ComponentInfo{com.android.mediacenter/com.android.mediacenter.PageActivity}" drawable="huawei_music" name="Huawei Music" />
   <item component="ComponentInfo{com.hihonor.ouc/com.hihonor.android.hnouc.ui.activities.MainEntranceActivity}" drawable="huawei_software_update" name="Huawei Software Update" />
   <item component="ComponentInfo{com.huawei.soundrecorder/com.android.soundrecorder.RecordListActivity}" drawable="generic_voice_recorder_waves" name="Huawei Sound Recorder" />
@@ -3302,7 +3308,14 @@
   <item component="ComponentInfo{com.motorola.cn.gallery/com.motorola.cn.gallery.app.GalleryActivity}" drawable="generic_gallery" name="Moto Gallery" />
   <item component="ComponentInfo{com.motorola.stylus/com.motorola.stylus.manager.NoteManagerActivity}" drawable="generic_notes" name="Moto Note" />
   <item component="ComponentInfo{com.motorola.cn.notes/com.motorola.cn.notes.MainActivity}" drawable="generic_notes" name="Moto Notepad" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.MotoplaceActivity}" drawable="moto_notifications" name="Moto Notifications" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.CardsActivity}" drawable="moto_notifications" name="Moto Notifications" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.EngageActivity}" drawable="moto_notifications" name="Moto Notifications" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.HelloYouActivity}" drawable="moto_notifications" name="Moto Notifications" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.MotoNewsActivity}" drawable="moto_notifications" name="Moto Notifications" />
   <item component="ComponentInfo{com.motorola.securityhub/com.motorola.securityhub.ui.view.MainActivity}" drawable="moto_secure" name="Moto Secure" />
+  <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.MarketplaceActivity}" drawable="moto_store" name="Moto Store" />
+  <item component="ComponentInfo{com.motorola.om/com.motorola.om.presentation.LauncherActivity}" drawable="moto_unplugged" name="Moto Unplugged" />
   <item component="ComponentInfo{com.motorola.visualvoicemail/com.motorola.visualvoicemail.ui.VvmMainActivity}" drawable="generic_voicemail" name="Moto Voicemail" />
   <item component="ComponentInfo{com.motordata.obd/com.motordata.obd.MotordataELM}" drawable="generic_engine" name="MotorData" />
   <item component="ComponentInfo{com.community.mbox.in/com.transsion.subroom.activity.SplashActivity}" drawable="moviebox" name="MovieBox" />
@@ -3452,6 +3465,7 @@
   <item component="ComponentInfo{com.reveny.nativecheck/com.reveny.nativecheck.ui.activity.MainActivity}" drawable="native_detector" name="Native Detector" />
   <item component="ComponentInfo{org.codeberg.genericpers0n.soundrecorderplus/org.codeberg.genericpers0n.soundrecorderplus.activities.MainActivity}" drawable="generic_microphone" name="Nauhuri" />
   <item component="ComponentInfo{com.naviapp/com.naviapp.home.compose.activity.HomePageActivity}" drawable="navi" name="Navi" />
+  <item component="ComponentInfo{com.mventus.ncell.activity/com.mventus.ncell.activity.MainActivity}" drawable="ncell" name="Ncell App" />
   <item component="ComponentInfo{com.narayana.nconnect/com.narayana.nconnect.activity.SplashActivity}" drawable="nconnect" name="nConnect" />
   <item component="ComponentInfo{com.nspira.nconnect/com.nspira.nconnect.MainActivity}" drawable="nconnect_parent" name="nConnect Parent" />
   <item component="ComponentInfo{genesis.nebula/genesis.nebula.module.activity.MainActivity}" drawable="nebula_horoscope" name="Nebula: Horoscope and Astrology" />
@@ -4316,6 +4330,7 @@
   <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.launcher.ui.LauncherActivity}" drawable="rapido" name="Rapido" />
   <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.OfferAlias}" drawable="rapido" name="Rapido" />
   <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.CloneDefaultAlias}" drawable="rapido" name="Rapido" />
+  <item component="ComponentInfo{com.grability.rappi/com.rappi.discovery.onboarding.impl.activities.RappiMainEntryActivity}" drawable="rappi" name="Rappi" />
   <item component="ComponentInfo{com.razorpay.payments.app/com.razorpay.payments.app.MainActivity}" drawable="razorpay" name="Razorpay" />
   <item component="ComponentInfo{me.ash.reader/me.ash.reader.MainActivity}" drawable="read_you" name="Read You" />
   <item component="ComponentInfo{com.google.android.accessibility.reader/com.google.android.accessibility.reader.settings.ReaderActivity}" drawable="reading_mode" name="Reading mode" />
@@ -4436,6 +4451,10 @@
   <item component="ComponentInfo{com.pranavpandey.rotation/com.pranavpandey.rotation.activity.SplashActivity}" drawable="generic_rotation" name="Rotation" />
   <item component="ComponentInfo{org.crape.rotationcontrol/org.crape.rotationcontrol.RotationControlActivity}" drawable="generic_rotation" name="Rotation Control" />
   <item component="ComponentInfo{com.testbook.tbapp.rrbjeme/com.testbook.tbapp.android.SplashActivity}" drawable="testbook" name="RRB JE ME" />
+  <item component="ComponentInfo{com.shub39.rush/com.shub39.rush.MainActivity}" drawable="rush" name="Rush" />
+  <item component="ComponentInfo{com.shub39.rush/com.shub39.rush.app.MainActivity}" drawable="rush" name="Rush" />
+  <item component="ComponentInfo{com.shub39.rush.play/com.shub39.rush.MainActivity}" drawable="rush" name="Rush" />
+  <item component="ComponentInfo{com.shub39.rush.play/com.shub39.rush.app.MainActivity}" drawable="rush" name="Rush" />
   <item component="ComponentInfo{com.carriez.flutter_hbb/com.carriez.flutter_hbb.MainActivity}" drawable="rustdesk" name="RustDesk" />
   <item component="ComponentInfo{app.rvx.manager.flutter.profile/app.revanced.manager.flutter.MainActivity}" drawable="rvx_manager" name="RVX Manager" />
   <item component="ComponentInfo{app.rvx.manager.flutter.debug/app.revanced.manager.flutter.MainActivity}" drawable="rvx_manager" name="RVX Manager" />
@@ -5122,6 +5141,7 @@
   <item component="ComponentInfo{com.spotify.music/com.duapps.ad.DuAd}" drawable="spotify" name="Spotify" />
   <item component="ComponentInfo{com.spotify.music/com.spotify.login.loginflowimpl.LoginActivity}" drawable="spotify" name="Spotify" />
   <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="spotify" name="Spotify" />
+  <item component="ComponentInfo{com.music.spotui/com.music.spotui.MainActivity}" drawable="spotify" name="spotui" />
   <item component="ComponentInfo{com.supercell.squad/com.supercell.squad.GameApp}" drawable="squad_busters" name="Squad Busters" />
   <item component="ComponentInfo{com.squareup/com.squareup.ui.PaymentActivity}" drawable="square" name="Square" />
   <item component="ComponentInfo{com.blacksquircle.ui/com.blacksquircle.ui.application.activities.MainActivity}" drawable="squircle" name="Squircle IDE" />
