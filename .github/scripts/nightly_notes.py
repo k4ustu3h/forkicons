@@ -68,6 +68,11 @@ def get_merged_prs() -> list[dict]:
 
                 except json.JSONDecodeError:
                     pass
+        else:
+            if commit_hash:
+                github_login = run(f"gh api repos/{repo}/commits/{commit_hash} --jq '.author.login'")
+                if github_login and github_login.lower() != "null":
+                    author = github_login
 
         commits.append({
             "title": title,
