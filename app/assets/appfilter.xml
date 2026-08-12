@@ -276,6 +276,7 @@
   <item component="ComponentInfo{cm.aptoide.pt/com.aptoide.amethyst.MainActivity}" drawable="aptoide" name="Aptoide" />
   <item component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.entry.EntryActivity}" drawable="aptoide" name="Aptoide" />
   <item component="ComponentInfo{cm.aptoide.pt/cm.aptoide.pt.view.MainActivity}" drawable="aptoide" name="Aptoide" />
+  <item component="ComponentInfo{cm.aptoide.pt/com.aptoide.android.aptoidegames.MainActivity}" drawable="aptoide" name="Aptoide" />
   <item component="ComponentInfo{moe.rukamori.archivetune/moe.rukamori.archivetune.MainActivity}" drawable="archivetune" name="ArchiveTune" />
   <item component="ComponentInfo{moe.koiverse.archivetune/moe.koiverse.archivetune.MainActivity}" drawable="archivetune" name="ArchiveTune" />
   <item component="ComponentInfo{moe.rukamori.archivetune/moe.rukamori.archivetune.launcher.DefaultIconAlias}" drawable="archivetune" name="ArchiveTune" />
@@ -293,6 +294,9 @@
   <item component="ComponentInfo{com.app_mo.splayer/com.app_mo.splayer.ui.main.MainActivity}" drawable="generic_player" name="ASD Player" />
   <item component="ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.StartActivity}" drawable="ladb" name="aShell You" />
   <item component="ComponentInfo{in.hridayan.ashell/in.hridayan.ashell.activities.MainActivity}" drawable="ladb" name="aShell You" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.AssistantActivity}" drawable="google_gemini" name="Assistant (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcut.AssistantActivity}" drawable="google_gemini" name="Assistant (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.AssistantShortcut}" drawable="google_gemini" name="Assistant (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{com.ithersta.assistantforsv.android/com.ithersta.assistantforsv.android.MainActivity}" drawable="assistant_for_stardew_valley" name="Assistant for Stardew Valley" />
   <item component="ComponentInfo{com.asus.calculator/com.asus.calculator.Calculator}" drawable="asus_calculator" name="Asus Calculator" />
   <item component="ComponentInfo{com.asus.asusincallui/com.android.asusincallui.DialerLauncher}" drawable="generic_dialer" name="ASUS Calling Screen" />
@@ -927,6 +931,7 @@
   <item component="ComponentInfo{com.round_tower.app.android.wallpaper.cartogram/com.round_tower.cartogram.feature.main.MainActivity}" drawable="maps" name="Cartogram" />
   <item component="ComponentInfo{com.carwale/com.carwale.carwale.ui.MainActivity}" drawable="carwale" name="CarWale" />
   <item component="ComponentInfo{com.squareup.cash/com.squareup.cash.ui.MainActivity}" drawable="cash_app" name="Cash App" />
+  <item component="ComponentInfo{com.ritesh.cashiro/com.ritesh.cashiro.MainActivityOriginal}" drawable="cashiro" name="Cashiro" />
   <item component="ComponentInfo{com.itemstudio.castro/com.itemstudio.castro.activity.BaseActivity}" drawable="castro" name="Castro" />
   <item component="ComponentInfo{com.itemstudio.castro/com.itemstudio.castro.base.BaseActivity}" drawable="castro" name="Castro" />
   <item component="ComponentInfo{com.itemstudio.castro/com.itemstudio.castro.containers.PrimaryContainerActivity}" drawable="castro" name="Castro" />
@@ -1647,6 +1652,7 @@
   <item component="ComponentInfo{com.google.android.apps.nbu.files/.home.HomeActivity}" drawable="files_by_google" name="Files by Google" />
   <item component="ComponentInfo{org.aospstudio.files/com.aospstudio.shortcuts.MainActivity}" drawable="generic_files" name="Files Shortcut" />
   <item component="ComponentInfo{org.aospstudio.files/org.aospstudio.files.FileManager}" drawable="generic_files" name="Files Shortcut" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcut.FinanceShortcut}" drawable="finances_google_shortcuts_launcher" name="Finances (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{de.dwins.financeguru/de.dwins.financeguru.SplashActivity}" drawable="finanzguru" name="Finanzguru" />
   <item component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.activities.MainActivity}" drawable="find_my_device" name="Find My Device" />
   <item component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.MainActivity}" drawable="find_my_device" name="Find My Device" />
@@ -1732,6 +1738,7 @@
   <item component="ComponentInfo{dev.patrickgold.florisboard/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard" />
   <item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Beta" />
   <item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Debug" />
+  <item component="ComponentInfo{com.markel.flowstate/com.markel.flowstate.MainActivity}" drawable="flowstate" name="FlowState" />
   <item component="ComponentInfo{com.transsion.fmradio/com.funbase.xradio.home.activity.MainActivity}" drawable="generic_fm_radio" name="FM Radio" />
   <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.activity.LauncherActivity}" drawable="generic_fm_radio" name="FM Radio" />
   <item component="ComponentInfo{com.transsion.fmradio/com.funbase.xradio.activity.SplashActivity}" drawable="generic_fm_radio" name="FM Radio" />
@@ -2114,6 +2121,9 @@
   <item component="ComponentInfo{com.oplus.games/com.oplus.games.ui.main.MainGameActivity}" drawable="gamespace" name="Games" />
   <item component="ComponentInfo{com.oplus.games/com.oplus.games.ui.main.MainGameActivity#0}" drawable="gamespace" name="Games" />
   <item component="ComponentInfo{com.oplus.games/com.oplus.assistant.activity.StartActivity}" drawable="gamespace" name="Games" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.GameActivity}" drawable="games_google_shortcuts_launcher" name="Games (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcut.GamesActivity}" drawable="games_google_shortcuts_launcher" name="Games (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.GamesShortcut}" drawable="games_google_shortcuts_launcher" name="Games (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{io.chaldeaprjkt.gamespace/io.chaldeaprjkt.gamespace.settings.SettingsActivity}" drawable="gamespace" name="gamespace" />
   <item component="ComponentInfo{com.garmin.android.apps.connectmobile/com.garmin.android.apps.connectmobile.GCMActivityStartup}" drawable="garmin_connect" name="Garmin Connect" />
   <item component="ComponentInfo{com.garmin.connectiq/com.garmin.connectiq.MainActivity}" drawable="garmin_connect_iq" name="Garmin Connect IQ" />
@@ -2200,6 +2210,10 @@
   <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="google" name="Google" />
   <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchPreferences}" drawable="google" name="Google" />
   <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.handsfree.HandsFreeLauncherActivity}" drawable="google" name="Google" />
+  <item component="ComponentInfo{com.google.android.apps.giant/com.google.android.apps.giant.activity.LauncherActivity}" drawable="google_analytics" name="Google Analytics" />
+  <item component="ComponentInfo{com.google.android.apps.giant/com.google.android.apps.giant.activity.AnalyticsLaunchActivity}" drawable="google_analytics" name="Google Analytics" />
+  <item component="ComponentInfo{com.google.android.apps.giant/com.google.android.apps.giant.activity.AnalyticsHome}" drawable="google_analytics" name="Google Analytics" />
+  <item component="ComponentInfo{com.google.android.apps.giant/com.google.android.apps.giant.flutter.HostActivity}" drawable="google_analytics" name="Google Analytics" />
   <item component="ComponentInfo{com.google.android.apps.cultural/com.google.android.apps.cultural.activity.WebViewActivity}" drawable="google_arts_culture" name="Google Arts &amp; Culture" />
   <item component="ComponentInfo{com.google.android.apps.cultural/com.google.android.apps.cultural.flutter.HomeFlutterActivity}" drawable="google_arts_culture" name="Google Arts &amp; Culture" />
   <item component="ComponentInfo{com.google.android.apps.cultural/com.google.android.apps.cultural.stella.activity.MainActivity}" drawable="google_arts_culture" name="Google Arts &amp; Culture" />
@@ -2287,6 +2301,7 @@
   <item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.LauncherActivity}" drawable="google_one" name="Google One" />
   <item component="ComponentInfo{com.google.android.apps.paidtasks/com.google.android.apps.paidtasks.activity.LaunchActivity}" drawable="google_opinion_rewards" name="Google Opinion Rewards" />
   <item component="ComponentInfo{com.google.android.apps.paidtasks/com.google.android.apps.paidtasks.LaunchActivity}" drawable="google_opinion_rewards" name="Google Opinion Rewards" />
+  <item component="ComponentInfo{com.google.android.apps.credentialmanager/com.google.android.apps.credentialmanager.launcher.LauncherActivity}" drawable="google_passwords" name="Google Passwords" />
   <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.android.apps.nbu.paisa.user.launcher.LauncherActivity}" drawable="google_pay" name="Google Pay" />
   <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity}" drawable="google_pay" name="Google Pay" />
   <item component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.MainActivity}" drawable="google_pay" name="Google Pay" />
@@ -2548,6 +2563,7 @@
   <item component="ComponentInfo{com.csam.icici.bank.imobile/com.csam.icici.bank.imobile.launcher_be5fee416d17a4d4bdcf67199a9cbb9893a784e44dbdba19087c3db5e1e61f81}" drawable="imobile_pay" name="iMobile Pay" />
   <item component="ComponentInfo{com.csam.icici.bank.imobile/com.csam.icici.bank.imobile.ICICIActivity}" drawable="imobile_pay" name="iMobile Pay" />
   <item component="ComponentInfo{com.csam.icici.bank.imobile/com.csam.icici.bank.imobile.IMOBILE}" drawable="imobile_pay" name="iMobile Pay" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.IncognitoShortcut}" drawable="incognito_google_shortcuts_launcher" name="Incognito (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{com.indeed.android.jobsearch/com.indeed.android.jobsearch.MainActivity}" drawable="indeed" name="Indeed" />
   <item component="ComponentInfo{com.indeed.android.jobsearch/com.indeed.android.jobsearch.launch.LaunchActivity}" drawable="indeed" name="Indeed" />
   <item component="ComponentInfo{com.indeed.android.jobsearch/com.indeed.android.jobsearch.LaunchActivity}" drawable="indeed" name="Indeed" />
@@ -2870,6 +2886,7 @@
   <item component="ComponentInfo{com.companyname.MaturaMatematyka/com.companyname.MaturaMatematyka.MainActivity}" drawable="generic_pi" name="Learn Math &amp; Math problems" />
   <item component="ComponentInfo{com.zui.filemanager/com.zui.filemanager.MainActivity}" drawable="generic_files" name="Lenovo ZUI File Manager" />
   <item component="ComponentInfo{com.zui.notes/com.zui.notes.main.home.MainActivity}" drawable="generic_notes" name="Lenovo ZUI Notepad" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.LensShortcut}" drawable="google_lens" name="Lens (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{com.lenskart.app/com.lenskart.app.main.ui.DefaultIconActivityAlias}" drawable="lenskart" name="Lenskart" />
   <item component="ComponentInfo{com.lenskart.app/com.lenskart.app.main.ui.SplashActivity}" drawable="lenskart" name="Lenskart" />
   <item component="ComponentInfo{com.lenskart.app/com.lenskart.app.main.ui.InIconActivityAlias}" drawable="lenskart" name="Lenskart" />
@@ -3371,6 +3388,9 @@
   <item component="ComponentInfo{com.fragileheart.mp3editor/com.fragileheart.mp3editor.activity.SplashActivity}" drawable="generic_audio_editor" name="Music Editor" />
   <item component="ComponentInfo{com.musicplayer.player.mp3player.white/com.musicplayer.player.mp3player.white.activity.MainActivity}" drawable="generic_player" name="Music Player" />
   <item component="ComponentInfo{com.iven.musicplayergo/com.iven.musicplayergo.ui.MainActivity}" drawable="music_player_go" name="Music Player GO" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.MusicSearchActivity}" drawable="google_now_playing" name="Music Search (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcut.MusicSearchActivity}" drawable="google_now_playing" name="Music Search (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.MusicSearchShortcut}" drawable="google_now_playing" name="Music Search (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{in.krosbits.musicolet/in.krosbits.musicolet.MusicActivity}" drawable="musicolet" name="Musicolet" />
   <item component="ComponentInfo{com.musixmatch.android.lyrify/com.google.android.archive.ReactivateActivity}" drawable="musixmatch" name="Musixmatch" />
   <item component="ComponentInfo{com.musixmatch.android.lyrify/com.musixmatch.android.presentation.activities.SplashActivity}" drawable="musixmatch" name="Musixmatch" />
@@ -3803,6 +3823,9 @@
   <item component="ComponentInfo{com.cbs.ca/com.paramount.android.pplus.splash.mobile.integration.SplashActivity}" drawable="paramount_plus" name="Paramount+" />
   <item component="ComponentInfo{tv.parsec.client/tv.parsec.client.MainActivity}" drawable="parsec" name="Parsec" />
   <item component="ComponentInfo{ca.chancehorizon.paseo/ca.chancehorizon.paseo.MainActivity}" drawable="paseo" name="Paseo" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.PasswordManagerActivity}" drawable="google_passwords" name="Passwords (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcut.PasswordManagerActivity}" drawable="google_passwords" name="Passwords (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.PasswordManagerShortcut}" drawable="google_passwords" name="Passwords (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{com.patreon.android/com.patreon.android.ui.shared.LauncherActivity}" drawable="patreon" name="Patreon" />
   <item component="ComponentInfo{com.patreon.android/com.patreon.app.RootActivity}" drawable="patreon" name="Patreon" />
   <item component="ComponentInfo{com.patreon.android/com.patreon.android.screens.launcher.LauncherActivity}" drawable="patreon" name="Patreon" />
@@ -4310,6 +4333,7 @@
   <item component="ComponentInfo{de.tlogic.dddblocks/de.tlogic.dddblocks.MainActivity}" drawable="qubotron" name="qubotron" />
   <item component="ComponentInfo{yuku.alkitab.kjv/yuku.alkitab.base.IsiActivity}" drawable="generic_bible" name="Quick Bible" />
   <item component="ComponentInfo{io.github.subhamtyagi.quickcalculation/io.github.subhamtyagi.quickcalculation.LaunchActivity}" drawable="quick_calculation" name="Quick Calculation" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.QuickShareShortcut}" drawable="quick_share_google_shortcuts_launcher" name="Quick Share (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{com.rhmsoft.edit.pro/com.rhmsoft.edit.activity.MainActivity}" drawable="quickedit" name="QuickEdit" />
   <item component="ComponentInfo{com.rhmsoft.edit/com.rhmsoft.edit.activity.MainActivity}" drawable="quickedit" name="QuickEdit" />
   <item component="ComponentInfo{xyz.paphonb.quickstepswitcher/xyz.paphonb.quickstepswitcher.MainActivity}" drawable="quickswitch" name="QuickSwitch" />
@@ -4584,6 +4608,7 @@
   <item component="ComponentInfo{com.ge.capital.konysbiapp/com.ge.capital.konysbiapp.SBICard}" drawable="sbi_card" name="SBI Card" />
   <item component="ComponentInfo{com.freedomrewardz/com.rewardz.common.activity.SplashScreenActivity}" drawable="sbi_rewardz" name="SBI Rewardz" />
   <item component="ComponentInfo{com.msf.sbicap.securities/com.example.sbi_capital_securities.MainActivity}" drawable="yono_sbi" name="SBI Securities" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.ScannerShortcut}" drawable="scanner_google_shortcuts_launcher" name="Scanner" />
   <item component="ComponentInfo{nl.rijksoverheid.ctr.verifier/nl.rijksoverheid.ctr.verifier.VerifierMainActivity}" drawable="coronacheck_scanner" name="Scanner" />
   <item component="ComponentInfo{com.atharok.barcodescanner/com.atharok.barcodescanner.presentation.views.activities.MainActivity}" drawable="generic_qr_reader" name="Scanner: QR Code and Products" />
   <item component="ComponentInfo{app.moonlight.sda.scany/app.moonlight.sda.scany.MainActivity}" drawable="scany" name="Scany" />
@@ -4605,6 +4630,7 @@
   <item component="ComponentInfo{com.vb2labs.android.sdelete/com.vb2labs.android.sdelete.activity.MainActivity}" drawable="generic_trash_can" name="SDelete" />
   <item component="ComponentInfo{com.junkfood.seal/com.junkfood.seal.MainActivity}" drawable="seal" name="Seal" />
   <item component="ComponentInfo{com.junkfood.seal.preview/com.junkfood.seal.MainActivity}" drawable="seal" name="Seal Preview" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.shortcuts.SearchShortcut}" drawable="generic_search" name="Search (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{rk.android.app.searchbarwidget/rk.android.app.searchbarwidget.activity.HomeActivity}" drawable="search_widget_material_you" name="Search Widget (Material You)" />
   <item component="ComponentInfo{io.github.rabehx.securify/io.github.rabehx.securify.ui.activity.MainActivity}" drawable="securify" name="Securify" />
   <item component="ComponentInfo{com.companyname.andriodapp1/crc646350f44cde9e1cf7.MainActivity}" drawable="seeker" name="Seeker" />
@@ -4716,6 +4742,10 @@
   <item component="ComponentInfo{com.android.settings/com.miui.securitycenter.Main}" drawable="settings" name="Settings" />
   <item component="ComponentInfo{com.android.settings/com.oppo.settings.SettingsActivity}" drawable="settings" name="Settings" />
   <item component="ComponentInfo{com.android.settings/com.transsion.faq.activity.MainActivity}" drawable="settings" name="Settings" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.activity.SettingsActivity}" drawable="settings_google_shortcuts_launcher" name="Settings (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.activity.ManagerActivity}" drawable="settings_google_shortcuts_launcher" name="Settings (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.SettingsActivity}" drawable="settings_google_shortcuts_launcher" name="Settings (Google Shortcuts Launcher)" />
+  <item component="ComponentInfo{com.wstxda.gsl/com.wstxda.gsl.ui.SettingsActivity}" drawable="settings_google_shortcuts_launcher" name="Settings (Google Shortcuts Launcher)" />
   <item component="ComponentInfo{ch.sgkb.twint/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="SGKB TWINT" />
   <item component="ComponentInfo{com.xiaomi.midrop/com.xiaomi.midrop.HomeActivity}" drawable="share_me" name="ShareMe" />
   <item component="ComponentInfo{com.xiaomi.midrop/com.xiaomi.midrop.SplashScreen}" drawable="share_me" name="ShareMe" />
