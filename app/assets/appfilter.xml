@@ -1756,6 +1756,7 @@
   <item component="ComponentInfo{dev.patrickgold.florisboard/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard" />
   <item component="ComponentInfo{dev.patrickgold.florisboard.beta/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Beta" />
   <item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Debug" />
+  <item component="ComponentInfo{com.google.android.apps.labs.whisk/com.google.android.apps.labs.whisk.MainActivity}" drawable="google_flow" name="Flow" />
   <item component="ComponentInfo{com.markel.flowstate/com.markel.flowstate.MainActivity}" drawable="flowstate" name="FlowState" />
   <item component="ComponentInfo{com.transsion.fmradio/com.funbase.xradio.home.activity.MainActivity}" drawable="generic_fm_radio" name="FM Radio" />
   <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.activity.LauncherActivity}" drawable="generic_fm_radio" name="FM Radio" />
@@ -2500,6 +2501,26 @@
   <item component="ComponentInfo{com.hp.printercontrol/com.hp.printercontrol.base.UiDrawerBaseAct}" drawable="generic_printer" name="HP Smart" />
   <item component="ComponentInfo{com.hp.android.printservice/com.hp.android.printservice.launcher.SplashActivity}" drawable="generic_printer" name="HP Smart" />
   <item component="ComponentInfo{com.hp.android.printservice/com.hp.android.printservice.launcher.WelcomeActivity}" drawable="generic_printer" name="HP Smart" />
+  <item component="ComponentInfo{vn.hsbc.hsbcvietnam/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{uk.co.hsbc.hsbcukmobilebanking/uk.co.hsbc.enterprise.hsbcukmobilebanking.MobileXActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{uk.co.hsbc.hsbcukmobilebanking/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{uk.co.hsbc.hsbcukmobilebanking/com.hsbc.mobilebanking.prelogon.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{sg.com.hsbc.hsbcsingapore/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{mx.hsbc.hsbcmexico/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{mx.hsbc.hsbcmexico/com.hsbc.mobilebanking.prelogon.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{hk.com.hsbc.hsbchkmobilebanking/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{fr.hsbc.hsbcfrance/com.firstdirect.bankingonthego.activities.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{com.htsu.hsbcpersonalbanking/com.hsbc.activities.LaunchActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{ca.hsbc.hsbccanada/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{ca.hsbc.hsbccanada/com.hsbc.mobilebanking.prelogon.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{au.com.hsbc.hsbcaustralia/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{us.hsbc.hsbcus/com.hsbc.mobilebanking.prelogon.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{tr.com.hsbc.hsbcturkey/tr.com.hsbc.hsbcturkey.DEFAULT}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{in.hsbc.hsbcindia/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{my.com.hsbc.hsbcmalaysia/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{ar.com.hsbc.hsbcargentina/ar.com.hsbc.hsbcargentina.launcher_65e0b989a067a1a81cefbde4be4b29db38c5ddc75594ff81885b1782d7a3a003}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{ar.com.hsbc.hsbcargentina/ar.com.hsbc.hsbcargentina.MainActivity}" drawable="hsbc" name="HSBC" />
+  <item component="ComponentInfo{com.hsbc.expat.hsbcexpat/com.hsbc.mobilebanking.splash.SplashActivity}" drawable="hsbc" name="HSBC Expat" />
   <item component="ComponentInfo{com.huawei.deskclock/com.android.deskclock.AlarmsMainActivity}" drawable="generic_clock" name="Huawei Clock" />
   <item component="ComponentInfo{com.huawei.compass/com.huawei.compass.MainActivity}" drawable="generic_compass" name="Huawei Compass" />
   <item component="ComponentInfo{com.huawei.contacts/com.android.contacts.activities.DialtactsActivity}" drawable="generic_contacts" name="Huawei Contacts" />
@@ -4793,14 +4814,27 @@
   <item component="ComponentInfo{com.ril.shein/com.ril.shein.launch.activity.SplashScreenActivity}" drawable="shein" name="SHEIN" />
   <item component="ComponentInfo{moe.shizuku.privileged.api/moe.shizuku.manager.MainActivity}" drawable="shizuku" name="Shizuku" />
   <item component="ComponentInfo{com.noxinfinity.shell/com.noxinfinity.shell.MainActivity}" drawable="terminal" name="ShizuShell" />
+  <item component="ComponentInfo{com.shopee.my/com.shopee.app.ui.tutorial.TutorialActivity_}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.id/com.shopee.MainActivity}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.br/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.id/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.my/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.ph/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.pl/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.th/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
-  <item component="ComponentInfo{com.shopee.tw/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
   <item component="ComponentInfo{com.shopee.vn/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.my/com.shopee.MainActivity}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.sg/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.co/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.mx/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.ar/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee" />
+  <item component="ComponentInfo{com.shopee.lite.id/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="Shopee Lite" />
+  <item component="ComponentInfo{com.shopeepay.id/com.shopee.app.ui.home.HomeActivity_}" drawable="shopeepay" name="ShopeePay" />
+  <item component="ComponentInfo{com.beeasy.airpay/com.airpay.login.splash.SplashActivity}" drawable="shopeepay" name="ShopeePay" />
+  <item component="ComponentInfo{com.beeasy.toppay/com.airpay.login.splash.SplashActivity}" drawable="shopeepay" name="ShopeePay" />
+  <item component="ComponentInfo{com.shopeepay.my/com.shopee.app.ui.home.HomeActivity_}" drawable="shopeepay" name="ShopeePay" />
+  <item component="ComponentInfo{com.beeasy.toppay/com.airpay.login.integration.splash.SplashActivity}" drawable="shopeepay" name="ShopeePay" />
+  <item component="ComponentInfo{com.beeasy.airpay/com.airpay.login.integration.splash.SplashActivity}" drawable="shopeepay" name="ShopeePay" />
   <item component="ComponentInfo{com.flipkart.shopsy/com.flipkart.shopsy.SplashActivity}" drawable="shopsy" name="Shopsy" />
   <item component="ComponentInfo{com.allinone.callerid/com.allinone.callerid.start.StartActivity}" drawable="generic_dialer" name="Showcaller" />
   <item component="ComponentInfo{com.michaldrabik.showly2/com.michaldrabik.showly2.ui.main.MainActivity}" drawable="showly" name="Showly" />
@@ -5485,6 +5519,7 @@
   <item component="ComponentInfo{com.ea.games.simsfreeplay_row/com.ea.games.simsfreeplay.GameActivity}" drawable="the_sims" name="The Sims FreePlay" />
   <item component="ComponentInfo{com.oplus.themestore/com.nearme.themespace.activities.ThemeActivity}" drawable="theme_store" name="Theme Store" />
   <item component="ComponentInfo{com.chris.tholotis/com.chris.tholotis.MainActivity}" drawable="tholotis" name="Tholotis" />
+  <item component="ComponentInfo{com.valhalla.thor/com.valhalla.thor.HomeActivity}" drawable="thor" name="Thor" />
   <item component="ComponentInfo{org.chromium.thorium/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Thorium" />
   <item component="ComponentInfo{com.instagram.barcelona/com.instagram.barcelona.mainactivity.BarcelonaActivity}" drawable="threads" name="Threads" />
   <item component="ComponentInfo{ch.threema.app.fdroid/ch.threema.app.activities.MainActivity}" drawable="threema" name="Threema" />
@@ -6153,6 +6188,7 @@
   <item component="ComponentInfo{ru.yandex.mail/ru.yandex.mail.ui.MailListActivity}" drawable="yandex_mail" name="Яндекс Почта ~~ Yandex Mail" />
   <item component="ComponentInfo{ru.yandex.searchplugin/ru.yandex.searchplugin.MainActivity}" drawable="yandex_start" name="Яндекс Старт ~~ Yandex Start" />
   <item component="ComponentInfo{il.co.dominos.android/il.co.dominos.android.MainActivity}" drawable="dominos_pizza" name="דומינוס פיצה ~~ Domino's Pizza" />
+  <item component="ComponentInfo{com.sabb.mobilebanking/com.sabb.mobilebanking.MainActivity}" drawable="hsbc" name="بنك ساب ~~ SAB" />
   <item component="ComponentInfo{com.dominos.sa/com.dominos.activities.InitialLaunchActivity}" drawable="dominos_pizza" name="دومينوز بيتزا ~~ Domino's Pizza" />
   <item component="ComponentInfo{com.dominos.sa/com.dominos.sa.MainActivity}" drawable="dominos_pizza" name="دومينوز بيتزا ~~ Domino's Pizza" />
   <item component="ComponentInfo{numberplace.ohte/com.withprize.numpl.MainActivity}" drawable="generic_sudoku" name="ナンプレde懸賞 ~~ Sudoku de Sweepstakes" />
@@ -6162,6 +6198,7 @@
   <item component="ComponentInfo{web1n.stopapp/web1n.stopapp.activity.MainActivity}" drawable="black_house" name="小黑屋 ~~ Black House" />
   <item component="ComponentInfo{cn.ticktick.task/cn.ticktick.task.HomeAlia_1}" drawable="ticktick" name="滴答清单 ~~ TickTick" />
   <item component="ComponentInfo{com.ryuunoakaihitomi.rebootmenu/github.ryuunoakaihitomi.powerpanel.ui.main.MainActivity}" drawable="generic_power" name="电源面板 ~~ Reboot Menu" />
+  <item component="ComponentInfo{com.shopee.tw/com.shopee.app.ui.home.HomeActivity_}" drawable="shopee" name="蝦皮購物 ~~ Shopee" />
   <item component="ComponentInfo{com.sprd.sprdnote/com.sprd.sprdnote.NoteActivity}" drawable="generic_notes" name="记事本 ~~ Notepad" />
   <item component="ComponentInfo{org.mewx.wenku8/org.mewx.wenku8.activity.MainActivity}" drawable="generic_book" name="轻小说文库 ~~ Light Novel Library" />
   <item component="ComponentInfo{space.takashima.keypo/org.mozc.android.inputmethod.japanese.LauncherActivity}" drawable="generic_keyboard" name="ﾀｸﾄ ｷｰﾎﾞｰﾄﾞ ~~ Takt keyboard" />
