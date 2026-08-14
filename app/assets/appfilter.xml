@@ -372,6 +372,8 @@
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.ui.activity.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.onboarding.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
   <item component="ComponentInfo{br.com.bancopan.cartoes/br.com.bancopan.bancodigital.presentation.splash.SplashActivity}" drawable="banco_pan" name="Banco PAN" />
+  <item component="ComponentInfo{mx.com.miapp/mx.com.miapp.ui.general.splash.SplashActivity}" drawable="bancoppel" name="BanCoppel" />
+  <item component="ComponentInfo{mx.com.miapp/mx.com.miapp.ui.general.splash.RebrandingSplashActivity}" drawable="bancoppel" name="BanCoppel" />
   <item component="ComponentInfo{ar.com.bancor.bancon/ar.com.bancor.bancon.MainActivity}" drawable="generic_power" name="Bancón" />
   <item component="ComponentInfo{com.infonow.bofa/com.bofa.ecom.marvel.application.Flagscape}" drawable="bofa" name="Bank of America" />
   <item component="ComponentInfo{com.infonow.bofa/com.bofa.ecom.marvel.Launcher}" drawable="bofa" name="Bank of America" />
@@ -1241,6 +1243,10 @@
   <item component="ComponentInfo{icontacts.ios.dialer.icall/icontacts.ios.dialer.icall.ui.activities.SplashActivity}" drawable="generic_dialer" name="Contacts &amp; Phone Call" />
   <item component="ComponentInfo{com.nasahacker.convertit/com.nasahacker.convertit.MainActivity}" drawable="generic_voice" name="Convertit" />
   <item component="ComponentInfo{org.thebytearray.convertit/org.thebytearray.convertit.MainActivity}" drawable="generic_voice" name="Convertit" />
+  <item component="ComponentInfo{com.coppel.coppelapp/com.coppel.coppelapp.splash.presentation.SplashActivity}" drawable="bancoppel" name="Coppel" />
+  <item component="ComponentInfo{com.coppel.coppelapp/oGCSj5.mKCAZ2.bF7je1.afFQS0.utBYV9.or0VD5}" drawable="bancoppel" name="Coppel" />
+  <item component="ComponentInfo{com.coppel.coppelapp/gQFvU6.gesY72.gdKsn1.yDigQ7.r3FH22.eEjfj2}" drawable="bancoppel" name="Coppel" />
+  <item component="ComponentInfo{com.coppel.coppelapp/djxOS4.pgL2k6.kC5fa7.seSVe7.bLPYw9.zf0bh8}" drawable="bancoppel" name="Coppel" />
   <item component="ComponentInfo{de.rki.coronawarnapp/de.rki.coronawarnapp.ui.launcher.LauncherActivity}" drawable="corona_warn" name="Corona-Warn" />
   <item component="ComponentInfo{de.rki.coronawarnapp/de.rki.coronawarnapp.ui.LauncherActivity}" drawable="corona_warn" name="Corona-Warn" />
   <item component="ComponentInfo{nl.rijksoverheid.ctr.holder/nl.rijksoverheid.ctr.holder.HolderMainActivity}" drawable="coronacheck" name="CoronaCheck" />
@@ -2202,8 +2208,9 @@
   <item component="ComponentInfo{com.gkb.android.twint/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="GKB TWINT" />
   <item component="ComponentInfo{nl.viter.glider.MainActivity/nl.viter.glider.MainActivity}" drawable="glider" name="Glider" />
   <item component="ComponentInfo{ph.com.globe.globeonesuperapp/ph.com.globe.globeonesuperapp.BaseActivity}" drawable="globeone" name="GlobeOne" />
-  <item component="ComponentInfo{com.materiiapps.gloom.debug/com.materiiapps.gloom.ui.GloomActivity}" drawable="gloom" name="Gloom" />
   <item component="ComponentInfo{com.materiiapps.gloom/com.materiiapps.gloom.ui.GloomActivity}" drawable="gloom" name="Gloom" />
+  <item component="ComponentInfo{dev.materii.gloom/gloom.icons.classic.Main}" drawable="gloom" name="Gloom" />
+  <item component="ComponentInfo{com.materiiapps.gloom.debug/com.materiiapps.gloom.ui.GloomActivity}" drawable="gloom" name="Gloom Debug" />
   <item component="ComponentInfo{com.glovo/com.glovoapp.onboarding.splash.SplashActivity}" drawable="glovo" name="Glovo" />
   <item component="ComponentInfo{com.glovo/glovoapp.splash.SplashActivity}" drawable="glovo" name="Glovo" />
   <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.AutoSendActivity}" drawable="gmail" name="Gmail" />
@@ -5317,7 +5324,9 @@
   <item component="ComponentInfo{com.streamlabs/com.streamlabs.live.ui.main.HomeActivity}" drawable="streamlabs" name="Streamlabs" />
   <item component="ComponentInfo{com.stremio.one/com.stremio.android.MainActivity}" drawable="stremio" name="Stremio" />
   <item component="ComponentInfo{com.stremio.one/com.stremio.MainActivity}" drawable="stremio" name="Stremio" />
+  <item component="ComponentInfo{com.stripe.android.dashboard/com.stripe.android.dashboard.MainActivity}" drawable="stripe" name="Stripe" />
   <item component="ComponentInfo{com.stripe.android.dashboard/com.stripe.dashboard.ui.launch.MainActivity}" drawable="stripe" name="Stripe" />
+  <item component="ComponentInfo{org.chromium.webapk.a8e7efffbf377b441_v2/org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity}" drawable="stripe" name="Stripe Identity" />
   <item component="ComponentInfo{com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.CategoryPickerActivity}" drawable="simple_gallery" name="Styles &amp; Wallpapers" />
   <item component="ComponentInfo{de.simolation.subscriptionmanager/de.simolation.subscriptionmanager.ui.main.MainActivity}" drawable="subscriptions" name="Subscriptions" />
   <item component="ComponentInfo{projekt.substratum.lite/projekt.substratum.lite.activity.SplashScreenActivity}" drawable="substratum_lite" name="substratum Lite" />
