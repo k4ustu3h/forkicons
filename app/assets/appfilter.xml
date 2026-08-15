@@ -234,6 +234,7 @@
   <item component="ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.SplashActivity}" drawable="antennapod" name="AntennaPod" />
   <item component="ComponentInfo{dev.lucanlm.antimine/dev.lucasnlm.antimine.main.MainActivity}" drawable="antimine" name="Antimine" />
   <item component="ComponentInfo{dev.lucanlm.antimine/dev.lucasnlm.antimine.splash.SplashActivity}" drawable="antimine" name="Antimine" />
+  <item component="ComponentInfo{com.anydo/com.anydo.activity.SplashActivity}" drawable="any_do" name="Any.do" />
   <item component="ComponentInfo{com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.gui.activity.MainActivity}" drawable="anydesk" name="AnyDesk" />
   <item component="ComponentInfo{com.anydesk.anydeskandroid/com.anydesk.anydeskandroid.MainActivity}" drawable="anydesk" name="AnyDesk" />
   <item component="ComponentInfo{de.aok.digen/de.aok.digen.auth.AokRamenEHealthIdAuthActivity}" drawable="generic_heart" name="AOK Mein Leben" />
@@ -744,6 +745,7 @@
   <item component="ComponentInfo{com.gigaworks.tech.calculator/com.gigaworks.tech.calculator.ui.main.MainActivity}" drawable="generic_calculator_plus_minus_multi_equal" name="Calculator Plus" />
   <item component="ComponentInfo{pro2.calculator.widget.various.themes/pro2.calculator.widget.various.themes.StartActivity}" drawable="generic_calculator_plus_minus_multi_equal" name="Calculator Widget Themes" />
   <item component="ComponentInfo{calculator.widget.various.themes/calculator.widget.various.themes.StartActivity}" drawable="generic_calculator_plus_minus_multi_equal" name="Calculator Widget Themes" />
+  <item component="ComponentInfo{com.marktka.calculatorYou/com.forz.calculator.MainActivity}" drawable="calculator_you" name="Calculator You" />
   <item component="ComponentInfo{net.youapps.calcyou/net.youapps.calcyou.MainActivity}" drawable="generic_calculator_minus_multi_plus_equal" name="CalcYou" />
   <item component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
   <item component="ComponentInfo{com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
@@ -1236,6 +1238,7 @@
   <item component="ComponentInfo{icontacts.ios.dialer.icall/icontacts.ios.dialer.icall.ui.activities.SplashActivity}" drawable="generic_dialer" name="Contacts &amp; Phone Call" />
   <item component="ComponentInfo{com.nasahacker.convertit/com.nasahacker.convertit.MainActivity}" drawable="generic_voice" name="Convertit" />
   <item component="ComponentInfo{org.thebytearray.convertit/org.thebytearray.convertit.MainActivity}" drawable="generic_voice" name="Convertit" />
+  <item component="ComponentInfo{com.coppel.coppelapp/lBX5d8.ju6n46.iywM39.chi1e3.xqKkP8.p645Q4}" drawable="bancoppel" name="Coppel" />
   <item component="ComponentInfo{com.coppel.coppelapp/com.coppel.coppelapp.splash.presentation.SplashActivity}" drawable="bancoppel" name="Coppel" />
   <item component="ComponentInfo{com.coppel.coppelapp/oGCSj5.mKCAZ2.bF7je1.afFQS0.utBYV9.or0VD5}" drawable="bancoppel" name="Coppel" />
   <item component="ComponentInfo{com.coppel.coppelapp/gQFvU6.gesY72.gdKsn1.yDigQ7.r3FH22.eEjfj2}" drawable="bancoppel" name="Coppel" />
@@ -1494,6 +1497,7 @@
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherSilhoutte}" drawable="duckduckgo" name="DuckDuckGo" />
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.onboarding.ui.OnboardingActivity}" drawable="duckduckgo" name="DuckDuckGo" />
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.PreStreakSaver8Launcher}" drawable="duolingo" name="Duolingo" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.LaunchActivity}" drawable="duolingo" name="Duolingo" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.LoginActivity}" drawable="duolingo" name="Duolingo" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakFrozenLauncher1}" drawable="duolingo" name="Duolingo" />
@@ -2132,6 +2136,9 @@
   <item component="ComponentInfo{com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.coloros.gallery3d/com.oppo.gallery3d.app.Gallery}" drawable="generic_gallery" name="Gallery" />
   <item component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}" drawable="gallery_go" name="Gallery Go" />
+  <item component="ComponentInfo{com.nearme.gamecenter/com.nearme.gamecenter.DefaultAlias}" drawable="game_center" name="Game Center" />
+  <item component="ComponentInfo{com.nearme.gamecenter/com.nearme.gamecenter.DynamicAliasTwo}" drawable="game_center" name="Game Center" />
+  <item component="ComponentInfo{com.nearme.gamecenter/com.nearme.gamecenter.ui.activity.SplashActivity}" drawable="game_center" name="Game Center" />
   <item component="ComponentInfo{io.chaldeaprjkt.gamespace/.settings.SettingsActivity}" drawable="gamespace" name="Game Space" />
   <item component="ComponentInfo{com.xiaoji.egggame/com.xj.app.DeepLinkRouterActivity}" drawable="gamehub" name="GameHub" />
   <item component="ComponentInfo{com.xiaoji.egggame/com.xj.app.SplashActivity}" drawable="gamehub" name="GameHub" />
@@ -3264,6 +3271,7 @@
   <item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="microsoft_365" name="Microsoft 356 (Office)" />
   <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.LaunchActivity}" drawable="microsoft_authenticator" name="Microsoft Authenticator" />
   <item component="ComponentInfo{com.azure.authenticator/com.azure.authenticator.ui.MainActivity}" drawable="microsoft_authenticator" name="Microsoft Authenticator" />
+  <item component="ComponentInfo{com.microsoft.azure/crc6431cd41aa6ada328a.SplashScreenActivity}" drawable="microsoft_azure" name="Microsoft Azure" />
   <item component="ComponentInfo{com.microsoft.bingwebmastertools.twa/com.microsoft.bingwebmastertools.twa.LauncherActivity}" drawable="bing" name="Microsoft Bing Webmaster Tools" />
   <item component="ComponentInfo{com.microsoft.copilot/com.microsoft.copilotn.MainActivity}" drawable="microsoft_copilot" name="Microsoft Copilot" />
   <item component="ComponentInfo{com.microsoft.copilot/com.google.android.archive.ReactivateActivity}" drawable="microsoft_copilot" name="Microsoft Copilot" />
@@ -3537,6 +3545,7 @@
   <item component="ComponentInfo{sj.tech.myqr/sj.tech.myqr.MainActivity}" drawable="generic_qr_reader" name="MyQR" />
   <item component="ComponentInfo{com.acmeaom.android.myradar/com.acmeaom.android.myradar.app.activity.LaunchActivity}" drawable="myradar" name="MyRadar" />
   <item component="ComponentInfo{com.acmeaom.android.myradarpro/com.acmeaom.android.myradar.app.activity.LaunchActivity}" drawable="myradar_pro" name="MyRadar Pro" />
+  <item component="ComponentInfo{com.shiprocket.consumer.orbit/com.shiprocket.consumer.orbit.MainActivity}" drawable="myshiprocket" name="myShiprocket" />
   <item component="ComponentInfo{com.solaredge.homeowner/com.solaredge.homeowner.ui.SplashScreenActivity}" drawable="mysolaredge" name="mySolarEdge" />
   <item component="ComponentInfo{today.mystory.app/today.mystory.app.MainActivity}" drawable="mystory" name="MyStory" />
   <item component="ComponentInfo{com.telkomsel.telkomselcm/com.telkomsel.mytelkomsel.view.splash.ui.SplashActivityRevamp}" drawable="mytelkomsel" name="MyTelkomsel" />
@@ -3550,6 +3559,7 @@
   <item component="ComponentInfo{com.hearthborn.studios.ncalc/com.hearthborn.studios.ncalc.MainActivityUnderTest}" drawable="generic_calculator_plus_minus_multi_equal" name="N Calc" />
   <item component="ComponentInfo{xyz.nextalone.nagram/org.telegram.messenger.DefaultIcon}" drawable="nagram" name="Nagram" />
   <item component="ComponentInfo{xyz.nextalone.nagram/org.telegram.messenger.PremiumIcon}" drawable="nagram" name="Nagram" />
+  <item component="ComponentInfo{com.bhu.namaste/com.bhu.namaste.MainActivity}" drawable="namaste_bhu" name="Namaste BHU" />
   <item component="ComponentInfo{com.franco.doze/a.a}" drawable="sleep" name="Naptime" />
   <item component="ComponentInfo{com.franco.doze/com.franco.doze.activities.MainActivity}" drawable="sleep" name="Naptime" />
   <item component="ComponentInfo{com.franco.doze/com.franco.doze.activities.SplashActivity}" drawable="sleep" name="Naptime" />
@@ -5513,15 +5523,18 @@
   <item component="ComponentInfo{com.dubox.drive/com.dubox.drive.ui.Navigate}" drawable="terabox" name="Terabox" />
   <item component="ComponentInfo{com.android.virtualization.terminal/com.android.virtualization.terminal.MainActivity}" drawable="terminal" name="Terminal" />
   <item component="ComponentInfo{com.android.virtualization.terminal/com.android.virtualization.terminal.new2.ui.MainActivity}" drawable="terminal" name="Terminal" />
-  <item component="ComponentInfo{com.termux.api/com.termux.api.activities.TermuxAPIActivity}" drawable="termux" name="Termux" />
-  <item component="ComponentInfo{com.termux.boot/com.termux.boot.BootActivity}" drawable="termux" name="Termux" />
-  <item component="ComponentInfo{com.termux.styling/com.termux.styling.TermuxStyleActivity}" drawable="termux" name="Termux" />
-  <item component="ComponentInfo{com.termux.tasker/com.termux.tasker.activities.TermuxTaskerActivity}" drawable="termux" name="Termux" />
-  <item component="ComponentInfo{com.termux.widget/com.termux.widget.activities.TermuxWidgetActivity}" drawable="termux" name="Termux" />
-  <item component="ComponentInfo{com.termux.window/com.termux.window.TermuxFloatActivity}" drawable="termux" name="Termux" />
   <item component="ComponentInfo{com.termux/.app.TermuxActivity}" drawable="termux" name="Termux" />
   <item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="termux" name="Termux" />
   <item component="ComponentInfo{com.termux/com.termux.app.TermuxFailsafeActivity}" drawable="termux" name="Termux" />
+  <item component="ComponentInfo{com.gardockt.termuxterminalwidget/com.gardockt.termuxterminalwidget.MainActivity}" drawable="termux" name="Termux Terminal Widget" />
+  <item component="ComponentInfo{com.termux.api/com.termux.api.activities.TermuxAPILauncherActivity}" drawable="termux" name="Termux:API" />
+  <item component="ComponentInfo{com.termux.api/com.termux.api.activities.TermuxAPIActivity}" drawable="termux" name="Termux:API" />
+  <item component="ComponentInfo{com.termux.boot/com.termux.boot.BootActivity}" drawable="termux" name="Termux:Boot" />
+  <item component="ComponentInfo{com.termux.window/com.termux.window.TermuxFloatActivity}" drawable="termux" name="Termux:Float" />
+  <item component="ComponentInfo{com.termux.styling/com.termux.styling.TermuxStyleActivity}" drawable="termux" name="Termux:Styling" />
+  <item component="ComponentInfo{com.termux.tasker/com.termux.tasker.activities.TermuxTaskerActivity}" drawable="termux" name="Termux:Tasker" />
+  <item component="ComponentInfo{com.termux.widget/com.termux.widget.activities.TermuxWidgetActivity}" drawable="termux" name="Termux:Widget" />
+  <item component="ComponentInfo{com.termux.widget/com.termux.widget.activities.TermuxWidgetLauncherActivity}" drawable="termux" name="Termux:Widget" />
   <item component="ComponentInfo{com.testbook.tbapp/com.testbook.tbapp.android.router.RouterActivity}" drawable="testbook" name="Testbook" />
   <item component="ComponentInfo{com.testbook.tbapp/com.testbook.tbapp.android.SplashActivity}" drawable="testbook" name="Testbook" />
   <item component="ComponentInfo{com.simplemobiletools.thankyou/com.simplemobiletools.thankyou.activities.SplashActivity.Red}" drawable="generic_heart" name="Thank You" />
@@ -6055,6 +6068,11 @@
   <item component="ComponentInfo{com.xda.labs/com.xda.labs.MainActivity}" drawable="xda" name="XDA" />
   <item component="ComponentInfo{com.xe.currency/com.xe.currency.MainActivity}" drawable="xe" name="Xe" />
   <item component="ComponentInfo{cn.xender/cn.xender.ui.activity.SplashActivity}" drawable="xender" name="Xender" />
+  <item component="ComponentInfo{com.xiaomi.glgm/com.mig.play.Icon3}" drawable="xiaomi_game_center" name="Xiaomi Game Center" />
+  <item component="ComponentInfo{com.xiaomi.glgm/com.mig.play.Icon0}" drawable="xiaomi_game_center" name="Xiaomi Game Center" />
+  <item component="ComponentInfo{com.xiaomi.glgm/com.xiaomi.glgm.home.ui.category}" drawable="xiaomi_game_center" name="Xiaomi Game Center" />
+  <item component="ComponentInfo{com.xiaomi.glgm/com.xiaomi.glgm.home.ui.SplashActivity}" drawable="xiaomi_game_center" name="Xiaomi Game Center" />
+  <item component="ComponentInfo{com.xiaomi.glgm/com.mig.play.Icon1}" drawable="xiaomi_game_center" name="Xiaomi Game Center" />
   <item component="ComponentInfo{id.my.pjm.qbcd_okr_dvii/android.app.NativeActivity}" drawable="generic_shell" name="xka wl rl" />
   <item component="ComponentInfo{video.player.videoplayer/com.inshot.xplayer.activities.FileExplorerActivity}" drawable="xplayer" name="XPlayer" />
   <item component="ComponentInfo{video.player.videoplayer/com.inshot.xplayer.activities.SplashActivity}" drawable="xplayer" name="XPlayer" />
@@ -6091,6 +6109,7 @@
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_1}" drawable="youtube" name="Youtube" />
   <item component="ComponentInfo{app.morphe.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
   <item component="ComponentInfo{com.rve.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="youtube" name="YouTube" />
+  <item component="ComponentInfo{com.google.android.apps.youtube.producer/com.google.android.apps.youtube.producer.application.MainActivity}" drawable="youtube_create" name="YouTube Create" />
   <item component="ComponentInfo{com.google.android.youtube.tv/com.google.android.apps.youtube.tv.activity.ShellActivity}" drawable="youtube" name="YouTube for Android TV" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_original_2}" drawable="youtube" name="YouTube Morphe" />
   <item component="ComponentInfo{app.morphe.android.youtube/app.morphe.android.youtube.morphe_black_2}" drawable="morphe" name="YouTube Morphe" />
