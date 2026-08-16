@@ -749,6 +749,8 @@
   <item component="ComponentInfo{net.youapps.calcyou/net.youapps.calcyou.MainActivity}" drawable="generic_calculator_minus_multi_plus_equal" name="CalcYou" />
   <item component="ComponentInfo{com.coloros.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
   <item component="ComponentInfo{com.motorola.cn.calendar/com.motorola.cn.calendar.AllInOneActivity}" drawable="calendar" name="Calendar" />
+  <item component="ComponentInfo{de.jeanlucmakiola.calendula/de.jeanlucmakiola.calendula.MainActivity}" drawable="calendula" name="Calendula" />
+  <item component="ComponentInfo{de.jeanlucmakiola.calendula/de.jeanlucmakiola.calendula.CalendarNameAlias}" drawable="calendula" name="Calendula" />
   <item component="ComponentInfo{com.techinnate.android.fakecallme/com.techinnate.android.fakecallme.Activity.TransparentSplashActivity}" drawable="generic_dialer" name="Call Assistant" />
   <item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.CODMPrivatePermissionActivity}" drawable="call_of_duty" name="Call of Duty Mobile" />
   <item component="ComponentInfo{com.activision.callofduty.shooter/com.tencent.tmgp.cod.PermissionGrantActivity}" drawable="call_of_duty" name="Call of Duty Mobile" />
@@ -3390,6 +3392,8 @@
   <item component="ComponentInfo{com.motorola.motobuds/com.motorola.motobuds.ui.activity.LandingPageActivity}" drawable="moto_buds" name="Moto Buds" />
   <item component="ComponentInfo{com.motorola.email/com.android.email.activity.Welcome}" drawable="generic_email" name="Moto Email" />
   <item component="ComponentInfo{com.motorola.cn.gallery/com.motorola.cn.gallery.app.GalleryActivity}" drawable="generic_gallery" name="Moto Gallery" />
+  <item component="ComponentInfo{com.motorola.gamemode/com.motorola.gamemode.ui.launcher.main.PRCGameCenterActivity}" drawable="moto_gametime" name="Moto Gametime" />
+  <item component="ComponentInfo{com.motorola.gamemode/com.motorola.gamemode.ui.launcher.main.GameCenterActivity}" drawable="moto_gametime" name="Moto Gametime" />
   <item component="ComponentInfo{com.motorola.stylus/com.motorola.stylus.manager.NoteManagerActivity}" drawable="generic_notes" name="Moto Note" />
   <item component="ComponentInfo{com.motorola.cn.notes/com.motorola.cn.notes.MainActivity}" drawable="generic_notes" name="Moto Notepad" />
   <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.MotoplaceActivity}" drawable="moto_notifications" name="Moto Notifications" />
@@ -3596,6 +3600,7 @@
   <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="netflix" name="Netflix" />
   <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity}" drawable="netflix" name="Netflix" />
   <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}" drawable="netflix" name="Netflix" />
+  <item component="ComponentInfo{eu.faircode.netguard/eu.faircode.netguard.ActivityMain}" drawable="netguard" name="NetGuard" />
   <item component="ComponentInfo{com.offsec.nethunter.store/org.fdroid.fdroid.views.main.MainActivity}" drawable="nethunter_store" name="NetHunter Store" />
   <item component="ComponentInfo{cz.mroczis.netmonster/cz.mroczis.kotlin.presentation.main.MainActivity}" drawable="netmonster" name="NetMonster" />
   <item component="ComponentInfo{com.newme.mobile/com.newme.mobile.MainActivity}" drawable="newme" name="NEWME" />
@@ -3700,6 +3705,7 @@
   <item component="ComponentInfo{OCTech.Mobile.Applications.TouchScan/crc642308c43e766bd67c.MainActivity}" drawable="generic_engine" name="OBD Fusion" />
   <item component="ComponentInfo{com.chaoyue.obdpro/com.chaoyue.obdpro.app.SplashActivity}" drawable="generic_engine" name="OBD Home" />
   <item component="ComponentInfo{com.elm.elm327.obd2.eobd.obd.car.scanner.diagnostics.tool.dashboard.doctor.check.engine.torque.speed.trouble.codes.mary/com.scanner.obd.ui.activity.MainActivity}" drawable="generic_engine" name="Obd Mary" />
+  <item component="ComponentInfo{md.obsidian/md.obsidian.MainActivity}" drawable="obsidian" name="Obsidian" />
   <item component="ComponentInfo{dev.imranr.obtainium.fdroid/dev.imranr.obtainium.MainActivity}" drawable="obtainium" name="Obtainium" />
   <item component="ComponentInfo{dev.imranr.obtainium/dev.imranr.obtainium.MainActivity}" drawable="obtainium" name="Obtainium" />
   <item component="ComponentInfo{dev.bikram.obtainx/dev.imranr.obtainium.MainActivity}" drawable="obtainx" name="ObtainX" />
@@ -3880,6 +3886,7 @@
   <item component="ComponentInfo{it.owlgram.android/org.telegram.messenger.OG_Icon_Alt_Developer}" drawable="owlgram" name="OwlGram" />
   <item component="ComponentInfo{it.owlgram.android/org.telegram.ui.LaunchActivity}" drawable="owlgram" name="OwlGram" />
   <item component="ComponentInfo{com.owncloud.android/com.owncloud.android.ui.activity.SplashActivity}" drawable="owncloud" name="ownCloud" />
+  <item component="ComponentInfo{com.bintianqi.owndroid/com.bintianqi.owndroid.MainActivity}" drawable="netguard" name="OwnDroid" />
   <item component="ComponentInfo{com.oyo.consumer/com.oyo.consumer.activity.LauncherActivity}" drawable="oyo" name="OYO" />
   <item component="ComponentInfo{ru.ozon.app.android/ru.ozon.app.android.Activities.MainActivity}" drawable="ozon" name="Ozon" />
   <item component="ComponentInfo{ru.ozon.app.android/ru.ozon.app.android.ui.main.MainActivity}" drawable="ozon" name="Ozon" />
@@ -6079,6 +6086,7 @@
   <item component="ComponentInfo{tv.accedo.airtel.wynk/com.razpay.apk.HaipeeKnk}" drawable="xstream" name="Xstream" />
   <item component="ComponentInfo{tv.accedo.airtel.wynk/tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity}" drawable="xstream" name="Xstream" />
   <item component="ComponentInfo{tv.accedo.airtel.wynk/tv.accedo.wynk.android.airtel.activity.AirtelInitializationActivity}" drawable="xstream" name="Xstream" />
+  <item component="ComponentInfo{com.yandex.yango/ru.yandex.taxi.activity.MainActivity}" drawable="yango" name="Yango" />
   <item component="ComponentInfo{rikka.safetynetchecker/rikka.safetynetchecker.main.MainActivity}" drawable="yasnac" name="YASNAC" />
   <item component="ComponentInfo{com.yeelight.cherry/com.yeelight.cherry.ui.activity.LauncherActivity}" drawable="yeelight" name="Yeelight" />
   <item component="ComponentInfo{com.kapp.youtube.final/com.kapp.youtube.ui.MainActivity}" drawable="ymusic" name="YMusic" />
