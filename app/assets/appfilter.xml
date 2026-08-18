@@ -132,6 +132,7 @@
   <item component="ComponentInfo{facebook.video.downloader.savefrom.fb.saver.fast/com.atlasv.android.downloader.scaffold.ui.feature.splash.SplashActivity}" drawable="generic_download_shelf" name="Ahafast" />
   <item component="ComponentInfo{com.gallery20/com.gallery20.activities.GalleryActivity}" drawable="generic_gallery" name="AI Gallery" />
   <item component="ComponentInfo{com.gallery20/com.gallery20.HomeActivity}" drawable="generic_gallery" name="AI Gallery" />
+  <item component="ComponentInfo{com.foss.aihub/com.foss.aihub.MainActivity}" drawable="ai_hub" name="AI Hub" />
   <item component="ComponentInfo{com.finalwire.aida64/com.finalwire.aida64.HHMainActivity}" drawable="aida64" name="AIDA64" />
   <item component="ComponentInfo{com.aimp.player/com.aimp.player.views.MainActivity.MainActivity}" drawable="aimp" name="AIMP" />
   <item component="ComponentInfo{com.aimp.player/com.aimp.player.views.Main.MainActivity}" drawable="aimp" name="AIMP" />
@@ -1591,6 +1592,7 @@
   <item component="ComponentInfo{com.epicgames.portal/com.epicgames.portal.ui.MainActivity}" drawable="epic_games" name="Epic Games" />
   <item component="ComponentInfo{com.epicgames.ega/com.epicgames.portal.ui.MainActivity}" drawable="epic_games" name="Epic Games" />
   <item component="ComponentInfo{epson.print/epson.print.WellcomeScreenActivity}" drawable="generic_printer" name="Epson iPrint" />
+  <item component="ComponentInfo{com.bearinmind.equalizer314/com.bearinmind.equalizer314.MainActivity}" drawable="equalizer314" name="Equalizer314" />
   <item component="ComponentInfo{com.sameerasw.essentials/com.sameerasw.essentials.MainActivity}" drawable="essentials" name="Essentials" />
   <item component="ComponentInfo{com.sameerasw.essentials/com.sameerasw.essentials.AppFreezingLauncher}" drawable="essentials_app_freezing" name="Essentials App Freezing" />
   <item component="ComponentInfo{de.jepfa.personaltasklogger/de.jepfa.personaltasklogger.MainActivity}" drawable="google_tasks" name="Everyday Tasks" />
@@ -2204,6 +2206,7 @@
   <item component="ComponentInfo{com.pictext.followersedit/com.pictext.followersedit.ui.activ.LaunchActivity}" drawable="generic_heart" name="Get Followers Likes For Ins" />
   <item component="ComponentInfo{jp.yusukey.getsauce/jp.yusukey.getsauce.MainActivity}" drawable="generic_search" name="Get Sauce" />
   <item component="ComponentInfo{com.android.geto/com.android.geto.MainActivity}" drawable="geto" name="Geto" />
+  <item component="ComponentInfo{com.android.geto/com.android.geto.activity.main.MainActivity}" drawable="geto" name="Geto" />
   <item component="ComponentInfo{eu.tsoml.graphicssettings/eu.tsoml.graphicssettings.MainActivity}" drawable="gfx_tool" name="GFX Tool" />
   <item component="ComponentInfo{com.giphy.messenger/com.giphy.messenger.app.MainActivity}" drawable="giphy" name="GIPHY" />
   <item component="ComponentInfo{com.giphy.messenger/com.giphy.messenger.app.OnboardingActivity}" drawable="giphy" name="GIPHY" />
@@ -2403,6 +2406,11 @@
   <item component="ComponentInfo{com.anticor.graby/com.anticor.graby.activities.SplashActivity}" drawable="graby_ui_icon_pack" name="Graby UI Icon Pack" />
   <item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.MainActivity}" drawable="gramophone" name="Gramophone" />
   <item component="ComponentInfo{org.akanework.gramophone/org.akanework.gramophone.ui.MainActivity}" drawable="gramophone" name="Gramophone" />
+  <item component="ComponentInfo{app.grapheneos.apps/org.grapheneos.apps.client.ui.container.MainActivity}" drawable="grapheneos_apps" name="GrapheneOS Apps" />
+  <item component="ComponentInfo{app.grapheneos.apps/app.grapheneos.apps.ui.MainActivity}" drawable="grapheneos_apps" name="GrapheneOS Apps" />
+  <item component="ComponentInfo{app.attestation.auditor/app.attestation.auditor.AttestationActivity}" drawable="grapheneos_auditor" name="GrapheneOS Auditor" />
+  <item component="ComponentInfo{app.attestation.auditor.play/app.attestation.auditor.AttestationActivity}" drawable="grapheneos_auditor" name="GrapheneOS Auditor" />
+  <item component="ComponentInfo{app.grapheneos.info/app.grapheneos.info.MainActivity}" drawable="grapheneos_info" name="GrapheneOS Info" />
   <item component="ComponentInfo{app.grapheneos.camera/app.grapheneos.camera.ui.activities.MainActivity}" drawable="generic_camera" name="GrapheneOS Secure Camera" />
   <item component="ComponentInfo{app.grapheneos.camera.play/app.grapheneos.camera.ui.activities.MainActivity}" drawable="generic_camera" name="GrapheneOS Secure Camera" />
   <item component="ComponentInfo{org.grapheneos.pdfviewer/org.grapheneos.pdfviewer.PdfViewer}" drawable="generic_pdf_square" name="GrapheneOS Secure PDF Viewer" />
@@ -3632,6 +3640,7 @@
   <item component="ComponentInfo{com.shamim.skypatch/com.android.camera.CameraLauncher}" drawable="generic_camera" name="Nocture" />
   <item component="ComponentInfo{com.shallwaystudio.nodevideo/com.unity3d.player.UnityPlayerActivity}" drawable="nodevideo" name="Node Video" />
   <item component="ComponentInfo{com.nokoprint/com.nokoprint.ActivityHome}" drawable="generic_printer" name="Noko Print" />
+  <item component="ComponentInfo{com.monuk7735.nope.remote/com.monuk7735.nope.remote.HomeActivity}" drawable="nope_remote" name="Nope Remote" />
   <item component="ComponentInfo{com.omgodse.notally/com.omgodse.notally.activities.MainActivity}" drawable="notally" name="Notally" />
   <item component="ComponentInfo{com.philkes.notallyx/com.philkes.notallyx.presentation.activity.main.MainActivity}" drawable="notallyx" name="NotallyX" />
   <item component="ComponentInfo{de.tiendonam.notan/de.tiendonam.notan.MainActivity}" drawable="notan_grade_calculator" name="Notan: Grade Calculator" />
@@ -3680,6 +3689,7 @@
   <item component="ComponentInfo{nl.ns.android.activity/nl.ns.android.activity.start.StartActivity}" drawable="ns" name="NS" />
   <item component="ComponentInfo{in.gov.scholarships.nspotr/in.gov.scholarships.nspotr.ui.activities.SplashScreenActivity}" drawable="nsp_otr" name="NSP OTR" />
   <item component="ComponentInfo{thanhletranngoc.calculator.pro/thanhletranngoc.calculator.pro.activities.MainActivity}" drawable="generic_calculator_plus_minus_multi_equal" name="NT Calculator" />
+  <item component="ComponentInfo{io.heckel.ntfy/io.heckel.ntfy.ui.MainActivity}" drawable="ntfy" name="ntfy" />
   <item component="ComponentInfo{com.nu.production/br.com.nubank.app.ProxyActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nu.production/br.com.nubank.app.SplashScreenActivity}" drawable="nubank" name="Nubank" />
   <item component="ComponentInfo{com.nu.production/br.com.nubank.shell.screens.splash.SplashActivity}" drawable="nubank" name="Nubank" />
@@ -4145,6 +4155,7 @@
   <item component="ComponentInfo{com.picpay/com.picpay.features.enter.PicPayEnterActivity}" drawable="picpay" name="PicPay" />
   <item component="ComponentInfo{com.picpay/com.picpay.features.enter.ReleasePicPayEnter}" drawable="picpay" name="PicPay" />
   <item component="ComponentInfo{com.picpay/com.picpay.visao.PicPayEnter}" drawable="picpay" name="PicPay" />
+  <item component="ComponentInfo{com.picpay/com.picpay.PicpayIconAlias}" drawable="picpay" name="PicPay" />
   <item component="ComponentInfo{com.picsart.studio/com.d.a}" drawable="picsart" name="Picsart" />
   <item component="ComponentInfo{com.picsart.studio/com.socialin.android.photo.picsinphoto.MainActivity}" drawable="picsart" name="Picsart" />
   <item component="ComponentInfo{com.picsart.studio/com.socialin.android.photo.picsinphoto.MainPagerActivity}" drawable="picsart" name="Picsart" />
@@ -6188,6 +6199,7 @@
   <item component="ComponentInfo{ru.zdevs.zarchiver/ru.zdevs.zarchiver.ZArchiverFS}" drawable="zarchiver" name="ZArchiver" />
   <item component="ComponentInfo{it.zave.app/it.zave.app.MainActivity}" drawable="zave_it" name="zave.it" />
   <item component="ComponentInfo{com.ziadoua.zcalc/com.ziadoua.zcalc.MainActivity}" drawable="zcalc" name="zCalc" />
+  <item component="ComponentInfo{zebpay.Application/com.zebpay.MainActivity}" drawable="zebpay" name="Zebpay" />
   <item component="ComponentInfo{zebpay.Application/zebpay.application.ui.activity.MainActivity}" drawable="zebpay" name="ZebPay" />
   <item component="ComponentInfo{zebpay.Application/zebpay.application.ui.activity.SplashActivity}" drawable="zebpay" name="ZebPay" />
   <item component="ComponentInfo{zebpay.Application/zebpay.application.IconDefault}" drawable="zebpay" name="ZebPay" />
