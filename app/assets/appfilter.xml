@@ -106,6 +106,13 @@
   <item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.activity.SplashActivity}" drawable="adguard" name="AdGuard" />
   <item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.activity.MainActivity}" drawable="adguard" name="AdGuard" />
   <item component="ComponentInfo{com.adguard.android/com.adguard.android.ui.SplashActivity}" drawable="adguard" name="AdGuard" />
+  <item component="ComponentInfo{com.adidas.app/com.adidas.app.MainActivity}" drawable="adidas" name="adidas" />
+  <item component="ComponentInfo{com.adidas.app/com.adidas.app.intro.IntroActivity}" drawable="adidas" name="adidas" />
+  <item component="ComponentInfo{com.adidas.app/com.adidas.intro.IntroActivity}" drawable="adidas" name="adidas" />
+  <item component="ComponentInfo{com.adidas.app/com.adidas.app.SplashActivity}" drawable="adidas" name="adidas" />
+  <item component="ComponentInfo{com.runtastic.android/com.runtastic.android.activities}" drawable="adidas_running" name="adidas Running" />
+  <item component="ComponentInfo{com.runtastic.android/com.runtastic.android.activities.StartActivity}" drawable="adidas_running" name="adidas Running" />
+  <item component="ComponentInfo{com.adidas.gmr/com.adidas.gmr.startup.StartUpActivity}" drawable="adidas" name="adidas TEAM FX" />
   <item component="ComponentInfo{com.davidshewitt.admincontrol/com.davidshewitt.admincontrol.ControlYourDeviceActivity}" drawable="generic_lock" name="AdminControl" />
   <item component="ComponentInfo{io.stark.admob/io.stark.admob.ui.MainActivity}" drawable="admobile" name="AdMobile" />
   <item component="ComponentInfo{com.eyalm.adns/com.eyalm.adns.MainActivity}" drawable="adns" name="ADNS" />
@@ -1378,6 +1385,10 @@
   <item component="ComponentInfo{com.disney.disneyplus/com.bamtechmedia.dominguez.main.MainActivity}" drawable="disneyplus" name="Disney+" />
   <item component="ComponentInfo{com.disneyplus.mea/com.hotstar.MainActivity}" drawable="disneyplus" name="Disney+" />
   <item component="ComponentInfo{com.application.zomato.district/com.application.zomato.gooutandroid.MainActivity}" drawable="district" name="District" />
+  <item component="ComponentInfo{com.mydito/com.mydito.app_icon_6}" drawable="dito" name="DITO" />
+  <item component="ComponentInfo{com.mydito/com.mydito.MainActivity}" drawable="dito" name="DITO" />
+  <item component="ComponentInfo{com.mydito/com.mydito.ui.login.GuidePageActivity}" drawable="dito" name="DITO" />
+  <item component="ComponentInfo{com.mydito/com.mydito.app_icon_7}" drawable="dito" name="DITO" />
   <item component="ComponentInfo{dji.go.v5/com.dji.component.application.activity.DJIPureLaunchActivity}" drawable="dji" name="DJI Fly" />
   <item component="ComponentInfo{dji.go.v5/com.dji.component.application.activity.DJILauncherActivity}" drawable="dji" name="DJI Fly" />
   <item component="ComponentInfo{dji.go.v4/dji.pilot.main.activity.DJILauncherActivity}" drawable="dji" name="DJI Go" />
@@ -1979,6 +1990,10 @@
   <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Red}" drawable="generic_keyboard" name="Fossify Keyboard" />
   <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Teal}" drawable="generic_keyboard" name="Fossify Keyboard" />
   <item component="ComponentInfo{org.fossify.keyboard/org.fossify.keyboard.activities.SplashActivity.Yellow}" drawable="generic_keyboard" name="Fossify Keyboard" />
+  <item component="ComponentInfo{org.fossify.home/org.fossify.home.activities.SplashActivity.Green}" drawable="fossify_launcher" name="Fossify Launcher" />
+  <item component="ComponentInfo{org.fossify.home/org.fossify.home.activities.SplashActivity.Cyan}" drawable="fossify_launcher" name="Fossify Launcher" />
+  <item component="ComponentInfo{org.fossify.home/org.fossify.home.activities.SplashActivity.Orange}" drawable="fossify_launcher" name="Fossify Launcher" />
+  <item component="ComponentInfo{org.fossify.home/org.fossify.home.activities.SplashActivity.Grey_black}" drawable="fossify_launcher" name="Fossify Launcher" />
   <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity}" drawable="fossify_messages" name="Fossify Messages" />
   <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Amber}" drawable="fossify_messages" name="Fossify Messages" />
   <item component="ComponentInfo{org.fossify.messages/org.fossify.messages.activities.SplashActivity.Blue}" drawable="fossify_messages" name="Fossify Messages" />
@@ -2509,6 +2524,8 @@
   <item component="ComponentInfo{com.healthifyme.basic/com.healthifyme.basic.activities.LaunchActivity}" drawable="healthify" name="Healthfy" />
   <item component="ComponentInfo{com.healthyminds/com.healthyminds.MainActivity}" drawable="healthy_minds" name="Healthy Minds" />
   <item component="ComponentInfo{eu.berdosi.app.heartbeat/eu.berdosi.app.heartbeat.MainActivity}" drawable="generic_heart" name="HeartBeat" />
+  <item component="ComponentInfo{helium314.keyboard/helium314.keyboard.latin.setup.SetupActivity}" drawable="heliboard" name="HeliBoard" />
+  <item component="ComponentInfo{helium314.keyboard/helium314.keyboard.settings.SettingsActivity}" drawable="heliboard" name="HeliBoard" />
   <item component="ComponentInfo{com.bpcl.hellob2c/com.bpcl.hellob2c.view.common_experiences.onboarding.view.SplashActivity}" drawable="bpcl" name="Hello BPCL" />
   <item component="ComponentInfo{com.bpcl.channelPartner/com.bpcl.channelPartner.MainActivity}" drawable="bpcl" name="Hello BPCL- Channel Partner" />
   <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.engageapp.ui.HelloFeedActivity}" drawable="moto_notifications" name="Hello Feed" />
@@ -3197,6 +3214,7 @@
   <item component="ComponentInfo{com.meizu.flyme.calculator/com.meizu.flyme.calculator.CalculatorActivity}" drawable="generic_calculator_plus_minus_multi_equal" name="Meizu Calculator" />
   <item component="ComponentInfo{com.anticor.mellowdark/com.anticor.mellowdark.activities.SplashActivity}" drawable="mellow_dark_icon_pack" name="Mellow Dark Icon Pack" />
   <item component="ComponentInfo{com.midicontroller.melodi/com.midicontroller.melodi.SplashActivity}" drawable="generic_piano" name="Melodi MIDI Controller" />
+  <item component="ComponentInfo{com.worldance.drama/com.worldance.novel.pages.splash.SplashActivity}" drawable="melolo" name="Melolo" />
   <item component="ComponentInfo{com.zombodroid.MemeGenerator/com.zombodroid.memegen6source.SplashActivity}" drawable="meme_generator" name="Meme Generator" />
   <item component="ComponentInfo{com.zombodroid.MemeGeneratorFullGplay/com.zombodroid.memegen6source.SplashActivity}" drawable="meme_generator_pro" name="Meme Generator Pro" />
   <item component="ComponentInfo{gallery.memories/gallery.memories.MainActivity}" drawable="memories" name="Memories" />
@@ -5744,6 +5762,7 @@
   <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="uber" name="Uber" />
   <item component="ComponentInfo{com.ubs.swidK2Y.android/com.ubs.swidK2Y.android.ui.activities.start.StartActivity}" drawable="ubs_access_secure_login" name="UBS Access: Secure login" />
   <item component="ComponentInfo{com.ubs.Paymit.android/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="UBS TWINT" />
+  <item component="ComponentInfo{in.gov.udiseplus.gis/in.gov.udiseplus.gis.MainActivity}" drawable="udise_gis_capture" name="UDISE+ GIS Capture" />
   <item component="ComponentInfo{com.logitech.ueboom/com.logitech.ue.activities.MainActivity}" drawable="ue_boom" name="UE | BOOM by Ultimate Ears" />
   <item component="ComponentInfo{com.logitech.ueboom/com.logitech.ue.howhigh.activities.SplashActivity}" drawable="ue_boom" name="UE | BOOM by Ultimate Ears" />
   <item component="ComponentInfo{com.elrepro.ductor/com.elrepro.ductor.activities.SplashActivity}" drawable="generic_player" name="UiPlayPro" />
