@@ -1820,6 +1820,8 @@
   <item component="ComponentInfo{dev.patrickgold.florisboard.debug/dev.patrickgold.florisboard.SettingsLauncherAlias}" drawable="florisboard" name="Florisboard Debug" />
   <item component="ComponentInfo{com.google.android.apps.labs.whisk/com.google.android.apps.labs.whisk.MainActivity}" drawable="google_flow" name="Flow" />
   <item component="ComponentInfo{com.markel.flowstate/com.markel.flowstate.MainActivity}" drawable="flowstate" name="FlowState" />
+  <item component="ComponentInfo{com.delphicoder.flud/com.delphicoder.flud.MainActivity}" drawable="flud" name="Flud" />
+  <item component="ComponentInfo{com.delphicoder.flud.paid/com.delphicoder.flud.MainActivity}" drawable="flud_plus" name="Flud+" />
   <item component="ComponentInfo{com.flux/com.flux.MainActivity}" drawable="flux" name="Flux" />
   <item component="ComponentInfo{com.transsion.fmradio/com.funbase.xradio.home.activity.MainActivity}" drawable="generic_fm_radio" name="FM Radio" />
   <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.activity.LauncherActivity}" drawable="generic_fm_radio" name="FM Radio" />
@@ -2549,6 +2551,16 @@
   <item component="ComponentInfo{com.cgt.bharatgas/com.cgt.bharatgas.MainActivity}" drawable="bpcl" name="HelloBPCL for Business" />
   <item component="ComponentInfo{com.motorola.ccc.notification/com.motorola.loyaltywebview.LoyaltyActivity}" drawable="hello_you" name="helloYOU" />
   <item component="ComponentInfo{com.hevy/com.hevy.MainActivity}" drawable="hevy" name="Hevy" />
+  <item component="ComponentInfo{com.heytap.headset/com.heytap.headset.component.startup.StartupActivity}" drawable="heymelody" name="HeyMelody" />
+  <item component="ComponentInfo{com.heytap.headset/com.heytap.headset.activity.StartupActivity}" drawable="heymelody" name="HeyMelody" />
+  <item component="ComponentInfo{com.heytap.market/com.oplus.external.ui.LaunchActivity}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.oplus.trashclean.ui.TrashCleanActivityDesktop}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.heytap.cdo.client.search.SearchActivityDesktop}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.oppo.cdo.ui.external.desktop.DeskHotGameActivity}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.oppo.cdo.ui.external.desktop.DeskHotAppActivity}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.heytap.market.activity.MainActivity}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.applovin.array.app.store.market.folder.FolderAdsGameActivity}" drawable="heytap_app_market" name="HeyTap App Market" />
+  <item component="ComponentInfo{com.heytap.market/com.applovin.array.app.store.market.folder.FolderAdsAppActivity}" drawable="heytap_app_market" name="HeyTap App Market" />
   <item component="ComponentInfo{com.heytap.cloud/com.heytap.cloud.activity.OPCloudSettingsActivity}" drawable="heytap_cloud" name="HeyTap Cloud" />
   <item component="ComponentInfo{com.heytap.cloud/com.heytap.cloud.activity.CloudSettingsActivity}" drawable="heytap_cloud" name="HeyTap Cloud" />
   <item component="ComponentInfo{com.heytap.cloud/com.heytap.cloud.home.ui.CloudLauncherActivity}" drawable="heytap_cloud" name="HeyTap Cloud" />
