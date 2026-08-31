@@ -549,8 +549,10 @@
   <item component="ComponentInfo{de.simon.dankelmann.bluetoothlespam/de.simon.dankelmann.bluetoothlespam.MainActivity}" drawable="bluetooth_le_spam" name="Bluetooth LE Spam" />
   <item component="ComponentInfo{com.shawal.sender/com.shawal.sender.activities.SplashActivity}" drawable="generic_bluetooth" name="Bluetooth Sender" />
   <item component="ComponentInfo{com.metris.xposed.bluetoothToolkitFree/com.metris.xposed.bluetoothToolkitFree.Alias}" drawable="generic_bluetooth" name="Bluetooth ToolKit [XPOSED]" />
+  <item component="ComponentInfo{com.boAt.hearables/com.boAt.hearables.ui.main.SplashActivity}" drawable="boat_hearables" name="boAt Hearables" />
   <item component="ComponentInfo{com.bankofbaroda.mconnect/com.bankofbaroda.mconnect.BobSplashActivity}" drawable="bob_world" name="bob World" />
   <item component="ComponentInfo{com.bankofbaroda.mconnect/com.bankofbaroda.mconnect.activities.SplashActivity}" drawable="bob_world" name="bob World" />
+  <item component="ComponentInfo{com.bankofbaroda.bobworlddmb/com.digitalmobileapp.MainActivity}" drawable="bob_world" name="bob World 2.0" />
   <item component="ComponentInfo{com.bobek.metronome/com.bobek.metronome.MainActivity}" drawable="bobek_metronome" name="Bobek Metronome" />
   <item component="ComponentInfo{enterprises.dating.boo/dating.boo.MainActivity}" drawable="boo" name="Boo" />
   <item component="ComponentInfo{com.booking/com.booking.activity.SplashActivity}" drawable="booking" name="Booking.com" />
@@ -1538,6 +1540,9 @@
   <item component="ComponentInfo{com.looker.droidify/com.looker.droidify.ui.activities.MainActivityX}" drawable="droidify" name="Droid-ify" />
   <item component="ComponentInfo{com.nemesis.droidcrypt/com.nemesis.droidcrypt.MainActivity}" drawable="generic_lock" name="DroidCrypt" />
   <item component="ComponentInfo{com.droidspaces.app/com.droidspaces.app.MainActivity}" drawable="droidspaces" name="Droidspaces" />
+  <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DbxMainActivity}" drawable="dropbox" name="Dropbox" />
+  <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}" drawable="dropbox" name="Dropbox" />
+  <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.FileBrowser}" drawable="dropbox" name="Dropbox" />
   <item component="ComponentInfo{com.languagedrops.drops.international/com.languagedrops.drops.international.MainActivity}" drawable="drops" name="Drops" />
   <item component="ComponentInfo{com.deepseek.chat.nov/com.deepseek.chat.MainActivity}" drawable="deepseek" name="DSeek" />
   <item component="ComponentInfo{org.diekaiju.duckassist/org.diekaiju.duckassist.MainActivity}" drawable="duckassist" name="duckAssist" />
@@ -1582,8 +1587,10 @@
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncherAlarmClock}" drawable="duolingo" name="Duolingo⏰" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncher3Hourglass}" drawable="duolingo" name="Duolingo⏳" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakFrozenLauncher1Snowflake}" drawable="duolingo" name="Duolingo❄️" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncherEyes}" drawable="duolingo" name="Duolingo👀" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncher3Eyes}" drawable="duolingo" name="Duolingo👀" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.BackgroundedLauncherBrokenHeart}" drawable="duolingo" name="Duolingo💔" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncherSiren}" drawable="duolingo" name="Duolingo🚨" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakFrozenLauncher1Siren}" drawable="duolingo" name="Duolingo🚨" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakFrozenLauncher1FrozenFace}" drawable="duolingo" name="Duolingo🥶" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakFrozenLauncher1IceCube}" drawable="duolingo" name="Duolingo🧊" />
@@ -1708,6 +1715,7 @@
   <item component="ComponentInfo{com.transsion.filemanagerx/com.transsion.filemanagerx.ui.launch.SplashActivity}" drawable="generic_files" name="File Manager" />
   <item component="ComponentInfo{com.alphainventor.filemanager/com.alphainventor.filemanager.activity.MainActivity}" drawable="file_manager_plus" name="File Manager Plus" />
   <item component="ComponentInfo{com.alif.vault.file/com.alif.vault.file.ui.main.MainActivity}" drawable="generic_lock" name="File Vault" />
+  <item component="ComponentInfo{io.filen.app/io.filen.app.MainActivity}" drawable="filen" name="Filen" />
   <item component="ComponentInfo{com.android.documentsui/.LauncherActivity}" drawable="generic_files" name="Files" />
   <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.BqLauncherActivity}" drawable="generic_files" name="Files" />
   <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.DocumentsActivity}" drawable="generic_files" name="Files" />
@@ -5343,6 +5351,8 @@
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity.Yellow}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{com.simplemobiletools.voicerecorder/com.simplemobiletools.voicerecorder.activities.SplashActivity}" drawable="simple_voice_recorder" name="Simple Voice Recorder" />
   <item component="ComponentInfo{me.simpleHook/me.simpleHook.ui.activity.MainActivity}" drawable="generic_shell" name="simpleHook" />
+  <item component="ComponentInfo{io.simplelogin.android.fdroid/io.simplelogin.android.module.startup.StartupActivity}" drawable="simplelogin" name="SimpleLogin" />
+  <item component="ComponentInfo{io.simplelogin.android/io.simplelogin.android.module.startup.StartupActivity}" drawable="simplelogin" name="SimpleLogin" />
   <item component="ComponentInfo{com.automattic.simplenote/com.automattic.simplenote.NotesActivity}" drawable="simplenote" name="Simplenote" />
   <item component="ComponentInfo{com.simplisafe.mobile/com.simplisafe.mobile.Dashboard}" drawable="simplisafe_home_security" name="SimpliSafe Home Security" />
   <item component="ComponentInfo{com.simplisafe.mobile/com.simplisafe.mobile.features.dashboard.DashboardActivity}" drawable="simplisafe_home_security" name="SimpliSafe Home Security" />
@@ -5970,6 +5980,7 @@
   <item component="ComponentInfo{ch.viseca.visecaone/com.netcetera.visecaone.android.feature.branding.alias_activities.VisecaBrandAliasActivity}" drawable="viseca_one" name="Viseca One" />
   <item component="ComponentInfo{com.dephotos.crello/com.dephotos.crello.presentation.AppActivity}" drawable="vistacreate" name="VistaCreate" />
   <item component="ComponentInfo{com.vitastudio.mahjong/com.meevii.vitastudio.VitaDelegateActivity}" drawable="generic_mahjong" name="Vita Mahjong" />
+  <item component="ComponentInfo{com.vivaldi.browser/com.vivaldi.browser.IconAlt20}" drawable="vivaldi" name="Vivaldi" />
   <item component="ComponentInfo{com.vivaldi.browser/com.google.android.apps.chrome.Main}" drawable="vivaldi" name="Vivaldi" />
   <item component="ComponentInfo{com.vivaldi.browser/com.vivaldi.browser.IconAlt0}" drawable="vivaldi" name="Vivaldi" />
   <item component="ComponentInfo{com.vivaldi.browser.snapshot/com.google.android.apps.chrome.Main}" drawable="vivaldi" name="Vivaldi Snapshot" />
@@ -6265,6 +6276,12 @@
   <item component="ComponentInfo{tv.accedo.airtel.wynk/com.razpay.apk.HaipeeKnk}" drawable="xstream" name="Xstream" />
   <item component="ComponentInfo{tv.accedo.airtel.wynk/tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity}" drawable="xstream" name="Xstream" />
   <item component="ComponentInfo{tv.accedo.airtel.wynk/tv.accedo.wynk.android.airtel.activity.AirtelInitializationActivity}" drawable="xstream" name="Xstream" />
+  <item component="ComponentInfo{com.github.andreyasadchy.xtra/com.github.andreyasadchy.xtra.ui.main.MainActivity}" drawable="xtra" name="Xtra" />
+  <item component="ComponentInfo{com.github.andreyasadchy.xtrakick/com.xtrakick.app.ui.main.MainActivity}" drawable="xtra" name="Xtra Kick" />
+  <item component="ComponentInfo{jp.co.yahoo.android.ymail/jp.co.yahoo.android.ymail.YMailStartActivity}" drawable="yahoo_mail" name="Yahoo! Mail" />
+  <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.YahooMail}" drawable="yahoo_mail" name="Yahoo! Mail" />
+  <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MessageList}" drawable="yahoo_mail" name="Yahoo! Mail" />
+  <item component="ComponentInfo{com.yahoo.mobile.client.android.mail/com.yahoo.mobile.client.android.mail.activity.MainActivity}" drawable="yahoo_mail" name="Yahoo! Mail" />
   <item component="ComponentInfo{com.yandex.yango/ru.yandex.taxi.activity.MainActivity}" drawable="yango" name="Yango" />
   <item component="ComponentInfo{rikka.safetynetchecker/rikka.safetynetchecker.main.MainActivity}" drawable="yasnac" name="YASNAC" />
   <item component="ComponentInfo{com.yeelight.cherry/com.yeelight.cherry.ui.activity.LauncherActivity}" drawable="yeelight" name="Yeelight" />
