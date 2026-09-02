@@ -212,6 +212,7 @@
   <item component="ComponentInfo{com.amazon.mp3/leakcanary.internal.activity.LeakLauncherActivity}" drawable="amazon_music" name="Amazon Music" />
   <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.amazonpay.AmazonPayHomeActivityAlias}" drawable="amazon_pay" name="Amazon Pay" />
   <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.amazonpay.AmazonPayHomeActivityAliasWoShortcuts}" drawable="amazon_pay" name="Amazon Pay" />
+  <item component="ComponentInfo{com.amazon.clouddrive.photos/com.amazon.photos.activity.LauncherActivity}" drawable="amazon_photos" name="Amazon Photos" />
   <item component="ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LauncherActivity}" drawable="amazon_prime_video" name="Amazon Prime Video" />
   <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
   <item component="ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="amazon_shopping" name="Amazon Shopping" />
@@ -379,6 +380,9 @@
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.onboarding.revamp.activity.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.ui.activity.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
   <item component="ComponentInfo{org.altruist.BajajExperia/com.bfl.superapp.onboarding.SplashActivity}" drawable="bajaj_finserv" name="Bajaj Finserv" />
+  <item component="ComponentInfo{mx.com.bancoazteca.bazdigitalmovil/mx.com.bancoazteca.bancadigital.landing.presentation.view.LandingActivity}" drawable="banco_azteca" name="Banco Azteca" />
+  <item component="ComponentInfo{com.bancoazteca.bienestarazteca/com.bancoazteca.bienestarazteca.ui.splash.BASplashActivity}" drawable="banco_azteca" name="Banco Azteca" />
+  <item component="ComponentInfo{com.bancoazteca.bienestarazteca/vaf917458.v3bfd8f07.l9c1fc28c.ui.ofba14fd3.g475ba066}" drawable="banco_azteca" name="Banco Azteca" />
   <item component="ComponentInfo{br.com.bancopan.cartoes/br.com.bancopan.bancodigital.presentation.splash.SplashActivity}" drawable="banco_pan" name="Banco PAN" />
   <item component="ComponentInfo{mx.com.miapp/mx.com.miapp.ui.general.splash.SplashActivity}" drawable="bancoppel" name="BanCoppel" />
   <item component="ComponentInfo{mx.com.miapp/mx.com.miapp.ui.general.splash.RebrandingSplashActivity}" drawable="bancoppel" name="BanCoppel" />
@@ -1556,6 +1560,7 @@
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LauncherSilhoutte}" drawable="duckduckgo" name="DuckDuckGo" />
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.app.onboarding.ui.OnboardingActivity}" drawable="duckduckgo" name="DuckDuckGo" />
   <item component="ComponentInfo{com.duckduckgo.mobile.android/com.duckduckgo.mobile.android.activity.DuckDuckGo}" drawable="duckduckgo" name="DuckDuckGo" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.FixedRetentionChallengeLauncher}" drawable="duolingo" name="Duolingo" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.PreStreakSaver8Launcher}" drawable="duolingo" name="Duolingo" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.LaunchActivity}" drawable="duolingo" name="Duolingo" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.LoginActivity}" drawable="duolingo" name="Duolingo" />
@@ -3140,6 +3145,8 @@
   <item component="ComponentInfo{fe.linksheet/fe.linksheet.activity.MainActivity}" drawable="linksheet" name="LinkSheet" />
   <item component="ComponentInfo{com.loptr.kherod.uygdl/com.loptr.kherod.uygdl.activity.MainActivity}" drawable="generic_player" name="lite player" />
   <item component="ComponentInfo{com.literalword.mobile_app/com.literalword.mobile_app.MainActivity}" drawable="generic_bible" name="Literal Word" />
+  <item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity}" drawable="live_transcribe" name="Live Transcribe" />
+  <item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.LauncherActivity}" drawable="live_transcribe" name="Live Transcribe" />
   <item component="ComponentInfo{com.graytsar.livewallpaper/com.graytsar.livewallpaper.ReibuActivity}" drawable="generic_player" name="Live Wallpaper" />
   <item component="ComponentInfo{com.wallpaper.liveloop/com.wallpaper.liveloop.splashScreen}" drawable="liveloop" name="LiveLoop" />
   <item component="ComponentInfo{com.camera.lmc83r1i/com.android.camera.CameraLauncher}" drawable="generic_camera" name="LMC8.3i" />
@@ -5462,7 +5469,7 @@
   <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="generic_dialer" name="Sony Phone" />
   <item component="ComponentInfo{com.android.sound/com.android.sound.MainActivity}" drawable="generic_shell" name="sound" />
   <item component="ComponentInfo{com.codeclickers.soundmeter/com.codeclickers.soundmeter.MainActivity}" drawable="generic_voice_recorder_waves" name="Sound Meter" />
-  <item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.DolphinLauncherActivity}" drawable="sound_notifications" name="Sound Notifications" />
+  <item component="ComponentInfo{com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.DolphinLauncherActivity}" drawable="live_transcribe" name="Sound Notifications" />
   <item component="ComponentInfo{com.transsion.soundrecorder/com.transsion.soundrecorder.SoundRecorder}" drawable="generic_voice_recorder_waves" name="Sound Recorder" />
   <item component="ComponentInfo{com.ape.soundrecorder/com.ape.soundrecorder.SoundRecorder}" drawable="generic_microphone" name="Sound Recorder" />
   <item component="ComponentInfo{com.soundcloud.android/com.soundcloud.android.activity.Dashboard}" drawable="soundcloud" name="SoundCloud" />
@@ -5870,6 +5877,8 @@
   <item component="ComponentInfo{me.ag2s.tts/me.ag2s.tts.MainActivity}" drawable="generic_shell" name="TTS" />
   <item component="ComponentInfo{com.tumblr/com.tumblr.ui.activity.JumpoffActivity}" drawable="tumblr" name="Tumblr" />
   <item component="ComponentInfo{org.transhelp.bykerr/org.transhelp.bykerr.uiRevamp.ui.activities.SplashActivity}" drawable="tummoc" name="Tummoc" />
+  <item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.MainActivity}" drawable="tuta" name="Tuta" />
+  <item component="ComponentInfo{de.tutao.tutanota/de.tutao.tutanota.Tutanota}" drawable="tuta" name="Tuta" />
   <item component="ComponentInfo{com.tuya.smart/com.smart.ThingSplashActivity}" drawable="tuya" name="Tuya Smart" />
   <item component="ComponentInfo{com.tuya.smart/com.smart.TuyaSplashActivity}" drawable="tuya" name="Tuya Smart" />
   <item component="ComponentInfo{com.internet.tvbrowser/com.internet.tvbrowser.MainActivity}" drawable="tv_browser" name="TV BROWSER" />
@@ -6247,6 +6256,7 @@
   <item component="ComponentInfo{com.fourdegreewater.wintwealth/com.fourdegreewater.wintwealth.view.WintActivity}" drawable="wint_wealth" name="Wint Wealth" />
   <item component="ComponentInfo{com.bestweatherfor.bibleoffline_pt_mulher/com.bestweatherfor.bibleoffline_pt_ra.bibleoffline.splash.Splash}" drawable="generic_bible" name="Woman Bible" />
   <item component="ComponentInfo{com.weenysoft.word2pdf/com.weenysoft.word2pdf.MainActivity}" drawable="generic_pdf_square" name="Word to PDF Converter" />
+  <item component="ComponentInfo{com.wordtracer.app/com.wordtracer.app.MainActivity}" drawable="word_tracer" name="Word Tracer" />
   <item component="ComponentInfo{com.wordwebsoftware.android.wordweb/com.wordwebsoftware.android.wordweb.activity.WordWebActivity}" drawable="wordweb" name="WordWeb" />
   <item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.ab.proxy.a}" drawable="wps_office" name="WPS Office" />
   <item component="ComponentInfo{cn.wps.moffice_eng/cn.wps.moffice.documentmanager.ab.proxy.main}" drawable="wps_office" name="WPS Office" />
