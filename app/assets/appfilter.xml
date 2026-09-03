@@ -199,6 +199,7 @@
   <item component="ComponentInfo{deltazero.amarok.foss/deltazero.amarok.launcher.calendar}" drawable="amarok" name="Amarok" />
   <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="amaze" name="Amaze" />
   <item component="ComponentInfo{com.amaze.filemanager/com.amaze.filemanager.ui.activities.MainActivity}" drawable="amaze" name="Amaze" />
+  <item component="ComponentInfo{com.amazfitwatchfaces.st/com.amazfitwatchfaces.st.MainActivity}" drawable="amazfaces" name="AmazFaces" />
   <item component="ComponentInfo{com.amazon.dee.app/.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
   <item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.app.Launcher}" drawable="amazon_alexa" name="Amazon Alexa" />
   <item component="ComponentInfo{com.amazon.dee.app/com.amazon.dee.webapp.activity.AlexaWebAppActivity}" drawable="amazon_alexa" name="Amazon Alexa" />
@@ -267,6 +268,8 @@
   <item component="ComponentInfo{foundation.e.apps/foundation.e.apps.MainActivity}" drawable="app_lounge" name="App Lounge" />
   <item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.MainActivity}" drawable="app_manager" name="App Manager" />
   <item component="ComponentInfo{io.github.muntashirakon.AppManager/io.github.muntashirakon.AppManager.main.SplashActivity}" drawable="app_manager" name="App Manager" />
+  <item component="ComponentInfo{rikka.appops/rikka.appops.SplashActivity}" drawable="app_ops" name="App Ops" />
+  <item component="ComponentInfo{rikka.appops/rikka.appops.home.HomeActivity}" drawable="app_ops" name="App Ops" />
   <item component="ComponentInfo{net.pnhdroid.appsearch/net.pnhdroid.appsearch.search.SearchActivity}" drawable="generic_search" name="App Search" />
   <item component="ComponentInfo{com.a0soft.gphone.uninstaller/com.a0soft.gphone.uninstaller.free.MainWnd}" drawable="app_usage" name="App Usage" />
   <item component="ComponentInfo{com.mi.android.globalminusscreen/com.mi.android.globalminusscreen.tab.MainActivity_icon_1}" drawable="app_vault" name="App Vault" />
@@ -586,6 +589,7 @@
   <item component="ComponentInfo{com.supercell.brawlstars/com.supercell.brawlstars.GameApp}" drawable="brawl_stars" name="Brawl Stars" />
   <item component="ComponentInfo{org.briarproject.briar.android/org.briarproject.briar.android.splash.SplashScreenActivity}" drawable="briar" name="Briar" />
   <item component="ComponentInfo{com.flashlight.bright.led.light/ch.android.launcher.LawnchairLauncher}" drawable="generic_flashlight" name="Brightest Flashlight Launcher" />
+  <item component="ComponentInfo{ch.publisheria.bring/ch.publisheria.bring.activities.BringMainActivity}" drawable="bring" name="Bring!" />
   <item component="ComponentInfo{org.bromite.bromite/com.google.android.apps.chrome.Main}" drawable="bromite" name="Bromite" />
   <item component="ComponentInfo{org.bromite.bromite.dev/com.google.android.apps.chrome.Main}" drawable="google_chrome_dev" name="Bromite Dev" />
   <item component="ComponentInfo{com.brother.mfc.brprint/com.brother.mfc.brprint.SplashActivity}" drawable="generic_printer" name="Brother iPrint&amp;Scan" />
@@ -612,6 +616,7 @@
   <item component="ComponentInfo{bubblelevel.spiritlevel.surfacelevel.groundlevel.levelmeter.levelapp/bubblelevel.spiritlevel.surfacelevel.groundlevel.levelmeter.activity.IntroActivity}" drawable="generic_bubble_level_rich" name="Bubble Level" />
   <item component="ComponentInfo{bubblelevel.level.leveltool.leveler/bubblelevel.level.leveltool.leveler.ui.activity.MainActivity}" drawable="generic_bubble_level_rich" name="Bubble Level" />
   <item component="ComponentInfo{com.gamma.bubblelevel/com.gamma.bubblelevel.BubbleActivity}" drawable="generic_bubble_level_rich" name="Bubble Level" />
+  <item component="ComponentInfo{io.github.gracethings.bubblenotice/io.github.gracethings.bubblenotice.MainActivity}" drawable="bubble_notice" name="Bubble Notice" />
   <item component="ComponentInfo{bubble.pop.games.shooter.ball.game/bubble.pop.games.shooter.ball.game.StartAct}" drawable="generic_bubble_shooter" name="Bubble Pop" />
   <item component="ComponentInfo{com.katanlabs.bubblepop/com.google.firebase.MessagingUnityPlayerActivity}" drawable="generic_bubble_shooter" name="Bubble Pop!" />
   <item component="ComponentInfo{bubble.shooter.shooting.shoot.game/bubble.shooter.shooting.shoot.game.dg}" drawable="generic_bubble_shooter" name="Bubble Shooter" />
@@ -1544,6 +1549,7 @@
   <item component="ComponentInfo{com.looker.droidify/com.looker.droidify.ui.activities.MainActivityX}" drawable="droidify" name="Droid-ify" />
   <item component="ComponentInfo{com.nemesis.droidcrypt/com.nemesis.droidcrypt.MainActivity}" drawable="generic_lock" name="DroidCrypt" />
   <item component="ComponentInfo{com.droidspaces.app/com.droidspaces.app.MainActivity}" drawable="droidspaces" name="Droidspaces" />
+  <item component="ComponentInfo{com.dronedeploy.beta/com.dronedeploy.beta.ui.MainActivity}" drawable="dronedeploy" name="DroneDeploy" />
   <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DbxMainActivity}" drawable="dropbox" name="Dropbox" />
   <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}" drawable="dropbox" name="Dropbox" />
   <item component="ComponentInfo{com.dropbox.android/com.dropbox.android.FileBrowser}" drawable="dropbox" name="Dropbox" />
@@ -1592,6 +1598,7 @@
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncherAlarmClock}" drawable="duolingo" name="Duolingo⏰" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncher3Hourglass}" drawable="duolingo" name="Duolingo⏳" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakFrozenLauncher1Snowflake}" drawable="duolingo" name="Duolingo❄️" />
+  <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncher3EmojiQuestionMark}" drawable="duolingo" name="Duolingo❓" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncherEyes}" drawable="duolingo" name="Duolingo👀" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.StreakSaverLauncher3Eyes}" drawable="duolingo" name="Duolingo👀" />
   <item component="ComponentInfo{com.duolingo/com.duolingo.app.BackgroundedLauncherBrokenHeart}" drawable="duolingo" name="Duolingo💔" />
@@ -2174,6 +2181,7 @@
   <item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.LicenseCheck}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
   <item component="ComponentInfo{com.franco.kernel/com.marclandis.francokernel.Main}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
   <item component="ComponentInfo{com.franco.kernel/franco.KernelActivity}" drawable="franco_kernel_manager" name="Franco Kernel Manager" />
+  <item component="ComponentInfo{org.freedownloadmanager.fdm/org.freedownloadmanager.fdm.MyActivity}" drawable="free_download_manager" name="Free Download Manager" />
   <item component="ComponentInfo{com.dts.freefireth/com.dts.freefireth.FFMainActivity}" drawable="free_fire" name="Free Fire" />
   <item component="ComponentInfo{com.dts.freefiremax/com.dts.freefireth.FFMainActivity}" drawable="free_fire" name="Free Fire MAX" />
   <item component="ComponentInfo{com.freecharge.android/com.freecharge.activities.main.MainActivity}" drawable="freecharge" name="Freecharge" />
@@ -3162,6 +3170,8 @@
   <item component="ComponentInfo{com.dp.logcatapp/com.dp.logcatapp.ui.MainActivity}" drawable="logcat_reader" name="Logcat Reader" />
   <item component="ComponentInfo{com.longint.lomag.scanner.pay/com.longint.lomag.scanner.MainActivity}" drawable="generic_qr_reader" name="LoMag Data Scanner" />
   <item component="ComponentInfo{loopring.defi.wallet/loopring.defi.wallet.activity.wallet.SplashActivity}" drawable="loopring_wallet" name="Loopring Wallet" />
+  <item component="ComponentInfo{com.loora.app/com.loora.app.MainActivityDefault}" drawable="loora" name="Loora" />
+  <item component="ComponentInfo{com.loora.app/com.loora.presentation.ui.screens.MainActivity}" drawable="loora" name="Loora" />
   <item component="ComponentInfo{st.soundboard.sirenpranksound/st.soundboard.sirenpranksound.MainActivity}" drawable="loud_horns_and_sirens" name="Loud Horns and Sirens" />
   <item component="ComponentInfo{me.anuraag.loveactualized/me.anuraag.loveactualized.MainActivity}" drawable="generic_heart" name="Love Game" />
   <item component="ComponentInfo{org.lsposed.lspatch/org.lsposed.lspatch.ui.activity.MainActivity}" drawable="lsposed" name="LSPatch" />
@@ -3875,6 +3885,7 @@
   <item component="ComponentInfo{dev.imranr.obtainium.fdroid/dev.imranr.obtainium.MainActivity}" drawable="obtainium" name="Obtainium" />
   <item component="ComponentInfo{dev.imranr.obtainium/dev.imranr.obtainium.MainActivity}" drawable="obtainium" name="Obtainium" />
   <item component="ComponentInfo{dev.bikram.obtainx/dev.imranr.obtainium.MainActivity}" drawable="obtainx" name="ObtainX" />
+  <item component="ComponentInfo{it.octogram.android/org.telegram.messenger.DefaultIcon}" drawable="octogram" name="OctoGram" />
   <item component="ComponentInfo{com.sdeteam.gsa/com.sdeteam.gsa.activity.MainActivity}" drawable="generic_microphone" name="OK Google Voice Commands Guide" />
   <item component="ComponentInfo{com.owkb.twint/ch.twint.payment.ui.activities.start.StartActivity}" drawable="twint" name="OKB TWINT" />
   <item component="ComponentInfo{com.cambyte.okenscan/com.intsig.camscanner.launcher.WelcomeDefaultActivity}" drawable="camscanner" name="OKEN Scanner" />
@@ -4632,6 +4643,9 @@
   <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.launcher.ui.LauncherActivity}" drawable="rapido" name="Rapido" />
   <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.OfferAlias}" drawable="rapido" name="Rapido" />
   <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.CloneDefaultAlias}" drawable="rapido" name="Rapido" />
+  <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.ValentineAlias}" drawable="rapido" name="Rapido" />
+  <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.ChristmasAlias}" drawable="rapido" name="Rapido" />
+  <item component="ComponentInfo{com.rapido.passenger/com.rapido.passenger.NewYearAlias}" drawable="rapido" name="Rapido" />
   <item component="ComponentInfo{com.grability.rappi/com.rappi.discovery.onboarding.impl.activities.RappiMainEntryActivity}" drawable="rappi" name="Rappi" />
   <item component="ComponentInfo{com.razorpay.payments.app/com.razorpay.payments.app.MainActivity}" drawable="razorpay" name="Razorpay" />
   <item component="ComponentInfo{me.ash.reader/me.ash.reader.MainActivity}" drawable="read_you" name="Read You" />
@@ -5975,6 +5989,8 @@
   <item component="ComponentInfo{com.phonegap.Hello/com.phonegap.Hello.MainActivity}" drawable="generic_bible" name="VerseVIEWBible" />
   <item component="ComponentInfo{com.watch.life/com.ido.life.module.splash.SplashDefaultActivity}" drawable="veryfit" name="VeryFit" />
   <item component="ComponentInfo{com.mventus.selfcare.activity/com.mventus.selfcare.activity.MainActivity}" drawable="vi" name="Vi" />
+  <item component="ComponentInfo{com.mventus.selfcare.activity/com.mventus.selfcare.activity.SplashScreenActivity}" drawable="vi" name="Vi" />
+  <item component="ComponentInfo{com.mventus.selfcare.activity/com.mventus.selfcare.activity.MainActivityic_independence}" drawable="vi" name="Vi" />
   <item component="ComponentInfo{com.mventus.selfcare.activity/com.mventus.selfcare.activity.MainActivityic_launcher}" drawable="vi" name="Vi" />
   <item component="ComponentInfo{mark.via.gp/mark.via.Shell}" drawable="via_browser" name="Via Browser" />
   <item component="ComponentInfo{mark.via.gp/mark.via.ui.activity.BrowserActivity}" drawable="via_browser" name="Via Browser" />
