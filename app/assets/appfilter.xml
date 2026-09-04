@@ -182,6 +182,9 @@
   <item component="ComponentInfo{ru.aliexpress.buyer/com.alibaba.aliexpresshd.home.ui.MainActivity}" drawable="aliexpress" name="AliExpress" />
   <item component="ComponentInfo{com.alibaba.aliexpresshd/com.google.android.archive.ReactivateActivity}" drawable="aliexpress" name="AliExpress" />
   <item component="ComponentInfo{com.alibaba.aliexpresshd/com.aliexpress.app.FirstActivity}" drawable="aliexpress" name="AliExpress" />
+  <item component="ComponentInfo{com.eg.android.AlipayGphone/com.alipay.android.client.WelcomeUse}" drawable="alipay" name="Alipay" />
+  <item component="ComponentInfo{com.eg.android.AlipayGphone/com.eg.android.AlipayGphone.AlipayLogin}" drawable="alipay" name="Alipay" />
+  <item component="ComponentInfo{hk.alipay.wallet/com.eg.android.AlipayGphone.AlipayLogin}" drawable="alipay" name="AlipayHK" />
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivity$Main}" drawable="discord" name="Aliucord" />
   <item component="ComponentInfo{com.aliucord/com.discord.app.AppActivityMain}" drawable="discord" name="Aliucord" />
   <item component="ComponentInfo{yuku.alkitab/yuku.alkitab.base.IsiActivity}" drawable="generic_bible" name="Alkitab" />
@@ -475,6 +478,7 @@
   <item component="ComponentInfo{com.bigbasket.mobileapp/com.bigbasket.mobileapp.activity.SplashActivityFestiveIcon}" drawable="bigbasket" name="bigbasket" />
   <item component="ComponentInfo{com.biglybt.android.client/com.biglybt.android.client.activity.IntentHandler}" drawable="biglybt" name="BiglyBT" />
   <item component="ComponentInfo{com.bikewale.app/com.bikewale.app.MainActivity}" drawable="bikewale" name="BikeWale" />
+  <item component="ComponentInfo{bg.billa.app/digital.riag.appsolution.MainActivity}" drawable="billa" name="BILLA" />
   <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.main.MainActivity}" drawable="binance" name="Binance" />
   <item component="ComponentInfo{com.binance.dev/com.binance.dev.activities.splash.SplashActivity}" drawable="binance" name="Binance" />
   <item component="ComponentInfo{com.binance.dev/com.binance.dev.SplashActivity}" drawable="binance" name="Binance" />
@@ -1187,6 +1191,8 @@
   <item component="ComponentInfo{com.awesomedev.compress_pdf/com.awesomedev.compress_pdf.MainActivity}" drawable="generic_pdf_square" name="Compress PDF" />
   <item component="ComponentInfo{compress.joshattic.us/compress.joshattic.us.MainActivity}" drawable="compressor" name="Compressor" />
   <item component="ComponentInfo{com.bnyro.contacts/com.bnyro.contacts.ui.MainActivity}" drawable="generic_contacts" name="Connect You" />
+  <item component="ComponentInfo{com.hisense.juconnect.connectlife/com.juconnect.connect_life.MainActivity}" drawable="connectlife" name="ConnectLife" />
+  <item component="ComponentInfo{com.hisense.juconnect.connectlife/com.hisense.juconnect.connectlife.MainActivity}" drawable="connectlife" name="ConnectLife" />
   <item component="ComponentInfo{com.android.contacts/.activities.DialtactsActivity}" drawable="google_contacts" name="Contacts" />
   <item component="ComponentInfo{com.android.contacts/.activities.PeopleActivity}" drawable="google_contacts" name="Contacts" />
   <item component="ComponentInfo{com.android.contacts/.activities.TwelveKeyDialer}" drawable="google_contacts" name="Contacts" />
